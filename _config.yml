@@ -8,7 +8,7 @@ baseurl: ''
 # default url for pages/posts
 permalink: :title/
 
-# site directory structure specifications
+# site directory structure specifications | arquivos temporários de css no mesmo diretório
 include: ['_pages']
 sass:
   sass_dir: css
