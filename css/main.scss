@@ -51,6 +51,15 @@ body {
   color: $TEXT-COLOR;
 }
 
+bodygif {
+    background-image:url('assets/404.gif');
+    background-size:100%;
+    background-repeat: repeat-y;
+    background-attachment: fixed;
+    height:100%;
+    width:100%;
+}
+
 #navbar {
   display: block;
   box-sizing: border-box;
