@@ -4,7 +4,7 @@
 @import 'constants';
 
 html {
-  font-size: 18px;
+  font-size: 13px;
 }
 
 strong {
@@ -20,7 +20,7 @@ s {
 }
 
 a {
-  font: 900 $LINK-SIZE $FAMILY-SANS;
+  font: 9s00 $LINK-SIZE $FAMILY-SANS;
   color: $LINK-COLOR;
   cursor: pointer;
   text-decoration: none;
@@ -145,8 +145,8 @@ body {
   .post-title {
     font: bold $TITLE-SIZE $FAMILY-SANS;
     color: $TITLE-COLOR;
-    text-transform: uppercase;
-    text-align: center;
+    text-transform: lowercase;
+    text-align: left;
   }
 
   img {
@@ -179,12 +179,12 @@ body {
   margin: 1rem auto;
   height: 0;
   overflow: hidden;
+}
 
   iframe {
-    position: absolute;
+    /*position: absolute;*/
     top:0;
     left: 0;
     width: 100%;
     height: 100%;
-  }
 }
