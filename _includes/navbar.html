@@ -1,12 +1,12 @@
 <div id="navbar">
-  <a class="menu-item menu-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
+  <a class="menu-item menu-title" href="{{ site.baseurl }}/">⟲</a>
 
-  <div class="menu-item menu-subtitle">Projetos</div>
+  <div class="menu-item menu-subtitle"></div>
   {% for post in site.posts %}
     <a class="menu-item menu-item-post" href="{{site.baseurl}}{{ post.url }}">{{ post.title }}</a>
   {% endfor %}
 
-  <div class="menu-item menu-subtitle">Info</div>
+  <div class="menu-item menu-subtitle">+</div>
   {% assign menuPages = site.pages | where:"menu","true" %}
   {% for page in menuPages %}
     <a class="menu-item menu-item-page" href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a>

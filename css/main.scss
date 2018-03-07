@@ -68,17 +68,17 @@ body {
 
 
 #navbar {
+  float: right;
   display: block;
   box-sizing: border-box;
   z-index: 20;
-
-  background-color: $MENU-BACKGROUND-COLOR;
-
-  position: relative;
+  position:relative;
   width: 25%;
   max-width: $MENU-WIDTH;
   min-height: 100vh;
-  padding: 2%;
+  padding: 4%;
+  padding-top: 15%; 
+  text-align: right; 
 
   a {
     display: block;
@@ -92,6 +92,7 @@ body {
     font-weight: 900;
     color: $MENU-TEXT-COLOR;
     text-transform: none;
+    letter-spacing: $MENU-LETTER-SPACING;
 
     &:visited {
       color: $MENU-TEXT-COLOR;
@@ -140,8 +141,6 @@ body {
   margin: 0 auto;
   background-color: $TEXT-BACKGROUND;
 
-  box-shadow: 8px 8px 32px $TEXT-COLOR;
-  border-radius: 10px;
 
   .post-title {
     font: bold $TITLE-SIZE $FAMILY-SANS;
