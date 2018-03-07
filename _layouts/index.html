@@ -4,18 +4,14 @@
     {% include head.html %}
     {% include meta.html %}
   </head>
+  
   <body>
     {% include navbar.html %}
-    <div id="main-div">
-      <div id="post">
-        {% unless page.permalink == '/' %}
-          <div class="post-title">{{ page.title }}</div>
-        {% endunless %}
+    <div class="backgroundindex">
         <content>
           {{ content }}
           {% include swipebox.html %}
         </content>
-      </div>
     </div>
   </body>
 </html>

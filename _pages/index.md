@@ -1,5 +1,6 @@
 ---
-title: Your Name Here
+title: sara lana 
+layout: index
 permalink: '/'
 ---
-![](assets/covers/homecover.jpg)
+

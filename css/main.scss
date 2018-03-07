@@ -49,16 +49,23 @@ body {
 
   background-color: $BACKGROUND;
   color: $TEXT-COLOR;
+  
 }
 
-bodygif {
-    background-image:url('assets/404.gif');
+.background404 {
+    background-image:url('../assets/posts/404.gif'); 
+    background-attachment: fixed;
+    width:100%;
+    }
+  
+.backgroundindex {
+    background-image:url('../assets/posts/fio.gif');
     background-size:100%;
     background-repeat: repeat-y;
     background-attachment: fixed;
-    height:100%;
     width:100%;
-}
+    }
+
 
 #navbar {
   display: block;

@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    {% include head.html %}
+    {% include meta.html %}
+  </head>
+  
+  <body>
+    {% include navbar.html %}
+    <div class="background404">
+        <content>
+          {{ content }}
+          {% include swipebox.html %}
+        </content>
+    </div>
+  </body>
+</html>
