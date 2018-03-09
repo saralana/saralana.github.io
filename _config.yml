@@ -2,7 +2,7 @@
 title: sara lana
 
 # URL
-url: http://your-site.com
+url: http://inumerosprimos.xyz
 baseurl: ''
 
 # default url for pages/posts
@@ -34,11 +34,8 @@ defaults:
 
 # Data
 social:
-  facebook_user: "facebookUserName"
+  facebook_user: "facebookUserName" 
   twitter_user: "cambiosara"
-
-# Data
-social:
   facebook: "https://www.facebook.com/user"
   instagram: "https://www.instagram.com/inumerosprimos"
   github: "https://github.com/saralana"
