@@ -33,8 +33,9 @@ defaults:
       layout: "post"
 
 # Data
+twitter_user: "cambiosara"
+  
 social:
-  twitter_user: "cambiosara"
   instagram: "https://www.instagram.com/inumerosprimos"
   github: "https://github.com/saralana"
   twitter: "https://twitter.com/cambiosara"
