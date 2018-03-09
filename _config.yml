@@ -34,16 +34,10 @@ defaults:
 
 # Data
 social:
-  facebook_user: "facebookUserName" 
   twitter_user: "cambiosara"
-  facebook: "https://www.facebook.com/user"
   instagram: "https://www.instagram.com/inumerosprimos"
   github: "https://github.com/saralana"
   twitter: "https://twitter.com/cambiosara"
-  youtube: ""
   vimeo: "https://vimeo.com/saralana"
   soundcloud: ""
-  tumblr: ""
-  pinterest: ""
   envelope-o: "mailto:saralgc@gmail.com"
-  twitter_user: "user"
