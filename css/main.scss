@@ -85,9 +85,6 @@ body {
     white-space: nowrap;
   }
   
-  social {
-    white-space: nowrap;
-  }
   
   .menu-item {
     padding-bottom: $MENU-ITEM-SPACING;
@@ -111,6 +108,11 @@ body {
   .menu-title {
     padding-bottom: 4 * $MENU-ITEM-SPACING;
     font-size: $MENU-TITLE-SIZE;
+  }
+  
+  
+ .social {
+    font-size: 1.3 * $MENU-TITLE-SIZE;
   }
 /*
   .menu-subtitle {
