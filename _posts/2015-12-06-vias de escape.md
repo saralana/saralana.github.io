@@ -1,6 +1,5 @@
 ---
-title: 'pontos cegos'
-swipebox: AL0
+title: 'vias de escape'
 ---
 # Manchete
 ## Manchete

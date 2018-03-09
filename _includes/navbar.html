@@ -6,9 +6,15 @@
     <a class="menu-item menu-item-post" href="{{site.baseurl}}{{ post.url }}">{{ post.title }}</a>
   {% endfor %}
 
-  <div class="menu-item menu-subtitle">+</div>
+  <div class="menu-item menu-subtitle">꠸_</div>
   {% assign menuPages = site.pages | where:"menu","true" %}
   {% for page in menuPages %}
     <a class="menu-item menu-item-page" href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a>
   {% endfor %}
+  
+    <div class="menu-item menu-subtitle">00000x0_</div>
+
+    <a class="menu-item menu-item-page" href="{{ site.baseurl }}{{ page.url }}"></a>
+  
+   {% include social-icons.html %}
 </div>

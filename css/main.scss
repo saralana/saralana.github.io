@@ -77,7 +77,7 @@ body {
   max-width: $MENU-WIDTH;
   min-height: 100vh;
   padding: 4%;
-  padding-top: 15%; 
+  padding-top: 12%; 
   text-align: right; 
 
   a {
@@ -107,16 +107,17 @@ body {
     padding-bottom: 4 * $MENU-ITEM-SPACING;
     font-size: $MENU-TITLE-SIZE;
   }
-
+/*
   .menu-subtitle {
-    padding-top: 4 * $MENU-ITEM-SPACING;
+    padding-top: 1 * $MENU-ITEM-SPACING;
     font-size: $MENU-SUBTITLE-SIZE;
 
     &:hover {
       color: $MENU-TEXT-COLOR;
     }
   }
-
+  */
+  
   .menu-item-post, .menu-item-page {
     font-size: $MENU-ITEM-SIZE;
     font-weight: normal;
