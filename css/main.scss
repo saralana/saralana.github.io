@@ -228,9 +228,10 @@ iframe {
     flex: 50%;
 }
 
-
 /* --------- COLLAPSIBLE TEXT ----------*/
  
+div.sanfona-container { position: relative; }
+
 input[type=checkbox] {
    position: absolute;
    top: 0;
@@ -268,13 +269,12 @@ input[type=checkbox]:checked ~ h2 label:before {
   margin-top: -4px
 }
 
-#p {
+.sanfona {
   max-height: 0;
-  text-overflow: hidden;
+  overflow: hidden;
   padding-left: 30px;
-  transition: max-height 0.5s ease;
+  transition: max-height 0.4s ease;
 }
-
-input[type=checkbox]:checked ~ h2 ~ p {
+input[type=checkbox]:checked ~ h2 ~ .sanfona {
   max-height: 80px;
 }
