@@ -52,6 +52,18 @@ body {
   
 }
 
+h4 {
+    font-weight: bold !important;
+    font-style: normal !important;
+    font-size: 14px;
+    letter-spacing: .07em !important;
+    line-height: 1.5em !important;
+    color: black !important;
+    background-color: $MENU-TEXT-HOVER-COLOR !important;
+    width: 75%;
+    margin-left: auto;
+}
+
 .background404 {
     background-image:url('../assets/posts/404.gif'); 
     background-attachment: fixed;
@@ -61,76 +73,212 @@ body {
 .backgroundindex {
     background-image:url('../assets/posts/fio.gif');
     background-size:100%;
-    background-repeat: repeat-y;
+    background-repeat:no-repeat;
     background-attachment: fixed;
     width:100%;
     }
 
-
-#navbar {
-  float: right;
-  display: block;
-  box-sizing: border-box;
-  z-index: 20;
-  position:relative;
-  width: 25%;
-  max-width: $MENU-WIDTH;
-  min-height: 100vh;
-  padding: 4%;
-  padding-top: 12%; 
-  text-align: right; 
-
-  a {
-    /*display: block;*/
-    white-space: nowrap;
-  }
-  
-  
-  .menu-item {
-    padding-bottom: $MENU-ITEM-SPACING;
-
-    font-size: $MENU-TITLE-SIZE;
-    font-weight: 900;
-    color: $MENU-TEXT-COLOR;
-    text-transform: none;
-    letter-spacing: $MENU-LETTER-SPACING;
-    line-height: $MENU-LINE-HEIGHT;
-
-    &:visited {
-      color: $MENU-TEXT-COLOR;
-    }
-
-    &:hover {
-      color: $MENU-TEXT-HOVER-COLOR;
-    }
-  }
-
-  .menu-title {
-    padding-bottom: 4 * $MENU-ITEM-SPACING;
-    font-size: $MENU-TITLE-SIZE;
-  }
-  
-  
- .social {
-    font-size: 1.2 * $MENU-TITLE-SIZE;
-  }
-/*
-  .menu-subtitle {
-    padding-top: 1 * $MENU-ITEM-SPACING;
-    font-size: $MENU-SUBTITLE-SIZE;
-
-    &:hover {
-      color: $MENU-TEXT-COLOR;
-    }
-  }
-  */
-  
-  .menu-item-post, .menu-item-page {
-    font-size: $MENU-ITEM-SIZE;
-    font-weight: normal;
-  }
-  
+.background{
+  background-color: #fffaff;
 }
+
+//DESKTOP NAVIGATION
+@media only screen and (min-width: 600px) {
+  .openbtn {
+     display: none !important;
+     width: 0px;
+  }
+  
+  #navbar {
+    float: right;
+    display: block;
+    box-sizing: border-box;
+    z-index: 20;
+    position:relative;
+    width: 25%;
+    max-width: $MENU-WIDTH;
+    min-height: 100vh;
+    padding-right: 4%;
+    padding-top: 5%;
+    text-align: right; 
+
+    a {
+      /*display: block;*/
+      white-space: nowrap;
+    }
+
+   .closebtn {
+     display: none;
+    }
+
+    .menu-item {
+      padding-bottom: $MENU-ITEM-SPACING;
+      font-size: $MENU-TITLE-SIZE;
+      font-weight: 900;
+      color: $MENU-TEXT-COLOR;
+      text-transform: none;
+      letter-spacing: $MENU-LETTER-SPACING;
+      line-height: $MENU-LINE-HEIGHT;
+
+      &:visited {
+        color: $MENU-TEXT-COLOR;
+      }
+
+      &:hover {
+        color: $MENU-TEXT-HOVER-COLOR;
+      }
+    }
+
+    .menu-title {
+      padding-bottom: 4 * $MENU-ITEM-SPACING;
+      font-size: $MENU-TITLE-SIZE;
+    }
+
+
+   .social {
+      font-size: 1.2 * $MENU-TITLE-SIZE;
+    }
+
+    .menu-subtitle {
+      padding-top: 1 * $MENU-ITEM-SPACING;
+      font-size: $MENU-SUBTITLE-SIZE;
+
+      &:hover {
+        color: $MENU-TEXT-COLOR;
+      }
+    }
+
+    .menu-item-post, .menu-item-page {
+      font-size: $MENU-ITEM-SIZE;
+      font-weight: normal;
+    }
+
+  }
+
+}
+
+
+//START MOBILE NAVIGATION
+@media only screen and (max-width: 600px) {
+  
+.backgroundindex {
+    background-image:url('../assets/posts/fio_mobile.gif');
+    background-size:100%;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    width:100%;
+    }
+  
+    h4 {
+        text-align: left;
+        margin-left: 0;
+        
+    }
+        
+    .openbtn{
+        cursor: pointer;
+        width: 30px;
+        height: 30px;
+        padding: 20px;
+     }
+  
+      #navbar{
+        display:none;
+      }
+  
+      #navbar2 {
+        float: right;
+        box-sizing: border-box;
+        padding-top: 5%;
+        text-align: left; 
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        padding: 40px;
+        top: 0;
+        left: 0;
+        background-color: $MENU-TEXT-HOVER-COLOR;
+        overflow-x: hidden;
+        transition: 0.5s;
+
+
+        a {
+          /*display: block;*/
+          white-space: nowrap;
+          transition: 0.3s;
+        }
+        
+        .closebtn {
+          position: absolute;
+          top: 25px;
+          right: 25px;
+          font-size: 36px;
+          margin-left: 50px;
+        }
+        
+
+        .menu-item {
+          padding-bottom: $MENU-ITEM-SPACING;
+          font-size: $MENU-TITLE-SIZE;
+          font-weight: 900;
+          color: $MENU-TEXT-COLOR;
+          text-transform: none;
+          letter-spacing: $MENU-LETTER-SPACING;
+          line-height: $MENU-LINE-HEIGHT;
+
+          &:visited {
+            color: $MENU-TEXT-COLOR;
+          }
+
+          &:hover {
+            color: white;
+          }
+        }
+
+        .menu-title {
+          padding-bottom: 4 * $MENU-ITEM-SPACING;
+          font-size: $MENU-TITLE-SIZE;
+        }
+
+
+       .social {
+          font-size: 1.2 * $MENU-TITLE-SIZE;
+        }
+
+        .menu-subtitle {
+          padding-top: 1 * $MENU-ITEM-SPACING;
+          font-size: $MENU-SUBTITLE-SIZE;
+
+          &:hover {
+            color: $MENU-TEXT-COLOR;
+          }
+        }
+
+        .menu-item-post, .menu-item-page {
+          font-size: $MENU-ITEM-SIZE;
+          font-weight: normal;
+        }
+
+      }
+}
+//END MOBILE NAVIGATION
+
+
+.collapsible{
+  cursor: s-resize;
+}
+
+.active, .collapsible:hover {
+  color: $MENU-TEXT-HOVER-COLOR;
+}
+
+.content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  color: $MENU-TEXT-HOVER-COLOR;
+}
+
 
 #main-div {
   display: block;
@@ -148,7 +296,7 @@ body {
 
   padding: $RESPONSIVE-SPACING;
   margin: 0 auto;
-  background-color: $TEXT-BACKGROUND;
+  background-color: $BACKGROUND;
 
 
   .post-title {
@@ -178,6 +326,13 @@ body {
     margin: 24px 5px 0;
   }
 }
+
+
+.animate-left{
+  position:relative !important;
+  animation:animateleft 0.4s !important;
+}
+
 
 .video-wrapper-16x9 {
   padding-bottom: 56.25%;

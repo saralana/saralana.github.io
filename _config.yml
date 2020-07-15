@@ -2,7 +2,7 @@
 title: sara lana
 
 # URL
-url: http://inumerosprimos.xyz
+url: http://saralana.xyz
 baseurl: ''
 
 # default url for pages/posts
@@ -33,12 +33,12 @@ defaults:
       layout: "post"
 
 # Data
-twitter_user: "cambiosara"
+twitter_user: "sara_lana_"
   
 social:
   github: "https://github.com/saralana"
-  twitter: "https://twitter.com/cambiosara"
+  twitter: "https://twitter.com/sara_lana_"
   vimeo: "https://vimeo.com/saralana"
   instagram: "https://www.instagram.com/inumerosprimos"
-  soundcloud: ""
+  soundcloud: "https://soundcloud.com/sara_lana"
   envelope-o: "mailto:saralgc@gmail.com"
