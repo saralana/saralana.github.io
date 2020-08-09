@@ -1,10 +1,10 @@
 ---
-title: '15 segundos diários'
-lang: pt
+title: '15 seconds diary'
+lang: en
 ref: 15segundos
 ---
 
-gifs sonoros
+sound gifs
 
 <br>
 

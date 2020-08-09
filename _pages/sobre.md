@@ -1,9 +1,9 @@
 ---
 title: š_
-permalink: '/about/'
+permalink: '/sobre/'
 menu: true
 layout: post
-lang: en
+lang: pt
 ref: about
 ---
 <script>

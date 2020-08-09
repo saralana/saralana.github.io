@@ -1,0 +1,123 @@
+{% include language-selection.html %}  
+
+<br>
+
+{% case page.lang %}
+  {% when 'en' %}
+         
+          <a class="menu-item menu-title" href="{{ site.baseurl }}/en">⟲</a>
+
+          <h4>selected works</h4> 
+          {% assign posts = site.posts | where:"lang","en" %}
+          {% for post in posts %}
+              <a class="menu-item menu-item-post" href="{{site.baseurl}}{{ post.url }}">{{ post.title }}</a>
+              <br>
+          {% endfor %}
+          <br>
+
+          {% assign menuPages = site.pages | where:"menu","true" | where:"lang","en"  %}
+          {% for page in menuPages %}
+            <a class="menu-item menu-subtitle" href="{{site.baseurl}}{{ page.url }}">{{ page.title }}</a>
+            <br>
+          {% endfor %}
+
+          <div class="menu-item menu-subtitle collapsible">colabs +</div>
+          <div class="content">
+            {% assign menuPages = site.pages | where:"menu","true" | where:"lang","en" %}
+            {% for page in menuPages %}
+              <a class="menu-item menu-item-page" href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a>
+              <br>
+            {% endfor %}
+          </div>
+
+          <div class="menu-item menu-subtitle collapsible">vj and scenery +</div>
+          <div class="content">
+            {% assign menuPages = site.pages | where:"menu","true" | where:"lang","en" %}
+            {% for page in menuPages %}
+              <a class="menu-item menu-item-page" href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a>
+              <br>
+            {% endfor %}
+          </div>
+
+          <div class="menu-item menu-subtitle collapsible">other projects +</div>
+          <div class="content">
+            {% assign menuPages = site.pages | where:"menu","true" | where:"lang","en" %}
+            {% for page in menuPages %}
+              <a class="menu-item menu-item-page" href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a>
+              <br>
+            {% endfor %}
+          </div>
+
+          <div class="menu-item menu-subtitle collapsible">about +</div>
+          <div class="content">
+            {% assign menuPages = site.pages | where:"menu","true" | where:"lang","en" %}
+            {% for page in menuPages %}
+              <a class="menu-item menu-item-page" href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a>
+              <br>
+            {% endfor %}
+          </div>
+
+          <a class="menu-item menu-item-page" href="{{ site.baseurl }}{{ page.url }}"></a>
+          <br>
+
+  {% else %}
+      
+
+    <a class="menu-item menu-title" href="{{ site.baseurl }}/">⟲</a>
+
+       <h4>principais trabalhos</h4> 
+          {% assign posts = site.posts | where:"lang","pt" %}
+          {% for post in site.posts %}
+            <a class="menu-item menu-item-post" href="{{site.baseurl}}{{ post.url }}">{{ post.title }}</a>
+            <br>
+          {% endfor %}
+        <br>
+
+          {% assign menuPages = site.pages | where:"menu","true" | where:"lang","pt" %}
+          {% for page in menuPages %}
+            <a class="menu-item menu-subtitle" href="{{site.baseurl}}{{ page.url }}">{{ page.title }}</a>
+            <br>
+          {% endfor %}
+
+          <div class="menu-item menu-subtitle collapsible">colabs +</div>
+          <div class="content">
+            {% assign menuPages = site.pages | where:"menu","true" | where:"lang","pt" %}
+            {% for page in menuPages %}
+              <a class="menu-item menu-item-page" href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a>
+              <br>
+            {% endfor %}
+          </div>
+
+          <div class="menu-item menu-subtitle collapsible">vídeocenário +</div>
+          <div class="content">
+            {% assign menuPages = site.pages | where:"menu","true" | where:"lang","pt" %}
+            {% for page in menuPages %}
+              <a class="menu-item menu-item-page" href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a>
+              <br>
+            {% endfor %}
+          </div>
+
+          <div class="menu-item menu-subtitle collapsible">outros projetos +</div>
+          <div class="content">
+            {% assign menuPages = site.pages | where:"menu","true" | where:"lang","pt" %}
+            {% for page in menuPages %}
+              <a class="menu-item menu-item-page" href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a>
+              <br>
+            {% endfor %}
+          </div>
+
+          <div class="menu-item menu-subtitle collapsible">sobre +</div>
+          <div class="content">
+            {% assign menuPages = site.pages | where:"menu","true" | where:"lang","pt" %}
+            {% for page in menuPages %}
+              <a class="menu-item menu-item-page" href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a>
+              <br>
+            {% endfor %}
+          </div>
+
+          <a class="menu-item menu-item-page" href="{{ site.baseurl }}{{ page.url }}"></a>
+          <br>
+          
+  {% endcase %}
+  
+  {% include social-icons.html %}

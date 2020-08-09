@@ -1,5 +1,6 @@
 ---
 title: 'vias de escape'
+lang: pt
 ---
 # Manchete
 ## Manchete

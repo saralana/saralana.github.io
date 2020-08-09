@@ -1,5 +1,6 @@
 ---
 title: 'direito à preguiça'
+lang: pt
 ---
 # Manchete
 ## Manchete

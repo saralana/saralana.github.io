@@ -9,14 +9,12 @@
   <body>
 
     <div class="backgroundindex">
-        {% include navbar.html %}
         <content>
           {{ content }}
           {% include swipebox.html %}
         </content>
     </div>
-    
-    <div class="openbtn" onclick="openNav()"><img src="{{ site.baseurl }}/assets/favicons/favicon.png" width="30px"></div>
-    
+        {% include navbar.html %}
   </body>
 </html>
+

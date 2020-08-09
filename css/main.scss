@@ -82,10 +82,30 @@ h4 {
   background-color: #fffaff;
 }
 
+.menu-language-section {
+  height: 100%;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.menu-language-option {
+  display: inline; 
+  height: 100%;
+  line-height: 100%;
+  vertical-align: bottom;
+    font-size: 12px;
+}
+
+.menu-language-option-selected {
+  font-size: 12px;
+  color: hotpink;
+}
+
 //DESKTOP NAVIGATION
-@media only screen and (min-width: 600px) {
-  .openbtn {
-     display: none !important;
+@media only screen and (min-width: 800px) {
+   
+  #menu-mobile {
+     display: none;
      width: 0px;
   }
   
@@ -95,12 +115,14 @@ h4 {
     box-sizing: border-box;
     z-index: 20;
     position:relative;
-    width: 25%;
-    max-width: $MENU-WIDTH;
     min-height: 100vh;
-    padding-right: 4%;
-    padding-top: 5%;
+    padding: 40px;
     text-align: right; 
+    line-height: 25px;
+    background-color: transparent;
+    position: absolute;
+    right: 0px;
+    width: 350px;
 
     a {
       /*display: block;*/
@@ -157,109 +179,87 @@ h4 {
 
 }
 
-
 //START MOBILE NAVIGATION
-@media only screen and (max-width: 600px) {
-  
-.backgroundindex {
-    background-image:url('../assets/posts/fio_mobile.gif');
-    background-size:100%;
-    background-repeat:no-repeat;
-    background-attachment: fixed;
-    width:100%;
+
+@media only screen and (max-width: 800px) {
+
+    #menu-mobile {
+          display: block; 
+          z-index: 10;
+          padding: 30px 30px;
+          text-align: left;
+          width: 100%;
+
+          #menu-retratil {
+            position: absolute;   
+            width: 100%;
+            z-index: 20;
+            background-color: $BACKGROUND;
+            top: 0;
+            padding-top: 30px;
+            transition: left 0.3s linear;
+          }
+
+          .show-menu {
+            position: absolute;
+            right: 2 * $RESPONSIVE-SPACING;
+            top: 30px;
+            font-size: 24px;
+            cursor:pointer !important;
+          }
+
+          .hide-menu {
+            position: absolute;
+            top: 20px;
+            right: 2 * $RESPONSIVE-SPACING;
+            font-size: 24px;
+            cursor:pointer;
+          }
+
+          .menu-section {
+            width: 66%;
+            margin: 0 auto;
+          }
+
+          @media only screen and (min-width: 800px) {
+            display: none;
+          }
     }
-  
-    h4 {
-        text-align: left;
-        margin-left: 0;
-        
-    }
-        
-    .openbtn{
-        cursor: pointer;
-        width: 30px;
-        height: 30px;
-        padding: 20px;
-     }
-  
-      #navbar{
-        display:none;
-      }
-  
-      #navbar2 {
-        float: right;
-        box-sizing: border-box;
-        padding-top: 5%;
-        text-align: left; 
-        width: 100%;
-        height: 100%;
-        position: fixed;
-        padding: 40px;
-        top: 0;
+
+    .menu-hide {
+      left: -100vw;
+      @media only screen and (min-width: 800px) {
         left: 0;
-        background-color: $MENU-TEXT-HOVER-COLOR;
-        overflow-x: hidden;
-        transition: 0.5s;
-
-
-        a {
-          /*display: block;*/
-          white-space: nowrap;
-          transition: 0.3s;
-        }
-        
-        .closebtn {
-          position: absolute;
-          top: 25px;
-          right: 25px;
-          font-size: 36px;
-          margin-left: 50px;
-        }
-        
-
-        .menu-item {
-          padding-bottom: $MENU-ITEM-SPACING;
-          font-size: $MENU-TITLE-SIZE;
-          font-weight: 900;
-          color: $MENU-TEXT-COLOR;
-          text-transform: none;
-          letter-spacing: $MENU-LETTER-SPACING;
-          line-height: $MENU-LINE-HEIGHT;
-
-          &:visited {
-            color: $MENU-TEXT-COLOR;
-          }
-
-          &:hover {
-            color: white;
-          }
-        }
-
-        .menu-title {
-          padding-bottom: 4 * $MENU-ITEM-SPACING;
-          font-size: $MENU-TITLE-SIZE;
-        }
-
-
-       .social {
-          font-size: 1.2 * $MENU-TITLE-SIZE;
-        }
-
-        .menu-subtitle {
-          padding-top: 1 * $MENU-ITEM-SPACING;
-          font-size: $MENU-SUBTITLE-SIZE;
-
-          &:hover {
-            color: $MENU-TEXT-COLOR;
-          }
-        }
-
-        .menu-item-post, .menu-item-page {
-          font-size: $MENU-ITEM-SIZE;
-          font-weight: normal;
-        }
-
       }
+    }
+    .menu-show {
+      left: 0;
+    }  
+
+
+    #navbar {
+         display: none !important;
+         width: 0px;
+      }
+
+    #main-div {
+        width: 90% !important;
+    }
+
+    .backgroundindex {
+        background-image:url('../assets/posts/fio_mobile.gif');
+        background-size:100%;
+        background-repeat:no-repeat;
+        background-attachment: fixed;
+        width:100%;
+        }
+
+    h4 {
+         text-align: left;
+         margin-left: 0;
+
+        }
+      
 }
 //END MOBILE NAVIGATION
 
@@ -283,8 +283,9 @@ h4 {
 #main-div {
   display: block;
   box-sizing: border-box;
-  width: 70%;
-  margin: $RESPONSIVE-SPACING auto;
+  width:80%;
+  padding-left: 30px;
+  padding-top: 60px;
 }
 
 #post {

@@ -1,8 +1,8 @@
 ---
 title: sara lana 
 layout: index
-permalink: '/'
-lang: pt
+permalink: '/en'
+lang: en
 ref: index
 ---
 
