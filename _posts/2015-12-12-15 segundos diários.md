@@ -1,5 +1,6 @@
 ---
 title: '15 segundos diários'
+menu: true
 lang: pt
 ref: 15segundos
 ---

@@ -1,5 +1,6 @@
 ---
 title: '15 seconds diary'
+menu: true
 lang: en
 ref: 15segundos
 ---

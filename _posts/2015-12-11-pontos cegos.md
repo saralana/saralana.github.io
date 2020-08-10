@@ -1,5 +1,6 @@
 ---
 title: 'pontos cegos'
+menu: true
 lang: pt
 ---
 

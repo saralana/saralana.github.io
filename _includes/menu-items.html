@@ -3,19 +3,20 @@
 <br>
 
 {% case page.lang %}
-  {% when 'en' %}
+
+          {% when 'en' %}
          
           <a class="menu-item menu-title" href="{{ site.baseurl }}/en">⟲</a>
 
           <h4>selected works</h4> 
-          {% assign posts = site.posts | where:"lang","en" %}
-          {% for post in posts %}
+          {% assign menuPosts = site.posts | where:"menu","true" | where:"lang","en" %}
+          {% for post in menuPosts %}
               <a class="menu-item menu-item-post" href="{{site.baseurl}}{{ post.url }}">{{ post.title }}</a>
               <br>
           {% endfor %}
           <br>
 
-          {% assign menuPages = site.pages | where:"menu","true" | where:"lang","en"  %}
+          {% assign menuPages = site.pages | where:"menu","true" | where:"lang","en" %}
           {% for page in menuPages %}
             <a class="menu-item menu-subtitle" href="{{site.baseurl}}{{ page.url }}">{{ page.title }}</a>
             <br>
@@ -60,14 +61,14 @@
           <a class="menu-item menu-item-page" href="{{ site.baseurl }}{{ page.url }}"></a>
           <br>
 
-  {% else %}
-      
+      {% else %}
+    
+       <a class="menu-item menu-title" href="{{ site.baseurl }}/">⟲</a>
 
-    <a class="menu-item menu-title" href="{{ site.baseurl }}/">⟲</a>
+         <h4>principais trabalhos</h4> 
 
-       <h4>principais trabalhos</h4> 
-          {% assign posts = site.posts | where:"lang","pt" %}
-          {% for post in site.posts %}
+          {% assign menuPosts = site.posts | where:"menu","true" | where:"lang","pt" %}
+          {% for post in menuPosts %}
             <a class="menu-item menu-item-post" href="{{site.baseurl}}{{ post.url }}">{{ post.title }}</a>
             <br>
           {% endfor %}

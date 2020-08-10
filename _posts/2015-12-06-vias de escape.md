@@ -1,5 +1,6 @@
 ---
 title: 'vias de escape'
+menu: true
 lang: pt
 ---
 # Manchete

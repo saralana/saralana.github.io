@@ -1,5 +1,6 @@
 ---
 title: 'direito à preguiça'
+menu: true
 lang: pt
 ---
 # Manchete
