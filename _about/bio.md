@@ -1,10 +1,10 @@
 ---
-title: š_
-permalink: '/sobre/'
+title: bio
+permalink: '/bio/'
 menu: true
 layout: post
 lang: pt
-ref: about
+ref: bio
 ---
 <script>
     $(document).ready(function(){
@@ -14,7 +14,17 @@ ref: about
     });
  </script>
 
-### **_english**
+Sara Lana, desenvolve desde 2007, projetos de natureza interdisciplinar relacionados com som, movimento, música e arte eletrônica. Entre seus trabalhos recentes estão a criação de vídeo-cenários interativos para shows do Boreal, Kristoff Silva, Antonio Loureiro, Marcos Braccini e Alexandre Andrés, espetáculos apresentados em diferentes teatros e espaços culturais, como Inhotim (Centro de Arte Contemporânea), Teatro Bescanó (Catalunya, Espanha), Teatro Bradesco (Belo Horizonte), SESC Palladium (Belo Horizonte), Teatro Ipanema (Rio de Janeiro) e SESC Vila Mariana (São Paulo).
+
+Fez parte da equipe técnica do Marginália+Lab, Laboratório de Arte e Tecnologia e participou dos Interactivos’13 e Interactivos'16 que aconteceram na Nuvem - Estação Rural de Arte e Tecnologia. Trabalhou na empresa Geraes Tecnologias Assistivas, onde se dedicou ao desenvolvimento de projetos tecnológicos para deficientes físicos, se destacando o Painel Eletrônico Tix, um teclado de computador para pessoas com limitações de movimento.
+
+Em 2015 foi artista residente do IX Festival de Arte Sonora Tsonami,Valparaiso, Chile, com o projeto 'Vias de Escape', quando construiu parafernálias de escuta para amplificação mecânica do som. Participou também do projeto "Máquina do Sistema da Dívida", em parceria com o ciclo de palestras "Devagar" e com a coordenadora da Auditoria Cidadã da Dívida, Maria Lúcia Fattorelli. A proposta foi construir uma máquina demonstrativa do Sistema da Dívida no Brasil.
+
+Em 2016 desenvolveu para o artista Nuno Ramos um sistema de automação para sua obra ‘Direito à Preguiça’, CCBB - Centro Cultural Banco do Brasil. No mesmo ano ministrou cursos de Arduino no SESC Palladium - BH e foi residente no Red Bull Basement, pela Residência Hacker, quando desenvolveu o projeto 'Pontos Cegos de SP’, um sistema de detecção automática de câmeras de segurança e mapeamento de pontos não vigiados no centro de São Paulo.
+
+Seu ultimo projeto foi realizado durante a residência artística no JaCa e trata-se da implementação de uma rádio de múltiplos canais, com sons gravados e transmitidos em tempo real por cães vira-lata.
+
+### **_español**
 
 Since 2007, Sara Lana has developed projects of an interdisciplinary nature related to sound, movement, music and electronic art. Among her recent works are the creation of interactive video-scenarios for concerts by [Boreal][1], [Kristoff Silva][2], [Antonio Loureiro][4], [Marcos Braccini][5] and [Leonora Weissman][6], shows presented in different theaters and cultural spaces, such as [Inhotim ][7](Center for Contemporary Art), Bescanó Theater (Catalunya), SESC Palladium (Belo Horizonte), Teatro Ipanema (Rio de Janeiro) and SESC Vila Mariana (São Paulo).
 
@@ -44,15 +54,4 @@ Her last project was realized during the artistic residency in JA.CA_Art and Tec
 
 [13]: /matilha
 
-### **_português**
 
-
-Sara Lana, desenvolve desde 2007, projetos de natureza interdisciplinar relacionados com som, movimento, música e arte eletrônica. Entre seus trabalhos recentes estão a criação de vídeo-cenários interativos para shows do Boreal, Kristoff Silva, Antonio Loureiro, Marcos Braccini e Alexandre Andrés, espetáculos apresentados em diferentes teatros e espaços culturais, como Inhotim (Centro de Arte Contemporânea), Teatro Bescanó (Catalunya | Espanha), Teatro Bradesco (Belo Horizonte), SESC Palladium (Belo Horizonte), Teatro Ipanema (Rio de Janeiro) e SESC Vila Mariana (São Paulo).
-
-Fez parte da equipe técnica do Marginália+Lab, Laboratório de Arte e Tecnologia e participou dos Interactivos’13 e Interactivos'16 que aconteceram na Nuvem - Estação Rural de Arte e Tecnologia. Trabalhou na empresa Geraes Tecnologias Assistivas, onde se dedicou ao desenvolvimento de projetos tecnológicos para deficientes físicos, se destacando o Painel Eletrônico Tix, um teclado de computador para pessoas com limitações de movimento.
-
-Em 2015 foi artista residente do IX Festival de Arte Sonora Tsonami | Valparaiso | Chile, com o projeto 'Vias de Escape', quando construiu parafernálias de escuta para amplificação mecânica do som. Participou também do projeto "Máquina do Sistema da Dívida", em parceria com o ciclo de palestras "Devagar" e com a coordenadora da Auditoria Cidadã da Dívida, Maria Lúcia Fattorelli. A proposta foi construir uma máquina demonstrativa do Sistema da Dívida no Brasil.
-
-Em 2016 desenvolveu para o artista Nuno Ramos um sistema de automação para sua obra ‘Direito à Preguiça’ | CCBB - Centro Cultural Banco do Brasil. No mesmo ano ministrou cursos de Arduino no SESC Palladium - BH e foi residente no Red Bull Basement, pela Residência Hacker, quando desenvolveu o projeto 'Pontos Cegos de SP’, um sistema de detecção automática de câmeras de segurança e mapeamento de pontos não vigiados no centro de São Paulo.
-
-Seu ultimo projeto foi realizado durante a residência artística no JaCa e trata-se da implementação de uma rádio de múltiplos canais, com sons gravados e transmitidos em tempo real por cães vira-lata.
