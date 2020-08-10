@@ -4,6 +4,7 @@ permalink: '/texts/'
 menu: true
 layout: post
 lang: en
+category: general
 ref: texts
 ---
 

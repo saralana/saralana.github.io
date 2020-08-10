@@ -1,6 +1,8 @@
 ---
 title: 'pontos cegos'
 menu: true
+type: vj
+ref: vj
 lang: pt
 ---
 

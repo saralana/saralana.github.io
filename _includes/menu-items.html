@@ -5,9 +5,11 @@
 {% case page.lang %}
 
           {% when 'en' %}
-         
-          <a class="menu-item menu-title" href="{{ site.baseurl }}/en">⟲</a>
+          
 
+           <a class="menu-item menu-title" href="{{ site.baseurl }}/en/">⟲</a>
+            
+          
           <h4>selected works</h4> 
           {% assign menuPosts = site.posts | where:"menu","true" | where:"lang","en" %}
           {% for post in menuPosts %}
@@ -18,25 +20,20 @@
 
           {% assign menuPages = site.pages | where:"menu","true" | where:"lang","en" %}
           {% for page in menuPages %}
+              {% if page.category == "general" %}
             <a class="menu-item menu-subtitle" href="{{site.baseurl}}{{ page.url }}">{{ page.title }}</a>
             <br>
+              {% endif %} 
           {% endfor %}
 
           <div class="menu-item menu-subtitle collapsible">colabs +</div>
           <div class="content">
             {% assign menuPages = site.pages | where:"menu","true" | where:"lang","en" %}
             {% for page in menuPages %}
+              {% if page.category == "colabs" %}
               <a class="menu-item menu-item-page" href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a>
               <br>
-            {% endfor %}
-          </div>
-
-          <div class="menu-item menu-subtitle collapsible">vj and scenery +</div>
-          <div class="content">
-            {% assign menuPages = site.pages | where:"menu","true" | where:"lang","en" %}
-            {% for page in menuPages %}
-              <a class="menu-item menu-item-page" href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a>
-              <br>
+              {% endif %} 
             {% endfor %}
           </div>
 
@@ -44,8 +41,10 @@
           <div class="content">
             {% assign menuPages = site.pages | where:"menu","true" | where:"lang","en" %}
             {% for page in menuPages %}
+              {% if page.category == "other" %}
               <a class="menu-item menu-item-page" href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a>
               <br>
+              {% endif %} 
             {% endfor %}
           </div>
 
@@ -53,8 +52,10 @@
           <div class="content">
             {% assign menuPages = site.pages | where:"menu","true" | where:"lang","en" %}
             {% for page in menuPages %}
-              <a class="menu-item menu-item-page" href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a>
-              <br>
+              {% if page.category == "about" %}
+                <a class="menu-item menu-item-page" href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a>
+                <br>
+              {% endif %}  
             {% endfor %}
           </div>
 
@@ -63,6 +64,7 @@
 
       {% else %}
     
+       
        <a class="menu-item menu-title" href="{{ site.baseurl }}/">⟲</a>
 
          <h4>principais trabalhos</h4> 
@@ -76,16 +78,19 @@
 
           {% assign menuPages = site.pages | where:"menu","true" | where:"lang","pt" %}
           {% for page in menuPages %}
+              {% if page.category == "general" %}
             <a class="menu-item menu-subtitle" href="{{site.baseurl}}{{ page.url }}">{{ page.title }}</a>
             <br>
+              {% endif %} 
           {% endfor %}
-
           <div class="menu-item menu-subtitle collapsible">colabs +</div>
           <div class="content">
             {% assign menuPages = site.pages | where:"menu","true" | where:"lang","pt" %}
             {% for page in menuPages %}
+              {% if page.category == "colabs" %}
               <a class="menu-item menu-item-page" href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a>
               <br>
+              {% endif %} 
             {% endfor %}
           </div>
 
@@ -93,8 +98,10 @@
           <div class="content">
             {% assign menuPages = site.pages | where:"menu","true" | where:"lang","pt" %}
             {% for page in menuPages %}
-              <a class="menu-item menu-item-page" href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a>
-              <br>
+              {% if page.category == "vj" %}
+                <a class="menu-item menu-item-page" href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a>
+                <br>
+              {% endif %}  
             {% endfor %}
           </div>
 
@@ -102,8 +109,10 @@
           <div class="content">
             {% assign menuPages = site.pages | where:"menu","true" | where:"lang","pt" %}
             {% for page in menuPages %}
+              {% if page.category == "other" %}
               <a class="menu-item menu-item-page" href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a>
               <br>
+              {% endif %} 
             {% endfor %}
           </div>
 
@@ -111,8 +120,10 @@
           <div class="content">
             {% assign menuPages = site.pages | where:"menu","true" | where:"lang","pt" %}
             {% for page in menuPages %}
-              <a class="menu-item menu-item-page" href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a>
-              <br>
+              {% if page.category == "about" %}
+                <a class="menu-item menu-item-page" href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a>
+                <br>
+              {% endif %}  
             {% endfor %}
           </div>
 

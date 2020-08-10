@@ -4,6 +4,7 @@ permalink: '/bio/'
 menu: true
 layout: post
 lang: pt
+category: about
 ref: bio
 ---
 <script>

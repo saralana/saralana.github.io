@@ -1,8 +1,9 @@
 ---
-title: 'Exemplos de Markdown'
+title: 'Colab 1'
 swipebox: AL0
 menu: true
-lang: pt
+category: colabs
+lang: en
 ---
 # Manchete
 ## Manchete

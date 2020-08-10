@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    {% include head.html %}
+    {% include meta.html %}
+  </head>
+  <body>
+
+    <div id="main-div">
+      <div id="post">
+        {% unless page.permalink == '/' %}
+          <div class="post-title">{{ page.title }}</div>
+        {% endunless %}
+        <content>
+         
+          {{ content }}
+          
+          {% assign menuPages = site.pages | where:"menu","true" %}
+          <section class="list-wrapper">
+            <div class="post-list">
+              {% for page in menuPages %}
+                {% assign pCover = site.baseurl | append: '/' | append: page.cover %}
+                  {% if page.category == "vj" %}
+                  <a class="list-item" href="{{ site.baseurl }}{{ page.url }}">
+                    <div class="list-item-image hover-contrast"
+                         style="background-image: url('{{ pCover }}');"></div>
+                    <div class="list-item-title">{{ page.title }}</div>
+                  </a> 
+                  {% endif %}  
+              {% endfor %}
+            </div>
+          </section>
+
+          
+          
+        </content>
+      </div>
+    </div>
+        {% include navbar.html %}
+
+  </body>
+</html>

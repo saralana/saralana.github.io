@@ -1,9 +1,10 @@
 ---
 title: bio
-permalink: '/about/'
+permalink: '/en/bio'
 menu: true
 layout: post
 lang: en
+category: about
 ref: bio
 ---
 <script>
