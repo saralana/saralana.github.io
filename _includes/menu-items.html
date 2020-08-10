@@ -94,18 +94,7 @@
             {% endfor %}
           </div>
 
-          <div class="menu-item menu-subtitle collapsible">vídeocenário +</div>
-          <div class="content">
-            {% assign menuPages = site.pages | where:"menu","true" | where:"lang","pt" %}
-            {% for page in menuPages %}
-              {% if page.category == "vj" %}
-                <a class="menu-item menu-item-page" href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a>
-                <br>
-              {% endif %}  
-            {% endfor %}
-          </div>
-
-          <div class="menu-item menu-subtitle collapsible">outros projetos +</div>
+          <div class="menu-item menu-subtitle collapsible">outros +</div>
           <div class="content">
             {% assign menuPages = site.pages | where:"menu","true" | where:"lang","pt" %}
             {% for page in menuPages %}

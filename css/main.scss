@@ -103,8 +103,15 @@ h4 {
 
 .list-wrapper {
   width: 100%;
-  margin: 0 auto;
+  margin: 0 0;
+  @media only screen and (min-width: 800px) {
+    width: 85%;
   }
+  
+  h2 {
+    text-transform: capitalize;
+  }
+}
 
 .post-list, .home-list {
   display: flex;
@@ -112,8 +119,7 @@ h4 {
   width: 100%;
 
   .list-item {
-    width: 25%;  
-    padding-top: 25%; 
+    width: 40%;   
     margin: 20px;
     &:hover {
       .list-item-image.hover-contrast {
@@ -136,15 +142,32 @@ h4 {
     transition: filter $TRANSITION-PERIOD linear;
   }
 
-  .tint-overlay {
+}
+
+.post-list {
+  justify-content: center;
+  flex-wrap: wrap;
+
+  .list-item {
+    display: block;
+    position: relative;
+    width: 90%;
+    height: 150px;
+    overflow: hidden;
+    margin: 4px 1%;
+
+    @media only screen and (min-width: 800px) {
+      width: 30%;
+      height: 100%;
+      margin: 4px 1%;
+    }
+  }
+
+  .list-item-image {
     width: 100%;
     height: 100%;
-    border-radius: 5px;
-    position: absolute;
-    top: 0;
-    left: 0;
+    padding-bottom: 100%;
   }
-  
 }
 
 //DESKTOP NAVIGATION
