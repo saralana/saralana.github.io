@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+ 
+ <html>
+  <head>
+    {% include head.html %}
+    {% include meta.html %}
+  </head>
+  <div id="selectedworks"></div>
+  <div id="texts"></div>
+  <div id="colabs"></div>
+  <div id="other"></div>
+  <div id="about"></div>
+  <body>
+
+    <div class="backgroundindex">
+        <content>
+          {{ content }}
+          {% include swipebox.html %}
+        </content>
+    </div>
+        {% include navbar.html %}
+  </body>
+</html>
+

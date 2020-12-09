@@ -8,7 +8,6 @@ ref: 15segundos
 gifs sonoros
 
 <br>
-
 <div class="video-grid">
 <div class="video-wrapper-1x1">     
   <iframe src="https://player.vimeo.com/video/108293396?loop=1&title=0&byline=0&portrait=0" width="640" height="640" frameborder="0" ></iframe>

@@ -36,6 +36,16 @@ a {
   }
 }
 
+.margem{  
+  border-style: solid;
+  border-width: 20px;
+  border-color: hotpink;
+  height: 100vh;
+  width: 100%;
+  z-index: 1000;
+  background-color: transparent;
+}
+
 body {
   display: flex;
   flex-direction: row;
@@ -49,6 +59,9 @@ body {
 
   background-color: $BACKGROUND;
   color: $TEXT-COLOR;
+  
+
+
   
 }
 
@@ -82,10 +95,107 @@ h4 {
   background-color: #fffaff;
 }
 
+
+#top, #bottom, #left, #right {
+  z-index:1000;
+	background: hotpink;
+	position: fixed;
+	}
+	#left, #right {
+		top: 0; bottom: 0;
+		width: 12px;
+		}
+		#left { left: 0; }
+		#right { right: 0; }
+		
+	#top, #bottom {
+		left: 0; right: 0;
+		height: 12px;
+		}
+		#top { top: 0; }
+		#bottom { bottom: 0; }
+
 .menu-language-section {
-  height: 100%;
   font-size: 12px;
   font-weight: bold;
+  position: absolute;
+  top: 40px;
+  right: 40px;
+  z-index:100;
+   @media only screen and (max-width: 800px) {
+     left: 20px;
+     top: 20px;
+  }
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+  bottom: 20px;
+  left: 20px;
+  font-size: 30px;
+  height: auto;
+}
+
+.grid-item {
+  padding: 20px;
+  text-align: center;
+  color: hotpink;
+  font-size: 18px;
+  border: 1px solid hotpink;
+  width:auto;
+}
+
+.tarjav{
+ width: 100%;
+ height: 100%;
+ display: none;
+}
+
+#selectedworks, #texts, #colabs, #other, #about {
+  z-index:1000;
+  height: 20%;
+	position: fixed;
+  width: 100%;
+  color: ghostwhite;
+  font-size: 40px;
+  text-align: center;
+  vertical-align: middle;
+	}
+
+	#selectedworks {
+    background: orangered;
+    top: 0;
+  }
+	#texts {
+    background: YELLOWGREEN;
+    top: 20%;
+  }	
+  #colabs {
+    background: blue;
+    top: 40%;
+  }
+	#other {
+    background: gold;
+    top: 60%;
+  }	
+  #about {
+    background: hotpink;
+    bottom: 0;
+  }
+
+.menu-language-section {
+  font-size: 12px;
+  font-weight: bold;
+  position: absolute;
+  top: 40px;
+  right: 40px;
+  z-index:100;
+   @media only screen and (max-width: 800px) {
+     left: 20px;
+     top: 20px;
+  }
 }
 
 .menu-language-option {
@@ -99,6 +209,12 @@ h4 {
 .menu-language-option-selected {
   font-size: 12px;
   color: hotpink;
+}
+
+.nariz{
+  position: absolute;
+  right: 20px;
+  top: 20px;
 }
 
 .list-wrapper {
@@ -186,6 +302,7 @@ h4 {
     position:relative;
     min-height: 100vh;
     padding: 40px;
+    top:40px;
     text-align: right; 
     line-height: 25px;
     background-color: transparent;
@@ -196,6 +313,10 @@ h4 {
     a {
       /*display: block;*/
       white-space: nowrap;
+    }
+    
+    br {
+      line-height: 5px;
     }
 
    .closebtn {

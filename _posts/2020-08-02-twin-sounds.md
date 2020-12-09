@@ -1,8 +1,8 @@
 ---
-title: 'matilha'
-swipebox: AL0
+title: 'twin sounds'
 menu: true
 lang: pt
+ref: twin
 ---
 # Manchete
 ## Manchete

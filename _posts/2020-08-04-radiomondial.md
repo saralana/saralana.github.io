@@ -1,7 +1,8 @@
 ---
-title: 'promessa é dívida'
+title: 'rádio mondial'
 menu: true
 lang: pt
+ref: mondial
 ---
 # Manchete
 ## Manchete

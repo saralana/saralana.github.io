@@ -1,7 +1,9 @@
 ---
-title: 'direito à preguiça'
+title: 'máquina de antônimos'
+swipebox: AL0
 menu: true
 lang: pt
+ref: antonimos
 ---
 # Manchete
 ## Manchete

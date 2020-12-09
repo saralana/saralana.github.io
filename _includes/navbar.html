@@ -1,11 +1,17 @@
 
-<div id="menu-mobile">
- 
-  <i id="show-menu" aria-hidden="true" style="cursor: pointer;"><img src="{{ site.baseurl }}/assets/favicons/favicon.png" width="30px"></i>
+{% include language-selection.html %}  
 
+<br>
+
+ 
+ <div id="menu-mobile">
   
+  <div class="nariz" id="show-menu" aria-hidden="true" style="cursor: pointer;"><img src="{{ site.baseurl }}/assets/favicons/favicon.png" width="30px"></div>
+
    <div id="menu-retratil" class="menu-hide">
-    <div id="hide-menu" class="menu-icon hide-menu">✖</div>
+
+    <div id="hide-menu" class="menu-icon hide-menu">✖</div> 
+    <br><br>
     {% include menu-items.html %}
    </div>  
 </div>
