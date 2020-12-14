@@ -39,7 +39,7 @@ a {
 .margem{  
   border-style: solid;
   border-width: 20px;
-  border-color: hotpink;
+  border-color: $PALETTE5;
   height: 100vh;
   width: 100%;
   z-index: 1000;
@@ -84,7 +84,8 @@ h4 {
     }
   
 .backgroundindex {
-    background-image:url('../assets/posts/fio.gif');
+     //background-image:url('../assets/posts/fio_mobile.gif');
+    background-color: $PALETTE1;
     background-size:100%;
     background-repeat:no-repeat;
     background-attachment: fixed;
@@ -95,10 +96,43 @@ h4 {
   background-color: #fffaff;
 }
 
+.palette1{
+   background-color: $PALETTE1; 
+   color: $PALETTE2 !important; 
+}
+.palette1:hover{
+   background-color: $PALETTE2; 
+   color: $PALETTE1 !important; 
+}
+.palette2{
+   background-color: $PALETTE3; 
+   color: $PALETTE2 !important; 
+}
+.palette2:hover{
+   background-color: $PALETTE2; 
+   color: $PALETTE3 !important; 
+}
+.palette3{
+   background-color: $PALETTE2; 
+   color: $PALETTE4 !important; 
+}
 
+.palette3:hover{
+   background-color: $PALETTE4; 
+   color: $PALETTE2 !important; 
+}
+.palette4{
+   background-color: $PALETTE4; 
+   color: $PALETTE1 !important; 
+}
+
+.palette4:hover{
+   background-color: $PALETTE1; 
+   color: $PALETTE4 !important; 
+}
 #top, #bottom, #left, #right {
   z-index:1000;
-	background: hotpink;
+	background: $PALETTE5;
 	position: fixed;
 	}
 	#left, #right {
@@ -117,10 +151,16 @@ h4 {
 
 .menu-language-section {
   font-size: 12px;
+  background-color: $PALETTE5;
   font-weight: bold;
   position: absolute;
-  top: 40px;
-  right: 40px;
+    text-align: center;
+    line-height: 1.5;
+     padding-top: 4%;
+    top: 0;
+    right: 12px;
+    width: 40px;
+    height: 20%;
   z-index:100;
    @media only screen and (max-width: 800px) {
      left: 20px;
@@ -141,9 +181,9 @@ h4 {
 .grid-item {
   padding: 20px;
   text-align: center;
-  color: hotpink;
+  color: $PALETTE5;
   font-size: 18px;
-  border: 1px solid hotpink;
+  border: 1px solid $PALETTE5;
   width:auto;
 }
 
@@ -181,7 +221,7 @@ h4 {
     top: 60%;
   }	
   #about {
-    background: hotpink;
+    background: $PALETTE5;
     bottom: 0;
   }
 
@@ -189,8 +229,6 @@ h4 {
   font-size: 12px;
   font-weight: bold;
   position: absolute;
-  top: 40px;
-  right: 40px;
   z-index:100;
    @media only screen and (max-width: 800px) {
      left: 20px;
@@ -208,7 +246,7 @@ h4 {
 
 .menu-language-option-selected {
   font-size: 12px;
-  color: hotpink;
+  color: white;
 }
 
 .nariz{
@@ -298,17 +336,15 @@ h4 {
     float: right;
     display: block;
     box-sizing: border-box;
-    z-index: 20;
+    z-index: 200;
     position:relative;
-    min-height: 100vh;
-    padding: 40px;
-    top:40px;
-    text-align: right; 
-    line-height: 25px;
+    padding: 12px;
+    bottom: 0%;
+    text-align: center; 
     background-color: transparent;
     position: absolute;
-    right: 0px;
-    width: 350px;
+    right: 9px;
+    width: 55px;
 
     a {
       /*display: block;*/
@@ -326,8 +362,7 @@ h4 {
     .menu-item {
       padding-bottom: $MENU-ITEM-SPACING;
       font-size: $MENU-TITLE-SIZE;
-      font-weight: 900;
-      color: $MENU-TEXT-COLOR;
+      font-weight: 300;
       text-transform: none;
       letter-spacing: $MENU-LETTER-SPACING;
       line-height: $MENU-LINE-HEIGHT;
@@ -342,8 +377,12 @@ h4 {
     }
 
     .menu-title {
-      padding-bottom: 4 * $MENU-ITEM-SPACING;
+      padding-bottom: 0 * $MENU-ITEM-SPACING;
       font-size: $MENU-TITLE-SIZE;
+      writing-mode: vertical-rl;
+      text-orientation: sideways;
+        height: 20%;
+        width: 40px;
     }
 
 
@@ -439,7 +478,8 @@ h4 {
     }
 
     .backgroundindex {
-        background-image:url('../assets/posts/fio_mobile.gif');
+        //background-image:url('../assets/posts/fio_mobile.gif');
+        background-color: $PALETTE5;
         background-size:100%;
         background-repeat:no-repeat;
         background-attachment: fixed;
