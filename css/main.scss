@@ -198,7 +198,7 @@ h4 {
   top: 0;
   right: 12px;
   width: 40px;
-  height: 20%;
+  height: 40%;
   z-index:100;
     /*
   @media only screen and (max-width: 800px) {
@@ -686,18 +686,18 @@ iframe {
 /* Responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 800px) {
   .column {
-    -ms-flex: 50%;
-    flex: 50%;
-    max-width: 50%;
+    -ms-flex: 40%;
+    flex: 40%;
+    max-width: 40%;
   }
 }
 
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
   .column {
-    -ms-flex: 100%;
-    flex: 100%;
-    max-width: 100%;
+    -ms-flex: 80%;
+    flex: 80%;
+    max-width: 80%;
   }
 }
 
