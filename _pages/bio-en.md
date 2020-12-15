@@ -1,8 +1,8 @@
 ---
 title: bio
-permalink: '/en/bio'
+permalink: '/about/'
 menu: true
-layout: post
+layout: about
 lang: en
 category: about
 ref: bio

@@ -8,7 +8,7 @@ $PALETTE5: #ec5d57;
 
 $DESKTOP: 800px;
 
-$FAMILY-SANS: 'Source Code Pro', 'Courier New', 'Courier', 'Lucida Sans Typewriter', 'Lucida Typewriter', monospace;
+$FAMILY-SANS: 'Source Code Pro', 'Courier New', 'Lucida Sans Typewriter', monospace;
 
 $TEXT-BASE: rgba(0,0,0,1);
 $TITLE-COLOR: lighten($TEXT-BASE, 10%);
@@ -25,7 +25,7 @@ $LINK-SIZE: 1.1vw;
 $MENU-BACKGROUND-COLOR: #fffaff;
 $MENU-TEXT-COLOR: rgba(40,40,40,1);
 $MENU-TEXT-HOVER-COLOR: $PALETTE5;
-$MENU-LETTER-SPACING: 1px;
+$MENU-LETTER-SPACING: 0.4px;
 $MENU-LINE-HEIGHT: 2.5;
 
 $MENU-TITLE-SIZE: 1.2rem;

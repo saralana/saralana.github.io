@@ -1,7 +1,8 @@
 ---
-title: '15 seconds diary'
+title: '15s'
 menu: true
 lang: en
+permalink: '/15s/'
 ref: 15segundos
 ---
 

@@ -5,23 +5,21 @@
     {% include head.html %}
     {% include meta.html %}
   </head>
-  <div id="selectedworks"></div>
-  <div id="texts"></div>
-  <div id="colabs"></div>
-  <div id="other"></div>
-  <div id="about"></div>
-  <body>
 
-      
- {% comment %}   
-      <div class="backgroundindex">
+  <div id="left"></div>
+  <div id="right"></div>
+  <div id="top"></div>
+  <div id="bottom"></div>
+  
+ <body>  
+    <div class="about">
         <content>
           {{ content }}
           {% include swipebox.html %}
         </content>
     </div>
-      {% endcomment %}
+   
         {% include navbar.html %}
-  </body>
+ </body>
 </html>
 

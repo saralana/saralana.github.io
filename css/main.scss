@@ -50,7 +50,8 @@ body {
   display: flex;
   flex-direction: row;
 
-  font: normal $TEXT-SIZE $FAMILY-SANS;
+  font-family: $FAMILY-SANS;
+  font-size: 1.1rem;
   word-spacing: 3px;
 
   margin: 0;
@@ -58,11 +59,7 @@ body {
   min-height: 100vh;
 
   background-color: $BACKGROUND;
-  color: $TEXT-COLOR;
-  
-
-
-  
+  color: $TEXT-COLOR;  
 }
 
 h4 {
@@ -82,15 +79,52 @@ h4 {
     background-attachment: fixed;
     width:100%;
     }
-  
-.backgroundindex {
+.index {
      //background-image:url('../assets/posts/fio_mobile.gif');
     background-color: $PALETTE1;
+    color: $PALETTE5;
     background-size:100%;
     background-repeat:no-repeat;
     background-attachment: fixed;
     width:100%;
-    }
+    padding: 7%;
+}
+.other {
+     //background-image:url('../assets/posts/fio_mobile.gif');
+    background-color: $PALETTE2;
+    color: $PALETTE3;
+    background-size:100%;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    width:100%;
+    padding: 7%;
+    img {
+        filter: grayscale(100%);
+        }
+}
+.texts {
+     //background-image:url('../assets/posts/fio_mobile.gif');
+    background-color: $PALETTE3;
+    color: $PALETTE4;
+    background-size:100%;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    width:100%;
+    padding: 7%;
+    padding-right: 10%;
+}
+
+.about {
+     //background-image:url('../assets/posts/fio_mobile.gif');
+    background-color: $PALETTE4;
+    color: $PALETTE2;
+    background-size:100%;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    width:100%;
+    padding: 7%;
+    padding-right: 10%;
+}
 
 .background{
   background-color: #fffaff;
@@ -98,36 +132,38 @@ h4 {
 
 .palette1{
    background-color: $PALETTE1; 
-   color: $PALETTE2 !important; 
+   color: $PALETTE5 !important; 
 }
 .palette1:hover{
-   background-color: $PALETTE2; 
+   background-color: $PALETTE5; 
    color: $PALETTE1 !important; 
 }
 .palette2{
-   background-color: $PALETTE3; 
-   color: $PALETTE2 !important; 
-}
-.palette2:hover{
    background-color: $PALETTE2; 
    color: $PALETTE3 !important; 
 }
+
+.palette2:hover{
+   background-color: $PALETTE5; 
+   color: $PALETTE3 !important; 
+}
+
 .palette3{
-   background-color: $PALETTE2; 
+   background-color: $PALETTE3; 
    color: $PALETTE4 !important; 
 }
 
 .palette3:hover{
-   background-color: $PALETTE4; 
+   background-color: $PALETTE5; 
    color: $PALETTE2 !important; 
 }
 .palette4{
    background-color: $PALETTE4; 
-   color: $PALETTE1 !important; 
+   color: $PALETTE2 !important; 
 }
 
 .palette4:hover{
-   background-color: $PALETTE1; 
+   background-color: $PALETTE5; 
    color: $PALETTE4 !important; 
 }
 #top, #bottom, #left, #right {
@@ -153,16 +189,16 @@ h4 {
   font-size: 12px;
   background-color: $PALETTE5;
   font-weight: bold;
-  position: absolute;
-    text-align: center;
-    line-height: 1.5;
-     padding-top: 4%;
-    top: 0;
-    right: 12px;
-    width: 40px;
-    height: 20%;
+  position: fixed;
+  text-align: center;
+  line-height: 1.5;
+  padding-top: 1%;
+  top: 0;
+  right: 12px;
+  width: 40px;
+  height: 20%;
   z-index:100;
-   @media only screen and (max-width: 800px) {
+  @media only screen and (max-width: 800px) {
      left: 20px;
      top: 20px;
   }
@@ -228,7 +264,7 @@ h4 {
 .menu-language-section {
   font-size: 12px;
   font-weight: bold;
-  position: absolute;
+  position: fixed;
   z-index:100;
    @media only screen and (max-width: 800px) {
      left: 20px;
@@ -237,7 +273,8 @@ h4 {
 }
 
 .menu-language-option {
-  display: inline; 
+  display: inline;
+  color: $PALETTE1;
   height: 100%;
   line-height: 100%;
   vertical-align: bottom;
@@ -246,7 +283,7 @@ h4 {
 
 .menu-language-option-selected {
   font-size: 12px;
-  color: white;
+  color: $PALETTE4;
 }
 
 .nariz{
@@ -336,13 +373,13 @@ h4 {
     float: right;
     display: block;
     box-sizing: border-box;
+    font-size: 0em;
     z-index: 200;
-    position:relative;
+    position:fixed;
     padding: 12px;
     bottom: 0%;
     text-align: center; 
     background-color: transparent;
-    position: absolute;
     right: 9px;
     width: 55px;
 
@@ -606,14 +643,46 @@ iframe {
 }
 
 
-/* --------- 2 COLUMNS ----------*/
+/* --------- 4 COLUMNS ----------*/
 
 .row {
-    display: flex;
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
 }
 
+/* Create four equal columns that sits next to each other */
 .column {
+  -ms-flex: 30%; /* IE10 */
+  flex: 30%;
+  max-width: 30%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 50%;
     flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
 }
 
 /* --------- COLLAPSIBLE TEXT ----------*/

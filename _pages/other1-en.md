@@ -1,37 +1,35 @@
 ---
 title: 'Other 1'
-swipebox: AL0
+swipebox: 
+layout: other
+permalink: '/other/'
 menu: true
 category: other
 lang: en
 ---
-# Manchete
-## Manchete
-### Manchete
 
----
-### Texto
-**bold** *italics* ***bold italics*** ~~riscado~~ <u>grifado</u>
 
-Uma linha em branco começa um novo parágrafo.
-
-Dois espaços no final de uma linha,  
-pula para a próxima linha, mas no mesmo parágrafo.
-
----
-#### Link
-[Texto do Link](http://olf.space){:target="_blank"}  
-
----
-### Imagem
-![Foto do megaphone](../assets/posts/AL02.jpg)
-
----
-### Video
-<div class="video-wrapper video-wrapper-16x9">
-  <iframe src="https://player.vimeo.com/video/165527282?byline=0&amp;portrait=0" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+<div class="row">   
+  <div class="column">
+    <img src="https://www.onlygfx.com/wp-content/uploads/2017/07/red-paint-brush-stroke-12-1024x198.png" style="width:100%">
+    <img src="https://www.onlygfx.com/wp-content/uploads/2017/07/red-paint-brush-stroke-13.png" style="width:100%">
+    <img src="https://www.onlygfx.com/wp-content/uploads/2017/07/red-paint-brush-stroke-14.png" style="width:100%">
+    <img src="https://www.onlygfx.com/wp-content/uploads/2017/07/red-paint-brush-stroke-15.png" style="width:100%">
+      <img src="https://www.onlygfx.com/wp-content/uploads/2017/07/red-paint-brush-stroke-9-1024x137.png" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="https://www.onlygfx.com/wp-content/uploads/2017/07/red-paint-brush-stroke-1.png" style="width:100%">
+    <img src="https://www.onlygfx.com/wp-content/uploads/2017/07/red-paint-brush-stroke-2.png" style="width:100%">
+    <img src="https://www.onlygfx.com/wp-content/uploads/2017/07/red-paint-brush-stroke-3.png" style="width:100%">
+    <img src="https://www.onlygfx.com/wp-content/uploads/2017/07/red-paint-brush-stroke-4.png" style="width:100%">
+    <img src="https://www.onlygfx.com/wp-content/uploads/2017/07/red-paint-brush-stroke-35-1024x181.png" style="width:100%">
+  </div>
+  <div class="column">
+   <img src="https://www.onlygfx.com/wp-content/uploads/2017/07/red-paint-brush-stroke-7-1024x247.png" style="width:100%">
+    <img src="https://www.onlygfx.com/wp-content/uploads/2017/07/red-paint-brush-stroke-8-1024x332.png" style="width:100%">
+    <img src="https://www.onlygfx.com/wp-content/uploads/2017/07/red-paint-brush-stroke-9-1024x137.png" style="width:100%">
+    <img src="https://www.onlygfx.com/wp-content/uploads/2017/07/red-paint-brush-stroke-6-1024x238.png" style="width:100%">
+    <img src="https://www.onlygfx.com/wp-content/uploads/2017/07/red-paint-brush-stroke-7-1024x247.png" style="width:100%">
+    <img src="https://www.onlygfx.com/wp-content/uploads/2017/07/red-paint-brush-stroke-19.png" style="width:100%">
+  </div>
 </div>
-
----
-### Galeria de Foto
-Colocar "`swipebox: AL0`" no cabeçalho do post para criar uma galeria com todas as fotos que começam com `AL0`.
