@@ -7,6 +7,12 @@ lang: pt
 category: about
 ref: bio
 ---
+
+INCLUIR : 
+_ PORTIFOLIO
+_ WORKSHOPS
+_ SILO
+
 <script>
     $(document).ready(function(){
     $('.markdown-block .sqs-block-content h3').css('cursor','pointer');

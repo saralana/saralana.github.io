@@ -5,8 +5,6 @@ permalink: '/'
 lang: pt
 ref: index
 ---
-
-
 <div class="row"> 
   <div class="column">
     <img src="https://www.onlygfx.com/wp-content/uploads/2017/07/red-paint-brush-stroke-1.png" style="width:100%">

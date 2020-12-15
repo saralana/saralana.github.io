@@ -4,24 +4,23 @@
     {% include head.html %}
     {% include meta.html %}
   </head>
-    <div id="left"></div>
+  <div id="left"></div>
   <div id="right"></div>
   <div id="top"></div>
   <div id="bottom"></div>
   
   <body>
-
-    <div id="main-div">
-      <div id="post">
-        {% unless page.permalink == '/' %}
-          <div class="post-title">{{ page.title }}</div>
-        {% endunless %}
-        <content>
-          {{ content }}
-          {% include swipebox.html %}
-        </content>
-      </div>
-    </div>
+        <div id="main-div-index">
+              <div id="post">
+                {% unless page.permalink == '/' %}
+                  <div class="post-title">{{ page.title }}</div>
+                {% endunless %}
+                <content>
+                  {{ content }}
+                  {% include swipebox.html %}
+                </content>
+              </div>
+         </div>
         {% include navbar.html %}
   </body>
 </html>

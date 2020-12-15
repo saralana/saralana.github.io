@@ -1,14 +1,14 @@
 
 {% case page.lang %}
-          {% when 'en' %}
+        {% when 'en' %}
            <a class="menu-item menu-title palette1" href="{{ site.baseurl }}/en/">selected</a>
            <a class="menu-item menu-title palette2" href="{{ site.baseurl }}/other/">other</a>
            <a class="menu-item menu-title palette3" href="{{ site.baseurl }}/texts/">texts</a>
            <a class="menu-item menu-title palette4" href="{{ site.baseurl }}/about/">about</a>
         {% else %}
-           <a class="menu-item menu-title palette1" href="{{ site.baseurl }}/en/">principais</a>
-            <a class="menu-item menu-title palette2" href="{{ site.baseurl }}/other/">outros</a>
-            <a class="menu-item menu-title palette3" href="{{ site.baseurl }}/texts/">textos</a>
+            <a class="menu-item menu-title palette1" href="{{ site.baseurl }}/">principais</a>
+            <a class="menu-item menu-title palette2" href="{{ site.baseurl }}/outros">outros</a>
+            <a class="menu-item menu-title palette3" href="{{ site.baseurl }}/textos/">textos</a>
             <a class="menu-item menu-title palette4" href="{{ site.baseurl }}/sobre/">sobre</a>
   {% endcase %}
   

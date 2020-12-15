@@ -2,7 +2,7 @@
 title: textos
 permalink: '/textos/'
 menu: true
-layout: post
+layout: texts
 lang: pt
 category: general
 ref: texts

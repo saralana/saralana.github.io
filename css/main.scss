@@ -5,6 +5,7 @@
 
 html {
   font-size: 13px;
+    height: 100%;
 }
 
 strong {
@@ -59,7 +60,8 @@ body {
   min-height: 100vh;
 
   background-color: $BACKGROUND;
-  color: $TEXT-COLOR;  
+  color: $TEXT-COLOR; 
+    height: 100%; 
 }
 
 h4 {
@@ -83,9 +85,9 @@ h4 {
      //background-image:url('../assets/posts/fio_mobile.gif');
     background-color: $PALETTE1;
     color: $PALETTE5;
-    background-size:100%;
-    background-repeat:no-repeat;
-    background-attachment: fixed;
+    //background-size:100%;
+    //background-repeat:no-repeat;
+    //background-attachment: fixed;
     width:100%;
     padding: 7%;
 }
@@ -145,7 +147,7 @@ h4 {
 
 .palette2:hover{
    background-color: $PALETTE5; 
-   color: $PALETTE3 !important; 
+   color: $PALETTE1 !important; 
 }
 
 .palette3{
@@ -155,7 +157,7 @@ h4 {
 
 .palette3:hover{
    background-color: $PALETTE5; 
-   color: $PALETTE2 !important; 
+   color: $PALETTE1 !important; 
 }
 .palette4{
    background-color: $PALETTE4; 
@@ -164,7 +166,7 @@ h4 {
 
 .palette4:hover{
    background-color: $PALETTE5; 
-   color: $PALETTE4 !important; 
+   color: $PALETTE1 !important; 
 }
 #top, #bottom, #left, #right {
   z-index:1000;
@@ -198,10 +200,12 @@ h4 {
   width: 40px;
   height: 20%;
   z-index:100;
+    /*
   @media only screen and (max-width: 800px) {
      left: 20px;
      top: 20px;
   }
+    */
 }
 
 .grid-container {
@@ -266,10 +270,12 @@ h4 {
   font-weight: bold;
   position: fixed;
   z-index:100;
+    /*
    @media only screen and (max-width: 800px) {
      left: 20px;
      top: 20px;
   }
+    */
 }
 
 .menu-language-option {
@@ -362,8 +368,9 @@ h4 {
 }
 
 //DESKTOP NAVIGATION
+/*
 @media only screen and (min-width: 800px) {
-   
+*/
   #menu-mobile {
      display: none;
      width: 0px;
@@ -442,11 +449,12 @@ h4 {
     }
 
   }
-
+/*
 }
+*/
 
 //START MOBILE NAVIGATION
-
+/*
 @media only screen and (max-width: 800px) {
 
     #menu-mobile {
@@ -531,7 +539,7 @@ h4 {
       
 }
 //END MOBILE NAVIGATION
-
+*/
 
 .collapsible{
   cursor: s-resize;
@@ -552,21 +560,29 @@ h4 {
 #main-div {
   display: block;
   box-sizing: border-box;
-  width:80%;
+  width:100%;
   padding-left: 30px;
   padding-top: 60px;
 }
 
-#post {
+#main-div-index {
   display: block;
-  position: relative;
-  box-sizing: border-box;
+  //box-sizing: border-box;
+  width:100%;
+  min-height: 100%;
+  background-color: $PALETTE1;
+  padding-left: 1%;
+  padding-right: 10%;
+  padding-top: 4%;
+  padding-bottom: 4%;
+ // z-index: 50;
+ // position: fixed;
+}
 
-  width: 90%;
-
-  padding: $RESPONSIVE-SPACING;
-  margin: 0 auto;
-  background-color: $BACKGROUND;
+#post {
+    background-color: $PALETTE1;
+    width: 100%;
+    padding: 7%;
 
 
   .post-title {
@@ -582,7 +598,7 @@ h4 {
     max-width: 100%;
     max-height: 78vh;
     border-radius: 5px;
-  }
+    }
 }
 
 #swipebox-gallery {
@@ -631,7 +647,7 @@ h4 {
   display: flex;
   flex-direction: row;
   flex-wrap:wrap;
-  width: 100%;
+  width: 90%;
 }
 
 iframe {

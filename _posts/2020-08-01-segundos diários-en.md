@@ -2,7 +2,7 @@
 title: '15s'
 menu: true
 lang: en
-permalink: '/15s/'
+permalink: '/en/segundos-diários/'
 ref: 15segundos
 ---
 

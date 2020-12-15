@@ -1,8 +1,9 @@
 ---
-title: 'species of spaces ii'
+title: 'species of spaces iii'
 menu: true
 lang: en
-ref: especiesii
+permalink: '/en/especies-de-espacos-iii/'
+ref: especiesiii
 ---
 
 
