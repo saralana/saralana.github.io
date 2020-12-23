@@ -59,7 +59,7 @@ body {
   padding: 0;
   min-height: 100vh;
 
-  background-color: $BACKGROUND;
+  background-color: $PALETTE1;
   color: $TEXT-COLOR; 
     height: 100%; 
 }
@@ -83,21 +83,26 @@ h4 {
     }
 .index {
      //background-image:url('../assets/posts/fio_mobile.gif');
-    background-color: $PALETTE1;
-    color: $PALETTE5;
     //background-size:100%;
     //background-repeat:no-repeat;
     //background-attachment: fixed;
+    background-color: $PALETTE1;
+    color: $PALETTE5;
+    ::selection {
+      background: $PALETTE5;
+      color: $PALETTE2;
+    }
     width:100%;
-    padding: 7%;
+    padding-top: 7%;
+    padding-top: 3%;
 }
 .other {
-     //background-image:url('../assets/posts/fio_mobile.gif');
     background-color: $PALETTE2;
-    color: $PALETTE3;
-    background-size:100%;
-    background-repeat:no-repeat;
-    background-attachment: fixed;
+    color: $PALETTE3;    
+    ::selection {
+      background: $PALETTE3;
+      color: $PALETTE2;
+    }
     width:100%;
     padding: 7%;
     img {
@@ -105,24 +110,24 @@ h4 {
         }
 }
 .texts {
-     //background-image:url('../assets/posts/fio_mobile.gif');
     background-color: $PALETTE3;
-    color: $PALETTE4;
-    background-size:100%;
-    background-repeat:no-repeat;
-    background-attachment: fixed;
+    color: $PALETTE4;    
+    ::selection {
+      background: $PALETTE4;
+      color: $PALETTE3;
+    }
     width:100%;
     padding: 7%;
     padding-right: 10%;
 }
 
 .about {
-     //background-image:url('../assets/posts/fio_mobile.gif');
     background-color: $PALETTE4;
-    color: $PALETTE2;
-    background-size:100%;
-    background-repeat:no-repeat;
-    background-attachment: fixed;
+    color: $PALETTE2;    
+    ::selection {
+      background: $PALETTE2;
+      color: $PALETTE4;
+    }
     width:100%;
     padding: 7%;
     padding-right: 10%;
@@ -666,21 +671,23 @@ iframe {
   display: flex;
   -ms-flex-wrap: wrap; /* IE10 */
   flex-wrap: wrap;
+ // padding: 3% 3%;
   padding: 0 4px;
 }
 
 /* Create four equal columns that sits next to each other */
 .column {
-  -ms-flex: 30%; /* IE10 */
-  flex: 30%;
-  max-width: 30%;
-  padding: 0 4px;
+  -ms-flex: 20%; /* IE10 */
+  flex: 20%;
+  max-width: 325%;
+  padding: 0% 4%;
 }
 
 .column img {
-  margin-top: 8px;
+  //margin-bottom: 20%;
   vertical-align: middle;
   width: 100%;
+  padding-bottom: 20%;
 }
 
 /* Responsive layout - makes a two column-layout instead of four columns */
@@ -700,6 +707,44 @@ iframe {
     max-width: 80%;
   }
 }
+
+/* ------------- HOVER EFFECT------------ 
+https://codepen.io/QDeltaE/pen/VWGYOB*/
+
+
+.static22 {
+  position:absolute;
+  background-color: $PALETTE1;
+  z-index:3;
+  width: 22.5%;
+  padding-top:0px;
+}
+
+@media screen and (max-width: 800px) {
+    .static22 {
+      position:absolute;
+      background-color: $PALETTE1;
+      z-index:3;
+      width: 35.5%;
+    }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .static22 {
+  opacity:0;
+}
+}
+
+.static22:hover {
+  opacity:0;
+}
+
+.active22 {  
+    position: relative;
+    z-index:1;
+}
+
 
 /* --------- COLLAPSIBLE TEXT ----------*/
  
