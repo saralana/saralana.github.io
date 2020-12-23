@@ -13,7 +13,8 @@ ref: index
             <div class="static22"> 
                 <a href="{{ site.base.url }}/en/{{ cover.name }}"><img src="/assets/covers/{{ cover.name }}.png"></a>
             </div>
-                <img class="active22" src="/assets/covers/gif/{{ cover.name }}.gif" style="width:100.5%">
+                <img class="active22" src="/assets/covers/gif/{{ cover.name }}.gif" style="width:100.4%">
+         <hr>
         {% endfor %}
       </div>
      <div class="column"> 
@@ -22,7 +23,8 @@ ref: index
             <div class="static22"> 
           <a href="{{ site.base.url }}/en/{{ cover.name }}"><img src="/assets/covers/{{ cover.name }}.png" style="width:100%"></a></div>
          <div>
-                <img class="active22" src="/assets/covers/gif/{{ cover.name }}.png" style="width:100.5%"></div>
+                <img class="active22" src="/assets/covers/gif/{{ cover.name }}.png" style="width:100.4%"></div>
+         <hr>
         {% endfor %}
     </div>
      <div class="column">  
@@ -30,7 +32,8 @@ ref: index
          {% for cover in project %}
             <div class="static22"> 
           <a href="{{ site.base.url }}/en/{{ cover.name }}"><img src="/assets/covers/{{ cover.name }}.png" style="width:100%"></a></div>
-                <img class="active22" src="/assets/covers/gif/{{ cover.name }}.png" style="width:100.5%">
+                <img class="active22" src="/assets/covers/gif/{{ cover.name }}.png" style="width:100.4%">
+         <hr>
         {% endfor %}
     </div>
 </div>
