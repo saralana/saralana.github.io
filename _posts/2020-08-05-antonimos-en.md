@@ -1,7 +1,7 @@
 ---
-title: 'máquina de antônimos'
+title: 'antonimous machine'
 who: Sara Lana
-type: instalação sonora
+type: sound installation
 menu: true
 where: Maquinações | SESC PIRACICABA | SP <br>
        Maquinações | SESC CARMO | SP <br>
@@ -9,18 +9,16 @@ where: Maquinações | SESC PIRACICABA | SP <br>
        Maquinações | SESC PALLADIUM | MG <br>
 data: 2018
 ref: antonimos
-permalink: /antonimos
+permalink: /en/antonimos
 swipebox: mda
 thanks: Bruno Gomes, Clarissa Neves, Eloá Mata, Esther Azevedo, Fernando Líbano, Gabriela Carvalho, Marcelo XY,  Marcos Lustosa, Mariana Zani, Marina Jovalangelo, Paulo Waisberg, Sara Moreno e Xande Perocco
-lang: pt
+lang: en
 ---
 
 <img src="../assets/posts/antonimos.jpeg">
 <br><br>
 
-Um microfone grava frases faladas e um sistema troca cada uma das palavras enunciadas por seu antônimo.
-A frase invertida é propagada por uma parede de alto-falantes coletados de sucatas de objetos obsoletos.
-Velhas mídias que reverberam o oposto do que queremos dizer.
+A microphone records spoken phrases and a system, programmed as an javascript browser extension, exchanges all uttered words by its antonyms. The inverted phrase is propagated by a wall of speakers collected from scraps of obsolete objects. As always, old media reverberating the opposite of what we mean.
 <br>
 <br>
 
