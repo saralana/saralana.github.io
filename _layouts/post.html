@@ -14,12 +14,29 @@
               <div id="post">
                 {% unless page.permalink == '/' %}
                   <div class="post-title">{{ page.title }}</div>
+                  <br><b>{{ page.who }}</b>
+                  <p>{{ page.type }}</p>
+                  <div class="post-where">{{ page.where }}</div>
+                  <br><b>{{ page.data }}</b>
                 {% endunless %}
+                <br><br><br>
                 <content>
+
                   {{ content }}
                   {% include swipebox.html %}
                 </content>
+                  <br>
+                  <hr>
+                  <br>
+            {% case page.lang %}
+                {% when 'en' %}
+                  <b>Thanks to:</b>
+                  <p>{{ page.thanks }}</p>
+                {% else %}
+                  <b>Agradecimentos:</b> 
+                 <p>{{ page.thanks }}</p>
               </div>
+             {% endcase %}
          </div>
         {% include navbar.html %}
   </body>
