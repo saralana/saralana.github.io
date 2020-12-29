@@ -20,6 +20,9 @@ lang: en
 
 A microphone records spoken phrases and a system, programmed as an javascript browser extension, exchanges all uttered words by its antonyms. The inverted phrase is propagated by a wall of speakers collected from scraps of obsolete objects. As always, old media reverberating the opposite of what we mean.
 <br>
+
+In collaboration with Thiago Hersan
+
 <br>
 
 --- 

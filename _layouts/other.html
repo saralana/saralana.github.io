@@ -1,24 +1,23 @@
 <!DOCTYPE html>
- 
  <html>
   <head>
     {% include head.html %}
     {% include meta.html %}
   </head>
-
   <div id="left"></div>
   <div id="right"></div>
   <div id="top"></div>
   <div id="bottom"></div>
   
- <body>  
-    <div class="other">
-        <content>
-          {{ content }}
-          {% include swipebox.html %}
-        </content>
-    </div>
-   
+ <body> 
+        <div id="main-div-other"> 
+                <div class="other">
+                    <content>
+                      {{ content }}
+                      {% include swipebox.html %}
+                    </content>
+                </div> 
+         </div>   
         {% include navbar.html %}
  </body>
 </html>

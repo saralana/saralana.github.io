@@ -24,12 +24,12 @@ lang: en
   
 <img src="../assets/posts/mutt-dogs.jpg">
 <br><br>
+Known as “vira-latas” (dump tippers), stray dogs offer their canine listening abilities in conjunction with human cohabitation. As a dog, you love rummaging through dumpsters, looking for something to eat; you bark when a motorcycle passes by; you run after cars invading your territory; you dash in and out of houses; and you explore abandoned fields. This piece offers a ground level sonic walk, binaurally recorded by dogs in a recent urbanized neighborhood close to Belo Horizonte in Southeast Brazil.
+<br>
 <div class="audio-wrapper">
    <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/382080137&color=%23ffb800&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
 </div>
 <br>
-Known as “vira-latas” (dump tippers), stray dogs offer their canine listening abilities in conjunction with human cohabitation. As a dog, you love rummaging through dumpsters, looking for something to eat; you bark when a motorcycle passes by; you run after cars invading your territory; you dash in and out of houses; and you explore abandoned fields. This piece offers a ground level sonic walk, binaurally recorded by dogs in a recent urbanized neighborhood close to Belo Horizonte in Southeast Brazil.
-
 
 **Direction:** Sara Lana et Félix Blume<br>
 **Production:** Arte Radio<br>

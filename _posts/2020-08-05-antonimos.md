@@ -22,6 +22,8 @@ Um microfone grava frases faladas e um sistema troca cada uma das palavras enunc
 A frase invertida é propagada por uma parede de alto-falantes coletados de sucatas de objetos obsoletos.
 Velhas mídias que reverberam o oposto do que queremos dizer.
 <br>
+
+Com a colaboração de Thiago Hersan 
 <br>
 
 --- 

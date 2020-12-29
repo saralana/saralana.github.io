@@ -16,8 +16,7 @@
                   <div class="post-title">{{ page.title }}</div>
                   <br><b>{{ page.who }}</b>
                   <p>{{ page.type }}</p>
-                  <div class="post-where">{{ page.where }}</div>
-                  <br><b>{{ page.data }}</b>
+                  <b>{{ page.data }}</b>
                 {% endunless %}
                 <br><br><br>
                 <content>
@@ -30,9 +29,19 @@
                   <br>
             {% case page.lang %}
                 {% when 'en' %}
+                  <b>Exhibitions:</b>
+                  <p>{{ page.where }}</p>
+                  <br>
+                  <hr>
+                  <br>
                   <b>Thanks to:</b>
                   <p>{{ page.thanks }}</p>
                 {% else %}
+                  <b>Apresentações:</b>
+                  <p>{{ page.where }}</p>
+                  <br>
+                  <hr>
+                  <br>
                   <b>Agradecimentos:</b> 
                  <p>{{ page.thanks }}</p>
               </div>

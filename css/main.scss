@@ -72,7 +72,6 @@ body {
 
   font-family: $FAMILY-SANS;
   font-size: 1.1rem;
-  word-spacing: 3px;
 
   margin: 0;
   padding: 0;
@@ -124,9 +123,6 @@ h4 {
     }
     width:100%;
     padding: 7%;
-    img {
-        filter: grayscale(100%);
-        }
 }
 .texts {
     background-color: $PALETTE3;
@@ -224,12 +220,14 @@ h4 {
   width: 40px;
   height: 40%;
   z-index:100;
-    /*
-  @media only screen and (max-width: 800px) {
-     left: 20px;
-     top: 20px;
+    
+  @media only screen and (max-width: 600px) {
+    top: 5px;
+  right: 12px;
+  width: 40px;
+    height: 70px;
   }
-    */
+    
 }
 
 .tv {
@@ -401,9 +399,9 @@ h4 {
 }
 
 //DESKTOP NAVIGATION
-/*
-@media only screen and (min-width: 800px) {
-*/
+
+@media only screen and (min-width: 600px) {
+
   #menu-mobile {
      display: none;
      width: 0px;
@@ -482,97 +480,95 @@ h4 {
     }
 
   }
-/*
+
 }
-*/
+
 
 //START MOBILE NAVIGATION
-/*
-@media only screen and (max-width: 800px) {
 
-    #menu-mobile {
-          display: block; 
-          z-index: 10;
-          padding: 30px 30px;
-          text-align: left;
-          font-size: 12px;
-          line-height: 20px;
+@media only screen and (max-width: 600px) {
 
-          #menu-retratil {
-            position: absolute;   
-            width: 90%;
-            margin-left: 10%;
-            z-index: 20;
-            background-color: $BACKGROUND;
-            top: 0;
-            padding-top: 30px;
-            transition: left 0.3s linear;
-          }
+#menu-mobile {
+     display: none;
+     width: 0px;
+  }
+  
+  #navbar {
+    display: inline;
+    font-size: 0em;
+    z-index: 200;
+    position:fixed;
+    bottom: 0px;
+    padding: 12px;
+    text-align: center; 
+    background-color: transparent;
+    width: 100%;
+    right: -10px;
 
-          .show-menu {
-            position: absolute;
-            right: 2 * $RESPONSIVE-SPACING;
-            top: 30px;
-            font-size: 24px;
-            cursor:pointer !important;
-          }
-
-          .hide-menu {
-            position: absolute;
-            top: 20px;
-            right: 2 * $RESPONSIVE-SPACING;
-            font-size: 24px;
-            cursor:pointer;
-          }
-
-          .menu-section {
-            width: 66%;
-            margin: 0 auto;
-          }
-
-          @media only screen and (min-width: 800px) {
-            display: none;
-          }
+    a {
+      display: inline-block;
+      white-space: nowrap;
+    }
+    
+    br {
+      line-height: 5px;
     }
 
-    .menu-hide {
-      left: -100vw;
-      @media only screen and (min-width: 800px) {
-        left: 0;
-      }
+   .closebtn {
+     display: none;
     }
-    .menu-show {
-      left: 0;
-    }  
 
+    .menu-item {
+      padding-bottom: $MENU-ITEM-SPACING;
+      font-size: $MENU-TITLE-SIZE;
+      font-weight: 300;
+      text-transform: none;
+      letter-spacing: $MENU-LETTER-SPACING;
+      line-height: $MENU-LINE-HEIGHT;
+      width: 32%;
+      word-spacing: 0px !important;
 
-    #navbar {
-         display: none !important;
-         width: 0px;
+      &:visited {
+        color: $MENU-TEXT-COLOR;
       }
 
-    #main-div {
-        width: 90% !important;
+      &:hover {
+        color: $MENU-TEXT-HOVER-COLOR;
+      }
     }
 
-    .backgroundindex {
-        //background-image:url('../assets/posts/fio_mobile.gif');
-        background-color: $PALETTE5;
-        background-size:100%;
-        background-repeat:no-repeat;
-        background-attachment: fixed;
-        width:100%;
-        }
+    .menu-title {
+      padding-bottom: 0 * $MENU-ITEM-SPACING;
+      font-size: $MENU-TITLE-SIZE;
+      writing-mode: horizontal-tb !important;
+      text-orientation: sideways;
+    }
 
-    h4 {
-         text-align: left;
-         margin-left: 0;
 
-        }
-      
+   .social {
+      font-size: 1.2 * $MENU-TITLE-SIZE;
+    }
+
+    .menu-subtitle {
+      padding-top: 1 * $MENU-ITEM-SPACING;
+      font-size: $MENU-SUBTITLE-SIZE;
+
+      &:hover {
+        color: $MENU-TEXT-COLOR;
+      }
+    }
+
+    .menu-item-post, .menu-item-page {
+      font-size: $MENU-ITEM-SIZE;
+        font-weight: normal;
+      }
+    }
+
 }
+    
+    
 //END MOBILE NAVIGATION
-*/
+
 
 .collapsible{
   cursor: s-resize;
