@@ -12,14 +12,7 @@ INCLUIR :
 _ PORTIFOLIO
 _ WORKSHOPS
 _ SILO
-
-<script>
-    $(document).ready(function(){
-    $('.markdown-block .sqs-block-content h3').css('cursor','pointer');
-    $(".markdown-block .sqs-block-content h3").nextUntil("h3").slideToggle();
-    $(".markdown-block .sqs-block-content h3").click(function() {$(this).nextUntil("h3").slideToggle();});
-    });
- </script>
+_ TEXTS
 
 Since 2007, Sara Lana has developed projects of an interdisciplinary nature related to sound, movement, music and electronic art. Among her recent works are the creation of interactive video-scenarios for concerts by [Boreal][1], [Kristoff Silva][2], [Antonio Loureiro][4], [Marcos Braccini][5] and [Leonora Weissman][6], shows presented in different theaters and cultural spaces, such as [Inhotim ][7](Center for Contemporary Art), Bescanó Theater (Catalunya), SESC Palladium (Belo Horizonte), Teatro Ipanema (Rio de Janeiro) and SESC Vila Mariana (São Paulo).
 

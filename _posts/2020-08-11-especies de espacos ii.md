@@ -1,6 +1,6 @@
 ---
 title: 'espécies de espaços ii'
-who: Sara Lana
+who: 
 type: impressão digital em vidro
 menu: true
 where: Museu de Arte da Pampulha | Belo Horizonte | MG
@@ -8,12 +8,11 @@ data: 2019
 ref: especies-de-espacos-ii
 permalink: especies-de-espacos-ii
 swipebox: ede2
-thanks: Hortência Abreu, Luis Rodrigo (Artmosphere), Flávia Peluzzo, Clarice G. Lacerda, Félix Blume, Flaviana Lassan.
+thanks: Hortência Abreu, Luis Rodrigo (Artmosphere), Flávia Peluzzo, Clarice G. Lacerda, Félix Blume, Flaviana Lassan, Julia Mesquita, Francisca Caporalli, Monica Hoff.
 lang: pt
 ---
 
-
-![](../assets/posts/especiesdeespacosii.jpg)
+<img src="../assets/posts/especiesdeespacosii.jpg" class="img-border">
 <br><br>
 
 Um conjunto de imagens nos oferece a visão sobre a ocupação aparentemente inofensiva das aranhas. O dado importante sobre estas imagens é que elas são registros realizados por câmeras de vigilância domésticas do mundo inteiro. 

@@ -4,3 +4,33 @@
   name: twin-sounds
   title: Twin Sounds
   title-en: Twin Sounds
+
+- column: 1
+  order: 2
+  name: vj
+  title: vj
+  title-en: vj
+
+- column: 2
+  order: 1
+  name: cartografia
+  title: Cartografia das Memórias
+  title-en: Cartography of Memories
+  
+- column: 2
+  order: 2
+  name: vias-de-escape
+  title: Vias de Escape
+  title-en: Escape Routes
+
+- column: 3
+  order: 2
+  name: direito
+  title: Colaborações
+  title-en: Colabs
+  
+- column: 3
+  order: 1
+  name: 15-segundos
+  title: 15 segundos diários
+  title-en: 15 diary seconds

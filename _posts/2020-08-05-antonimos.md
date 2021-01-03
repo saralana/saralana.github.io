@@ -1,6 +1,6 @@
 ---
 title: 'máquina de antônimos'
-who: Sara Lana
+who: 
 type: instalação sonora
 menu: true
 where: Maquinações | SESC PIRACICABA | SP <br>
@@ -15,7 +15,7 @@ thanks: Bruno Gomes, Clarissa Neves, Eloá Mata, Esther Azevedo, Fernando Líban
 lang: pt
 ---
 
-<img src="../assets/posts/antonimos.jpeg">
+<img src="../assets/posts/antonimos.jpeg" class="img-border">
 <br><br>
 
 Um microfone grava frases faladas e um sistema troca cada uma das palavras enunciadas por seu antônimo.

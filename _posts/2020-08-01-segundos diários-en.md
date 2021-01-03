@@ -1,12 +1,14 @@
 ---
-title: '15s'
+title: '15 diary seconds'
 menu: true
+type: sound gifs
 lang: en
-permalink: '/en/segundos-diários/'
+layout: post-other
+data: 2014 ~ today
+permalink: '/en/15-segundos/'
 ref: 15segundos
 ---
 
-sound gifs
 
 <div class="video-grid">
     {% for video in site.data.segundosdiarios %} 

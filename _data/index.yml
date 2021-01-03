@@ -11,11 +11,12 @@
   title: Mutt Dogs
   title-en: Mutt Dogs
 
-- column: 3
+- column: 1
   order: 3
-  name: radio-mondial
-  title: Radio Mondial
-  title-en: Radio Mondial
+  name: natal
+  title: Natal
+  title-en: Christmas
+
 
 - column: 2
   order: 1
@@ -31,10 +32,10 @@
 
 - column: 2
   order: 3
-  name: natal
-  title: Natal
-  title-en: Christmas
-  
+  name: radio-mondial
+  title: Radio Mondial
+  title-en: Radio Mondial
+
 - column: 3
   order: 1
   name: pontos-cegos
@@ -46,8 +47,8 @@
   name: especies-de-espacos-1
   title: Espécies de Espaços I
   title-en: Species of Spaces I
-
-- column: 1
+  
+- column: 3
   order: 3
   name: especies-de-espacos-3
   title: Espécies de Espaços III

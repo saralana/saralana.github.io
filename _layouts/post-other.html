@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    {% include head.html %}
+    {% include meta.html %}
+  </head>
+  <div id="left"></div>
+  <div id="right"></div>
+  <div id="top"></div>
+  <div id="bottom"></div>
+  
+  <body id="palette2">
+        <div id="main-div-other">
+              <div id="other">
+                {% unless page.permalink == '/' %}
+                  <div class="post-title">{{ page.title }}</div>
+                  <br>
+                  <b>{{ page.who }}</b>
+                  <p>{{ page.type }}</p>
+                  <b>{{ page.data }}</b>
+                {% endunless %}
+                <br><br><br>
+                <content>
+                  {{ content }}
+                  {% include swipebox.html %}
+                </content>
+                  <br>
+                  <hr>
+                  <br>
+            {% case page.lang %}
+                {% when 'en' %}
+                  <b>Exhibitions:</b>
+                  <p>{{ page.where }}</p>
+                  <br>
+                {% else %}
+                  <b>Apresentações:</b>
+                  <p>{{ page.where }}</p>
+                  <br>
+                  {% endcase %}
+                </div>
+        </div>
+        {% include navbar.html %}
+  </body>
+</html>

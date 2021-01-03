@@ -21,8 +21,6 @@ s {
 }
 
 hr {
-    color:$PALETTE5;
-    background-color:$PALETTE5;
     display: block;
     height: 3px;
     unicode-bidi: isolate;
@@ -69,17 +67,12 @@ a {
 body {
   display: flex;
   flex-direction: row;
-
   font-family: $FAMILY-SANS;
   font-size: 1.1rem;
-
   margin: 0;
   padding: 0;
   min-height: 100vh;
-
-  background-color: $PALETTE1;
-  color: $TEXT-COLOR; 
-    height: 100%; 
+  height: 100%; 
 }
 
 h4 {
@@ -88,41 +81,63 @@ h4 {
     font-size: 14px;
     letter-spacing: .07em !important;
     line-height: 1.5em !important;
-    color: black !important;
-    background-color: $MENU-TEXT-HOVER-COLOR !important;
     width: 75%;
     margin-left: auto;
 }
 
 .background404 {
-    //background-image:url('../assets/posts/404.gif'); 
-    background: $PALETTE1 !important;
-    color: $PALETTE2;
-   // background-attachment: fixed;
-    width:100%;
+    background-color: $PALETTE5 !important;
+    color: $PALETTE1;
+    font-size: 2em;
+    text-transform: uppercase;
+    font-weight: 700;
+    ::selection {
+      background: $PALETTE5;
+      color: $PALETTE1;
     }
+    width:100%;
+    
+      display: block;
+      min-height: 100%;
+      padding-left: 7%;
+      padding-right: 10%;
+      padding-top: 4%;
+      padding-bottom: 4%;
+}
 .index {
      //background-image:url('../assets/posts/fio_mobile.gif');
     //background-size:100%;
     //background-repeat:no-repeat;
     //background-attachment: fixed;
     background-color: $PALETTE1;
-    color: $PALETTE5;
+    color: $PALETTE2;
+    font-size: 1.3em;
+    text-transform: lowercase;
+    font-weight: 700;
     ::selection {
       background: $PALETTE5;
-      color: $PALETTE2;
+      color: $PALETTE1;
     }
     width:100%;
 }
 .other {
     background-color: $PALETTE2;
-    color: $PALETTE5;    
+    color: $PALETTE1;
+    line-height: 60px;
+    font-size: 1.3em;
+    text-transform: lowercase;
+    font-weight: 700;
     ::selection {
       background: $PALETTE5;
       color: $PALETTE2;
     }
     width:100%;
-    padding: 7%;
+        
+    img:hover {
+        opacity: 0.8;
+    }
+    
+
 }
 .texts {
     background-color: $PALETTE3;
@@ -151,23 +166,40 @@ h4 {
 .background{
   background-color: #fffaff;
 }
-
+#palette1{
+   color: $PALETTE2 !important;
+        background-color:$PALETTE1;
+}
+#palette2{
+   color: $PALETTE1 !important;
+        background-color:$PALETTE2;
+}
+#palette4{
+   color: $PALETTE2 !important;
+        background-color:$PALETTE4;
+}
 .palette1{
    background-color: $PALETTE1; 
-   color: $PALETTE5 !important; 
+   color: $PALETTE2 !important;
+    hr {    
+        color:$PALETTE2;
+        background-color:$PALETTE2;
+    }
 }
 .palette1:hover{
    background-color: $PALETTE5; 
-   color: $PALETTE1 !important; 
+   color: $PALETTE1 !important;
+   transition: color $TRANSITION-PERIOD linear;
 }
 .palette2{
    background-color: $PALETTE2; 
-   color: $PALETTE4 !important; 
+   color: $PALETTE1 !important; 
 }
 
 .palette2:hover{
    background-color: $PALETTE5; 
    color: $PALETTE1 !important; 
+    transition: color $TRANSITION-PERIOD linear;
 }
 
 .palette3{
@@ -178,6 +210,7 @@ h4 {
 .palette3:hover{
    background-color: $PALETTE5; 
    color: $PALETTE1 !important; 
+    transition: color $TRANSITION-PERIOD linear;
 }
 .palette4{
    background-color: $PALETTE4; 
@@ -186,7 +219,8 @@ h4 {
 
 .palette4:hover{
    background-color: $PALETTE5; 
-   color: $PALETTE1 !important; 
+   color: $PALETTE1 !important;
+    transition: color $TRANSITION-PERIOD linear;
 }
 #top, #bottom, #left, #right {
   z-index:1000;
@@ -264,7 +298,7 @@ h4 {
  display: none;
 }
 
-#selectedworks, #texts, #colabs, #other, #about {
+#selectedworks, #texts, #colabs, #other2, #about2 {
   z-index:1000;
   height: 20%;
 	position: fixed;
@@ -287,11 +321,11 @@ h4 {
     background: blue;
     top: 40%;
   }
-	#other {
+	#other2 {
     background: gold;
     top: 60%;
   }	
-  #about {
+  #about2 {
     background: $PALETTE5;
     bottom: 0;
   }
@@ -320,7 +354,7 @@ h4 {
 
 .menu-language-option-selected {
   font-size: 12px;
-  color: $PALETTE4;
+  color: $PALETTE2;
 }
 
 .nariz{
@@ -608,17 +642,59 @@ h4 {
  // position: fixed;
 }
 
+#main-div-other {
+  display: block;
+  //box-sizing: border-box;
+  width:100%;
+  min-height: 100%;
+  background-color: $PALETTE2;
+  padding-left: 1%;
+  padding-right: 10%;
+  padding-top: 4%;
+  padding-bottom: 4%;
+ // z-index: 50;
+ // position: fixed;
+}
+
+#main-div-about {
+  display: block;
+  //box-sizing: border-box;
+  width:100%;
+  min-height: 100%;
+  background-color: $PALETTE4;
+  padding-left: 1%;
+  padding-right: 20%;
+  padding-top: 4%;
+  padding-bottom: 4%;
+ // z-index: 50;
+ // position: fixed;
+}
+
 #post {
     background-color: $PALETTE1;
+    color:  $PALETTE2;
     width: 80%;
     padding-top: 3%;
     padding-left: 7%;
     padding-bottom: 7%;
+    
+    h4 h3 h2 h1{
+    color:  $PALETTE2 !important; 
+    }
+    
+    a{
+    color:  $PALETTE2; 
+        font-weight: 600;
+    }
 
-
+    hr{
+            color:$PALETTE2;
+        background-color:$PALETTE2;
+    }
+    
   .post-title {
     font: bold $TITLE-SIZE $FAMILY-SANS;
-    color: $TITLE-COLOR;
+    color: $PALETTE2;
     text-transform: lowercase;
     text-align: left;
   }
@@ -637,6 +713,84 @@ h4 {
     max-height: 78vh;
     border-radius: 1px;
     }
+    
+    .img-border{
+        border: 7px solid $PALETTE2;
+    } 
+        
+    iframe{
+      border: 7px solid $PALETTE2;  
+    }
+}
+
+
+
+#other {
+    background-color: $PALETTE2;
+    color:  $PALETTE1;
+    width: 80%;
+    padding-top: 3%;
+    padding-left: 7%;
+    padding-bottom: 7%;
+    
+    h4 h3 h2 h1{
+    color:  $PALETTE2 !important; 
+    }
+    
+    a{
+    color:  $PALETTE1; 
+        font-weight: 600;
+    text-transform: lowercase;
+        
+    }
+
+    hr{
+        color:$PALETTE1;
+        background-color:$PALETTE1;
+    }
+    
+  .post-title {
+    font: bold $TITLE-SIZE $FAMILY-SANS;
+    color: $PALETTE1;
+    text-transform: lowercase;
+    text-align: left;
+  }
+
+  .post-where {
+    font: $TITLE-SIZE*0.5 $FAMILY-SANS;
+    color: $TITLE-COLOR;
+    text-align: left;
+    padding-left: 5%;
+  }
+
+  img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    max-height: 78vh;
+    border-radius: 1px;
+    }
+
+    .img-border{
+        border: 7px solid $PALETTE1;
+    } 
+    
+    iframe{
+      border: 7px solid $PALETTE1;  
+    }
+}
+
+
+svg{   
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    max-height: 78vh;
+    fill: $PALETTE1;
+}
+
+svg:hover {
+  fill: $PALETTE4;
 }
 
 #swipebox-gallery {
@@ -660,7 +814,7 @@ h4 {
 
 
 .video-wrapper-16x9 {
-  padding-bottom: 100%;
+  padding-bottom: 50%;
 }
 
 .audio-wrapper {
@@ -668,7 +822,6 @@ h4 {
   position: relative;
   margin: 1rem auto;
   height: 0;
-  overflow: hidden;
   width: 100%;
 }
 
@@ -677,7 +830,6 @@ h4 {
   position: relative;
   margin: 1rem auto;
   height: 0;
-  overflow: hidden;
   width: 30%;
   height: 30%;
 }
@@ -686,8 +838,7 @@ h4 {
   position: relative;
   margin: 1rem auto;
   height: 0;
-  overflow: hidden;
-  width: 80%;
+  width: 90%;
   height: 100%;
 }
 
@@ -695,7 +846,6 @@ h4 {
   position: relative;
   margin: 1rem auto;
   height: 0;
-  overflow: hidden;
   width: 100%;
 }
 
@@ -711,7 +861,7 @@ iframe {
     top:0;
     left: 0;
     width: 100%;
-    //height: 100%;
+    height: 100%;
 }
 
 
@@ -738,7 +888,10 @@ iframe {
   //margin-bottom: 20%;
   vertical-align: middle;
   width: 100%;
-  padding-top: 20%;
+}
+
+.space{
+    padding-top: 20%;
 }
 
 /* Responsive layout - makes a two column-layout instead of four columns */
@@ -762,6 +915,14 @@ iframe {
 /* ------------- HOVER EFFECT------------ 
 https://codepen.io/QDeltaE/pen/VWGYOB*/
 
+.static2 {
+  position:absolute;
+  background-color: $PALETTE2;
+  z-index:3;
+  width: 22.5%;
+  padding-top:0px;
+  color:transparent;
+}
 
 .static22 {
   position:absolute;
@@ -779,6 +940,11 @@ https://codepen.io/QDeltaE/pen/VWGYOB*/
       z-index:3;
       width: 35.5%;
     }
+    .static2 {
+      position:absolute;
+      z-index:3;
+      width: 35.5%;
+    }
 }
 
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
@@ -789,6 +955,10 @@ https://codepen.io/QDeltaE/pen/VWGYOB*/
 }
 
 .static22:hover {
+  opacity:0;
+}
+
+.static2:hover {
   opacity:0;
 }
 

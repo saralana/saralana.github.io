@@ -1,6 +1,6 @@
 ---
 title: 'meute'
-who: Sara Lana
+who: 
 type: dogs radio transmitter
 menu: true
 where: residência no JA.CA | MG | BRASIL
@@ -12,7 +12,7 @@ thanks: Bruno Rios, Clarice G. Lacerda, Daniel Toledo,Félix Blume, Francisca Ca
 lang: en
 ---
 
-<img src="../assets/posts/mat6.jpeg">
+<img src="../assets/posts/mat6.jpeg" class="img-border">
 <br><br>
 
 A soundscape listening of Jardim Canadá | MG | BR from the sonorous perspective of the neighborhood's mutt dogs.

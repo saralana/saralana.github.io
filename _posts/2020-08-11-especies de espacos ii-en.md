@@ -1,6 +1,6 @@
 ---
 title: 'species of spaces ii'
-who: Sara Lana
+who: 
 type: digital printing on glass
 menu: true
 where: Pampulha Art Museum | Belo Horizonte | BRAZIL
@@ -12,8 +12,7 @@ thanks: Hortência Abreu, Luis Rodrigo (Artmosphere), Flávia Peluzzo, Clarice G
 lang: en
 ---
 
-
-![](../assets/posts/especiesdeespacosii.jpg)
+<img src="../assets/posts/especiesdeespacosii.jpg" class="img-border">
 <br><br>
 
 

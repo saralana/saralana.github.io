@@ -1,6 +1,6 @@
 ---
 title: 'antonimous machine'
-who: Sara Lana
+who: 
 type: sound installation
 menu: true
 where: Maquinações | SESC PIRACICABA | SP <br>
@@ -15,7 +15,7 @@ thanks: Bruno Gomes, Clarissa Neves, Eloá Mata, Esther Azevedo, Fernando Líban
 lang: en
 ---
 
-<img src="../assets/posts/antonimos.jpeg">
+<img src="../assets/posts/antonimos.jpeg" class="img-border">
 <br><br>
 
 A microphone records spoken phrases and a system, programmed as an javascript browser extension, exchanges all uttered words by its antonyms. The inverted phrase is propagated by a wall of speakers collected from scraps of obsolete objects. As always, old media reverberating the opposite of what we mean.

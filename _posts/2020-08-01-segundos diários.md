@@ -1,33 +1,19 @@
 ---
-title: '15s'
+title: '15 segundos diários'
 menu: true
 lang: pt
+layout: post-other
+type: gifs sonoros
+data: 2014 ~ hoje
+permalink: '/15-segundos/'
 ref: 15segundos
 ---
 
-gifs sonoros
 
-<br>
 <div class="video-grid">
-<div class="video-wrapper-1x1">     
-  <iframe src="https://player.vimeo.com/video/108293396?loop=1&title=0&byline=0&portrait=0" width="640" height="640" frameborder="0" ></iframe>
-</div>
-<div class="video-wrapper-1x1">     
-  <iframe src="https://player.vimeo.com/video/108292425?loop=1&title=0&byline=0&portrait=0" width="640" height="640" frameborder="0" ></iframe>
-</div>
- <div class="video-wrapper-1x1">     
-  <iframe src="https://player.vimeo.com/video/108292416?loop=1&title=0&byline=0&portrait=0" width="640" height="640" frameborder="0" ></iframe>
-</div>
- <div class="video-wrapper-1x1">     
-  <iframe src="https://player.vimeo.com/video/108113410?loop=1&title=0&byline=0&portrait=0" width="640" height="640" frameborder="0" ></iframe>
-</div>
- <div class="video-wrapper-1x1">     
-  <iframe src="https://player.vimeo.com/video/108293394?loop=1&title=0&byline=0&portrait=0" width="640" height="640" frameborder="0" ></iframe>
-</div>
- <div class="video-wrapper-1x1">     
-  <iframe src="https://player.vimeo.com/video/108113408?loop=1&title=0&byline=0&portrait=0" width="640" height="640" frameborder="0" ></iframe>
-</div>
- <div class="video-wrapper-1x1">     
-  <iframe src="https://player.vimeo.com/video/113092182?loop=1&title=0&byline=0&portrait=0" width="640" height="640" frameborder="0" ></iframe>
-</div>
+    {% for video in site.data.segundosdiarios %} 
+      <div class="video-wrapper-1x1">     
+        <iframe src="https://player.vimeo.com/video/{{ video.videonumber }}?loop=1&title=0&byline=0&portrait=0" width="640" height="640" frameborder="0" ></iframe>
+      </div>
+    {% endfor %}
 </div>

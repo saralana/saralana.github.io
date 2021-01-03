@@ -9,15 +9,17 @@
   <div id="top"></div>
   <div id="bottom"></div>
   
- <body> 
+ <body id="palette1"> 
         <div id="main-div-index"> 
                 <div class="index">
                     <content>
                       {{ content }}
+                        <hr>
                       {% include swipebox.html %}
                     </content>
                 </div> 
          </div>   
+
         {% include navbar.html %}
  </body>
 </html>

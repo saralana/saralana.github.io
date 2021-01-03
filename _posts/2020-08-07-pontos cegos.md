@@ -1,6 +1,6 @@
 ---
 title: 'pontos cegos'
-who: Sara Lana
+who: 
 type: Detecção e mapeamento de câmeras de vigilância 
 menu: true
 where: redBull Station | São Paulo<br>
@@ -28,10 +28,10 @@ O aparato criado é também dotado de um GPS e ao detectar uma câmera, suas coo
 
 <div class="row">
   <div class="column">
-    <img src="../assets/posts/a-pontoscegos-9.jpg">
+    <img src="../assets/posts/a-pontoscegos-9.jpg" class="img-border">
   </div>
   <div class="column">
-    <img src="../assets/posts/b-pontoscegos-9.jpg">
+    <img src="../assets/posts/b-pontoscegos-9.jpg" class="img-border">
   </div>
 </div>
 
@@ -41,10 +41,10 @@ O aparato criado é também dotado de um GPS e ao detectar uma câmera, suas coo
 
 <div class="row">
   <div class="column">
-    <img src="../assets/posts/a-pontoscegos-7.jpg">
+    <img src="../assets/posts/a-pontoscegos-7.jpg" class="img-border">
   </div>
   <div class="column">
-    <img src="../assets/posts/b-pontoscegos-7.jpg">
+    <img src="../assets/posts/b-pontoscegos-7.jpg" class="img-border">
   </div>
 </div>
 

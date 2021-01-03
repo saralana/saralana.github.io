@@ -1,6 +1,6 @@
 ---
 title: 'Blind Points'
-who: Sara Lana
+who: 
 type: Surveillance cameras deteccion and mapping 
 menu: true
 where: redBull Station | São Paulo<br>
@@ -28,10 +28,10 @@ Hack security cameras and reveal those devices increasingly discreets and camouf
 A helmet capable of automatically detect security cameras and reveal to its user when she/he is being shot. The device is also equipped with a GPS: when a camera is detected, its coordinates are recorded and stored on a map.
  <div class="row">
   <div class="column">
-    <img src="../assets/posts/a-pontoscegos-9.jpg">
+    <img src="../assets/posts/a-pontoscegos-9.jpg" class="img-border">
   </div>
   <div class="column">
-    <img src="../assets/posts/b-pontoscegos-9.jpg">
+    <img src="../assets/posts/b-pontoscegos-9.jpg" class="img-border">
   </div>
 </div>
 
@@ -44,10 +44,10 @@ Development of a route plotter that allows you to trace routes from a point A to
 Creation of tools for bluring images recorded by video surveillance cameras.
 <div class="row">
   <div class="column">
-    <img src="../assets/posts/a-pontoscegos-7.jpg">
+    <img src="../assets/posts/a-pontoscegos-7.jpg" class="img-border">
   </div>
   <div class="column">
-    <img src="../assets/posts/b-pontoscegos-7.jpg">
+    <img src="../assets/posts/b-pontoscegos-7.jpg" class="img-border">
   </div>
 </div>
 <br>

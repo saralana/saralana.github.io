@@ -9,6 +9,7 @@
     {% case p.lang %}
       {% when 'pt' %}{% assign ptLink = p.url %}
       {% when 'en' %}{% assign enLink = p.url %}
+      {% when 'es' %}{% assign enLink = p.url %}
     {% endcase %}
   {% endif %}
 {% endfor %}
@@ -23,6 +24,12 @@
       <a href="{{ site.baseurl }}{{ ptLink }}"><div class="menu-language-option">PT</div></a><br>
       <div class="menu-language-option"> – </div><br>
       <div class="menu-language-option menu-language-option-selected">EN</div>
+    {% when 'es' %}
+      <a href="{{ site.baseurl }}{{ ptLink }}"><div class="menu-language-option">PT</div></a><br>
+      <div class="menu-language-option"> – </div><br>
+      <a href="{{ site.baseurl }}{{ enLink }}"><div class="menu-language-option">EN</div></a>
+      <div class="menu-language-option"> – </div><br>
+      <div class="menu-language-option menu-language-option-selected">ES</div>
   {% endcase %}
 </div>
 
