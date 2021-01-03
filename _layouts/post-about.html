@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+ 
+ <html>
+  <head>
+    {% include head.html %}
+    {% include meta.html %}
+  </head>
+
+  <div id="left"></div>
+  <div id="right"></div>
+  <div id="top"></div>
+  <div id="bottom"></div>
+  
+ <body id="palette4">  
+     <div id="main-div-about"> 
+            <div class="about">
+                <div class="post-title">{{ page.title }}</div>
+                <content>
+                  {{ content }}
+                  {% include swipebox.html %}
+                </content>
+     </div>
+         </div>
+   
+        {% include navbar.html %}
+ </body>
+</html>
+

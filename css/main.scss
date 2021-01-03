@@ -50,6 +50,73 @@ a {
   }
 }
 
+.social{
+    padding-left: 0px;
+}
+
+.fa {
+  font-size: 20px !important;
+  padding-bottom: 12px;
+  width: 35px;
+  text-align: center;
+  text-decoration: none;
+  margin: 0px 0px;
+  border-radius: 50%;
+  background: transparent;
+  color: $PALETTE2 !important;
+}
+
+a.fa:visited{
+  color: $PALETTE2 !important;
+}
+
+.fa:hover {
+  color: $PALETTE5 !important;
+  background: transparent;
+}
+
+.fa-facebook {
+    color: $PALETTE2 !important;
+  background: transparent;
+}
+
+.fa-twitter {
+    color: $PALETTE2 !important;
+  background: transparent;
+}
+
+.fa-whatsapp {
+    color: $PALETTE2 !important;
+  background: transparent;
+}
+
+.fa-instagram {
+    color: $PALETTE2 !important;
+  background: transparent;
+}
+
+.fa-soundcloud {
+    color: $PALETTE2 !important;
+  background: transparent;
+}
+
+.fa-vimeo {
+  color: $PALETTE2;
+  background: transparent;
+}
+
+.fa-vimeo:hover {
+  color: $PALETTE5 !important;
+  background: transparent;
+}
+
+.fa-github {
+  color: $PALETTE2 !important;
+  background: transparent;
+}
+
+
+
 .margem{  
   border-style: solid;
   border-width: 20px;
@@ -636,10 +703,17 @@ h4 {
   background-color: $PALETTE1;
   padding-left: 1%;
   padding-right: 10%;
-  padding-top: 4%;
+  padding-top: 8%;
   padding-bottom: 4%;
  // z-index: 50;
  // position: fixed;
+    @media only screen and (max-width: 600px) {
+    padding-left: 8%;
+    padding-right: 0%;
+    padding-top: 20%;
+    padding-bottom: 4%;
+    }
+        
 }
 
 #main-div-other {
@@ -654,6 +728,12 @@ h4 {
   padding-bottom: 4%;
  // z-index: 50;
  // position: fixed;
+ @media only screen and (max-width: 600px) {
+    padding-left: 10%;
+    padding-right: 0%;
+    padding-top: 4%;
+    padding-bottom: 4%;
+  }
 }
 
 #main-div-about {
@@ -668,6 +748,40 @@ h4 {
   padding-bottom: 4%;
  // z-index: 50;
  // position: fixed;
+    .post-title {
+    font: bold $TITLE-SIZE $FAMILY-SANS;
+    color: $PALETTE2;
+    text-transform: lowercase;
+    text-align: left;
+  }
+    hr{
+        color: $PALETTE2;
+        background-color: $PALETTE2;
+    }
+    .text-selection {
+        color: $PALETTE1 !important;
+        background: $PALETTE2;
+      display: inline;
+    }
+    .selection {
+      color: $PALETTE2;
+      display: inline;
+         a {
+             color: $PALETTE4 !important;
+             background: $PALETTE2;
+        }
+         a:hover {
+             color: $PALETTE1 !important;
+             background: $PALETTE2;
+        }
+    }
+    
+    a {
+      color: $PALETTE2;
+      font-weight: 700;
+    }
+    
+
 }
 
 #post {
@@ -941,17 +1055,27 @@ https://codepen.io/QDeltaE/pen/VWGYOB*/
       width: 35.5%;
     }
     .static2 {
-      position:absolute;
-      z-index:3;
+      opacity:1;
       width: 35.5%;
+    } 
+    .active2 {
+      opacity:0;
     }
 }
 
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
   .static22 {
-  opacity:0;
-}
+      opacity:0;
+    }  
+    .static2 {
+      opacity:1;
+      width: 71%;
+    } 
+    .active2 {
+      opacity:0;
+    }
+
 }
 
 .static22:hover {
@@ -1017,4 +1141,43 @@ input[type=checkbox]:checked ~ h2 label:before {
 }
 input[type=checkbox]:checked ~ h2 ~ .sanfona {
   max-height: 80px;
+}
+
+button{ 
+  font-family: $FAMILY-SANS;
+}
+
+/*------- BOTOES ---------*/
+.btn {
+  box-sizing: border-box;
+  appearance: none;
+  background-color: transparent;
+  border: 1.5px solid  $PALETTE2;
+  border-radius: 0em;
+  color: $PALETTE2;
+  cursor: pointer;
+  display: inline;
+  align-self: center;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1;
+  margin: 10px;
+  padding: 1em 2em;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 600;
+
+  &:hover,
+  &:focus {
+    color:  $PALETTE4;
+    outline: 0;
+  }
+}
+
+.first {
+  transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+  &:hover {
+    box-shadow: 0 0 40px 40px  $PALETTE2 inset;
+  }
 }

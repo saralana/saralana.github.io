@@ -4,40 +4,45 @@ permalink: '/about/'
 menu: true
 layout: about
 lang: en
-category: about
 ref: bio
 ---
 
-INCLUIR : 
-_ PORTIFOLIO
-_ WORKSHOPS
-_ SILO
-_ TEXTS
+<div class="selection">
+<a href="../assets/docs/portifolio.pdf" target="_blank">&nbsp;portifólio&nbsp;</a>
+<a href="../assets/docs/cv-en.pdf" target="_blank">&nbsp;cv&nbsp;</a>
+</div>
 
-Since 2007, Sara Lana has developed projects of an interdisciplinary nature related to sound, movement, music and electronic art. Among her recent works are the creation of interactive video-scenarios for concerts by [Boreal][1], [Kristoff Silva][2], [Antonio Loureiro][4], [Marcos Braccini][5] and [Leonora Weissman][6], shows presented in different theaters and cultural spaces, such as [Inhotim ][7](Center for Contemporary Art), Bescanó Theater (Catalunya), SESC Palladium (Belo Horizonte), Teatro Ipanema (Rio de Janeiro) and SESC Vila Mariana (São Paulo).
+<br>
 
-[7]: http://www.inhotim.org.br/
-[6]: /adentro-floresta-afora_
-[5]: /dures-martini-lana_
-[4]: /antonio-loureiro-so
-[2]: /deriva
-[1]: /boreal_
+**Sara Lana (1988, Belo Horizonte)** has an academic career traced in mathematics, coding and engineering schools. Since 2007 she develops projects permeated by sound, art and technology.
 
-She was part of the technical team of Marginália + Lab, Laboratory of Art and Technology and participated in Interactivos'13 and Interactivos'16 that happened in[ Nuvem ][8]- Rural Station of Art and Technology. She worked at the company Geraes Assistive Technologies, where she dedicated herself to the development of technological projects for the physically disabled persons, highlighting the [Tix Electronic Panel][9], a computer keyboard for people with mobility limitations. 
+In general, her work proposes a reflection on some dysfunctionalities of the hyper-watched society in which we live. Her research is also oriented to the development of gadgets for technological empowerment. She was a resident artist in many science, art and technology spaces, such as Bolsa Pampulha, and presented her work in Brazil, Chile, Mexico, Spain and France.
 
-[9]: http://tix.geraestec.com.br/geraestec/
-[8]: http://nuvem.tk
+Among her recent projects stands out 'Species of Spaces', a 3 works series using surveillance camera recordings and 'Pontos cegos' (blind spots), a counter surveillance system for automatic detection of security cameras and mapping of unguarded points in big cities (underway in São Paulo and in Mexico City). 'Matilha', another recent work, is one multi-channel radio with real-time recorded and transmitted sounds by street dogs and 'Mutt Dogs', a sound piece produced for the french radio Arte Radio, which was screened in avant-première at Centre Pompidou.
 
-In 2015 she was a resident artist of the IX [Tsonami Sound Art Festival][10], Valparaiso, Chile, with the project 'Vias de Escape', when she built listening paraphernalia for mechanical amplification of sound. She also participated in the "Debt System Machine" project, in partnership with the cycle of lectures “Devagar" and with the coordinatrice of the Auditoria Cidadã da Dívida, Maria Lúcia Fattorelli. The proposal was to build a demonstration [machine of the Debt System in Brazil][11].
 
-[11]: /promessedivida
-[10]: http://www.tsonami.cl/
 
-In 2016 she developed for the artist Nuno Ramos an automation system for his work ‘[Direito à preguiça][12]', CCBB - Centro Cultural Banco do Brasil. In the same year she taught Arduino courses at many SESCs in Brazil and was a artist resident in the Red Bull Station, at the Hacker Residence, when she developed the 'Blind Points of SP' project, a system for automatic detection of security cameras and mapping of unguarded points in the center of São Paulo.
+<div class="selection">
+She also promotes <a href="https://silo.org.br/" target="_blank">&nbsp;workshops&nbsp;</a> related to her projects.
+</div>
 
-[12]: /direitoapreguica
-[10]: /pontos-cegos
+<br>
 
-Her last project was realized during the artistic residency in JA.CA_Art and Technology Center. The work ‘[Matilha][13]’ was the implementation of a multiple channel radio, with sounds recorded and transmitted in real time by mutt dogs.
+---
 
-[13]: /matilha
+<br>
+<div class="selection">
+Sara is executive director of <a href="https://silo.org.br/" target="_blank">&nbsp;Silo – Art and Rural Latitude&nbsp;</a>, a Civil Society Organisation of Public Interest dedicated to fostering and publicising cultural projects in rural areas, with the aim of bringing about transdisciplinary exchange between different areas – above all art, the sciences and technologies – and stimulating exchange between intuitive techniques and scientific knowledge.
+</div>
+
+<br>
+
+---
+
+
+<br>
+<div class="selection">
+Read here <a href="../en/textos" target="_blank">&nbsp;texts and publications&nbsp;</a> about her projects.
+</div>
+
+<br>

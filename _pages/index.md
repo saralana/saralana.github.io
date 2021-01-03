@@ -5,7 +5,7 @@ permalink: '/'
 lang: pt
 ref: index
 ---
-<br>
+
 <div class="row">
      <div class="column"> 
         {% assign project = site.data.index | where: 'column', '1' | sort: 'order' %}
