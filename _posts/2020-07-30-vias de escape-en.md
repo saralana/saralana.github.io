@@ -31,5 +31,11 @@ Se trata también de habitar la escucha como un proceso activo, para sondear sus
 
 ---
 
-<br>
+
+[trecho do vídeo pelo festival](https://www.youtube.com/watch?v=nH33VomEVok){:target="_blank"}, gravado e editado por Maceteros Producciones
+    _Arnaud Potin(dirección)
+    _Eduardo Robles (producción general)
+    _Hernén Barros (producción de campo)
+
+---
 
