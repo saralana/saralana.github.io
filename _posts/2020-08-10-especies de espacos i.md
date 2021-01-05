@@ -29,6 +29,7 @@ Em Espécies de Espaços I são apresentados, em vídeo e anotações, diários 
 Indivíduos e seus gestos são eliminados para mostrar-nos o que resta de sua convivência com os objetos da casa, o deslocamento de uma planta na sala de estar, a entrada de um cachorro pela porta da frente, fazendo-nos estranhar processos naturalizados de vigilância em nosso mundo contemporâneo.
 
 Os procedimentos não são expostos ou revelados, mas há um jogo com o arquivo obtido na captura e observação dessas imagens. Por outro lado, as pessoas agem como se não estivessem sendo observadas e confiam plenamente, ou quase, na tecnologia a seu dispor.
+<br><br>
 
 ---
 
@@ -38,7 +39,7 @@ Os procedimentos não são expostos ou revelados, mas há um jogo com o arquivo 
         <div class="video-wrapper-side video-wrapper-16x9">
             <iframe src="https://player.vimeo.com/video/357138769?autoplay=1" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
         </div>
-        <br>
+        <br> <br>
         <div class="video-wrapper-side video-wrapper-16x9">
             <iframe src="https://player.vimeo.com/video/357137906?autoplay=1" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
         </div>
@@ -48,7 +49,7 @@ Os procedimentos não são expostos ou revelados, mas há um jogo com o arquivo 
         <div class="video-wrapper-side video-wrapper-16x9">
            <iframe src="https://player.vimeo.com/video/357137300?autoplay=1" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
         </div>
-        <br>
+        <br> <br>
         <div class="video-wrapper-side video-wrapper-16x9">
            <iframe src="https://player.vimeo.com/video/340265321?autoplay=1" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
         </div>

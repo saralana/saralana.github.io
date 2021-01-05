@@ -27,23 +27,23 @@ Esse trabalho faz parte de uma longa investigação realizada a partir de câmer
 
 <br>
 
----
+--- 
 
 <br>
 <div class="row">
   <div class="column">
         <div class="video-wrapper-side video-wrapper-16x9">
-            <iframe src="https://player.vimeo.com/video/358614507?autoplay=1" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+            <iframe src="https://player.vimeo.com/video/358614507?autoplay=1" width="640" height="420"  frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
         </div>
    </div>
     <div class="column">
         <div class="video-wrapper-side video-wrapper-16x9">
-           <iframe src="https://player.vimeo.com/video/358613759?autoplay=1" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+           <iframe src="https://player.vimeo.com/video/358613759?autoplay=1" width="640" height="420"  frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
         </div>
     </div>
     <div class="column">
         <div class="video-wrapper-side video-wrapper-16x9">
-            <iframe src="https://player.vimeo.com/video/358613381?autoplay=1" width="640" height="384" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+            <iframe src="https://player.vimeo.com/video/358613381?autoplay=1" width="640" height="360"  frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
         </div>
     </div>
     </div>

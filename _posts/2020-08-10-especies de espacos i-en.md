@@ -28,6 +28,7 @@ In Species of Spaces I, intimate journals of 5 characters are presented using ho
 Individuals and their gestures are hidden to show what remains of their living with household objects, the displacement of a plant in the living room, the entry of a dog through the front door.
 
 Security and exposure, protection and unprotection, visibility and invisibility are some of the focuses of this work, which proposes a reflection on some dysfunctionalities of the hyper-watched society in which we live.
+<br><br>
 
 ---
 
@@ -37,7 +38,7 @@ Security and exposure, protection and unprotection, visibility and invisibility 
         <div class="video-wrapper-side video-wrapper-16x9">
             <iframe src="https://player.vimeo.com/video/357138769?autoplay=1" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
         </div>
-        <br>
+        <br> <br>
         <div class="video-wrapper-side video-wrapper-16x9">
             <iframe src="https://player.vimeo.com/video/357137906?autoplay=1" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
         </div>
@@ -47,7 +48,7 @@ Security and exposure, protection and unprotection, visibility and invisibility 
         <div class="video-wrapper-side video-wrapper-16x9">
            <iframe src="https://player.vimeo.com/video/357137300?autoplay=1" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
         </div>
-        <br>
+        <br> <br>
         <div class="video-wrapper-side video-wrapper-16x9">
            <iframe src="https://player.vimeo.com/video/340265321?autoplay=1" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
         </div>

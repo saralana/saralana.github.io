@@ -19,6 +19,17 @@
                   {{ content }}
                   {% include swipebox.html %}
                 </content>
+                <br>
+                {% case page.lang %}
+                {% when 'en' %}
+                  <b>Exhibitions:</b>
+                  <p>{{ page.where }}</p>
+                  <br>
+                {% else %}
+                  <b>Apresentações:</b>
+                  <p>{{ page.where }}</p>
+                  <br>
+                  {% endcase %}
      </div>
          </div>
    

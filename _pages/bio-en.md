@@ -8,7 +8,7 @@ ref: bio
 ---
 
 <div class="selection">
-<a href="../assets/docs/portifolio.pdf" target="_blank">&nbsp;portifólio&nbsp;</a>
+<a href="../assets/docs/portifolio.pdf" target="_blank">&nbsp;portifolio&nbsp;</a>
 <a href="../assets/docs/cv-en.pdf" target="_blank">&nbsp;cv&nbsp;</a>
 </div>
 
@@ -23,7 +23,7 @@ Among her recent projects stands out 'Species of Spaces', a 3 works series using
 
 
 <div class="selection">
-She also promotes <a href="https://silo.org.br/" target="_blank">&nbsp;workshops&nbsp;</a> related to her projects.
+She also promotes <a href="../en/workshops" target="_blank">&nbsp;workshops&nbsp;</a> related to her projects.
 </div>
 
 <br>

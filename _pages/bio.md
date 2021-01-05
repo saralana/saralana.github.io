@@ -23,7 +23,7 @@ Entre seus projetos destaca-se 'Pontos Cegos’, um sistema de detecção autom�
 
 
 <div class="selection">
-Também realiza <a href="https://silo.org.br/" target="_blank">&nbsp;oficinas&nbsp;</a> com temáticas diversas relacionadas a seus projetos.
+Também realiza <a href="../workshops" target="_blank">&nbsp;oficinas&nbsp;</a> com temáticas diversas relacionadas a seus projetos.
 </div>
 
 <br>

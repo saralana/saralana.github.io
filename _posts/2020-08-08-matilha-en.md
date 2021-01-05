@@ -27,6 +27,11 @@ From a mobile station FM radio receiver, it was possible to tune to each of the 
 
 <br>
 
-['O CÃO E A CIDADE' _ DANIEL TOLEDO'S TEXT](http://www.jaca.center/o-cao-e-a-cidade-2/){:target="_blank"}
+['O CÃO E A CIDADE'](http://www.jaca.center/o-cao-e-a-cidade-2/){:target="_blank"} _ DANIEL TOLEDO'S TEXT
 
 <br>
+
+
+---
+
+
