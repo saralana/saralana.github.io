@@ -12,6 +12,8 @@
 <link rel="shortcut icon" type="image/x-icon" href="{{ site.baseurl }}/assets/favicons/favicon.ico">
 <script src="{{ site.baseurl }}/js/script.js"></script>
 
+
+  <link rel="preload" href="preload.js" as="script">
 {% if page.swipebox %}
   <link rel="stylesheet" href="{{ site.baseurl }}/css/swipebox.min.css">
   <script src="https://code.jquery.com/jquery-2.2.4.min.js"
@@ -20,3 +22,13 @@
   </script>
   <script src="{{ site.baseurl }}/js/jquery.swipebox.min.js"></script>
 {% endif %}
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-7PEGV7KJM5"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-7PEGV7KJM5');
+</script>

@@ -21,4 +21,3 @@ function openNav() {
 function closeNav() {
   document.getElementById("sidenav").style.display = "none";
 }
-  
