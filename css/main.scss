@@ -942,16 +942,32 @@ h4 {
 }
 
 .social-block{
-    display: inline;
+    @media screen and (min-width: 600px) {
+        display: inline;
+    }
     @media screen and (max-width: 600px) {
-    display: block;
+        display: block;
+        margin-left: -8px;
+    }
+}
+.barra{
+    display: inline;
+    @media screen and (min-width: 600px) {
+        color: $PALETTE2;
+            ::before {
+                content: "|";
+            }
+    }
+    @media screen and (max-width: 600px) {
+        display: inline;
+        color: $PALETTE4;
     }
 }
 
 .mobile-footer-space{
     line-height: 5px;
     @media screen and (max-width: 600px) {
-    line-height: 50px;
+        line-height: 50px;
     }
 }
 

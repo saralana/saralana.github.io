@@ -1,9 +1,10 @@
 ---
-title: 'Outros'
+title: 'outros'
 menu: true
 permalink: '/outros/'
 layout: other
 category: other
+cover: /assets/covers/twin-sounds-cover.png
 lang: pt
 ---
 
@@ -16,7 +17,7 @@ lang: pt
                 <a href="{{ site.base.url }}/{{ cover.name }}"><img src="/assets/covers/{{ cover.name }}.png"></a>
                 <div class="center">{{ cover.title }}</div>
            </div>
-                <a href="{{ site.base.url }}/{{ cover.name }}"><img class="active22" src="/assets/covers/azul/{{ cover.name }}.png" style="width:100.4%"></a>
+                <a href="{{ site.base.url }}/{{ cover.name }}"><img class="active22" src="/assets/covers/gif/{{ cover.name }}.gif" style="width:100.4%"></a>
                 <div class="center">{{ cover.title }}</div>
          <br>
         {% endfor %}
@@ -28,7 +29,7 @@ lang: pt
                 <a href="{{ site.base.url }}/{{ cover.name }}"><img src="/assets/covers/{{ cover.name }}.png"></a>
                 <div class="center">{{ cover.title }}</div>
            </div>
-                <a href="{{ site.base.url }}/{{ cover.name }}"><img class="active22" src="/assets/covers/azul/{{ cover.name }}.png" style="width:100.4%"></a>
+                <a href="{{ site.base.url }}/{{ cover.name }}"><img class="active22" src="/assets/covers/gif/{{ cover.name }}.gif" style="width:100.4%"></a>
                 <div class="center">{{ cover.title }}</div>
          <br>
         {% endfor %}
@@ -40,7 +41,7 @@ lang: pt
                 <a href="{{ site.base.url }}/{{ cover.name }}"><img src="/assets/covers/{{ cover.name }}.png"></a>
                 <div class="center">{{ cover.title }}</div>
            </div>
-                <a href="{{ site.base.url }}/{{ cover.name }}"><img class="active22" src="/assets/covers/azul/{{ cover.name }}.png" style="width:100.4%"></a>
+                <a href="{{ site.base.url }}/{{ cover.name }}"><img class="active22" src="/assets/covers/gif/{{ cover.name }}.gif" style="width:100.4%"></a>
                 <div class="center">{{ cover.title }}</div>
          <br>
         {% endfor %}

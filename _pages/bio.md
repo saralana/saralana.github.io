@@ -4,6 +4,7 @@ permalink: '/sobre/'
 menu: true
 layout: about
 lang: pt
+cover: /assets/covers/pontos-cegos.png
 ref: bio
 ---
 

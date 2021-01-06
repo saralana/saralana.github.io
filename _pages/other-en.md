@@ -1,10 +1,11 @@
 ---
-title: 'Other'
+title: 'other'
 swipebox: 
 layout: other
 permalink: '/other/'
 menu: true
 category: other
+cover: /assets/covers/twin-sounds-cover.png
 lang: en
 ---
 
@@ -17,7 +18,7 @@ lang: en
                 <a href="{{ site.base.url }}/en/{{ cover.name }}"><img src="/assets/covers/{{ cover.name }}.png"></a>
                 <div class="center">{{ cover.title-en }}</div>
            </div>
-                <a href="{{ site.base.url }}/en/{{ cover.name }}"><img class="active22" src="/assets/covers/azul/{{ cover.name }}.png" style="width:100.4%"></a>
+                <a href="{{ site.base.url }}/en/{{ cover.name }}"><img class="active22" src="/assets/covers/gif/{{ cover.name }}.gif" style="width:100.4%"></a>
                 <div class="center">{{ cover.title-en }}</div>
          <br>
         {% endfor %}
@@ -29,7 +30,7 @@ lang: en
                 <a href="{{ site.base.url }}/en/{{ cover.name }}"><img src="/assets/covers/{{ cover.name }}.png"></a>
                 <div class="center">{{ cover.title-en }}</div>
            </div>
-                <a href="{{ site.base.url }}/en/{{ cover.name }}"><img class="active22" src="/assets/covers/azul/{{ cover.name }}.png" style="width:100.4%"></a>
+                <a href="{{ site.base.url }}/en/{{ cover.name }}"><img class="active22" src="/assets/covers/gif/{{ cover.name }}.gif" style="width:100.4%"></a>
                 <div class="center">{{ cover.title-en }}</div>
          <br>
         {% endfor %}
@@ -41,7 +42,7 @@ lang: en
                 <a href="{{ site.base.url }}/en/{{ cover.name }}"><img src="/assets/covers/{{ cover.name }}.png"></a>
                 <div class="center">{{ cover.title-en }}</div>
            </div>
-                <a href="{{ site.base.url }}/en/{{ cover.name }}"><img class="active22" src="/assets/covers/azul/{{ cover.name }}.png" style="width:100.4%"></a>
+                <a href="{{ site.base.url }}/en/{{ cover.name }}"><img class="active22" src="/assets/covers/gif/{{ cover.name }}.gif" style="width:100.4%"></a>
                 <div class="center">{{ cover.title-en }}</div>
          <br>
         {% endfor %}
