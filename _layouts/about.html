@@ -14,13 +14,18 @@
  <body id="palette4">  
      <div id="main-div-about"> 
             <div class="about">
-                <div class="post-title">Sara Lana | 
-                {% include social-icons.html %}
+                <div class="post-title"> Sara Lana | 
+                    <div class="social-block">
+                        {% include social-icons.html %}
+                    </div>
                 </div>
                 <content>
                   {{ content }}
                   {% include swipebox.html %}
                 </content>
+                <div class=mobile-footer-space>
+                    <br>
+                </div>
      </div>
          </div>
    

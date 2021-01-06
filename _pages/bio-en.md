@@ -42,7 +42,7 @@ Sara is executive director of <a href="https://silo.org.br/" target="_blank">&nb
 
 <br>
 <div class="selection">
-Read here <a href="../en/textos" target="_blank">&nbsp;texts and publications&nbsp;</a> about her projects.
+<a href="../en/textos" target="_blank">&nbsp;texts and publications&nbsp;</a> about her projects.
 </div>
 
 <br>

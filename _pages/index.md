@@ -15,7 +15,7 @@ ref: index
                 <br><br>
                 <div class="center">{{ cover.title }}</div>
             </div>
-                <a href="{{ site.base.url }}/en/{{ cover.name }}"><img class="active22" src="/assets/covers/gif/{{ cover.name }}.gif" style="width:100.4%"></a><br><br>
+                <a href="{{ site.base.url }}/{{ cover.name }}"><img class="active22" src="/assets/covers/gif/{{ cover.name }}.gif" style="width:100.4%"></a><br><br>
                 <div class="center">{{ cover.title }}</div>
                 <br><br><br>
         {% endfor %}
@@ -27,7 +27,7 @@ ref: index
                 <a href="{{ site.base.url }}/{{ cover.name }}"><img src="/assets/covers/{{ cover.name }}.png" style="width:100%"></a><br><br>
                 <div class="center">{{ cover.title }}</div>
          </div>
-                <a href="{{ site.base.url }}/en/{{ cover.name }}"><img class="active22" src="/assets/covers/gif/{{ cover.name }}.gif" style="width:100.4%"></a>   
+                <a href="{{ site.base.url }}/{{ cover.name }}"><img class="active22" src="/assets/covers/gif/{{ cover.name }}.gif" style="width:100.4%"></a>   
                 <br><br>
                 <div class="center">{{ cover.title }}</div>
                 <br><br><br>
@@ -40,7 +40,7 @@ ref: index
           <a href="{{ site.base.url }}/{{ cover.name }}"><img src="/assets/covers/{{ cover.name }}.png" style="width:100%"></a> 
                 <br><br>
                 <div class="center">{{ cover.title }}</div></div>
-                <a href="{{ site.base.url }}/en/{{ cover.name }}"><img class="active22" src="/assets/covers/gif/{{ cover.name }}.gif" style="width:100.4%"></a>  
+                <a href="{{ site.base.url }}/{{ cover.name }}"><img class="active22" src="/assets/covers/gif/{{ cover.name }}.gif" style="width:100.4%"></a>  
                 <br><br>
                 <div class="center">{{ cover.title }}</div>
                 <br><br><br>

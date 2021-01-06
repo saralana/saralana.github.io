@@ -5,6 +5,7 @@ lang: pt
 layout: post-other
 type: gifs sonoros
 data: 2014 ~ hoje
+where: sem
 permalink: '/15-segundos/'
 ref: 15segundos
 ---
