@@ -2,15 +2,23 @@
 title: workshops
 permalink: '/en/workshops/'
 menu: true
-where: Favela Hacklab | Gambiologia | Veracruz | BH | BR<br>
-       Centro de Referência da Juventudo | BH | BR<br>
-       ThoughtWorks | São Paulo | BR<br>
-       SESC Belenzinho | São Paulo | BR<br>
-       SESC Santos | BR<br>
-       MedialabMX | Ciudad de México | MX<br>
-       CCD – Centro de Cultura Digital | La Colmena | Tlaxcala | MX<br>
-       EXA e SESC Palladium | BH | BR<br>
+where: 
+  - name: SESC Belenzinho | São Paulo | BR
+    url: sem
+  - name: SESC Santos | BR
+    url: sem
+  - name: Favela Hacklab | Gambiologia | Veracruz | BH | BR
+    url: sem
+  - name: Centro de Referência da Juventudo | BH | BR
+    url: sem
+  - name: ThoughtWorks | São Paulo | BR
+    url: sem 
+  - name: MedialabMX | Ciudad de México | MX
+    url: sem
+  - name: CCD – Centro de Cultura Digital | La Colmena | Tlaxcala | MX
+    url: sem
 layout: post-about
+cover: /assets/posts/oficinas/inst01.png
 lang: en
 ref: workshops
 ---
@@ -75,5 +83,3 @@ Electrical circuits and residential electrical installations.
   </div>
   
 <br>
-
----

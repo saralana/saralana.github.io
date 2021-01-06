@@ -3,14 +3,20 @@ title: 'antonimous machine'
 who: 
 type: sound installation
 menu: true
-where: Maquinações | SESC PIRACICABA | SP <br>
-       Maquinações | SESC CARMO | SP <br>
-       Maquinações | OI FUTURO FLAMENGO <br>
-       Maquinações | SESC PALLADIUM | MG <br>
+where: 
+    - name: Maquinações | SESC PIRACICABA | SP 
+      url: sem
+    - name: Maquinações | SESC CARMO | SP 
+      url: sem
+    - name: Maquinações | OI FUTURO FLAMENGO 
+      url:  sem
+    - name: Maquinações | SESC PALLADIUM | MG 
+      url:  sem
 data: 2018
 ref: antonimos
 permalink: /en/antonimos
 swipebox: mda
+cover: /assets/posts/antonimos.jpeg
 thanks: Bruno Gomes, Clarissa Neves, Eloá Mata, Esther Azevedo, Fernando Líbano, Gabriela Carvalho, Marcelo XY,  Marcos Lustosa, Mariana Zani, Marina Jovalangelo, Paulo Waisberg, Sara Moreno e Xande Perocco
 lang: en
 ---

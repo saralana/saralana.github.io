@@ -3,18 +3,29 @@ title: 'rádio mondial'
 who: Félix Blume e Sara Lana
 type: peça sonora
 menu: true
-where: Arte Radio (France) <br>
-    10ans de Syntone à la SCAM (Paris)<br>
-    Maison de la Poésie (Paris)<br>
-    Radio Campus Bruxelles<br>
-    Radio Borealis<br>
-    Radiophrenia Glasgow<br>
-    Sonohr Festival (Ch)<br>
-    Radio Nunc (Fr)<br>
-    Réverbération (Fr)<br>
+where: 
+    - name: Arte Radio (France)
+      url: https://www.arteradio.com/son/61660511/radio_mondial
+    - name: 10ans de Syntone à la SCAM (Paris)
+      url: sem
+    - name: Maison de la Poésie (Paris) 
+      url:  sem
+    - name: Radio Campus Bruxelles
+      url:  sem
+    - name: Radio Borealis
+      url:  http://www.borealisfestival.no/2017/radio-space-2/
+    - name: Radiophrenia Glasgow
+      url:  http://radiophrenia.scot/
+    - name: Sonohr Festival (Ch)
+      url:  https://sonohr.ch/
+    - name: Radio Nunc (Fr)
+      url:  http://www.radionunc.org/
+    - name: Réverbération (Fr)
+      url:  https://laviemanifeste.com/reverberation/?fbclid=IwAR1ELVaSTOT1FvUuKrbEMXrGrXAaJQXic1yUES0SNRMZE1pbbxKeapGQAo0
 data: 2018
 ref: radio-mondial
 permalink: /radio-mondial
+cover: /assets/posts/radiomondial.jpg
 swipebox: rml
 thanks: Abi Poulastrou, Alessandro Comodin, Alessandro Massobrio, Ana Cecilia Medina, Antonio Trullen, Benjamin Minot, Bernardo Esteves, Burcu Bilgic, Despina Panagiotopoulou, Diego Aguire, Esteban Agostin, Étienne Noiseau, Felipe Esteves, Fernando Godoy, Flora Guerra, Floriane Pochon, Frank Morgado, José Augusto Boaventura, Juanpablo Avendaño, Julian Keck, Kaori Kinoshita, Marcel Klankbeeld, Marie-Christine Cabanas, Michela Sacchetto, Mirna Castro, Pablo Saavedra, Punch Viratmalee, Richard Karcz, Samuel Blume, Thiago Hersan, Udo Noll & Yannick Dauby.
 lang: pt

@@ -3,10 +3,15 @@ title: 'species of spaces ii'
 who: 
 type: digital printing on glass
 menu: true
-where: Pampulha Art Museum | Belo Horizonte | BRAZIL
+where: 
+  - name: Museu de Arte da Pampulha | Belo Horizonte | BRAZIL
+    url: sem
+  - name: Bolsa Pampulha 2019 | Belo Horizonte | BRAZIL
+    url: https://www.jaca.center/bolsa-pampulha/
 data: 2019
 ref: especies-de-espacos-ii
 permalink: /en/especies-de-espacos-ii
+cover: /assets/covers/especies-de-espacos-ii.png
 swipebox: ede2
 thanks: Hortência Abreu, Luis Rodrigo (Artmosphere), Flávia Peluzzo, Clarice G. Lacerda, Félix Blume, Flaviana Lassan, Julia Mesquita, Francisca Caporalli, Monica Hoff.
 lang: en

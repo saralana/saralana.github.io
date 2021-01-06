@@ -1,13 +1,16 @@
 ---
 title: 'escape routes'
 who: Marcelo XY e Sara Lana
-where: residência no IX Festival TSONAMI de arte sonora | Valparaiso |CHILE <br>
-       Festival TSONAMI | Valparaíso | Chile |
-       Muestra Colectiva en sala B.A.S.E | Valparaíso | Chile
+where: 
+  - name: residência no IX Festival TSONAMI de arte sonora | Valparaiso | CHILE
+    url: https://festival.tsonami.cl/
+  - name: Muestra Colectiva en sala B.A.S.E | Valparaíso | Chile
+    url: sem
 data: 2015
 ref: vias-de-escape
 permalink: /en/vias-de-escape
 layout: post-other
+cover: /assets/posts/vde03.png
 swipebox: vde
 menu: true
 lang: en

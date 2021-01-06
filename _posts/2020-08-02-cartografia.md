@@ -7,8 +7,12 @@ layout: post-other
 type: sound map of memories of COVID-19 pandemic
 data: 2020
 permalink: '/en/cartografia/'
-where: Laboratório de Emergência | 2020 <br>
-       Center for Applied Human Rights - York University (United Kingdom) | Art + Activism Against Repression During the Covid-19 Crisis
+cover: /assets/posts/cartografia-das-memorias.jpg
+where: 
+    - name: Laboratório de Emergência | 2020 
+      url: https://labdeemergencia.silo.org.br/1ed
+    - name: Center for Applied Human Rights - York University (United Kingdom) | Art + Activism Against Repression During the Covid-19 Crisis
+      url: https://www.hrdhub.org/arctivism
 ref: cartografia
 ---
 
@@ -20,6 +24,7 @@ ref: cartografia
 <br>
 
 [cartografiadasmemorias.org/](https://cartografiadasmemorias.org/){:target="_blank"}
+
 <br>
 
 --- 

@@ -3,10 +3,15 @@ title: 'espécies de espaços i'
 who: 
 type: video instalação, desenhos e plantas arquitetônicas
 menu: true
-where: Museu de Arte da Pampulha | Belo Horizonte | MG
+where:
+  - name: Museu de Arte da Pampulha | Belo Horizonte | BRAZIL
+    url: sem
+  - name: Bolsa Pampulha 2019 | Belo Horizonte | BRAZIL
+    url: https://www.jaca.center/bolsa-pampulha/
 data: 2019
 ref: especies-de-espacos-1
 permalink: especies-de-espacos-1
+cover: /assets/covers/especies-de-espacos-1.png
 swipebox: ede1
 thanks: Hortência Abreu, Flávia Peluzzo, Clarice G. Lacerda, Félix Blume, Flaviana Lassan, Julia Mesquita, Francisca Caporalli, Monica Hoff.
 lang: pt

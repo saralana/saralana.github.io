@@ -625,8 +625,8 @@ h4 {
       font-weight: 300;
       text-transform: none;
       letter-spacing: $MENU-LETTER-SPACING;
-      line-height: $MENU-LINE-HEIGHT;
-      width: 32%;
+      line-height: $MENU-LINE-HEIGHT*1.1;
+      width: 33%;
       word-spacing: 0px !important;
 
       &:visited {
@@ -640,7 +640,7 @@ h4 {
 
     .menu-title {
       padding-bottom: 0 * $MENU-ITEM-SPACING;
-      font-size: $MENU-TITLE-SIZE;
+      font-size: $MENU-TITLE-SIZE*0.93;
       writing-mode: horizontal-tb !important;
       text-orientation: sideways;
     }
@@ -805,10 +805,22 @@ h4 {
     color:  $PALETTE2 !important; 
     }
     
-    a{
-     color: $PALETTE1 !important;
-    background: $PALETTE2;
-      display: inline;
+    .list-footpage{
+          color: $PALETTE2 !important;
+          font-weight: 400;
+          background: transparent;
+          text-transform: none;
+        a {
+          color: $PALETTE2 !important;
+          font-weight: 400;
+          background: transparent;
+          text-transform: none;
+        }
+    }
+    a {
+      color: $PALETTE1 !important;
+      background: $PALETTE2;
+      display: inline;     
     }
     a:hover {
              color: $PALETTE4 !important;
@@ -866,12 +878,30 @@ h4 {
     h4 h3 h2 h1{
     color:  $PALETTE2 !important; 
     }
-    
-    a{
-    color:  $PALETTE1; 
+    .list-footpage{
+        a{
+        color:  $PALETTE1; 
+        background-color:  transparent;     
         font-weight: 600;
-    text-transform: lowercase;
+        text-transform: none;   
+        } 
+        a:hover{
+            color:  $PALETTE2; 
+            background-color:  $PALETTE1;      
+        }
         
+    }
+    a{
+    color:  $PALETTE2; 
+    background-color:  $PALETTE1;     
+    font-weight: 600;
+    text-transform: lowercase;   
+    }
+    a:hover{
+    color:  $PALETTE5; 
+    background-color:  $PALETTE1;     
+    font-weight: 600;
+    text-transform: lowercase;   
     }
 
     hr{
@@ -911,6 +941,19 @@ h4 {
     }
 }
 
+.social-block{
+    display: inline;
+    @media screen and (max-width: 600px) {
+    display: block;
+    }
+}
+
+.mobile-footer-space{
+    line-height: 5px;
+    @media screen and (max-width: 600px) {
+    line-height: 50px;
+    }
+}
 
 svg{   
     display: block;
@@ -1170,67 +1213,3 @@ input[type=checkbox]:checked ~ h2 ~ .sanfona {
 button{ 
   font-family: $FAMILY-SANS;
 }
-
-
-/* ini: Preloader */
- 
-#preloader {
-    position:fixed;
-    top:0;
-    left:0;
-    right:0;
-    bottom:0;
-    background-color:#F27620; /* cor do background que vai ocupar o body */
-    z-index:999; /* z-index para jogar para frente e sobrepor tudo */
-}
-#preloader .inner {
-    position: absolute;
-    top: 50%; /* centralizar a parte interna do preload (onde fica a animação)*/
-    left: 50%;
-    transform: translate(-50%, -50%);  
-}
-.bolas > div {
-  display: inline-block;
-  background-color: #fff;
-  width: 25px;
-  height: 25px;
-  border-radius: 100%;
-  margin: 3px;
-  -webkit-animation-fill-mode: both;
-  animation-fill-mode: both;
-  animation-name: animarBola;
-  animation-timing-function: linear;
-  animation-iteration-count: infinite;
-   
-}
-.bolas > div:nth-child(1) {
-    animation-duration:0.75s ;
-    animation-delay: 0;
-}
-.bolas > div:nth-child(2) {
-    animation-duration: 0.75s ;
-    animation-delay: 0.12s;
-}
-.bolas > div:nth-child(3) {
-    animation-duration: 0.75s  ;
-    animation-delay: 0.24s;
-}
- 
-@keyframes animarBola {
-  0% {
-    -webkit-transform: scale(1);
-    transform: scale(1);
-    opacity: 1;
-  }
-  16% {
-    -webkit-transform: scale(0.1);
-    transform: scale(0.1);
-    opacity: 0.7;
-  }
-  33% {
-    -webkit-transform: scale(1);
-    transform: scale(1);
-    opacity: 1; 
-  } 
-}
-/* end: Preloader */

@@ -3,11 +3,16 @@ title: 'meute'
 who: 
 type: dogs radio transmitter
 menu: true
-where: residência no JA.CA | MG | BRASIL
+where: 
+    - name: residência no JA.CA | MG | BRASIL
+      url: https://www.jaca.center
+    - name: Centro Cultural Almeida
+      url: sem
 data: 2017
 ref: matilha
 permalink: /en/matilha
 swipebox: matilha
+cover: /assets/posts/matilha2.jpeg
 thanks: Bruno Rios, Clarice G. Lacerda, Daniel Toledo,Félix Blume, Francisca Caporalli, Joana, Matheus Mesquita, Marina Câmara
 lang: en
 ---
@@ -15,7 +20,7 @@ lang: en
 <img src="../assets/posts/mat6.jpeg" class="img-border">
 <br><br>
 
-A soundscape listening of Jardim Canadá | MG | BR from the sonorous perspective of the neighborhood's mutt dogs.
+A soundscape listening of Jardim Canadá (MG, Brazil) from the sonorous perspective of the neighborhood's mutt dogs.
 
 Radio transmitter collars were created and were capable of transmit through FM | UHF, the sound environment of the dogs that carried them.
 

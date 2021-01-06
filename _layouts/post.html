@@ -20,7 +20,6 @@
                 {% endunless %}
                 <br><br><br>
                 <content>
-
                   {{ content }}
                   {% include swipebox.html %}
                 </content>
@@ -29,23 +28,33 @@
                   <br>
             {% case page.lang %}
                 {% when 'en' %}
-                  <b>Exhibitions:</b>
-                  <p>{{ page.where }}</p>
-                  <br>
-                  <hr>
-                  <br>
-                  <b>Thanks to:</b>
-                  <p>{{ page.thanks }}</p>
+                  <b>Exhibitions:</b>  
                 {% else %}
-                  <b>Apresentações:</b>
-                  <p>{{ page.where }}</p>
-                  <br>
-                  <hr>
-                  <br>
-                  <b>Agradecimentos:</b> 
+                  <b>Apresentações:</b>   
+            {% endcase %}    
+                 <br><br>
+                     {% for place in page.where %}
+                        <div class="list-footpage">
+                          {% if place.url == "sem" %}
+                             {{ place.name }}
+                          {% else %}
+                            <a href="{{ place.url }}" target="_blank">{{ place.name }}</a>
+                          {% endif %}
+                        </div>
+                     {% endfor %}  
+             <br>
+             <hr>
+             <br>
+            {% case page.lang %}
+                {% when 'en' %}
+                  <b>Thanks to:</b>  
+                {% else %}
+                  <b>Agradecimentos:</b>   
+            {% endcase %} 
                  <p>{{ page.thanks }}</p>
-              </div>
-             {% endcase %}
+             <br>
+             <hr>
+             <br>            
          </div>
         {% include navbar.html %}
   </body>

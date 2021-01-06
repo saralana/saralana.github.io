@@ -6,8 +6,10 @@ layout: post-other
 type: sound piece
 data: 2018
 permalink: '/en/twin-sounds/'
-where: Semi Silent | Sonic Future Residence <br>
-       Benesti | Romania | 2017 
+cover: /assets/covers/gif/twin-sounds.gif
+where:
+  - name: Semi Silent | Sonic Future Residence | Benesti | Romania | 2017 
+    url: http://semisilent.ro/twin-sounds/
 ref: twin-sounds
 ---
 

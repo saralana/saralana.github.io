@@ -3,16 +3,24 @@ title: 'pontos cegos'
 who: 
 type: Detecção e mapeamento de câmeras de vigilância 
 menu: true
-where: redBull Station | São Paulo<br>
-       tácticas de supervivencia urbana | MedialabMX | Ciudad de México<br>
-       e-cuerpo | Sinaloa<br>
-       e-cuerpo | Fabrica Digital El Rule | Ciudad de México<br>
-       la colmena | centro de cultura digital | Tlaxcala<br>
-       back-End– Vigilância Arte e Privacidade | InternetLab | São Paulo
+where: 
+    - name: redBull Station | São Paulo
+      url: sem
+    - name: MedialabMX | Ciudad de México
+      url: sem
+    - name: e-cuerpo | Sinaloa
+      url: https://www.e-cuerpo.org/
+    - name: e-cuerpo | Fabrica Digital El Rule | Ciudad de México
+      url: https://www.cultura.cdmx.gob.mx/el-rule
+    - name: la colmena | centro de cultura digital | Tlaxcala
+      url: https://www.centroculturadigital.mx/la-colmena
+    - name: back-End– Vigilância Arte e Privacidade | InternetLab | São Paulo
+      url: https://www.desvirtual.com/back-end-vigilancia-arte-e-privacidade/
 data: 2016 ~ 2020
 ref: pontos-cegos
 permalink: pontos-cegos
 swipebox: pontos-cegos
+cover: /assets/posts/a-pontoscegos-9.jpg
 thanks: Clarisse Valadares, Luiza Brina, Maria Vitória, Pedro Godoy, Bizafra, Thiago Hersan
 lang: pt
 ---

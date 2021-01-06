@@ -19,20 +19,36 @@
                   {{ content }}
                   {% include swipebox.html %}
                 </content>
-                <br>
-                {% case page.lang %}
+                  <br>
+                
+        {% if page.where != "sem" %}
+                  <hr>
+                  <br>
+            {% case page.lang %}
                 {% when 'en' %}
-                  <b>Exhibitions:</b>
-                  <p>{{ page.where }}</p>
-                  <br>
+                  <b>Exhibitions:</b>  
                 {% else %}
-                  <b>Apresentações:</b>
-                  <p>{{ page.where }}</p>
-                  <br>
-                  {% endcase %}
-     </div>
+                  <b>Apresentações:</b>   
+            {% endcase %}    
+                 <br><br>
+                     {% for place in page.where %}
+                        <div class="list-footpage">
+                          {% if place.url == "sem" %}
+                             {{ place.name }}
+                          {% else %}
+                            <a href="{{ place.url }}" target="_blank">{{ place.name }}</a>
+                          {% endif %}
+                        </div>
+                     {% endfor %}  
+             <br>
+             <hr>
+             <br>   
+                <div class=mobile-footer-space>
+                    <br>
+                </div>     
+        {% endif %}
          </div>
-   
+    </div>
         {% include navbar.html %}
  </body>
 </html>
