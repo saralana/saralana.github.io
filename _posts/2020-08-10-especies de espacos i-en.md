@@ -1,5 +1,5 @@
 ---
-title: 'species of spaces i'
+title: 'species of spaces 1'
 who: 
 type: video installation, drawing
 menu: true
@@ -28,7 +28,7 @@ lang: en
 
 <br>
 
-In Species of Spaces I, intimate journals of 5 characters are presented using home surveillance camera images left open on the Internet.
+In Species of Spaces 1, intimate journals of 5 characters are presented using home surveillance camera images left open on the Internet.
 
 Individuals and their gestures are hidden to show what remains of their living with household objects, the displacement of a plant in the living room, the entry of a dog through the front door.
 

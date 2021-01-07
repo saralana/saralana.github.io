@@ -1,7 +1,6 @@
 ---
 title: 'mutt dogs'
-who: Félix Blume e Sara Lana
-type: sound piece | indicated Prix Phonurgia Nova
+type: sound piece
 menu: true
 where: 
     - name: Arte Radio | France 
@@ -57,7 +56,7 @@ Known as “vira-latas” (dump tippers), stray dogs offer their canine listenin
 <br>
 
 **Direction:** Sara Lana et Félix Blume<br>
-**Production:** Arte Radio<br>
+**Production:** [Arte Radio](https://www.arteradio.com/son/61659422/mutt_dogs){:target="_blank"}<br>
 **Recordings:** Marmita, Pretinha, Nina, Bob and Frida<br>
 **Press:** RTBF - [ Le docu qui a du chien ](https://www.rtbf.be/culture/pop-up/culture-web/detail_mutt-dogs-le-docu-qui-a-du-chien?id=9813632){:target="_blank"}
 <br> 

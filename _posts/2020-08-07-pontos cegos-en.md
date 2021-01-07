@@ -28,7 +28,7 @@ lang: en
     <iframe src="https://www.youtube.com/embed/bECVsfDJvQI" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 <br>
-<br>
+<br><br>
 **TACTICS OF VISIBILITY** 
 
 Hack security cameras and reveal those devices increasingly discreets and camouflaged in the cityscapes.
@@ -43,7 +43,7 @@ A helmet capable of automatically detect security cameras and reveal to its user
   </div>
 </div>
 
- <br>
+ <br><br>
  
 **TACTICS OF INVISIBILITY - IN PROCESS**
 
@@ -58,7 +58,7 @@ Creation of tools for bluring images recorded by video surveillance cameras.
     <img src="../assets/posts/b-pontoscegos-7.jpg" class="img-border">
   </div>
 </div>
-<br>
+<br><br>
 
 ---
 

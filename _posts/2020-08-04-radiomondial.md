@@ -1,6 +1,5 @@
 ---
 title: 'rádio mondial'
-who: Félix Blume e Sara Lana
 type: peça sonora
 menu: true
 where: 
@@ -40,6 +39,7 @@ lang: pt
 Escutar uma centena de vozes a comentar, juntas, as mesmas dinâmicas no campo, evidencia o que nos une e nos assemelha em um mundo globalizado. Deixando, no entanto, soar suas marcas e particularidades culturais que persistem em suas transmissões permeadas por publicidades, dedicatórias, pausas para a reza, jingles, anúncios de hora local ou músicas no intervalo.
 
 Em uma época globalmente visual, em que estamos todos conectados às nossas telinhas e à internet, escutar a rádios talvez seja um gesto em desuso, mas o narrador de futebol não deixa de ser uma figura importante para os amantes do esporte. Essa colagem sonora tem como proposta reescutar uma história em que todos conhecemos o final, através de diversas línguas, sotaques, ritmos e melodias, muitas vezes saturadas e ao fundo ruidoso, típicos da rádio.
+<br>
 
 ---
 

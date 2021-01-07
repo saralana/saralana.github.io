@@ -1,5 +1,5 @@
 ---
-title: 'species of spaces ii'
+title: 'species of spaces 2'
 who: 
 type: digital printing on glass
 menu: true

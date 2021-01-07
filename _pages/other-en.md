@@ -1,8 +1,8 @@
 ---
-title: 'other'
+title: 'others'
 swipebox: 
 layout: other
-permalink: '/other/'
+permalink: '/others/'
 menu: true
 category: other
 cover: /assets/covers/twin-sounds-cover.png

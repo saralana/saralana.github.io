@@ -1,6 +1,5 @@
 ---
 title: 'rádio mondial'
-who: Félix Blume e Sara Lana
 type: sound piece
 menu: true
 where: 
@@ -39,6 +38,7 @@ On July 15, 2018, over the course of 90 minutes, a big part of the planet follow
 Through the sound-based coverage of one of the planet’s biggest events the act of listening unites people and brings us together in a global sense, but also gives us the opportunity to identify our cultural differences. For example, during half-time, some radio broadcasters interrupt the match with advertisements, while others have prayer calls, personal dedications, the local hour announcement, or simple bombarding listeners with jingles and music.
 
 In global and mostly visual times, when we are connected through a small screen and the internet, listening to the radio seems like an old-fashioned practice, but for soccer lovers the commentator is still a relevant and an important character in their lives. This sound collage invites us to listen to a story of which we all know the end through a variety of languages, accents, rhythms and melodies within a background of crackling and saturation, very common sounds in radio broadcasts.
+<br>
 
 ---
 

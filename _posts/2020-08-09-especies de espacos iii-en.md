@@ -1,5 +1,5 @@
 ---
-title: 'species of spaces iii'
+title: 'species of spaces 3'
 who: 
 type: video collection
 menu: true
@@ -33,6 +33,7 @@ In Spaces Species III, are shown images of surveillance cameras that intrigue us
 The images captured by surveillance cameras are not made exactly for the appreciation of a viewer. At first contact, we assume there is not much to be seen. Such images, drained to a virtual file, do not have exactly one recipient, but fulfill the monitoring function under the security argument. Cameras, with the consent of their owners, produce images for a rarely accessed file.
 
 Some images captured generate strangeness in us: “cinema landscapes”, postcards (marine scenes, countryside landscapes) or cameras invaded by insects.
+<br>
 
 
 ---

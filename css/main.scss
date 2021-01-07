@@ -766,7 +766,7 @@ h4 {
     .selection {
       color: $PALETTE2;
       display: inline;
-         a {
+        a {
              color: $PALETTE4 !important;
              background: $PALETTE2;
         }
@@ -778,6 +778,12 @@ h4 {
     
     a {
       color: $PALETTE2;
+      font-weight: 700;
+    }
+    
+    a:hover {
+      color: $PALETTE4 !important;
+      background: $PALETTE2;
       font-weight: 700;
     }
     
@@ -1138,7 +1144,9 @@ https://codepen.io/QDeltaE/pen/VWGYOB*/
       width: 35.5%;
     }
     .static2 {
-      opacity:1;
+      position:absolute;
+      background-color: $PALETTE2;
+      z-index:3;
       width: 35.5%;
     } 
     .active2 {
@@ -1152,7 +1160,7 @@ https://codepen.io/QDeltaE/pen/VWGYOB*/
       opacity:0;
     }  
     .static2 {
-      opacity:1;
+      opacity:0;
       width: 71%;
     } 
     .active2 {

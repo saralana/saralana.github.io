@@ -1,5 +1,5 @@
 ---
-title: 'espécies de espaços iii'
+title: 'espécies de espaços 3'
 who: 
 type: coleção de vídeos
 menu: true
@@ -33,7 +33,7 @@ Em Espécies de Espaços III são apresentadas imagens de câmeras de vigilânci
 No entanto, é importante destacar, que imagens capturadas pelas câmeras de vigilância não são feitas exatamente para a apreciação de um espectador. A um primeiro contato, supomos que não há muito para ser visto. Tais imagens, escoadas para um arquivo virtual, não têm exatamente um destinatário, mas cumprem a função de monitoramento sob o argumento da segurança. 
 
 As câmeras, com a anuência de seus proprietários, produzem imagens para um arquivo raramente acessado. A maioria delas sequer é baixada para dispositivos como o computador, ao menos que haja alguma ameaça à propriedade vigiada. 
-
+<br>
 
 ---
 

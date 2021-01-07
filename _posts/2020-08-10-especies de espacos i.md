@@ -1,5 +1,5 @@
 ---
-title: 'espécies de espaços i'
+title: 'espécies de espaços 1'
 who: 
 type: video instalação, desenhos e plantas arquitetônicas
 menu: true
@@ -29,7 +29,7 @@ lang: pt
 
 <br>
 
-Em Espécies de Espaços I são apresentados, em vídeo e anotações, diários íntimos de 5 personagens construídos a partir de imagens domésticas de câmeras de vigilância deixadas abertas na internet. 
+Em Espécies de Espaços 1 são apresentados, em vídeo e anotações, diários íntimos de 5 personagens construídos a partir de imagens domésticas de câmeras de vigilância deixadas abertas na internet. 
 
 Indivíduos e seus gestos são eliminados para mostrar-nos o que resta de sua convivência com os objetos da casa, o deslocamento de uma planta na sala de estar, a entrada de um cachorro pela porta da frente, fazendo-nos estranhar processos naturalizados de vigilância em nosso mundo contemporâneo.
 
