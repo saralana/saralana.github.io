@@ -1058,6 +1058,7 @@ svg:hover {
   width: 100%;
 }
 
+
 iframe {
     position: absolute;
     top:0;
@@ -1181,6 +1182,28 @@ https://codepen.io/QDeltaE/pen/VWGYOB*/
     position: relative;
     z-index:1;
 }
+
+/* --------- START FLEX GRID ----------*/
+/* Flex */
+.flex-box {
+	margin: 0 auto;
+}
+
+.flex-wrap {
+	flex-wrap: wrap;
+}
+
+.flex {
+	display: flex;
+}
+
+.item {
+	margin: 5px;
+	text-align: center;
+	font-size: 1.5em;
+}
+
+/* ---------  END FLEX GRID ----------*/
 
 
 /* --------- COLLAPSIBLE TEXT ----------*/

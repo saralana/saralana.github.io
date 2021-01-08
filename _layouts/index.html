@@ -14,6 +14,33 @@
         <div id="main-div-index"> 
                 <div class="index">
                     <content>
+                            <div class="row">
+                                {% for i in (1..3) %}
+                                    {% assign project = site.data.index | where: 'column', i | sort: 'order' %}
+                                    {% for cover in project %}
+                                 <div class="column"> 
+                                    {% case page.lang %}
+                                    {% when 'en' %}
+                                        <div class="static22"> 
+                                            <a href="{{ site.base.url }}/en/{{ cover.name }}"><img src="/assets/covers/{{ cover.name }}.png"></a><br><br>
+                                            <div class="center">{{ cover.title-en }}</div></div>
+                                            <a href="{{ site.base.url }}/en/{{ cover.name }}"><img class="active22" src="/assets/covers/gif/{{ cover.name }}.gif" style="width:100.4%"></a><br><br>
+                                            <div class="center">{{ cover.title-en }}</div>
+                                     <br><br><br>
+                                    {% else %}
+                                      <div class="static22"> 
+                                            <a href="{{ site.base.url }}/{{ cover.name }}"><img src="/assets/covers/{{ cover.name }}.png"></a><br><br>
+                                            <div class="center">{{ cover.title }}</div></div>
+                                            <a href="{{ site.base.url }}/{{ cover.name }}"><img class="active22" src="/assets/covers/gif/{{ cover.name }}.gif" style="width:100.4%"></a><br><br>
+                                            <div class="center">{{ cover.title }}</div>
+                                     <br><br><br>
+                                     {% endcase %}
+                                  </div>
+                                    {% endfor %}
+                                {% endfor %}
+                            </div>
+                        <br>   
+                        
                       {{ content }}
                         <hr>
                       {% include swipebox.html %}

@@ -9,7 +9,7 @@ ref: bio
 ---
 
 <div class="selection">
-<a href="../assets/docs/portifolio.pdf" target="_blank">&nbsp;portifolio&nbsp;</a>
+<a href="../assets/docs/portifolio_en.pdf" target="_blank">&nbsp;portifolio&nbsp;</a>
 <a href="../assets/docs/cv-en.pdf" target="_blank">&nbsp;cv&nbsp;</a>
 </div>
 
