@@ -13,6 +13,7 @@ ref: matilha
 permalink: /en/matilha
 swipebox: matilha
 cover: /assets/posts/matilha2.jpeg
+credits: Félix Blume
 thanks: Bruno Rios, Clarice G. Lacerda, Daniel Toledo,Félix Blume, Francisca Caporalli, Joana, Matheus Mesquita, Marina Câmara
 lang: en
 ---

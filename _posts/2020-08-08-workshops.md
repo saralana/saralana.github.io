@@ -20,6 +20,7 @@ where:
 layout: post-about
 cover: /assets/posts/oficinas/inst01.png
 lang: pt
+credits: Beth Freitas e Sara Lana
 ref: workshops
 ---
 

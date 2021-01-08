@@ -25,6 +25,7 @@ data: 2018
 ref: radio-mondial
 permalink: /radio-mondial
 cover: /assets/posts/radiomondial.jpg
+credits: sem
 swipebox: rml
 thanks: Abi Poulastrou, Alessandro Comodin, Alessandro Massobrio, Ana Cecilia Medina, Antonio Trullen, Benjamin Minot, Bernardo Esteves, Burcu Bilgic, Despina Panagiotopoulou, Diego Aguire, Esteban Agostin, Étienne Noiseau, Felipe Esteves, Fernando Godoy, Flora Guerra, Floriane Pochon, Frank Morgado, José Augusto Boaventura, Juanpablo Avendaño, Julian Keck, Kaori Kinoshita, Marcel Klankbeeld, Marie-Christine Cabanas, Michela Sacchetto, Mirna Castro, Pablo Saavedra, Punch Viratmalee, Richard Karcz, Samuel Blume, Thiago Hersan, Udo Noll & Yannick Dauby.
 lang: pt

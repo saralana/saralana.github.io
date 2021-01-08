@@ -22,6 +22,20 @@
                 <content>
                   {{ content }}
                   {% include swipebox.html %}
+                  {% if page.credits == "sem" %}
+                  {% else %}
+                  <br>
+                  <div class="credits">
+                      {% case page.lang %}
+                        {% when 'en' %}
+                          <i>Photos </i>  
+                        {% else %}
+                          <i>Fotos </i>   
+                      {% endcase %} 
+                      {{ page.credits }}
+                  </div>
+                  <br>    
+                  {% endif %}
                 </content>
                   <br>
                   <hr>

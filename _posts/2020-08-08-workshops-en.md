@@ -19,6 +19,7 @@ where:
     url: sem
 layout: post-about
 cover: /assets/posts/oficinas/inst01.png
+credits: Beth Freitas e Sara Lana
 lang: en
 ref: workshops
 ---

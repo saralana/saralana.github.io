@@ -20,6 +20,7 @@ data: 2016 ~ 2020
 ref: pontos-cegos
 permalink: en/pontos-cegos
 swipebox: pontos-cegos
+credits: Pedro Andrada, Ariana Miliorini, Félix Blume
 cover: /assets/posts/a-pontoscegos-9.jpg
 thanks: Clarisse Valadares, Luiza Brina, Maria Vitória, Pedro Godoy, Bizafra, Thiago Hersan
 lang: en

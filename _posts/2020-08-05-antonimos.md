@@ -18,6 +18,7 @@ ref: antonimos
 permalink: /antonimos
 swipebox: mda
 cover: /assets/posts/antonimos.jpeg
+credits: Félix Blume
 thanks: Bruno Gomes, Clarissa Neves, Eloá Mata, Esther Azevedo, Fernando Líbano, Gabriela Carvalho, Marcelo XY,  Marcos Lustosa, Mariana Zani, Marina Jovalangelo, Paulo Waisberg, Sara Moreno e Xande Perocco
 lang: pt
 ---
