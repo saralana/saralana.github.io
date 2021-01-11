@@ -221,7 +221,10 @@ h4 {
       background: $PALETTE5;
       color: $PALETTE1;
     }
-    width:100%;
+    width:100%; 
+    @media only screen and (min-width: 600px) {
+        padding-top: 50px;  
+    }  
 }
 .other {
     background-color: $PALETTE2;
@@ -235,10 +238,10 @@ h4 {
       color: $PALETTE2;
     }
     width:100%;
-        
-    img:hover {
-        opacity: 0.8;
-    }
+    
+    @media only screen and (min-width: 600px) {
+        padding-top: 50px;  
+    } 
     
 
 }
@@ -262,8 +265,12 @@ h4 {
       color: $PALETTE4;
     }
     width:100%;
-    padding: 7%;
+    padding: 5%;
     padding-right: 10%;
+    
+    @media only screen and (min-width: 600px) {
+        padding-top: 30px !important;  
+    } 
 }
 
 .background{
@@ -574,6 +581,7 @@ h4 {
    .closebtn {
      display: none;
     }
+    
 
     .menu-item {
       padding-bottom: $MENU-ITEM-SPACING;
@@ -775,7 +783,7 @@ h4 {
  // z-index: 50;
  // position: fixed;
  @media only screen and (max-width: 600px) {
-    padding-left: 10%;
+    padding-left: 8%;
     padding-right: 0%;
     padding-top: 15%;
     padding-bottom: 4%;
@@ -799,6 +807,13 @@ h4 {
   padding-bottom: 4%;
  // z-index: 50;
  // position: fixed;
+ @media only screen and (max-width: 600px) {
+    width: 80%;
+    padding-left: 7%;
+    padding-right: 0%;
+    padding-top: 10%;
+    padding-bottom: 4%;
+  }
     .post-title {
     font: bold $TITLE-SIZE $FAMILY-SANS;
     color: $PALETTE2;
