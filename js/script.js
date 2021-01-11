@@ -15,7 +15,12 @@ for (i = 0; i < coll.length; i++) {
 
 
 function openNav() {
-  document.getElementById("sidenav").style.display = "block";
+    if (window.matchMedia("(min-width:600px)").matches) {
+        document.getElementById("sidenav").style.display = "block";
+    }
+    else {
+        document.getElementById("sidenav").style.display = "none";
+    }
 }
 
 function closeNav() {
@@ -29,11 +34,16 @@ var mybutton = document.getElementById("return-to-top");
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
-  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-    mybutton.style.display = "block";
-  } else {
-    mybutton.style.display = "none";
-  }
+   if (window.matchMedia("(max-width:600px)").matches) { 
+      if (document.body.scrollTop > 40 || document.documentElement.scrollTop > 40) {   
+        mybutton.style.display = "block";
+      } else {
+        mybutton.style.display = "none";
+      }
+   }
+    else{
+        mybutton.style.display = "none";
+    }
 }
 // When the user clicks on the button, scroll to the top of the document
 function topFunction() {

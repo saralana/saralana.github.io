@@ -921,6 +921,10 @@ h4 {
     font-weight: 600;
     text-transform: lowercase;   
     }
+    .fa {
+      background: transparent;
+      color: $PALETTE5 !important;
+    }
 
     hr{
         color:$PALETTE1;
@@ -1274,7 +1278,9 @@ button{
 }
 
 /* --------- RETURN TO TOP ----------*/
-/* --------- https://codepen.io/rdallaire/pen/apoyx ----------*/
+#return-to-top {
+    display: none;
+}
 @media only screen and (max-width: 600px) {
     
     #return-to-top {
@@ -1284,8 +1290,8 @@ button{
         right: 35px;
         z-index: 2000;
         font-size: 10px;
-        background: $PALETTE1;
-        color: $PALETTE4;
+        background: transparent;
+        color: $PALETTE5;
         border: none;
         width: 30px;
         height: 30px;
@@ -1299,7 +1305,7 @@ button{
     }
     
     #return-to-top:hover {
-        color: $PALETTE2 !important;
+        color: $PALETTE4 !important;
     }
     
 }
