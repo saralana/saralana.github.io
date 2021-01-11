@@ -39,7 +39,7 @@ a {
   cursor: pointer;
   text-decoration: none;
   text-transform: uppercase;
-  transition: color $TRANSITION-PERIOD linear;
+ // transition: color $TRANSITION-PERIOD linear;
 
   &:visited {
     color: $LINK-COLOR-VISITED;
@@ -52,6 +52,7 @@ a {
 
 .social{
     padding-left: 0px;
+    background: transparent !important;
 }
 
 .credits{
@@ -81,13 +82,17 @@ a.fa:visited{
   background: transparent;
 }
 
+a.fa:hover {
+  background: transparent !important;
+}
+
 .fa-facebook {
     color: $PALETTE2 !important;
   background: transparent;
 }
 
 .fa-twitter {
-    color: $PALETTE2 !important;
+  color: $PALETTE2 !important;
   background: transparent;
 }
 
@@ -777,8 +782,8 @@ h4 {
              background: $PALETTE2;
         }
          a:hover {
-             color: $PALETTE1 !important;
-             background: $PALETTE2;
+             color: $PALETTE4 !important;
+             background: $PALETTE5;
         }
     }
     
@@ -910,8 +915,8 @@ h4 {
     text-transform: lowercase;   
     }
     a:hover{
-    color:  $PALETTE5; 
-    background-color:  $PALETTE1;     
+    color:  $PALETTE1; 
+    background-color:  $PALETTE5;     
     font-weight: 600;
     text-transform: lowercase;   
     }
@@ -1266,3 +1271,35 @@ input[type=checkbox]:checked ~ h2 ~ .sanfona {
 button{ 
   font-family: $FAMILY-SANS;
 }
+
+/* --------- RETURN TO TOP ----------*/
+/* --------- https://codepen.io/rdallaire/pen/apoyx ----------*/
+@media only screen and (max-width: 600px) {
+    
+    #return-to-top {
+        display: none;
+        position: fixed;
+        bottom: 70px;
+        right: 35px;
+        z-index: 2000;
+        font-size: 10px;
+        background: $PALETTE5;
+        color: $PALETTE4;
+        border: none;
+        width: 30px;
+        height: 30px;
+        text-decoration: none;
+        margin: 0;
+        .fa {
+        font-size: 20px !important;
+        padding-bottom: 0px;
+        width: 20px; 
+        }
+    }
+    
+    #return-to-top:hover {
+        background: $PALETTE1;
+    }
+    
+}
+/* --------- END OF RETURN TO TOP ----------*/
