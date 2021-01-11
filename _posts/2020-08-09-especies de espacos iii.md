@@ -11,7 +11,7 @@ where:
 data: 2019
 ref: especies-de-espacos-3
 permalink: especies-de-espacos-3
-cover: /assets/covers/especies-de-espacos-3.png
+cover: /assets/covers/especies-3.png
 swipebox: ede3
 credits: sem
 thanks: Hortência Abreu, Luis Rodrigo (Artmosphere), Flávia Peluzzo, Clarice G. Lacerda, Félix Blume, Flaviana Lassan, Julia Mesquita, Francisca Caporalli, Monica Hoff.
@@ -63,6 +63,3 @@ As câmeras, com a anuência de seus proprietários, produzem imagens para um ar
 <br>
 
 
----
-
-<br>

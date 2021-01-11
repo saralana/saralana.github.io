@@ -11,7 +11,7 @@ where:
 data: 2019
 ref: especies-de-espacos-ii
 permalink: especies-de-espacos-2
-cover: /assets/covers/especies-de-espacos-ii.png
+cover: /assets/posts/3ede2.jpg
 swipebox: ede2
 credits: Julia Duarte
 thanks: Hortência Abreu, Luis Rodrigo (Artmosphere), Flávia Peluzzo, Clarice G. Lacerda, Félix Blume, Flaviana Lassan, Julia Mesquita, Francisca Caporalli, Monica Hoff.

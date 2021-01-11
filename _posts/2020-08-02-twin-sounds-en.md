@@ -6,7 +6,7 @@ layout: post-other
 type: sound piece
 data: 2018
 permalink: en/twin-sounds
-cover: /assets/covers/gif/twin-sounds.gif
+cover: /assets/covers/twin-sounds-cover.png
 credits: sem
 where:
   - name: Semi Silent | Sonic Future Residence | Benesti | Romania | 2017 

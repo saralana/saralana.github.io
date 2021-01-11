@@ -13,7 +13,7 @@ ref: especies-de-espacos-3
 permalink: en/especies-de-espacos-3
 pv: especies-de-espacos-1
 nx: natal
-cover: /assets/covers/especies-de-espacos-3.png
+cover: /assets/covers/especies-3.png
 swipebox: ede3
 credits: sem
 thanks: Hortência Abreu, Luis Rodrigo (Artmosphere), Flávia Peluzzo, Clarice G. Lacerda, Félix Blume, Flaviana Lassan, Julia Mesquita, Francisca Caporalli, Monica Hoff.
@@ -65,7 +65,3 @@ Some images captured generate strangeness in us: “cinema landscapes”, postca
 </div>
 <br>
 
-
----
-
-<br>
