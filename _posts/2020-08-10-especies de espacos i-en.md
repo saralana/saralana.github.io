@@ -10,8 +10,6 @@ where:
     url: https://www.jaca.center/bolsa-pampulha/
 data: 2019
 ref: especies-de-espacos-1
-pv: especies-de-espacos-2
-nx: especies-de-espacos-3
 permalink: en/especies-de-espacos-1
 cover: /assets/covers/especies-de-espacos-1.png
 swipebox: ede1

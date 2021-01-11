@@ -8,7 +8,7 @@ where:
     url: sem
 data: 2015
 ref: vias-de-escape
-permalink: /en/vias-de-escape
+permalink: en/vias-de-escape
 layout: post-other
 cover: /assets/posts/vde03.png
 swipebox: vde

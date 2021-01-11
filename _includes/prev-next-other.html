@@ -5,8 +5,7 @@
         {% assign url = url | slice: 3, size %}
     {% else %}
 {% endcase %}
-
-{% assign project = site.data.index | where: 'name' , url %}
+{% assign project = site.data.other | where: 'name' , url %}
 
 {% for this in project %}
     {% assign i = this.indice %} 
@@ -16,26 +15,26 @@
 
 {% case page.lang %}
     {% when 'en' %}
-        {% assign prev = site.data.index | where: 'indice' , j %}
+        {% assign prev = site.data.other | where: 'indice' , j %}
             {% for previous in prev %}
             <a class="fa fa-arrow-left" href="{{ site.base.url }}/en/{{ previous.name }}">
             </a>
         {% endfor %}
 
-        {% assign next = site.data.index | where: 'indice' , k %}
+        {% assign next = site.data.other | where: 'indice' , k %}
         {% for nextnext in next %}
             <a class="fa fa-arrow-right" href="{{ site.base.url }}/en/{{ nextnext.name }}">
             </a>
         {% endfor %}
                 
     {% else %}
-        {% assign prev = site.data.index | where: 'indice' , j %}
+        {% assign prev = site.data.other | where: 'indice' , j %}
             {% for previous in prev %}
             <a class="fa fa-arrow-left" href="{{ site.base.url }}/{{ previous.name }}"> 
             </a>
         {% endfor %}
 
-        {% assign next = site.data.index | where: 'indice' , k %}
+        {% assign next = site.data.other | where: 'indice' , k %}
         {% for nextnext in next %}
             <a class="fa fa-arrow-right" href="{{ site.base.url }}/{{ nextnext.name }}">
             </a>

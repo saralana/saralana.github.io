@@ -16,8 +16,6 @@ where:
 data: 2018
 ref: antonimos
 permalink: antonimos
-pv: natal
-nx: radio-mondial
 swipebox: mda
 cover: /assets/posts/antonimos.jpeg
 credits: Félix Blume

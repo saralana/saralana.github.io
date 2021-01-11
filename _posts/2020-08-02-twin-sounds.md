@@ -5,7 +5,7 @@ lang: pt
 layout: post-other
 type: peça sonora
 data: 2018
-permalink: '/twin-sounds/'
+permalink: twin-sounds
 cover: /assets/covers/gif/twin-sounds.gif
 credits: sem
 where:
@@ -38,6 +38,6 @@ A procura por sons gêmeos e a descoberta de “morphings espontâneos” em min
 
 Partindo da premissa de não usar efeitos digitalmente aplicados, algumas técnicas foram desenhadas para essa criação:
 
-    _cadavre exquis sonoro | para propor a terceiros o encontro de similares sonoros, partindo da escuta de pequenos excertos de áudio.
+* cadavre exquis sonoro_ para propor a terceiros o encontro de similares sonoros, partindo da escuta de pequenos excertos de áudio.
 
-    _modulação artesanal | para aplicar, manualmente, a um dado áudio, a curva de intensidade sonora do áudio seguinte.
+* modulação artesanal_ para aplicar, manualmente, a um dado áudio, a curva de intensidade sonora do áudio seguinte.

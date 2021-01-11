@@ -6,7 +6,7 @@ lang: en
 layout: post-other
 type: sound map of memories of COVID-19 pandemic
 data: 2020
-permalink: '/en/cartografia/'
+permalink: en/cartografia
 credits: sem
 cover: /assets/posts/cartografia-das-memorias.jpg
 where: 

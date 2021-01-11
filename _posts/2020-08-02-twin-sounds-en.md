@@ -5,7 +5,7 @@ lang: en
 layout: post-other
 type: sound piece
 data: 2018
-permalink: '/en/twin-sounds/'
+permalink: en/twin-sounds
 cover: /assets/covers/gif/twin-sounds.gif
 credits: sem
 where:

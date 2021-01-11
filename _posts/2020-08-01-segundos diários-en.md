@@ -6,7 +6,7 @@ lang: en
 layout: post-other
 data: 2014 ~ today
 where: sem
-permalink: '/en/15-segundos/'
+permalink: en/segundos
 ref: 15segundos
 ---
 

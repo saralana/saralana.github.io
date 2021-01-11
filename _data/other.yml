@@ -1,35 +1,41 @@
 # fotos de capa
-- column: 1
+- indice: 1
+  column: 1
   order: 1
   name: twin-sounds
   title: Twin Sounds
   title-en: Twin Sounds
 
-- column: 1
+- indice: 2
+  column: 1
   order: 2
   name: cartografia
   title: Cartografia das Memórias
   title-en: Cartography of Memories
     
-- column: 1
+- indice: 3
+  column: 1
   order: 3
-  name: 15-segundos
+  name: segundos
   title: 15 segundos diários
   title-en: 15 diary seconds
 
-- column: 2
+- indice: 4
+  column: 2
   order: 1
   name: vias-de-escape
   title: Vias de Escape
   title-en: Escape Routes
 
-- column: 2
+- indice: 5
+  column: 2
   order: 2
   name: vj
   title: vj
   title-en: vj
 
-- column: 2
+- indice: 6
+  column: 2
   order: 3
   name: colabs
   title: Colaborações

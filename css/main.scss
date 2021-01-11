@@ -106,7 +106,7 @@ a.fa:hover {
 }
 
 .fa-soundcloud {
-    color: $PALETTE2 !important;
+ color: $PALETTE2 !important;
   background: transparent;
 }
 
@@ -125,7 +125,33 @@ a.fa:hover {
   background: transparent;
 }
 
+.fa-arrow-left{
+    top: 16%;
+    right: 22%;
+    position: absolute;
+    font-size: 15px !important;
+    a:hover {
+        color: $PALETTE5 !important;   
+    } 
+    @media only screen and (max-width: 600px) {
+        top: 50px;
+        right: 20%;    
+    }  
+}
 
+.fa-arrow-right{
+    top: 16%;
+    right: 20%;
+    position: absolute;
+    font-size: 15px !important;
+    a:hover {
+        color: $PALETTE5 !important;   
+    } 
+    @media only screen and (max-width: 600px) {
+    top: 50px;
+    right: 12%;    
+    }
+}
 
 .margem{  
   border-style: solid;
@@ -382,7 +408,7 @@ h4 {
 #selectedworks, #texts, #colabs, #other2, #about2 {
   z-index:1000;
   height: 20%;
-	position: fixed;
+  position: fixed;
   width: 100%;
   color: ghostwhite;
   font-size: 40px;
@@ -717,14 +743,14 @@ h4 {
   background-color: $PALETTE1;
   padding-left: 1%;
   padding-right: 10%;
-  padding-top: 8%;
+  padding-top: 5%;
   padding-bottom: 4%;
  // z-index: 50;
  // position: fixed;
     @media only screen and (max-width: 600px) {
     padding-left: 8%;
     padding-right: 0%;
-    padding-top: 20%;
+    padding-top: 15%;
     padding-bottom: 4%;
     }
     
@@ -732,8 +758,9 @@ h4 {
       background: transparent;
       color: $PALETTE2 !important;
     }
-        
+     
 }
+        
 
 #main-div-other {
   display: block;
@@ -743,14 +770,14 @@ h4 {
   background-color: $PALETTE2;
   padding-left: 1%;
   padding-right: 10%;
-  padding-top: 4%;
+  padding-top: 5%;
   padding-bottom: 4%;
  // z-index: 50;
  // position: fixed;
  @media only screen and (max-width: 600px) {
     padding-left: 10%;
     padding-right: 0%;
-    padding-top: 4%;
+    padding-top: 15%;
     padding-bottom: 4%;
   }
     
@@ -791,12 +818,12 @@ h4 {
       color: $PALETTE2;
       display: inline;
         a {
-             color: $PALETTE4 !important;
-             background: $PALETTE2;
+            color: $PALETTE4 !important;
+            background: $PALETTE2;
         }
          a:hover {
-             color: $PALETTE4 !important;
-             background: $PALETTE5;
+            color: $PALETTE4 !important;
+            background: $PALETTE5;
         }
     }
     .fa {
@@ -854,6 +881,12 @@ h4 {
           background: transparent;
           text-transform: none;
         }
+        a:hover {
+          color: $PALETTE1 !important;
+          font-weight: 400;
+          background: $PALETTE2 !important;
+          text-transform: none;
+        }
     }
     a {
       color: $PALETTE1 !important;
@@ -861,8 +894,8 @@ h4 {
       display: inline;     
     }
     a:hover {
-             color: $PALETTE4 !important;
-             background: $PALETTE2;
+             color: $PALETTE1 !important;
+             background: $PALETTE5;
     }
 
     hr{
@@ -943,7 +976,7 @@ h4 {
     }
     .fa {
       background: transparent;
-      color: $PALETTE5 !important;
+      color: $PALETTE1 !important;
     }
 
     hr{

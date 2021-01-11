@@ -6,7 +6,7 @@ lang: pt
 layout: post-other
 type: mapa sonoro de relatos durante a pandemia da COVID-19
 data: 2020
-permalink: '/cartografia/'
+permalink: cartografia
 credits: sem
 cover: /assets/posts/cartografia-das-memorias.jpg
 where: 
