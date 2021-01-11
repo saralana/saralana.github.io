@@ -11,6 +11,8 @@ where:
 data: 2019
 ref: especies-de-espacos-3
 permalink: en/especies-de-espacos-3
+pv: especies-de-espacos-1
+nx: natal
 cover: /assets/covers/especies-de-espacos-3.png
 swipebox: ede3
 credits: sem

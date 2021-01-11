@@ -1,0 +1,47 @@
+{% assign url = page.permalink %}
+{% case page.lang %}
+    {% when 'en' %}
+        {% assign size = url | size %}
+        {% assign url = url | slice: 3, size %}
+    {% else %}
+{% endcase %}
+
+{% assign project = site.data.index | where: 'name' , url %}
+
+{% for this in project %}
+    {% assign i = this.indice %} 
+    {% assign j = this.indice | minus: 1 %}
+    {% assign k = this.indice | plus: 1 %}
+{% endfor %}
+
+{% case page.lang %}
+    {% when 'en' %}
+        {% assign prev = site.data.index | where: 'indice' , j %}
+            {% for previous in prev %}
+            <a href="{{ site.base.url }}/en/{{ previous.name }}">
+              <  
+            </a>
+        {% endfor %}
+
+        {% assign next = site.data.index | where: 'indice' , k %}
+        {% for nextnext in next %}
+            <a href="{{ site.base.url }}/en/{{ nextnext.name }}">
+              >
+            </a>
+        {% endfor %}
+                
+    {% else %}
+        {% assign prev = site.data.index | where: 'indice' , j %}
+            {% for previous in prev %}
+            <a href="{{ site.base.url }}/{{ previous.name }}">
+              <  
+            </a>
+        {% endfor %}
+
+        {% assign next = site.data.index | where: 'indice' , k %}
+        {% for nextnext in next %}
+            <a href="{{ site.base.url }}/{{ nextnext.name }}">
+              >
+            </a>
+        {% endfor %}
+{% endcase %}

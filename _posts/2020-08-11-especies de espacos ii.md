@@ -9,6 +9,8 @@ where:
   - name: Bolsa Pampulha 2019 | Belo Horizonte | MG
     url: https://www.jaca.center/bolsa-pampulha/
 data: 2019
+pv: mutt-dogs
+nx: especies-de-espacos-3
 ref: especies-de-espacos-ii
 permalink: especies-de-espacos-2
 cover: /assets/covers/especies-de-espacos-ii.png

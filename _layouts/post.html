@@ -12,9 +12,11 @@
   <body id="palette1">
         <div id="main-div-index">
               <div id="post">
+              {% include prev-next.html %}
                 {% unless page.permalink == '/' %}
                   <div class="post-title">{{ page.title }}</div>
-                  <br><b>{{ page.who }}</b>
+                  <br>
+                  <b>{{ page.who }}</b>
                   <p>{{ page.type }}</p>
                   <b>{{ page.data }}</b>
                 {% endunless %}

@@ -14,7 +14,9 @@ where:
       url:  sem
 data: 2018
 ref: antonimos
-permalink: /en/antonimos
+permalink: en/antonimos
+pv: natal
+nx: radio-mondial
 swipebox: mda
 cover: /assets/posts/antonimos.jpeg
 credits: Félix Blume

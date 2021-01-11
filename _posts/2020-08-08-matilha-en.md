@@ -10,7 +10,9 @@ where:
       url: sem
 data: 2017
 ref: matilha
-permalink: /en/matilha
+permalink: en/matilha
+pv: pontos-cegos
+nx: mutt-dogs
 swipebox: matilha
 cover: /assets/posts/matilha2.jpeg
 credits: Félix Blume

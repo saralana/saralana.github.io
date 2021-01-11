@@ -23,8 +23,10 @@ where:
       url:  https://laviemanifeste.com/reverberation/?fbclid=IwAR1ELVaSTOT1FvUuKrbEMXrGrXAaJQXic1yUES0SNRMZE1pbbxKeapGQAo0
 data: 2018
 ref: radio-mondial
-permalink: /en/radio-mondial
+permalink: en/radio-mondial
 cover: /assets/posts/radiomondial.jpg
+pv: antonimos
+nx: sem
 credits: sem
 swipebox: rml
 thanks: Abi Poulastrou, Alessandro Comodin, Alessandro Massobrio, Ana Cecilia Medina, Antonio Trullen, Benjamin Minot, Bernardo Esteves, Burcu Bilgic, Despina Panagiotopoulou, Diego Aguire, Esteban Agostin, Étienne Noiseau, Felipe Esteves, Fernando Godoy, Flora Guerra, Floriane Pochon, Frank Morgado, José Augusto Boaventura, Juanpablo Avendaño, Julian Keck, Kaori Kinoshita, Marcel Klankbeeld, Marie-Christine Cabanas, Michela Sacchetto, Mirna Castro, Pablo Saavedra, Punch Viratmalee, Richard Karcz, Samuel Blume, Thiago Hersan, Udo Noll & Yannick Dauby.
