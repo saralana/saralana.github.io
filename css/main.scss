@@ -70,8 +70,6 @@ a {
   text-decoration: none;
   margin: 0px 0px;
   border-radius: 50%;
-  background: transparent;
-  color: $PALETTE2 !important;
 }
 
 a.fa:visited{
@@ -273,6 +271,10 @@ h4 {
 .palette2{
    background-color: $PALETTE2; 
    color: $PALETTE1 !important; 
+    .fa {
+      background: transparent;
+      color: $PALETTE2 !important;
+    }
 }
 
 .palette2:hover{
@@ -725,6 +727,11 @@ h4 {
     padding-top: 20%;
     padding-bottom: 4%;
     }
+    
+    .fa {
+      background: transparent;
+      color: $PALETTE2 !important;
+    }
         
 }
 
@@ -746,6 +753,11 @@ h4 {
     padding-top: 4%;
     padding-bottom: 4%;
   }
+    
+    .fa {
+      background: transparent;
+      color: $PALETTE1 !important;
+    }
 }
 
 #main-div-about {
@@ -786,6 +798,10 @@ h4 {
              color: $PALETTE4 !important;
              background: $PALETTE5;
         }
+    }
+    .fa {
+      background: transparent;
+      color: $PALETTE2 !important;
     }
     
     a {
