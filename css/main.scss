@@ -875,9 +875,16 @@ h4 {
     color:  $PALETTE2;
     width: 80%;
     padding-top: 3%;
-    padding-left: 7%;
     padding-bottom: 7%;
     
+    
+    @media screen and (max-width: 600px) {
+        padding-left: 4.5%;
+    }
+    
+    @media screen and (min-width: 600px) {
+        padding-left: 7%;
+    }
     h4 h3 h2 h1{
     color:  $PALETTE2 !important; 
     }
@@ -955,8 +962,15 @@ h4 {
     color:  $PALETTE1;
     width: 80%;
     padding-top: 3%;
-    padding-left: 7%;
     padding-bottom: 7%;
+    
+    @media screen and (max-width: 600px) {
+        padding-left: 4.5%;
+    }
+    
+    @media screen and (min-width: 600px) {
+        padding-left: 7%;
+    }
     
     h4 h3 h2 h1{
     color:  $PALETTE2 !important; 

@@ -3,13 +3,15 @@ title: 'Blind Points'
 who: 
 type: Surveillance cameras deteccion and mapping 
 menu: true
-where: 
+where:
     - name: redBull Station | São Paulo
       url: sem
     - name: MedialabMX | Ciudad de México
       url: sem
-    - name: e-cuerpo | Sinaloa
+    - name: Museo Túnel De La Ciencia | Cidade de México
       url: https://www.e-cuerpo.org/
+    - name: Centro de Ciencias de Sinaloa | México
+      url: https://www.ccs.edu.mx/
     - name: e-cuerpo | Fabrica Digital El Rule | Ciudad de México
       url: https://www.cultura.cdmx.gob.mx/el-rule
     - name: la colmena | centro de cultura digital | Tlaxcala

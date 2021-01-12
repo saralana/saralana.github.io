@@ -5,6 +5,7 @@ menu: true
 layout: about
 lang: en
 cover: /assets/covers/pontos-cegos.png
+type: Sara Lana (1988, Belo Horizonte) has an academic career traced in mathematics, coding and engineering schools. Since 2007 she develops projects permeated by sound, art and technology.
 ref: bio
 ---
 

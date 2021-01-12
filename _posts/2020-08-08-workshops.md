@@ -8,9 +8,9 @@ where:
   - name: SESC Santos | BR
     url: sem
   - name: Favela Hacklab | Gambiologia | Veracruz | BH | BR
-    url: sem
-  - name: Centro de Referência da Juventudo | BH | BR
-    url: sem
+    url: https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwjb_tGzrpbuAhXrCrkGHeCwBMwQFjAAegQIAxAC&url=http%3A%2F%2Fwww.gambiologia.net%2Fblog%2F&usg=AOvVaw3GwBrKJHv77UYjJzWP8FzX
+  - name: CRJ | Centro de Referência da Juventude | BH | BR
+    url: http://www.portalbelohorizonte.com.br/eventos/encontro/artes-plasticas/taticas-de-invisibilidade-pontos-cegos-e-rotas-invisiveis
   - name: ThoughtWorks | São Paulo | BR
     url: sem 
   - name: MedialabMX | Ciudad de México | MX
