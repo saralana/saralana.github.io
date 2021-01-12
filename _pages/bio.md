@@ -5,8 +5,7 @@ menu: true
 layout: about
 lang: pt
 cover: /assets/covers/pontos-cegos.png
-type: Sara Lana (Belo Horizonte, 1988) teve seu caminho acadêmico traçado em escolas de matemática, computação e engenharia, e desde 2007 desenvolve projetos permeados por som, arte e tecnologia.
-Em geral, seu trabalho tem como como ponto de partida a desalienação tecnológica como gesto político e de autonomia.  
+type: Sara Lana desenvolve projetos permeados por som, arte e tecnologia.
 ref: bio
 ---
 
