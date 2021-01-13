@@ -176,6 +176,10 @@ body {
   padding: 0;
   min-height: 100vh;
   height: 100%; 
+        cursor:url('../assets/cursors/arrow.png'),auto !important;
+    a{
+       cursor:url('../assets/cursors/hand.png'),auto !important;  
+    }
 }
 
 h4 {
@@ -275,7 +279,7 @@ h4 {
 }
 #palette1{
    color: $PALETTE2 !important;
-        background-color:$PALETTE1;
+   background-color:$PALETTE1;
 }
 #palette2{
    color: $PALETTE1 !important;
