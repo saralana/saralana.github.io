@@ -1,5 +1,5 @@
 ---
-title: bio
+title: sobre
 permalink: '/sobre/'
 menu: true
 layout: about
