@@ -27,18 +27,19 @@ lang: pt
 
 <br>
 
-La reverberación en objetos o en espacios cerrados evidencia la sombra de los sonidos producidos dentro de ellos, impregnándolos con el sedimento de su presencia material, espacial y temporal. Esa mancha, así como los rumores de la calle amortiguados  y desviados en muros, cerros, edificaciones, manifiestan una sonoridad que es inherente a estos lugares y cuerpos.
-Para investigar tales sonidos intrínsecos de la ciudad, nos dedicamos en este proyecto a construir parafernalias de escucha utilizando basuras recolectadas en las calles, las chatarrerías y los vertederos de Valparaíso: un experimento para subvertir, descomponer y ampliar la percepción del entorno sonoro de la ciudad.
-Se trata también de habitar la escucha como un proceso activo, para sondear sus limitaciones y proponer un conjunto de nuevas intenciones: redescubrir (y desnudar) la escucha, hacer resonar el sonido en nuestra interioridad y darse cuenta que nos oímos oyendo y nos escuchamos escuchando. Todo eso se sitúa en el umbral interior-exterior, provocando un cambio de actitud hasta la audición, una vía de escape.
+A reverberação sonora em objetos e espaços fechados evidencia a marca dos sons já produzidos dentro deles, impregnando-os com o sedimento de sua presença material, espacial e temporal.
+
+Essa mancha, assim como os rumores das ruas amortecidos e desviados em muros, paredes e asfalto, manifestam uma sonoridade inerente a esses lugares e seus corpos.
+
+Para investigar tais sons intrínsecos à cidade, nos dedicamos neste projeto a criar parafernálias de escuta utilizando lixo coletado nas ruas, depósitos e entulhos de Valparaíso: uma experiência de subverção, decomposição e ampliação da percepção do entorno sonoro da cidade.
+
+Trata-se, também, de habitar a escuta como um gesto ativo, para sondar suas limitações e propor um conjunto de novas intenções: redescubrir (e desnudar) a escuta e dar-se conta de que nos ouvimos ouvindo e nos escutamos escutando. Tudo isso se situa na fronteira interior-exterior, provocando uma mudança de atitude auditiva, uma via de escape.
 
 <br>
 
 ---
 
 [trecho do vídeo pelo festival](https://www.youtube.com/watch?v=nH33VomEVok){:target="_blank"}, gravado e editado por Maceteros Producciones
-    _Arnaud Potin(dirección)
-    _Eduardo Robles (producción general)
-    _Hernén Barros (producción de campo)
 
 ---
 
