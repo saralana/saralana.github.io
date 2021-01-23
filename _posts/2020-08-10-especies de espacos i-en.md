@@ -14,7 +14,7 @@ permalink: en/especies-de-espacos-1
 cover: /assets/covers/especies-de-espacos-1.png
 swipebox: ede1
 credits: Julia Duarte e Paula Huven
-thanks: Hortência Abreu, Flávia Peluzzo, Clarice G. Lacerda, Félix Blume, Flaviana Lassan, Julia Mesquita, Francisca Caporalli, Monica Hoff.
+thanks: Hortência Abreu, Clarice G. Lacerda, Félix Blume, Flaviana Lassan, Julia Mesquita, Francisca Caporalli, Monica Hoff.
 lang: en
 ---
 
@@ -29,9 +29,11 @@ lang: en
 
 <br>
 
-In Species of Spaces 1, intimate journals of 5 characters are presented using home surveillance camera images left open on the Internet.
+Spaces species is an investigation started in 2019 that appropriates of images captured by surveillance cameras.
 
-Individuals and their gestures are hidden to show what remains of their living with household objects, the displacement of a plant in the living room, the entry of a dog through the front door.
+The first work of the series, presents in videos, architectural plans and notes, intimate journals of 5 characters built from surveillance cameras domestic images.
+
+The characters act as if they are not being observed and fully trust on the technology at their disposal, highlighting the naturalized processes of surveillance in our contemporary world. 
 
 Security and exposure, protection and unprotection, visibility and invisibility are some of the focuses of this work, which proposes a reflection on some dysfunctionalities of the hyper-watched society in which we live.
 <br><br>

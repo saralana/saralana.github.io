@@ -34,10 +34,16 @@ lang: pt
 </div>
 <br>
 <br><br>
+
+
+**Pontos Cegos** é um projeto que tem como objetivo criar ferramentas de contra-vigilância e é dividido em duas frentes de pesquisa, as Táticas de (In)Visibilidade: 
+ 
+ <br>
 **TÁTICAS DE VISIBILIDADE** 
-<br>para hackear câmeras de seguranças e revelar esses aparatos cada vez mais discretos e já camuflados nas cidades.
-Trata-se de um capacete capaz de detectar automáticamente câmeras de segurança e indicar ao seu usuário quando ele está sendo filmado.
-O aparato criado é também dotado de um GPS e ao detectar uma câmera, suas coordenadas são registradas e armazenadas em um **mapa**.
+<br>
+Foi criado um capacete capaz de detectar automáticamente câmeras de vigilância e indicar, a seus usuários, quando estão sendo filmados. Esse dispositivo revela e torna visíveis câmeras cada vez mais discretas e camufladas nas cidades. 
+
+O aparato também possui um GPS e ao detectar uma câmera, suas coordenadas são registradas e armazenadas em um **mapa** (veja abaixo), fazendo um mapeamento automático de um dado percurso.
 <br><br>
 <div class="row">
   <div class="column">
@@ -49,8 +55,8 @@ O aparato criado é também dotado de um GPS e ao detectar uma câmera, suas coo
 </div>
 <br>
 <br>**TÁTICAS DE INVISIBILIDADE | EM ANDAMENTO**
-<br>_ desenvolvimento de um traçador de rotas que permite criar caminhos de um ponto A a um ponto B de uma cidade passando apenas pelos pontos cegos de suas câmeras.
-<br>_  criação de ferramentas capazes de apagar as imagens registradas por vídeo-vigilância.
+<br> Está em desenvolvimento um traçador de rotas que permite criar caminhos de um ponto A até um ponto B de uma cidade passando apenas pelos pontos cegos de suas câmeras.
+<br> Também, nessa frente de pesquisa, ofereço <a href="../workshops" target="_blank">&nbsp;oficinas&nbsp;</a> para criação de ferramentas de invisibilidade, capazes de ofuscar as imagens registradas por câmeras de vigilância.
 <br><br>
 <div class="row">
   <div class="column">

@@ -35,11 +35,16 @@ lang: en
 </div>
 <br>
 <br><br>
+ **Blind Spots** is a project that aims to create counter-surveillance tools. 
+ The research follows two different axes, the Tactics of (In)visibility:
+
 **TACTICS OF VISIBILITY** 
 
-Hack security cameras and reveal those devices increasingly discreets and camouflaged in the cityscapes.
 
-A helmet capable of automatically detect security cameras and reveal to its user when she/he is being shot. The device is also equipped with a GPS: when a camera is detected, its coordinates are recorded and stored on a map.
+A helmet capable of automatically detect security cameras and reveal to its user when she/he is being recorded. The device is also equipped with a GPS: when a camera is detected, its coordinates are recorded and stored on a map.
+
+The idea is to reveal those devices increasingly discreets and camouflaged in the cityscapes.
+
 
 <br><br>
  <div class="row">
@@ -55,9 +60,9 @@ A helmet capable of automatically detect security cameras and reveal to its user
  
 **TACTICS OF INVISIBILITY - IN PROCESS**
 
-Development of a route plotter that allows you to trace routes from a point A to a point B of a city passing only through the blind spots of security cameras.
+Development of a route tracer to trace routes from a point A to a point B of a city passing only through the blind spots of security cameras.
 
-Creation of tools for bluring images recorded by video surveillance cameras.
+<br> Also, on this research axis, I do <a href="../workshops" target="_blank">&nbsp;workshops&nbsp;</a> for creation of tools for bluring images recorded by video surveillance cameras.
 <br><br>
 <div class="row">
   <div class="column">

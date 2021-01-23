@@ -30,11 +30,12 @@ lang: pt
 
 <br>
 
-Em Espécies de Espaços 1 são apresentados, em vídeo e anotações, diários íntimos de 5 personagens construídos a partir de imagens domésticas de câmeras de vigilância deixadas abertas na internet. 
+Espécies de Espaços é uma investigação iniciada em 2019 que parte da apropriação de imagens capturadas por câmeras de vigilância.
 
-Indivíduos e seus gestos são eliminados para mostrar-nos o que resta de sua convivência com os objetos da casa, o deslocamento de uma planta na sala de estar, a entrada de um cachorro pela porta da frente, fazendo-nos estranhar processos naturalizados de vigilância em nosso mundo contemporâneo.
+O 1º trabalho da série, apresenta em vídeos, plantas arquitetônicas e anotações, diários íntimos de 5 personagens construídos a partir de imagens domésticas de câmeras de vigilância com livre acesso pela internet.
 
-Os procedimentos não são expostos ou revelados, mas há um jogo com o arquivo obtido na captura e observação dessas imagens. Por outro lado, as pessoas agem como se não estivessem sendo observadas e confiam plenamente, ou quase, na tecnologia a seu dispor.
+As personagens agem como se não estivessem sendo observadas e confiam plenamente na tecnologia a seu dispor, evidenciando os processos naturalizados de vigilância em nosso mundo contemporâneo. Os diários carregam uma reflexão sobre as disfuncionalidades de uma sociedade hiper-vigiada.
+
 <br><br>
 
 ---

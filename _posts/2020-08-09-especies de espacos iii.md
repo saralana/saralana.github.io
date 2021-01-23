@@ -29,11 +29,12 @@ lang: pt
 <br>
 
 
+Espécies de Espaços é uma investigação iniciada em 2019 que parte da apropriação de imagens capturadas por câmeras de vigilância.
+
 Em Espécies de Espaços III são apresentadas imagens de câmeras de vigilância que geram estranhamento, surpresa ou indagações. Seja por sua inesperada poética, como paisagens cuja composição é digna de enquadros cinematográficos, ou por captarem cenas inusitadas, como insetos que fizeram da câmera um ninho bastante singular.
 
-No entanto, é importante destacar, que imagens capturadas pelas câmeras de vigilância não são feitas exatamente para a apreciação de um espectador. A um primeiro contato, supomos que não há muito para ser visto. Tais imagens, escoadas para um arquivo virtual, não têm exatamente um destinatário, mas cumprem a função de monitoramento sob o argumento da segurança. 
+A partir de um imenso arquivo de vídeos que não são feitos para a apreciação pública, esse trabalho reconhece o potencial poético de tais registros e cria um testemunho da história presente. 
 
-As câmeras, com a anuência de seus proprietários, produzem imagens para um arquivo raramente acessado. A maioria delas sequer é baixada para dispositivos como o computador, ao menos que haja alguma ameaça à propriedade vigiada. 
 <br>
 
 ---

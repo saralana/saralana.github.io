@@ -14,23 +14,18 @@ permalink: en/especies-de-espacos-2
 cover: /assets/posts/3ede2.jpg
 swipebox: ede2
 credits: Julia Duarte
-thanks: Hortência Abreu, Luis Rodrigo (Artmosphere), Flávia Peluzzo, Clarice G. Lacerda, Félix Blume, Flaviana Lassan, Julia Mesquita, Francisca Caporalli, Monica Hoff.
+thanks: Hortência Abreu, Luis Rodrigo (Artmosphere), Flávia Peluzzo, Clarice G. Lacerda, Félix Blume, Flaviana Lassan, Julia Mesquita, Francisca Caporalli, Monica Hoff, Julia Rebouças, Beatriz Lemos.
 lang: en
 ---
 
 <img src="../assets/posts/especiesdeespacosii.jpg" class="img-border">
 <br><br>
 
+Countless surveillance cameras lost their functionality thanks to the spiders that wove webs in front of these devices. 
 
-A set of images gives us insight into the seemingly harmless occupation of spiders. The important thing about these images is that they are records made by home surveillance cameras.
-
-There are countless cameras that had their images made unfeasible thanks to the spiders that, in dispute for the corners, wove webs in front of these apparatuses.
+As these arthropods use to weave their webs in the same corners where surveillance cameras are normally placed, they have become important counter-surveillance agents, ensuring some privacy for over-monitored humans.
 
 Species of Spaces II is the result of the collection of images from surveillance cameras left unprotected on the internet.
-
-Apparently, a spider takes 20 to 30 minutes to weave its web. This, which by the way is also the English word used to name the large network that connects us globally, becomes the most critical image of this set. It is the only one that can really provide an idea of privacy and protection.
-
-Security and exposure, protection and unprotection, visibility and invisibility are some of the focuses of this work, which proposes a reflection on some dysfunctionalities of the hyper-watched society in which we live.
 
 <br>
 

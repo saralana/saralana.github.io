@@ -26,12 +26,16 @@ lang: pt
 <img src="../assets/posts/antonimos.jpeg" class="img-border">
 <br><br>
 
-Um microfone grava frases faladas e um sistema troca cada uma das palavras enunciadas por seu antônimo.
-A frase invertida é propagada por uma parede de alto-falantes coletados de sucatas de objetos obsoletos.
-Velhas mídias que reverberam o oposto do que queremos dizer.
+A Máquina de Antônimos é um dispositivo que desconstrói e corrompe mensagens, invibilizando conversas ou levando-as ao absurdo.
+Ao falar com a máquina, ela repetirá sua frase de maneira criptografada, trocando algumas palavras por seus antônimos.
+
+A frase corrompida é propagada por uma parede de televisores e rádios antigos. Já a fala inicial nunca é revelada e é, também, irrecuperável, afinal, o antônimo de um antônimo quase nunca nos leva ao mesmo caminho.
+
+Essa inexatidão do sistema revela as constantes falhas nos sistemas tecnológicos e as fragilidades em se confiar em um banco de dados gerido e gerado por máquinas.
+
 <br>
 
-Com a colaboração de Thiago Hersan 
+Esse projeto foi realizado com a colaboração de Thiago Hersan.
 <br>
 
 --- 
