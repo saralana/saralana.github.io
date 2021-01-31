@@ -1101,7 +1101,13 @@ svg:hover {
   }
 }
 
+#swipebox-overlay {
+    background: $PALETTE5 !important;
+}
 
+#swipebox-bottom-bar{
+    background: $PALETTE5 !important; 
+}
 .animate-left{
   position:relative !important;
   animation:animateleft 0.4s !important;

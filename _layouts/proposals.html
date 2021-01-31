@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    {% include head.html %}
+    {% include meta.html %}
+  </head>
+  <div id="left"></div>
+  <div id="right"></div>
+  <div id="top"></div>
+  <div id="bottom"></div>
+  
+  <body id="palette1">
+        <div id="main-div-index">
+              {% include prev-next.html %}
+              <div id="post">
+                {% unless page.permalink == '/' %}
+                  <div class="post-title">{{ page.title }}</div>
+                  <br>
+                  <b>{{ page.who }}</b>
+                  <p>{{ page.type }}</p>
+                  <b>{{ page.data }}</b>
+                {% endunless %}
+                <br><br><br>
+                <content>
+                  {{ content }}
+                  {% include swipebox.html %}
+                  {% if page.credits == "sem" %}
+                  {% else %}
+                  <br>
+                  <br>    
+                  {% endif %}
+                </content>
+                  <br>
+                  <br>
+   
+           
+         </div>
+        {% include navbar.html %}
+  </body>
+</html>
