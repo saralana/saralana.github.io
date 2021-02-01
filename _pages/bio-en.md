@@ -4,7 +4,7 @@ permalink: '/about/'
 menu: true
 layout: about
 lang: en
-cover: /assets/covers/pontos-cegos.png
+cover: /assets/covers/avatar.png
 type: Sara Lana develops projects permeated by sound, art and technology.
 ref: bio
 ---
