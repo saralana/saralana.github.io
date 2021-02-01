@@ -24,7 +24,10 @@ These animals could be dogs (saw on instagram Dash and Ivy, could be then, if th
 The collars were created during the [Pack project](../matilha){:target="_blank"}, done in collaboration with mutt dogs in Brazil. As the next stage of the project, I propose that the sounds transmitted by the animals, will be combined, mixed in real time and re-transmitted on the Wave Farm's WGXC 90.7-FM radio. It is a project with two radio transmission layers: the 1st layer is a UHF transmission from the animals to the receiving station, where the sounds will be mixed in real time. The other radio layer is the result of this combination of sounds that will be transmitted on 90.7-FM.
 
 The field recorders are the animals and I will be the technician that will mix and retransmit their sounds.
+<br><br><br><br>
 
+<img src="../assets/posts/3_b_radio.png" style="border:0px">
+    
 
 <br>
 
@@ -84,5 +87,26 @@ Generally speaking, my work deals with the contradictions of a society at the sa
   
 <br>
 
-Here some tests I did with the radio transmitter collars:
+### Workshop proposal
+
+As part of the residency, I propose to do a workshop for constructing radio transmitter collars.
+
+In this workshop I will teach how to hack and transform walkie-talkies for other applications, using basic electronics and programming skills. 
+
+We will:
+* interpret the circuit board and make some interventions on it
+* build a programming cable using FTDI (ft232)
+* getting started with CHIRP, a open-source tool for programming amateur radios.
+
+
+<br>
+
+
+---
+
+  
+<br>
+
+
+### Here some tests I did with the radio transmitter collars:
   

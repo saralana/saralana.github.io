@@ -808,12 +808,29 @@ h4 {
   padding-bottom: 4%;
  // z-index: 50;
  // position: fixed;
+    .avatar{
+        position: absolute;
+        top: 6%;
+        right: 18%;
+        border: 0px !important;  
+        width: 9% !important;
+    }
+    .avatar-show:hover{
+        display: none !important;
+    }
+    .avatar-hide{
+    display: block;
+    }
  @media only screen and (max-width: 600px) {
     width: 80%;
     padding-left: 7%;
     padding-right: 0%;
     padding-top: 10%;
-    padding-bottom: 4%;
+    padding-bottom: 4%;    
+     .avatar{
+        display: none;
+    }
+    
   }
     .post-title {
     font: bold $TITLE-SIZE $FAMILY-SANS;
@@ -821,6 +838,8 @@ h4 {
     text-transform: lowercase;
     text-align: left;
   }
+
+    
     hr{
         color: $PALETTE2;
         background-color: $PALETTE2;
