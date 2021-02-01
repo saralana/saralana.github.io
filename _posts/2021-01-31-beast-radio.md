@@ -67,7 +67,7 @@ Depending on the animals collaborating on this project, some functions can be ad
 
 <br>
 
-### Artist Statement
+### Sara Lana | Artist Statement
    
   
 I am a 33-year-old Brazilian artist and developer. I studied mathematics and electrical engineering at the Federal University of Minas Gerais. My projects, lie in the convergence of art, science and technology. I use multiple supports, especially sound, electronics and video, having illustration as an existing element throughout my process of creation. 
