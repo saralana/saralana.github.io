@@ -17,7 +17,7 @@ lang: en
 
 My proposal is to create a radio to record and transmit sounds captured by animals of Wave Farm and its neighborhoods, making possible a listenning from the auditory perspective of other species.
 
-The collected sounds will be captured in a spatialized way, following the movement of the animals. To capture and transmit, they will use collars equipped with microphones and FM transmitters. (photos bellow) The idea is to use multiple transmitters simultaneously, making it possible to tune to each of the animals and listen to them in real time, passing from one to another, combining their sounds and drawing a sound choreography in the region.
+The collected sounds will be captured in a spatialized way, following the movement of the animals. To capture and transmit, they will use collars equipped with microphones and FM transmitters. (photos bellow) The idea is to use multiple transmitters simultaneously, making it possible to tune to each of the animals and listen to them in real time, passing from one to another, mixing their sounds and drawing a sound choreography in the region.
 
 These animals could be dogs (saw on instagram Dash and Ivy, could be then, if they agree), caws, pigs and horses of neighboring farms, or even deers from the Catskill Mountain Park.  This will depend on creating a close relationship with them over the 10 days of residency.
 
