@@ -72,6 +72,7 @@ Depending on the animals collaborating on this project, some functions can be ad
   
 I am a 33-year-old Brazilian artist and developer. I studied mathematics and electrical engineering at the Federal University of Minas Gerais. My projects, lie in the convergence of art, science and technology. I use multiple supports, especially sound, electronics and video, having illustration as an existing element throughout my process of creation. 
 <br>
+  
 Generally speaking, my work deals with the contradictions of a society at the same time based and alienated on technology. In this context, I seek, in my work, to promote technologic disalienation. I also propose, in my projects, a reflection on the role of animals that share spaces with us. In collaboration with other species, I seek to stimulate the search for more balanced biological-technological relations.
 
 
