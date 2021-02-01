@@ -1,7 +1,7 @@
 ---
 title: 'species of spaces 3'
 who: 
-type: video collection
+type: collection of videos
 menu: true
 where: 
   - name: Museu de Arte da Pampulha | Belo Horizonte | BRAZIL
@@ -31,11 +31,12 @@ lang: en
 <br>
 
 
-In Spaces Species III, are shown images of surveillance cameras that intrigue us or generate estrangement. Whether by its unexpected poetic as landscapes worthy of cinematographic world, or by capturing unusual scenes, such as insects that made the camera a very singular nest.
+Species of Spaces is an investigation which began in 2019 and is based on the appropriation of images captured on surveillance cameras.
+  
+In Species of Spaces 3, images of surveillance videos which create a feeling of strangeness, surprise or inquiry are presented. Be it due to their unexpected poetic elements, as landscapes whose composition is worthy of cinematographic framing, or to the fact that they capture unexpected scenes, such as insects who used the camera as a unique nest. 
+  
+Based on an immense archive of videos which are not made for public appreciation, this work acknowledges the poetic potential of these registers and creates a witness of the present history. 
 
-The images captured by surveillance cameras are not made exactly for the appreciation of a viewer. At first contact, we assume there is not much to be seen. Such images, drained to a virtual file, do not have exactly one recipient, but fulfill the monitoring function under the security argument. Cameras, with the consent of their owners, produce images for a rarely accessed file.
-
-Some images captured generate strangeness in us: “cinema landscapes”, postcards (marine scenes, countryside landscapes) or cameras invaded by insects.
 <br>
 
 

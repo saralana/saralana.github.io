@@ -15,12 +15,9 @@ ref: bio
 
 <br>
 
-**Sara Lana (Belo Horizonte, 1988)** teve seu caminho acadêmico traçado em escolas de matemática, computação e engenharia, e desde 2007 desenvolve projetos permeados por som, arte e tecnologia.
-Em geral, seu trabalho tem como como ponto de partida a desalienação tecnológica como gesto político e de autonomia.  
+Sara Lana é uma artista e desenvolvedora brasileira de 33 anos. Nascida em Belo Horizonte, estudou matemática e engenharia elétrica na Universidade Federal de Minas Gerais. Seus projetos se situam na confluência da arte com a tecnologia. Recorrem a suportes variados, valendo-se principalmente do som, da eletrônica e do vídeo, tendo a ilustração presente em todo o processo de criação.
   
-Foi artista residente em diversos espaços de fomento à arte, ciência e tecnologia e apresentou seus trabalhos no Brasil, Chile, México, Espanha e França. 
-  
-Entre seus projetos destaca-se 'Pontos Cegos’, um sistema de detecção automática de câmeras de segurança e mapeamento de pontos não vigiados de grandes cidades (já em andamento em São Paulo e na Cidade do México), 'Matilha', uma rádio de múltiplos canais, com sons gravados e transmitidos em tempo real por cães vira-lata e 'Mutt Dogs', uma peça sonora produzida para rádio francesa Arte Radio, que foi exibida em avant-première no Centre Pompidou. 
+Sua obra busca promover a desalienação tecnológica ao chamar a atenção para o nosso alheamento à onipresença das máquinas digitais na sociedade contemporânea. Seu trabalho propõe ainda uma reflexão sobre o papel dos animais que dividem o espaço com os humanos, e estimula a busca de relações mais equilibradas com eles no contexto tecnológico atual.
 
 
 <div class="selection">

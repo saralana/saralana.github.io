@@ -26,7 +26,7 @@ lang: pt
 <img src="../assets/posts/antonimos.jpeg" class="img-border">
 <br><br>
 
-A Máquina de Antônimos é um dispositivo que desconstrói e corrompe mensagens, invibilizando conversas ou levando-as ao absurdo.
+A Máquina de Antônimos é um dispositivo que desconstrói e corrompe mensagens, inviabilizando conversas ou levando-as ao absurdo.
 Ao falar com a máquina, ela repetirá sua frase de maneira criptografada, trocando algumas palavras por seus antônimos.
 
 A frase corrompida é propagada por uma parede de televisores e rádios antigos. Já a fala inicial nunca é revelada e é, também, irrecuperável, afinal, o antônimo de um antônimo quase nunca nos leva ao mesmo caminho.

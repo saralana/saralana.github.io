@@ -1,7 +1,7 @@
 ---
-title: 'Blind Points'
+title: 'Blind Spots'
 who: 
-type: Surveillance cameras deteccion and mapping 
+type: detection and mapping of surveillance cameras 
 menu: true
 where:
     - name: redBull Station | São Paulo
@@ -35,16 +35,14 @@ lang: en
 </div>
 <br>
 <br><br>
- **Blind Spots** is a project that aims to create counter-surveillance tools. 
- The research follows two different axes, the Tactics of (In)visibility:
 
-**TACTICS OF VISIBILITY** 
-
-
-A helmet capable of automatically detect security cameras and reveal to its user when she/he is being recorded. The device is also equipped with a GPS: when a camera is detected, its coordinates are recorded and stored on a map.
-
-The idea is to reveal those devices increasingly discreets and camouflaged in the cityscapes.
-
+**Blind Spots** is a project which aims to create a tool of counter-surveillance. It is divided in two research approaches, Tactics of (In)Visibility:
+  
+**TACTICS OF VISIBILITY**
+<br>
+A helmet able to automatically detect surveillance cameras  was created. It indicates to its users when they are being filmed. This device reveals and enhances cameras which are each time more discreet and camouflaged in the cities.  
+  
+The device also contains a GPS and when it detects a camera, its coordinates are registered and saved on a map (see below), automatically mapping a given route.
 
 <br><br>
  <div class="row">
@@ -57,12 +55,13 @@ The idea is to reveal those devices increasingly discreets and camouflaged in th
 </div>
 
 <br>
- 
-**TACTICS OF INVISIBILITY - IN PROCESS**
 
-Development of a route tracer to trace routes from a point A to a point B of a city passing only through the blind spots of security cameras.
-
-<br> Also, on this research axis, I do <a href="../workshops" target="_blank">&nbsp;workshops&nbsp;</a> for creation of tools for bluring images recorded by video surveillance cameras.
+**TACTICS OF INVISIBILITY – IN PROCESS**
+  
+A route designer is in development which is able to create routes from point A to point B, in a city, walking only by the blind spots of its cameras.
+  
+In this line of research, I also offer <a href="../workshops" target="_blank">&nbsp;workshops&nbsp;</a> to create tools of invisibility, which are able to overshadow the registered images by surveillance cameras. 
+  
 <br><br>
 <div class="row">
   <div class="column">

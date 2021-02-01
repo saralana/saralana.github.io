@@ -1,7 +1,7 @@
 ---
 title: 'species of spaces 1'
 who: 
-type: video installation, drawing
+type: video installation, drawings and architectural blueprints
 menu: true
 where: 
   - name: Museu de Arte da Pampulha | Belo Horizonte | BRAZIL
@@ -29,13 +29,12 @@ lang: en
 
 <br>
 
-Spaces species is an investigation started in 2019 that appropriates of images captured by surveillance cameras.
+Species of Spaces is an investigation initialized  in 2019 which is based on images captured on surveillance cameras.
+  
+The first work of this series presents in videos, architectural blueprints and annotations, intimate diaries of 5 characters built based on domestic images of surveillance cameras with live access on the internet. 
+  
+The characters act as if they are not being observed and as if they completely trust in the technology at hand, highlighting the naturalized processes of surveillance in our contemporary world. The diaries carry an insight on the dysfunctionalities in a society of hyper-surveillance. 
 
-The first work of the series, presents in videos, architectural plans and notes, intimate journals of 5 characters built from surveillance cameras domestic images.
-
-The characters act as if they are not being observed and fully trust on the technology at their disposal, highlighting the naturalized processes of surveillance in our contemporary world. 
-
-Security and exposure, protection and unprotection, visibility and invisibility are some of the focuses of this work, which proposes a reflection on some dysfunctionalities of the hyper-watched society in which we live.
 <br><br>
 
 ---

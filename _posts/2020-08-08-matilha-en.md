@@ -1,7 +1,7 @@
 ---
 title: 'matilha'
 who: 
-type: dogs radio transmitter
+type: radio of canine transmission
 menu: true
 where: 
     - name: residência no JA.CA | MG | BRASIL
@@ -21,11 +21,13 @@ lang: en
 <img src="../assets/posts/mat6.jpeg" class="img-border">
 <br><br>
 
-A soundscape listening of Jardim Canadá (MG, Brazil) from the sonorous perspective of the neighborhood's mutt dogs.
+Pack is a canine radio recorded and transmitted by mutts. 
+Radio-transmitting dog collars were created, via FM-UHF, which were able to transmit the surrounding sounds of the dogs which wore them. 
+  
+Based on a mobile FM_receptor it was possible to sintonize each of the dogs and to listen to them in real time, jumping from one dog to another, combining their sounds and aurally drawing a choreography of the packs of the region. 
+  
+Thus proportioning a spatialized listening based on the aural perspectives of the mutts in the neighborhood. 
 
-Radio transmitter collars were created and were capable of transmit through FM | UHF, the sound environment of the dogs that carried them.
-
-From a mobile station FM radio receiver, it was possible to tune to each of the dogs and listen to them in real time, passing from one dog to another, combining their sounds and audibly drawing the choreography of the packs of the region.
 
 <br>
 
@@ -33,7 +35,7 @@ From a mobile station FM radio receiver, it was possible to tune to each of the 
 
 <br>
 
-['O CÃO E A CIDADE'](http://www.jaca.center/o-cao-e-a-cidade-2/){:target="_blank"} _ DANIEL TOLEDO'S TEXT
+['O CÃO E A CIDADE'](http://www.jaca.center/o-cao-e-a-cidade-2/){:target="_blank"} _ DANIEL TOLEDO'S TEXT ABOUT PACK PROJECT
 
 <br>
 

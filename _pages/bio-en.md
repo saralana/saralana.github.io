@@ -15,12 +15,9 @@ ref: bio
 
 <br>
 
-**Sara Lana (1988, Belo Horizonte)** has an academic career traced in mathematics, coding and engineering schools. Since 2007 she develops projects permeated by sound, art and technology.
-
-In general, her work proposes a reflection on some dysfunctionalities of the hyper-watched society in which we live. Her research is also oriented to the development of gadgets for technological empowerment. She was a resident artist in many science, art and technology spaces, such as Bolsa Pampulha, and presented her work in Brazil, Chile, Mexico, Spain and France.
-
-Among her recent projects stands out 'Species of Spaces', a 3 works series using surveillance camera recordings and 'Pontos cegos' (blind spots), a counter surveillance system for automatic detection of security cameras and mapping of unguarded points in big cities (underway in São Paulo and in Mexico City). 'Matilha', another recent work, is one multi-channel radio with real-time recorded and transmitted sounds by street dogs and 'Mutt Dogs', a sound piece produced for the french radio Arte Radio, which was screened in avant-première at Centre Pompidou.
-
+Sara Lana is a 33 year-old Brazilian artist and developer. She was born in Belo Horizonte (Brazil), studied Mathematics and Electric Engineering in the Federal University of Minas Gerais. Her projects lie in the convergence of art and technology. She often uses varied supports, especially sound, electronics and video, having illustration as an existing element throughout her process of creation.
+  
+Her work seeks to promote technologic disalienation by calling attention to our detachment to the omnipresence of digital machines in our contemporary society. Besides offering insights on the role of the animals which share space with humans, her work also offers and stimulates the search for more balanced relations with them in our current technologic context. 
 
 
 <div class="selection">
