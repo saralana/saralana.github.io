@@ -34,7 +34,7 @@ The field recorders are the animals and I will be the technician that will make 
 
 ### radio transmitter collars
 
-During the first research I learned to reprogram and hack walkie talkies, optimize the use of batteries, and to interpret sound content (noises also carry information: location or position, depending on its characteristics). It is important to highlight that the circuit is a light and compact piece.
+During the [Pack project](../matilha) I learned to reprogram and hack walkie talkies, optimize the use of batteries, and to interpret sound content (noises also carry information: location or position, depending on its characteristics). It is important to highlight that the circuit is a light and compact piece.
 
 The transmitters were removed from powerful walkie talkies, reprogrammed for just transmit and for operation in different frequency bands (within the range reserved by the United States Radio Spectrum Frequency Allocation Chart for the operation of walkie-talkies and handheld transceiver) .
 
@@ -83,5 +83,5 @@ Generally speaking, my work deals with the contradictions of a society at the sa
   
 <br>
 
-Here some tests I did with the collars radio trasmitters:
+Here some tests I did with the radio transmitter collars:
   
