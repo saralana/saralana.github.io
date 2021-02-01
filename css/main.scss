@@ -178,7 +178,12 @@ body {
   height: 100%; 
         cursor:url('../assets/cursors/arrow.png'),auto !important;
     a{
-       cursor:url('../assets/cursors/hand.png'),auto !important;  
+       cursor:url('../assets/cursors/hand.png'),auto !important; 
+    }
+    label{
+       cursor:url('../assets/cursors/hand.png'),auto !important; 
+       font-weight:900;
+       text-decoration: underline;
     }
 }
 
@@ -720,15 +725,15 @@ h4 {
 //END MOBILE NAVIGATION
 
 
-.collapsible{
+.collapsible2{
   cursor: s-resize;
 }
 
-.active, .collapsible:hover {
+.active2, .collapsible2:hover {
   color: $MENU-TEXT-HOVER-COLOR;
 }
 
-.content {
+.content2 {
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
@@ -814,6 +819,7 @@ h4 {
         right: 18%;
         border: 0px !important;  
         width: 9% !important;
+        background: $PALETTE4;
     }
     .avatar-show:hover{
         opacity:0;
@@ -1329,55 +1335,31 @@ https://codepen.io/QDeltaE/pen/VWGYOB*/
 
 
 /* --------- COLLAPSIBLE TEXT ----------*/
- 
-div.sanfona-container { position: relative; }
 
-input[type=checkbox] {
-   position: absolute;
-   top: 0;
-   left: 0;
-   width: 100%;
-   height: 100%;
-   opacity: 0;
+input[type='checkbox'] { 
+    display: none; 
+} 
+.wrap-collabsible { 
+    margin: 1.2rem 0; 
+} 
+.lbl-toggle { 
+    display: block;  
 }
-
-label {
-   cursor: pointer;
-}
-label {
-  position: relative;
-  display: block;
-  padding-left: 30px;
-}
-label:before {
-  content: "";
-  position: absolute;
-  width: 0;
-  height: 0;
-  top: 50%;
-  left: 10px;
-  border-left: 8px solid black;
-  border-top: 8px solid transparent;
-  border-bottom: 8px solid transparent;
-  margin-top: -8px;
-}
-input[type=checkbox]:checked ~ h2 label:before {
-  border-left: 8px solid transparent;
-  border-top: 8px solid black;
-  border-right: 8px solid transparent;
-  margin-left: -4px;
-  margin-top: -4px
-}
-
-.sanfona {
-  max-height: 0;
-  overflow: hidden;
-  padding-left: 30px;
-  transition: max-height 0.4s ease;
-}
-input[type=checkbox]:checked ~ h2 ~ .sanfona {
-  max-height: 80px;
-}
+.lbl-toggle::before { 
+    content: ' '; 
+    display: inline-block; 
+} 
+.toggle:checked+.lbl-toggle::before { 
+    transform: rotate(90deg) translateX(-3px); 
+} 
+.collapsible-content { 
+    max-height: 0px; 
+    overflow: hidden; 
+} 
+.toggle:checked + .lbl-toggle + .collapsible-content { 
+    max-height: 350px; 
+} 
+.collapsible-content p { margin-bottom: 0; }
 
 button{ 
   font-family: $FAMILY-SANS;

@@ -46,6 +46,7 @@ lang: en
 Known as “vira-latas” (dump tippers), stray dogs offer their canine listening abilities in conjunction with human cohabitation. As a dog, you love rummaging through dumpsters, looking for something to eat; you bark when a motorcycle passes by; you run after cars invading your territory; you dash in and out of houses; and you explore abandoned fields. This piece offers a ground level sonic walk, binaurally recorded by dogs in a recent urbanized neighborhood close to Belo Horizonte in Southeast Brazil.
 <br><br>
 
+<div class="wrap-collabsible"> <input id="collapsible" class="toggle" type="checkbox"><label for="collapsible" class="lbl-toggle">français</label><div class="collapsible-content"><div class="content-inner"><p> Chiens de rue en binaural Connus sous le noms de “vira-latas” (retourneurs de poubelle), les chiens de rue nous proposent une écoute de leur monde canin et de leur cohabitation avec les humains. Quand on est chien, on aime fouiller dans les déchets pour y dénicher quelque chose à manger, on aboie quand une moto passe, on court autour des voitures qui envahissent notre territoire, on se faufile à l’intérieur des maisons et on explore les terrains abandonnés. Une balade sonore au ras du sol, enregistrée en binaural par des chiens d’un quartier récemment urbanisé en bordure de Belo Horizonte, au sud-est du Brésil.</p></div></div></div>
 ---
 
 <br>

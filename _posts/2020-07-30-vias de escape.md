@@ -36,6 +36,10 @@ Para investigar tais sons intrínsecos à cidade, nos dedicamos neste projeto a 
 Trata-se, também, de habitar a escuta como um gesto ativo, para sondar suas limitações e propor um conjunto de novas intenções: redescubrir (e desnudar) a escuta e dar-se conta de que nos ouvimos ouvindo e nos escutamos escutando. Tudo isso se situa na fronteira interior-exterior, provocando uma mudança de atitude auditiva, uma via de escape.
 
 <br>
+<div class="wrap-collabsible"> <input id="collapsible" class="toggle" type="checkbox"><label for="collapsible" class="lbl-toggle">español</label><div class="collapsible-content"><div class="content-inner"><p> La reverberación en objetos o en espacios cerrados evidencia la sombra de los sonidos producidos dentro de ellos, impregnándolos con el sedimento de su presencia material, espacial y temporal. Esa mancha, así como los rumores de la calle amortiguados  y desviados en muros, cerros, edificaciones, manifiestan una sonoridad que es inherente a estos lugares y cuerpos.
+<br><br>
+Para investigar tales sonidos intrínsecos de la ciudad, nos dedicamos en este proyecto a construir parafernalias de escucha utilizando basuras recolectadas en las calles, las chatarrerías y los vertederos de Valparaíso: un experimento para subvertir, descomponer y ampliar la percepción del entorno sonoro de la ciudad.<br><br>
+Se trata también de habitar la escucha como un proceso activo, para sondear sus limitaciones y proponer un conjunto de nuevas intenciones: redescubrir (y desnudar) la escucha, hacer resonar el sonido en nuestra interioridad y darse cuenta que nos oímos oyendo y nos escuchamos escuchando. Todo eso se sitúa en el umbral interior-exterior, provocando un cambio de actitud hasta la audición, una vía de escape.</p></div></div></div>
 
 ---
 

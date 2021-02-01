@@ -31,3 +31,9 @@ The search for twin sounds and the discovery of spontaneous „morphings” in t
 
 Sound piece created during the SONIC FUTURE RESIDENCIES organized by Asociația Jumătatea plină and SEMI SILENT to Conacul Otetelișanu, Vâlcea County, Romania in July 2018.
 
+<br>
+<div class="wrap-collabsible"> <input id="collapsible" class="toggle" type="checkbox"><label for="collapsible" class="lbl-toggle">français</label><div class="collapsible-content"><div class="content-inner"><p> Des voitures traversent un village à grande vitesse et se superposent aux vies en bordure des routes de Roumanie. Telle des vagues, le bruit des moteurs envahit l’espace sonore et nous transporte d’une maison à l’autre. À chaque passage, il révèle un son auparavant imperceptible. 
+<br><br>
+Cette expérience sonore éveille une proposition d'écoute: Un son peut en cacher un autre; mais un son pourrait-il contenir, en soi, un autre son? Des objets et des actions complètement différents, peuvent-ils générer des sons identiques? 
+<br><br>
+La recherche de sons jumeaux et la découverte des “morphings” spontanés dans les enregistrements effectués lors de mes promenades routières sont les fils conducteurs de cette création sonore.</p></div></div></div>

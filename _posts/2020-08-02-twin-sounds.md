@@ -34,10 +34,17 @@ A procura por sons gêmeos e a descoberta de “morphings espontâneos” em min
 <br>
   
 
-(1) One train may hide another, Kenneth Koch
+_(1) One train may hide another, Kenneth Koch_
 
 Partindo da premissa de não usar efeitos digitalmente aplicados, algumas técnicas foram desenhadas para essa criação:
 
 * cadavre exquis sonoro_ para propor a terceiros o encontro de similares sonoros, partindo da escuta de pequenos excertos de áudio.
 
 * modulação artesanal_ para aplicar, manualmente, a um dado áudio, a curva de intensidade sonora do áudio seguinte.
+
+<br>
+<div class="wrap-collabsible"> <input id="collapsible" class="toggle" type="checkbox"><label for="collapsible" class="lbl-toggle">français</label><div class="collapsible-content"><div class="content-inner"><p> Des voitures traversent un village à grande vitesse et se superposent aux vies en bordure des routes de Roumanie. Telle des vagues, le bruit des moteurs envahit l’espace sonore et nous transporte d’une maison à l’autre. À chaque passage, il révèle un son auparavant imperceptible. 
+<br><br>
+Cette expérience sonore éveille une proposition d'écoute: Un son peut en cacher un autre; mais un son pourrait-il contenir, en soi, un autre son? Des objets et des actions complètement différents, peuvent-ils générer des sons identiques? 
+<br><br>
+La recherche de sons jumeaux et la découverte des “morphings” spontanés dans les enregistrements effectués lors de mes promenades routières sont les fils conducteurs de cette création sonore.</p></div></div></div>
