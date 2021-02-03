@@ -1,3 +1,11 @@
+var plus = document.getElementById('plus');
+
+ function plusToggle() {
+    plus.classList.toggle('plus--active');
+}
+
+plus.addEventListener('click', plusToggle);
+
 function openNav() {
     if (window.matchMedia("(min-width:600px)").matches) {
         document.getElementById("sidenav").style.display = "block";
