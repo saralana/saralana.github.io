@@ -55,7 +55,7 @@ A set of images shows us an apparently harmless occupation of spiders. The impor
   
 Focused on the interaction between physical bodies (spiders), technological bodies (cameras) and cultural bodies (surveillance), I've been collecting, since 2019, spider webs images from surveillance cameras archives. 
   
-For the Tracked & Traced exhibition I propose to create a video installation with a hundred of videos of webs hiding surveillance cameras recordings.  
+For the Tracked & Traced exhibition I propose to create a video installation with dozens of videos of webs hiding surveillance cameras recordings.  
 
 I [first presented](../en/especies-de-espacos-2){:target="_blank"} this research as a digital printing installation.  For the Tracked & Traced, the idea is to create a video grid, with a hundred of 7"inches screens, each one showing a different place in the world. Each video will reveal a web being waved, from the beginning,  in front of the cameras, until the images shown before can no longer be identified.
   
