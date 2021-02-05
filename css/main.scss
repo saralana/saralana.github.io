@@ -227,7 +227,7 @@ h4 {
     text-transform: lowercase;
     font-weight: 700;
     ::selection {
-      background: $PALETTE5;
+      background: $PALETTE2;
       color: $PALETTE1;
     }
     width:100%; 
@@ -243,7 +243,7 @@ h4 {
     text-transform: lowercase;
     font-weight: 700;
     ::selection {
-      background: $PALETTE5;
+      background: $PALETTE1;
       color: $PALETTE2;
     }
     width:100%;
@@ -285,14 +285,26 @@ h4 {
 #palette1{
    color: $PALETTE2 !important;
    background-color:$PALETTE1;
+    ::selection {
+        color: $PALETTE1 !important;
+        background-color:$PALETTE2;   
+    }
 }
 #palette2{
    color: $PALETTE1 !important;
         background-color:$PALETTE2;
+    ::selection {
+        color: $PALETTE2 !important;
+        background-color:$PALETTE1;   
+    }
 }
 #palette4{
    color: $PALETTE2 !important;
         background-color:$PALETTE4;
+    ::selection {
+        color: $PALETTE4 !important;
+        background-color:$PALETTE2;   
+    }
 }
 .palette1{
    background-color: $PALETTE1; 
@@ -759,6 +771,7 @@ h4 {
   padding-right: 10%;
   padding-top: 5%;
   padding-bottom: 4%;
+  
  // z-index: 50;
  // position: fixed;
     @media only screen and (max-width: 600px) {

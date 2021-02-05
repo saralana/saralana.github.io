@@ -21,7 +21,7 @@ The collected sounds will be captured in a spatialized way, following the moveme
 
 These animals could be dogs (saw on instagram Dash and Ivy, could be then, if they agree), caws, pigs and horses of neighboring farms, or even deers from the Catskill Mountain Park.  This will depend on creating a close relationship with them over the 10 days of residency.
 
-The collars were created during the [Pack project](../matilha){:target="_blank"}, done in collaboration with mutt dogs in Brazil. As the next stage of the project, I propose that the sounds transmitted by the animals, will be combined, mixed in real time and re-transmitted on the Wave Farm's WGXC 90.7-FM radio. It is a project with two radio transmission layers: the 1st layer is a UHF transmission from the animals to the receiving station, where the sounds will be mixed in real time. The other radio layer is the result of this combination of sounds that will be transmitted on 90.7-FM.
+The collars were created during the [Pack project](../en/matilha){:target="_blank"}, done in collaboration with mutt dogs in Brazil. As the next stage of the project, I propose that the sounds transmitted by the animals, will be combined, mixed in real time and re-transmitted on the Wave Farm's WGXC 90.7-FM radio. It is a project with two radio transmission layers: the 1st layer is a UHF transmission from the animals to the receiving station, where the sounds will be mixed in real time. The other radio layer is the result of this combination of sounds that will be transmitted on 90.7-FM.
 
 The field recorders are the animals and I will be the technician that will mix and retransmit their sounds.
 <br><br><br><br>
@@ -37,7 +37,7 @@ The field recorders are the animals and I will be the technician that will mix a
 
 ### radio transmitter collars
 
-During the [Pack project](../matilha) I learned to reprogram and hack walkie talkies, optimize the use of batteries, and to interpret sound content (noises also carry information. Depending on their characteristics, we can even deduce the position of the transmitters in relation to the receiver). It is important to highlight that the circuit is a light and compact piece.
+During the [Pack project](../en/matilha){:target="_blank"} I learned to reprogram and hack walkie talkies, optimize the use of batteries, and to interpret sound content (noises also carry information. Depending on their characteristics, we can even deduce the position of the transmitters in relation to the receiver). It is important to highlight that the circuit is a light and compact piece.
 
 The transmitters were removed from powerful walkie talkies, reprogrammed for transmit-only and for operation in different frequency bands (Spectrum Allocation information below).
 
