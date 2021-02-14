@@ -78,7 +78,6 @@ _tradução em processo_
         <img src="../assets/posts/hydrophone5.jpg" class="img-border">
     </div>
 </div>
-<br>
 
 * Choose a plastic lid with a diameter about 1cm bigger than piezoeletric’s diameter. In our video we used a 1″ piezo (25mm)
   
@@ -110,7 +109,6 @@ _tradução em processo_
         <img src="../assets/posts/hydrophone10.jpg" class="img-border">
     </div>
 </div>
-<br>
 
 We will use the copper to protect the hydrophone from electro-magnetic interference.
   
@@ -147,7 +145,6 @@ Note: it exist a self-adhesive copper foil which could be better for this use (a
         <img src="../assets/posts/hydrophone14.jpg" class="img-border">
     </div>
 </div>
-<br>
 
 * Position the piezo centered outside of the lid. The terminals must be seen inside the hole.
   
@@ -184,7 +181,6 @@ Note: it exist a self-adhesive copper foil which could be better for this use (a
         <img src="../assets/posts/hydrophone19.jpg" class="img-border">
     </div>
 </div>
-<br>
 
 * Fill half of the lid with silicon.
   
@@ -219,7 +215,6 @@ Note: it exist a self-adhesive copper foil which could be better for this use (a
         <img src="../assets/posts/hydrophone26.jpg" class="img-border">
     </div>
 </div>
-<br>
 
 
 * Carefully remove the electric tape from the piezo.
@@ -238,7 +233,7 @@ Note: it exist a self-adhesive copper foil which could be better for this use (a
 
 ## step 6: Escuta
   
-* Experimente seu hidrofone e compartilhe suas gravações !!
+Experimente seu hidrofone e compartilhe suas gravações !!
   
 <br> 
 
@@ -246,11 +241,11 @@ Note: it exist a self-adhesive copper foil which could be better for this use (a
 
 <br>
 
-## TUTORIAL feito por Sara Lana & Félix Blume ##
-
+## tutorial feito por sara lana & félix blume ##
+<br>
 
 <img src="../assets/posts/hydrophone27.jpg" class="img-border">
-
+<br><br>
 Other nice hydrophone tutorials where we learned to construct ours:
 
 *  [Phase 57](http://www.phase57.com/build/contact-mic){:target="_blank"} give a very similar way of building a contact microphone, shield as ours, and I guess that could easily be used as a hydrophone<br>
