@@ -4,7 +4,7 @@ who:
 type: um tutorial passo-a-passo para construir um microfone aquático
 menu: true
 ref: hydro
-layout: proposals
+layout: proposals-blue
 permalink: hidrofone
 lang: pt
 ---
