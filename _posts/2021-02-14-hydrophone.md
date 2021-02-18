@@ -282,4 +282,4 @@ If you want to buy some, here are a few links :
 
 Missing a link to a nice DIY tutorial or another nice way of buying an hydrophone? Contact us!
 <br><br>
-[https://saralana.xyz/about](https://saralana.xyz/en/sobre){:target="_blank"} & [https://felixblume.com/contact](https://felixblume.com/contact){:target="_blank"}
+[https://saralana.xyz/about](https://saralana.xyz/about){:target="_blank"} & [https://felixblume.com/contact](https://felixblume.com/contact){:target="_blank"}

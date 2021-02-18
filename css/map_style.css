@@ -1,0 +1,108 @@
+
+body {
+      margin: 0;
+      padding: 0;
+    }
+
+    #map {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      width: 100%;
+    }
+
+    /* Popup styling */
+
+    .mapboxgl-popup {
+      padding-bottom: 15px;
+    }
+
+    .mapboxgl-popup-close-button {
+      display: none;
+    }
+
+    .mapboxgl-popup-content {
+      font: 400 15px/22px 'Source Sans Pro', 'Helvetica Neue', Sans-serif;
+      padding: 0px !important;
+      width: 210px;
+      background: transparent !important;
+    }
+
+    .mapboxgl-popup-content-wrapper {
+      padding: 1%;
+    }
+
+    .mapboxgl-popup-content h3 {
+      background: rgb(61, 59, 59);
+      text-align: center;
+      color: #fff;
+      margin: 0;
+      display: block;
+      padding: 15px;
+      font-weight: 700;
+      margin-top: -5px;
+    }
+
+    .mapboxgl-popup-content h4 {
+      margin: 0;
+      display: block;
+      padding: 10px 3px 10px 10px;
+      font-weight: 400;
+    }
+
+    .mapboxgl-container {
+      cursor: pointer;
+    }
+
+    .mapboxgl-popup-anchor-top>.mapboxgl-popup-content {
+      margin-top: 3px;
+    }
+
+    .mapboxgl-popup-anchor-top>.mapboxgl-popup-tip {
+      border-bottom-color: hotpink;
+    }
+
+.mapboxgl-popup-anchor-bottom .mapboxgl-popup-tip {
+    align-self: center;
+    border-bottom: 10 !important;
+    border-top-color: hotpink !important;
+}
+
+a.mapboxgl-ctrl-logo{
+  display: none !important;
+}
+
+.mapboxgl-ctrl-bottom-right{
+  display: none !important;
+}
+
+.mapboxgl-ctrl-top-left {
+    top: 30px !important;
+    left: 40px !important;
+}
+
+.mapboxgl-ctrl-group button {
+    background-color: #F6F6E3;
+}
+
+h2 {
+    font-size: 20px;
+    color: hotpink;
+    font-family: 'Source Code Pro', 'Courier New', 'Lucida Sans Typewriter', monospace;
+    line-height: 0px;
+    text-align: center;
+}
+
+audio::-webkit-media-controls-panel, video::-webkit-media-controls-panel {
+    background-color: hotpink;
+}
+
+audio{
+    background-color: hotpink;
+    opacity: 0;
+    width: 0px !important;
+}
+
+.controls button:hover, .controls button:focus {
+   color: hotpink;
+}
