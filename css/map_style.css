@@ -2,7 +2,20 @@
 body {
       margin: 0;
       padding: 0;
+    
     }
+
+p {
+    font-size: 15px;
+    color: #f18388;
+    font-family: 'Source Code Pro', 'Courier New', 'Lucida Sans Typewriter', monospace;
+    line-height: 0px;
+    text-align: left;
+    position: absolute;
+    left: 30px;
+    bottom: 20px;
+}
+
 
     #map {
       position: absolute;
@@ -59,13 +72,13 @@ body {
     }
 
     .mapboxgl-popup-anchor-top>.mapboxgl-popup-tip {
-      border-bottom-color: hotpink;
+      border-bottom-color: #f18388;
     }
 
 .mapboxgl-popup-anchor-bottom .mapboxgl-popup-tip {
     align-self: center;
     border-bottom: 10 !important;
-    border-top-color: hotpink !important;
+    border-top-color: #f18388 !important;
 }
 
 a.mapboxgl-ctrl-logo{
@@ -87,22 +100,22 @@ a.mapboxgl-ctrl-logo{
 
 h2 {
     font-size: 20px;
-    color: hotpink;
+    color: #f18388;
     font-family: 'Source Code Pro', 'Courier New', 'Lucida Sans Typewriter', monospace;
     line-height: 0px;
     text-align: center;
 }
 
 audio::-webkit-media-controls-panel, video::-webkit-media-controls-panel {
-    background-color: hotpink;
+    background-color: #f18388;
 }
 
 audio{
-    background-color: hotpink;
+    background-color: #f18388;
     opacity: 0;
     width: 0px !important;
 }
 
 .controls button:hover, .controls button:focus {
-   color: hotpink;
+   color: #f18388;
 }
