@@ -28,7 +28,11 @@ p {
 
     .mapboxgl-popup {
       padding-bottom: 15px;
+      top: -10px !important;
     }
+
+    .mapboxgl-canvas-container { cursor:url('../assets/cursors/drag.png'), auto !important } 
+
 
     .mapboxgl-popup-close-button {
       display: none;
@@ -39,6 +43,7 @@ p {
       padding: 0px !important;
       width: 210px;
       background: transparent !important;
+      top: -11px;
     }
 
     .mapboxgl-popup-content-wrapper {
@@ -70,15 +75,54 @@ p {
     .mapboxgl-popup-anchor-top>.mapboxgl-popup-content {
       margin-top: 3px;
     }
-
+    .mapboxgl-popup-anchor-bottom>.mapboxgl-popup-content {
+      margin-top: 3px;
+    }
     .mapboxgl-popup-anchor-top>.mapboxgl-popup-tip {
       border-bottom-color: #f18388;
     }
+.mapboxgl-popup-tip {
+    border-top-color: #f18388 !important;
+    border-bottom-color: #f18388 !important;
+}
 
 .mapboxgl-popup-anchor-bottom .mapboxgl-popup-tip {
     align-self: center;
-    border-bottom: 10 !important;
     border-top-color: #f18388 !important;
+}
+
+
+.mapboxgl-popup-anchor-left .mapboxgl-popup-tip {
+    border-right-color: #f18388 !important;
+    border-top-color: #f1838800 !important;
+    border-bottom-color: #f1838800 !important;
+}
+
+.mapboxgl-popup-anchor-left {
+    left: 20px !important;
+    top: 10px !important;
+}
+
+.mapboxgl-popup-anchor-right {
+    left: -20px !important;
+    top: 10px !important;
+}
+
+
+
+.mapboxgl-popup-anchor-right .mapboxgl-popup-tip {
+    border-left-color: #f18388 !important;
+    border-top-color: #f1838800 !important;
+    border-bottom-color: #f1838800 !important;
+}
+
+.mapboxgl-popup-anchor-bottom {
+    top: -13px;
+}
+
+.mapboxgl-popup-anchor-top {
+    top: 20px !important;
+    margin-top: 0px;
 }
 
 a.mapboxgl-ctrl-logo{
@@ -114,6 +158,7 @@ audio{
     background-color: #f18388;
     opacity: 0;
     width: 0px !important;
+    height: 0px !important;
 }
 
 .controls button:hover, .controls button:focus {

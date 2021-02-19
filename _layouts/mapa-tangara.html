@@ -58,8 +58,8 @@
     var map = new mapboxgl.Map({
       container: 'map', // container id
       style: 'mapbox://styles/saralgc/ckev0lgww9jew19k93wzb364i',
-      center: [-43.732, -20.114], // starting position
-      zoom: 14.62,// starting zoom
+      center: [-43.732, -20.113], // starting position
+      zoom: 14.92,// starting zoom
       transformRequest: transformRequest
     });
 
@@ -120,18 +120,14 @@
             });
           
 
-            // Change the cursor to a pointer when the mouse is over the places layer.
+           //  Change the cursor to a pointer when the mouse is over the places layer.
             map.on('mouseenter', 'csvData', function () {
-              map.getCanvas().style.cursor = 'pointer';
-            });
-            
-             map.on('mouseenter', 'csvData2', function () {
               map.getCanvas().style.cursor = 'pointer';
             });
 
             // Change it back to a pointer when it leaves.
-            map.on('mouseleave', 'places', function () {
-              map.getCanvas().style.cursor = '';
+            map.on('mouseleave', 'csvData', function () {
+              map.getCanvas().style.cursor  = '';
             });
 
             var bbox = turf.bbox(data);
