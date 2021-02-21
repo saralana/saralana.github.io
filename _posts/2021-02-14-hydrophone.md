@@ -260,7 +260,7 @@ Other nice hydrophone tutorials where we learned to construct ours:
 
 * [Guillaume Leguen](https://wikifactory.com/@gheleguen/hydrophone){:target="_blank"}
 
-* [Locus Sonus | Grégoire Lauvin](https://locusonus.org/wiki/index.php?page=Hydrophone.en){:target="_blank"}
+* [Locus Sonus – Grégoire Lauvin](https://locusonus.org/wiki/index.php?page=Hydrophone.en){:target="_blank"}
 
 * [David Dunn](https://www.zachpoff.com/site/wp-content/uploads/David-Dunn-Microphones_Hydrophones_Vibration-Transducers__Rolling_Your_Own__Dunn2007.pdf){:target="_blank"}
 
