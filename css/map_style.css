@@ -38,7 +38,7 @@ p {
     .mapboxgl-popup-content {
       font: 400 15px/22px 'Source Sans Pro', 'Helvetica Neue', Sans-serif;
       padding: 0px !important;
-      width: 210px;
+      width: auto;
       background: transparent !important;
       top: -2px;
     }
