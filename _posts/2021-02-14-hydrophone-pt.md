@@ -253,8 +253,19 @@ Other nice hydrophone tutorials where we learned to construct ours:
 * [Zach Poff](https://www.zachpoff.com/resources/building-contact-mics){:target="_blank"} give a step by step building of a contact mic in a very easy way. With an interesting list of other places to buy some contact mic online (at the bottom of the page)<br>
 
 * [John Grzinich](https://maaheli.ee/main/d-i-y-hydrophones){:target="_blank"} share here a nice way to build a DIY hydrophone 
+
+* [Guillaume Leguen](https://wikifactory.com/@gheleguen/hydrophone){:target="_blank"}
+
+* [Locus Sonus | Grégoire Lauvin](https://locusonus.org/wiki/index.php?page=Hydrophone.en){:target="_blank"}
+
+* [David Dunn](https://www.zachpoff.com/site/wp-content/uploads/David-Dunn-Microphones_Hydrophones_Vibration-Transducers__Rolling_Your_Own__Dunn2007.pdf){:target="_blank"}
+
+* [LOM contact microphone and interesting things about piezo](https://knowledge.lom.audio/research/contact_mics){:target="_blank"}
+
+* [Tim Prebble about contact microphone](http://www.musicofsound.co.nz/blog/the-first-rule-of-contact-mic-club){:target="_blank"}
 <br>
 <br>
+
 
 If you want to buy some, here are a few links :
 
