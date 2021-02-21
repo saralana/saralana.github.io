@@ -8,7 +8,6 @@ layout: proposals-blue
 permalink: hidrofone
 lang: pt
 ---
-_tradução em processo_
 
 <div class="video-wrapper-side video-wrapper-16x9"><iframe src="https://www.youtube.com/embed/C3Sm4YkPF9w" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 <br><br><br><br>
@@ -62,7 +61,7 @@ _tradução em processo_
 ---
 <br>
   
-## step 1: preparação da tampinha
+## etapa 1: preparação da tampinha
 
 <br>
 <div class="row">
@@ -79,21 +78,21 @@ _tradução em processo_
     </div>
 </div>
 
-* Choose a plastic lid with a diameter about 1cm bigger than piezoeletric’s diameter. In our video we used a 1″ piezo (25mm)
+* Escolha uma tampinha 1cm maior que seu piezo. No vídeo usamos um piezo de 27mm e uma tampinha de 40mm.
   
-* With a ruler mark the center of the plastic piece
+* Com uma régua marque o centrro da tampinha.
   
-* Make a hole with the drilling machine and the hole saw.
-(The hole saw diameter should be a bit smaller than piezoelectric diameter)
+* Usando uma serra-copo, faça um furo na tampa.
+(o diâmetro da serra-copo deve ser um pouquinho menor do que o piezo)
   
-* On the side of the plastic lid make a hole with the drill. It’s where the mic cable will pass through.
+* La lateral da tampinha, com uma broca de de 50mm faça outro furo. É por esse buraco que passaremos o cabo do mic.
 
 <br> 
 
 ---
 <br>
   
-## step 2: folha de cobre
+## etapa 2: folha de cobre
 
 <br>
 <div class="row">
@@ -110,18 +109,18 @@ _tradução em processo_
     </div>
 </div>
 
-We will use the copper to protect the hydrophone from electro-magnetic interference.
+Usaremos o cobre para reduzir interferências.
   
-* Measure the plastic lid height
+* Meça a altura da tampinha
   
-* Cut the copper foil as a strip with the same height.
+* Corte a folha de cobre em uma tira com a mesma altura da tampinha.
   
-* Take the copper strip and internally cover the lid.
+* Faça um anel com a tira e envolva a tampinha internamente com essa camada de cobre
   
-* Fix the copper ring with electrical tape
-  
-* With scissors cut a hole on the side of the ring
-Note: it exist a self-adhesive copper foil which could be better for this use (and easier to work with)
+* Use fita isolante para fixar a tira de cobre na tampinha
+
+* Usando uma tesoura faça um furo nessa tira para a passagem do cabo.
+Obs: exite uma folha de cobre mais fina, tipo folha de aluminio, que pode ser melhor para esse processo.
   
 <br> 
 
@@ -129,7 +128,7 @@ Note: it exist a self-adhesive copper foil which could be better for this use (a
 
 <br>
   
-## step 3: piezo e solda do cabo
+## etapa 3: piezo e solda do cabo
 
 <br>
 <div class="row">
@@ -146,18 +145,18 @@ Note: it exist a self-adhesive copper foil which could be better for this use (a
     </div>
 </div>
 
-* Position the piezo centered outside of the lid. The terminals must be seen inside the hole.
+* Posicione o piezo centrado na parte externa da tampinha. O terminal cerâmico deve ser visto por dentro do furo feito com serra-copo.
   
-* Fix it with electric tape. It will be removed on step 5.
+* Fixe o piezo com fita isolante (que será posteriormente retirada na etapa 5).
   
-* Before soldering put 2″of thermofit on both sides of the cable.
+* Antes de soldar, coloque termoretratil em ambas vias do cabo, bem como no cabo do mic.
   
-* Pass the mic cable through the lid and copper holes and solder it on piezo’s terminals : ground on the external part, positive on the internal part of the piezo.
+* Passe o cabo no furo lateral da tampinha e do cobre e sode ambas as vias.
   
-* Solder the 1/4″mono jack plug  on the other side of the cable.
+* Solde o plug p10 na outra ponta do cabo.
   
-* After soldering, reposition the thermofit and get it hot with the lighter.<br>
-**Note:** it would be possible to use a stereo cable to have probably better shielding. You should then connect ground to the copper foil, positive on the center and negative on the external part of the piezo. 
+* Depois de soldar, posicione o termoretátil nos terminais expostos e aquce com isqueiro ou soprador térmico.<br>
+**Obs:** é possível usar um cabo estereo. Nesse caso você deve soldar o GND no revestimento de cobre.
   
 <br> 
 
@@ -165,7 +164,7 @@ Note: it exist a self-adhesive copper foil which could be better for this use (a
 
 <br>
   
-## step 4: silicone e arruelas
+## etapa 4: silicone e arruelas
 
 <br>
 <div class="row">
@@ -182,16 +181,16 @@ Note: it exist a self-adhesive copper foil which could be better for this use (a
     </div>
 </div>
 
-* Fill half of the lid with silicon.
+* Preencha a tampinha com silicone
   
-* Put 2 iron washers inside it. (In order to give some weight to the hydrophone)
+* Coloque 2 arruelas dentro da tampa e preencha o restante com silicone.
   
-* Fill the rest of the lid with silicon.
+* Corte um circulo de cobre com o mesmo diâmetro da tampinha.
   
-* Cut a copper foil circle, with the same diameter as the lid.
-  
-*  Put the copper circle on the top of the silicon, so it will get glued._ Wait until the silicon dries (about 30 minutes)<br>
-**Note:** you could put some weight on top of the copper foil, so it will get straighter.
+*  Coloque o círculo de cobre no topo do preenchimento de silicone para que grude.
+
+* Espere até que o silicone seque (~33min)<br>
+**Obs:** Você pode colocar um peso por cima do circulo de cobre para garantir sua aderência na peça. 
   
 <br> 
 
@@ -199,7 +198,7 @@ Note: it exist a self-adhesive copper foil which could be better for this use (a
 
 <br>
   
-## step 5: borracha líquida
+## etapa 5: borracha líquida
 
 <br>
 <div class="row">
@@ -217,13 +216,13 @@ Note: it exist a self-adhesive copper foil which could be better for this use (a
 </div>
 
 
-* Carefully remove the electric tape from the piezo.
+* Cudadosamente retire a fita isolante do piezo.
   
-* Dip the lid in the rubber coating can and take it out very slowly.
+* Mergulhe a tapinha na borracha líquida e retire bem devagar.
   
-* Let it dry for around 30 minutes and repeat this step 2 or 3 times.
+* Deixe secar por ~31 minutos e repita o mergulho 2 ou 3 vezes.
   
-* For a uniform rubber layer, you can turn the lid upside down while drying
+* Para uma camada uniforme de emborrachado, vire seu hidrofone de cabeça para baixo enquanto ele seca.
   
 <br> 
 
@@ -231,7 +230,7 @@ Note: it exist a self-adhesive copper foil which could be better for this use (a
 
 <br>
 
-## step 6: Escuta
+## etapa 6: Escuta
   
 Experimente seu hidrofone e compartilhe suas gravações !!
   
@@ -246,7 +245,7 @@ Experimente seu hidrofone e compartilhe suas gravações !!
 
 <img src="../assets/posts/hydrophone27.jpg" class="img-border">
 <br><br>
-Other nice hydrophone tutorials where we learned to construct ours:
+Outros tutoriais interessantes que nos ajudaram a construir nosso hidrofone:
 
 *  [Phase 57](http://www.phase57.com/build/contact-mic){:target="_blank"} give a very similar way of building a contact microphone, shield as ours, and I guess that could easily be used as a hydrophone<br>
 
@@ -267,7 +266,7 @@ Other nice hydrophone tutorials where we learned to construct ours:
 <br>
 
 
-If you want to buy some, here are a few links :
+Se você quer comprar um hidrofone, aqui algumas indicações :
 
 * [Aquarian](https://www.aquarianaudio.com/){:target="_blank"} is one of the famous constructor of very good and cheap hydrophones, already very famous<br>
 
@@ -287,6 +286,7 @@ If you want to buy some, here are a few links :
 * [Ambient](https://ambient.de/en/product_custom_cat/underwater-en/){:target="_blank"} sells ones of the best hydrophones, but with a much higher price 
 <br><br><br><br>
 
-Missing a link to a nice DIY tutorial or another nice way of buying an hydrophone? Contact us!
+
+Se você tem algum outro tutorial para sugerir ou uma boa opção de hidrofone à vensa, nos escreva!
 <br><br>
 [https://saralana.xyz/about](https://saralana.xyz/about){:target="_blank"} & [https://felixblume.com/contact](https://felixblume.com/contact){:target="_blank"}
