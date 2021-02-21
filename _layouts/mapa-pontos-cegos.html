@@ -57,9 +57,9 @@
       
     var map = new mapboxgl.Map({
       container: 'map', // container id
-      style: 'mapbox://styles/saralgc/ckev0lgww9jew19k93wzb364i',
-      center: [-43.732, -20.113], // starting position
-      zoom: 14.92,// starting zoom
+      style: 'mapbox://styles/saralgc/cklcf7fks1a6517ryd879b059',
+      center: [-46.634, -23.547], // starting position
+      zoom: 14.02,// starting zoom
       transformRequest: transformRequest
     });
 
@@ -68,10 +68,12 @@
         type: "GET",
         //YOUR TURN: Replace with csv export link
         //https://www.mapbox.com/impact-tools/sheet-mapper
-        url:'https://docs.google.com/spreadsheets/d/1xuvrMrcSKA5U0GavNTrSesskmwq6nAxOsggfqiSr3rk/gviz/tq?tqx=out:csv&sheet=Sheet1',
+       url:'https://docs.google.com/spreadsheets/d/1blQipxbPUX1n2n8ZU5QunKnfmqdIlyXdD7kIxTUsYJw/gviz/tq?tqx=out:csv&sheet=Sheet1',
         dataType: "text",
         success: function (csvData) { makeGeoJSON(csvData); }
       });
+
+
 
       function makeGeoJSON(csvData) {
         csv2geojson.csv2geojson(csvData, {
@@ -82,47 +84,56 @@
           
           map.on('load', function () {
             
+            map.loadImage(
+             '../assets/favicons/camera.png',
+              function(error, image) {
+              if (error) throw error;
+              map.addImage('camera', image);
+            });
+            
             map.addLayer({
               'id': 'csvData',
-              'type': 'circle',
+              'type': 'symbol',
               'source': {
                 'type': 'geojson',
                 'data': data
               },
-              'paint': {
-                'circle-radius': 8,
-                'circle-color': "#f18388",
+              'layout': {
+                'icon-image': 'camera',
+                'icon-anchor': 'bottom', // point of the icon which will correspond to marker's location
+                "icon-allow-overlap": true,
+                //'icon-size': 0.025
               }
-            });
+             });
+
             // When a click event occurs on a feature in the csvData layer, open a popup at the
             // location of the feature, with description HTML from its properties.
             
             map.on('click', 'csvData', function (e) {
               var coordinates = e.features[0].geometry.coordinates.slice();
 
-               var description = `<audio controls style="width:100%;" controlsList="nodownload" autoplay><source src="https://freesound.org/data/previews/` + e.features[0].properties.Audio + `_7975555-lq.mp3" type="audio/mpeg"></audio>` + `<h2>` + e.features[0].properties.Titulo + `</h2>`;
                 
               while (Math.abs(e.lngLat.lng - coordinates[0]) > 180) {
               coordinates[0] += e.lngLat.lng > coordinates[0] ? 360 : -360;
               }
-                
-              //add Popup to map
-              new mapboxgl.Popup()
-                .setLngLat(coordinates)
-                .setHTML(description)
-                .addTo(map);
             });
-           //  Change the cursor to a pointer when the mouse is over the places layer.
-            map.on('mouseenter', 'csvData', function () {
-              map.getCanvas().style.cursor = 'pointer';
-            });
-            // Change it back to a pointer when it leaves.
-            map.on('mouseleave', 'csvData', function () {
-              map.getCanvas().style.cursor  = '';
-            });
+          
             var bbox = turf.bbox(data);
            // map.fitBounds(bbox, { padding: 50 });
-            
+         map.setLayoutProperty('csvData', 'icon-size', 
+            ['interpolate', ['linear'], ['zoom'],
+              0,
+              //TAMANHO AO ZOOM 0
+              0.05,
+              6,
+              //TAMANHO AO ZOOM 7
+              0.07,
+              15,
+              0.09,
+              24,
+              //TAMANHO AO ZOOM 24
+              0.14
+            ]);
           });
 
         });
@@ -133,7 +144,7 @@
     
 
       // ZOOM
-     // map.addControl(new mapboxgl.NavigationControl(), 'top-left'); // disable map zoom when using scroll
+      map.addControl(new mapboxgl.NavigationControl(), 'top-left'); // disable map zoom when using scroll
     //  map.scrollZoom.disable(); 
     
   </script>
