@@ -36,22 +36,21 @@ Essa inexatidão do sistema revela as constantes falhas nos sistemas tecnológic
 <br>
 
 Esse projeto foi realizado com a colaboração de Thiago Hersan.
-<br>
+<br><br>
 
 --- 
 
 <br>
 <br>
 
-
 <div class="row">
   <div class="column">
-        <div class="video-wrapper-side video-wrapper-16x9">
+        <div style="padding:56.25% 0 0 0;position:relative;">
             <iframe src="https://player.vimeo.com/video/329192060?title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
         </div>
    </div>
     <div class="column">
-        <div class="video-wrapper-side video-wrapper-16x9">
+        <div style="padding:56.25% 0 0 0;position:relative;">
             <iframe src="https://player.vimeo.com/video/329221721?title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
         </div>
     </div>
@@ -59,7 +58,6 @@ Esse projeto foi realizado com a colaboração de Thiago Hersan.
 
 <br>
 <br>
-
 
 --- 
 

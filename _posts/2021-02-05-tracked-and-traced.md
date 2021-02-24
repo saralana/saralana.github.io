@@ -14,7 +14,8 @@ lang: en
 
 
 <div class="video-wrapper-side video-wrapper-16x9">
-    <iframe src="https://player.vimeo.com/video/358613759?autoplay=1" width="650" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+<div style="padding:56.25% 0 0 0;position:relative;">
+    <iframe src="https://player.vimeo.com/video/358613759?autoplay=1" width="650" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div>
 </div>
 
 <br><br>
@@ -33,15 +34,18 @@ Since 2019 I've been collecting surveillance videos of spiders woving their webs
 <br>
 <div class="row">
     <div class="column">
-        <div class="video-wrapper-side video-wrapper-16x9"><iframe src="https://player.vimeo.com/video/358614507?autoplay=1" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
-        </div>
+        <div class="video-wrapper-side video-wrapper-16x9">
+        <div style="padding:56.25% 0 0 0;position:relative;">
+              <iframe src="https://player.vimeo.com/video/358614507?autoplay=1" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div>
+      </div>
     </div>
     <div class="column">
         <div class="video-wrapper-side video-wrapper-16x9">
-            <iframe src="https://player.vimeo.com/video/358613381?autoplay=1" width="640" height="384" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+        <div style="padding:56.25% 0 0 0;position:relative;">
+             <iframe src="https://player.vimeo.com/video/358613381?autoplay=1" width="640" height="384" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div>
         </div>
     </div>
-    </div>
+</div>
 <br>
 
 
@@ -70,7 +74,8 @@ Here some tests I've done:
     </div>
     <div class="column">
         <div class="video-wrapper-side video-wrapper-16x9">
-            <iframe src="https://player.vimeo.com/video/508945366?autoplay=1" width="640" height="384" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+            <div style="padding:56.25% 0 0 0;position:relative;">
+            <iframe src="https://player.vimeo.com/video/508945366?autoplay=1" width="640" height="384" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div>
         </div>
     </div>
 </div>

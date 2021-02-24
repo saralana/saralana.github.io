@@ -16,7 +16,7 @@ lang: es
 Se usan cubos que suenan cuando se voltean, revelando cada uno el sonido que esconden. Un mismo sonido está presente en 2 cubos distintos, y el objetivo es encontrar los pares idénticos.
 <br>
 <br>
-<div class="video-wrapper-side video-wrapper-16x9"><iframe title="vimeo-player" src="https://player.vimeo.com/video/512180495" width="640" height="360" frameborder="0" allowfullscreen></iframe></div>
+<div class="video-wrapper-side video-wrapper-16x9"><div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/512180495?title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div></div>
 <br><br>
 
 Los sonidos presentes en los cubos son grabados durante un taller de grabación de sonido, dirigido a niño/as. De la misma manera, el juego está construido colectivamente, durante un taller de electrónica.

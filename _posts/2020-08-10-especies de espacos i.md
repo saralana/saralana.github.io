@@ -18,9 +18,7 @@ thanks: Hortência Abreu, Flávia Peluzzo, Clarice G. Lacerda, Félix Blume, Fla
 lang: pt
 ---
 
-
-
-<div class="video-wrapper video-wrapper-16x9">
+<div style="padding:56.25% 0 0 0;position:relative;">
 <iframe src="https://player.vimeo.com/video/349636167?loop=1&title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" ></iframe>
 </div>
 
@@ -43,21 +41,21 @@ As personagens agem como se não estivessem sendo observadas e confiam plenament
 <br>
 <div class="row">
   <div class="column">
-        <div class="video-wrapper-side video-wrapper-16x9">
+        <div style="padding:56.25% 0 0 0;position:relative;">
             <iframe src="https://player.vimeo.com/video/357138769?autoplay=1" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
         </div>
         <br> <br>
-        <div class="video-wrapper-side video-wrapper-16x9">
+        <div style="padding:56.25% 0 0 0;position:relative;">
             <iframe src="https://player.vimeo.com/video/357137906?autoplay=1" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
         </div>
       <br>
    </div>
     <div class="column">
-        <div class="video-wrapper-side video-wrapper-16x9">
+        <div style="padding:56.25% 0 0 0;position:relative;">
            <iframe src="https://player.vimeo.com/video/357137300?autoplay=1" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
         </div>
         <br> <br>
-        <div class="video-wrapper-side video-wrapper-16x9">
+        <div style="padding:56.25% 0 0 0;position:relative;">
            <iframe src="https://player.vimeo.com/video/340265321?autoplay=1" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
         </div>
     </div>

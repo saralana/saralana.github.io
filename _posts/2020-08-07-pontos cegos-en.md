@@ -76,10 +76,10 @@ In this line of research, I also offer <a href="../workshops" target="_blank">&n
 ---
 
 <br>
-<div class="video-wrapper video-wrapper-16x9">
-    <iframe src="https://player.vimeo.com/video/232335840" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
-</div>
 
+
+<div style="padding:56.25% 0 0 0;position:relative;">
+           <iframe src="https://player.vimeo.com/video/232335840?autoplay=1" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div>
 <br>
 
 ---

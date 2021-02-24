@@ -18,12 +18,11 @@ thanks: Hortência Abreu, Luis Rodrigo (Artmosphere), Flávia Peluzzo, Clarice G
 lang: pt
 ---
 
-<div class="video-wrapper video-wrapper-16x9">
-<iframe src="https://player.vimeo.com/video/360284668?loop=1&title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" ></iframe>
-</div>
+<div style="padding:56.25% 0 0 0;position:relative;">
+<iframe src="https://player.vimeo.com/video/360284668?loop=1&title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" ></iframe></div>
 
 <br>
- 
+
 --- 
 
 <br>
@@ -37,30 +36,35 @@ A partir de um imenso arquivo de vídeos que não são feitos para a apreciaçã
 
 <br>
 
+
 ---
+
 
 <br>
 <div class="row">
   <div class="column">
         <div class="video-wrapper-side video-wrapper-16x9">
-            <iframe src="https://player.vimeo.com/video/360313799?autoplay=1" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+            <div style="padding:56.25% 0 0 0;position:relative;">
+             <iframe src="https://player.vimeo.com/video/360313799?autoplay=1" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div>
         </div>
         <br>
         <div class="video-wrapper-side video-wrapper-16x9">
-            <iframe src="https://player.vimeo.com/video/360442737?autoplay=1" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+             <div style="padding:56.25% 0 0 0;position:relative;">
+            <iframe src="https://player.vimeo.com/video/360442737?autoplay=1" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div>
         </div>
         <br>
    </div>
     <div class="column">
         <div class="video-wrapper-side video-wrapper-16x9">
-           <iframe src="https://player.vimeo.com/video/360291906?autoplay=1" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+            <div style="padding:56.25% 0 0 0;position:relative;">
+           <iframe src="https://player.vimeo.com/video/360291906?autoplay=1" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div>
         </div>
         <br>
         <div class="video-wrapper-side video-wrapper-16x9">
-           <iframe src="https://player.vimeo.com/video/360451962?autoplay=1" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+            <div style="padding:56.25% 0 0 0;position:relative;">
+           <iframe src="https://player.vimeo.com/video/360451962?autoplay=1" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div>
         </div>
     </div>
 </div>
 <br>
-
 
