@@ -85,7 +85,7 @@ O aparato também possui um GPS e ao detectar uma câmera, suas coordenadas são
 
 
   <div class="video-wrapper video-wrapper-16x9">
-    <iframe frameBorder="0" src="https://umap.openstreetmap.fr/en/map/pontos-cegos_102015?scaleControl=false&miniMap=false&scrollWheelZoom=false&zoomControl=true&allowEdit=false&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=undefined&captionBar=false"></iframe><p><a href="https://umap.openstreetmap.fr/en/map/pontos-cegos_102015">See full screen</a></p>
+   <iframe src="../mapa-pontos-cegos" height="200" width="100%"></iframe>
   </div>
 
 <br><br>
