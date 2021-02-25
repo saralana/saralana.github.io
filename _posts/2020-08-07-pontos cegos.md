@@ -74,7 +74,7 @@ O aparato também possui um GPS e ao detectar uma câmera, suas coordenadas são
 <br>
 
 <div style="padding:56.25% 0 0 0;position:relative;">
-           <iframe src="https://player.vimeo.com/video/232335840?autoplay=1" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div>
+           <iframe src="https://player.vimeo.com/video/232335840?autoplay=1" width="640" height="360" frameborder="0" allow="fullscreen" allowfullscreen></iframe></div>
 <br>
 
 ---
