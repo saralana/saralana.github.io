@@ -37,9 +37,9 @@ lang: en
 <br><br>
 
 **Blind Spots** is a project which aims to create a tool of counter-surveillance. It is divided in two research approaches, Tactics of (In)Visibility:
-  
+  <br><br>
 **TACTICS OF VISIBILITY**
-<br>
+<br><br>
 A helmet able to automatically detect surveillance cameras  was created. It indicates to its users when they are being filmed. This device reveals and enhances cameras which are each time more discreet and camouflaged in the cities.  
   
 The device also contains a GPS and when it detects a camera, its coordinates are registered and saved on a map (see below), automatically mapping a given route.
@@ -59,10 +59,16 @@ The device also contains a GPS and when it detects a camera, its coordinates are
 **TACTICS OF INVISIBILITY – IN PROCESS**
   
 A route designer is in development which is able to create routes from point A to point B, in a city, walking only by the blind spots of its cameras.
+  <br><br>
+  <div class="video-wrapper video-wrapper-16x9">
+   <iframe src="../invisibility-tracer" height="200" width="70%"></iframe>
+  </div>
   
-In this line of research, I also offer <a href="../workshops" target="_blank">&nbsp;workshops&nbsp;</a> to create tools of invisibility, which are able to overshadow the registered images by surveillance cameras. 
   
 <br><br>
+In this line of research, I also offer <a href="../workshops" target="_blank">&nbsp;workshops&nbsp;</a> to create tools of invisibility, which are able to overshadow the registered images by surveillance cameras. 
+  
+<br>
 <div class="row">
   <div class="column">
     <img src="../assets/posts/a-pontoscegos-7.jpg" class="img-border">

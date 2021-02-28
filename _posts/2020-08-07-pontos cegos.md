@@ -40,7 +40,7 @@ lang: pt
  
  <br>
 **TÁTICAS DE VISIBILIDADE** 
-<br>
+<br><br>
 Foi criado um capacete capaz de detectar automáticamente câmeras de vigilância e indicar, a seus usuários, quando estão sendo filmados. Esse dispositivo revela e torna visíveis câmeras cada vez mais discretas e camufladas nas cidades. 
 
 O aparato também possui um GPS e ao detectar uma câmera, suas coordenadas são registradas e armazenadas em um **mapa** (veja abaixo), fazendo um mapeamento automático de um dado percurso.
@@ -55,7 +55,14 @@ O aparato também possui um GPS e ao detectar uma câmera, suas coordenadas são
 </div>
 <br>
 <br>**TÁTICAS DE INVISIBILIDADE | EM ANDAMENTO**
+<br>
 <br> Está em desenvolvimento um traçador de rotas que permite criar caminhos de um ponto A até um ponto B de uma cidade passando apenas pelos pontos cegos de suas câmeras.
+<br>
+  <div class="video-wrapper video-wrapper-16x9">
+   <iframe src="../invisibility-tracer" height="200" width="100%"></iframe>
+  </div>
+
+<br><br>
 <br> Também, nessa frente de pesquisa, ofereço <a href="../workshops" target="_blank">&nbsp;oficinas&nbsp;</a> para criação de ferramentas de invisibilidade, capazes de ofuscar as imagens registradas por câmeras de vigilância.
 <br><br>
 <div class="row">
