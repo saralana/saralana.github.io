@@ -58,12 +58,10 @@ O aparato também possui um GPS e ao detectar uma câmera, suas coordenadas são
 <br>
 <br> Está em desenvolvimento um traçador de rotas que permite criar caminhos de um ponto A até um ponto B de uma cidade passando apenas pelos pontos cegos de suas câmeras.
 <br>
-  <div class="video-wrapper video-wrapper-16x9">
-   <iframe src="../invisibility-tracer" height="200" width="100%"></iframe>
-  </div>
 
+Aqui um [primeiro protótipo](../invisibility-tracer){:target="_blank"} do traçador de rotas.
 <br><br>
-<br> Também, nessa frente de pesquisa, ofereço <a href="../workshops" target="_blank">&nbsp;oficinas&nbsp;</a> para criação de ferramentas de invisibilidade, capazes de ofuscar as imagens registradas por câmeras de vigilância.
+Também, nessa frente de pesquisa, ofereço <a href="../workshops" target="_blank">&nbsp;oficinas&nbsp;</a> para criação de ferramentas de invisibilidade, capazes de ofuscar as imagens registradas por câmeras de vigilância.
 <br><br>
 <div class="row">
   <div class="column">

@@ -59,13 +59,11 @@ The device also contains a GPS and when it detects a camera, its coordinates are
 **TACTICS OF INVISIBILITY – IN PROCESS**
   
 A route designer is in development which is able to create routes from point A to point B, in a city, walking only by the blind spots of its cameras.
-  <br><br>
-  <div class="video-wrapper video-wrapper-16x9">
-   <iframe src="../invisibility-tracer" height="200" width="70%"></iframe>
-  </div>
-  
-  
 <br><br>
+
+Here [&nbsp;a first prototype&nbsp;](../invisibility-tracer){:target="_blank"} of the invisibility route tracer.
+  
+<br>
 In this line of research, I also offer <a href="../workshops" target="_blank">&nbsp;workshops&nbsp;</a> to create tools of invisibility, which are able to overshadow the registered images by surveillance cameras. 
   
 <br>
