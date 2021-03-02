@@ -30,7 +30,7 @@ She also promotes <a href="../en/workshops" target="_blank">&nbsp;workshops&nbsp
 
 <br>
 <div class="selection">
-Sara is executive director of <a href="https://silo.org.br/" target="_blank">&nbsp;Silo – Art and Rural Latitude&nbsp;</a>, a Civil Society Organisation of Public Interest dedicated to fostering and publicising cultural projects in rural areas, with the aim of bringing about transdisciplinary exchange between different areas – above all art, the sciences and technologies – and stimulating exchange between intuitive techniques and scientific knowledge.
+Sara is part of <a href="https://silo.org.br/" target="_blank">&nbsp;Silo – Art and Rural Latitude&nbsp;</a> direction, a Civil Society Organisation of Public Interest dedicated to fostering and publicising cultural projects in rural areas, with the aim of bringing about transdisciplinary exchange between different areas – above all art, the sciences and technologies – and stimulating exchange between intuitive techniques and scientific knowledge.
 </div>
 
 <br>
