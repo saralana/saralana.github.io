@@ -64,12 +64,12 @@
     });
     
     // PARTE DE DIRECOES
-      //map.addControl(
-        //new MapboxDirections({
-        //accessToken: mapboxgl.accessToken
-        //}),
-        //'top-right'
-    //);
+      map.addControl(
+      new MapboxDirections({
+      accessToken: mapboxgl.accessToken
+      }),
+      'top-right'
+    );
 
     $(document).ready(function () {
       $.ajax({
