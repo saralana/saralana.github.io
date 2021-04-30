@@ -125,9 +125,12 @@ a.mapboxgl-ctrl-logo{
 }
 
 .mapboxgl-ctrl-bottom-right{
-  display: none !important;
+    display: none;
 }
-
+.mapboxgl-ctrl-top-right{
+    top: 50px !important;
+    right: 100px !important;
+}
 .mapboxgl-ctrl-top-left {
     top: 30px !important;
     left: 40px !important;
