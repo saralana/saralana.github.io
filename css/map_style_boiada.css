@@ -6,14 +6,15 @@ body {
     }
 
 p {
-    font-size: 20px;
+    font-size: 18px;
     color: #fdfbea;
     font-family: 'Source Code Pro', 'Courier New', 'Lucida Sans Typewriter', monospace;
-    line-height: 25px;
+    line-height: 10px;
     text-align: left;
-    position: absolute;
+    /*position: absolute;*/
     left: 30px;
     bottom: 20px;
+    text-transform: capitalize;
 }
 
 
@@ -28,7 +29,9 @@ p {
 
     .mapboxgl-popup {
       padding-bottom: 15px;
-      top: -35px !important;
+      top: -65px !important;
+      max-width: 400px !important;
+      
     }
 
     .mapboxgl-popup-close-button {
@@ -41,6 +44,7 @@ p {
       width: auto;
       background: transparent !important;
       top: -2px;
+      margin-bottom: 5px;
     }
 
     .mapboxgl-popup-content-wrapper {
@@ -142,10 +146,12 @@ a.mapboxgl-ctrl-logo{
 
 h2 {
     font-size: 20px;
-    color: #f18388;
+    /*color: #f18388;*/
+    color: #F6F6E3;
     font-family: 'Source Code Pro', 'Courier New', 'Lucida Sans Typewriter', monospace;
-    line-height: 10px;
-    text-align: center;
+    line-height: 0px;
+    text-align: left;
+    text-transform: uppercase;
 }
 
 audio::-webkit-media-controls-panel, video::-webkit-media-controls-panel {
@@ -155,7 +161,7 @@ audio::-webkit-media-controls-panel, video::-webkit-media-controls-panel {
 audio{
     background-color: #f18388;
     opacity: 1;
-    width: 200px !important;
+    width: 240px !important;
     height: 30px !important;
 }
 
