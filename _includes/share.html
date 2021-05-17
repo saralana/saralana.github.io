@@ -1,0 +1,24 @@
+<div id="mySidebar" class="sidebar">
+    {% include social-icons.html %}
+</div>
+
+<div id="main" class="share">
+  <a>
+  <i class="fa fa-share-alt fa-1_5x" onclick="toggleNav()" aria-hidden="true"></i>
+  </a>
+</div>
+
+<script>
+
+function toggleNav() {
+    var element = document.getElementById("mySidebar");
+    if (element.style.width == "50px") {
+        element.style.width = "0px";
+    } else {
+        element.style.width = "50px";
+    }
+}
+
+</script>
+   
+
