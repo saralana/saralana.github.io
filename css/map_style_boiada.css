@@ -6,10 +6,10 @@ body {
     }
 
 p {
-    font-size: 18px;
+    font-size: 15px;
     color: #fdfbea;
     font-family: 'Source Code Pro', 'Courier New', 'Lucida Sans Typewriter', monospace;
-    line-height: 10px;
+    line-height: 20px;
     text-align: left;
     /*position: absolute;*/
     left: 30px;
@@ -17,6 +17,29 @@ p {
     text-transform: capitalize;
 }
 
+h2 {
+    font-size: 20px;
+    /*color: #f18388;*/
+    color: #F6F6E3;
+    font-family: 'Source Code Pro', 'Courier New', 'Lucida Sans Typewriter', monospace;
+    line-height: 0px;
+    text-align: left !important;
+    text-transform: uppercase;
+    padding-left: 0px;
+    margin-left: 0px;
+}
+
+h3 {
+    font-size: 18px !important;
+    color: #F6F6E3 !important;
+    background-color: transparent !important;
+    font-family: 'Source Code Pro', 'Courier New', 'Lucida Sans Typewriter', monospace;
+    line-height: 20px;
+    text-align: left !important;
+    /*position: absolute;*/
+    text-transform: capitalize;
+    padding-left: 0px !important;
+}
 
     #map {
       position: absolute;
@@ -30,7 +53,7 @@ p {
     .mapboxgl-popup {
       padding-bottom: 15px;
       top: -65px !important;
-      max-width: 400px !important;
+      max-width: 300px !important;
       
     }
 
@@ -144,15 +167,7 @@ a.mapboxgl-ctrl-logo{
     background-color: #F6F6E3;
 }
 
-h2 {
-    font-size: 20px;
-    /*color: #f18388;*/
-    color: #F6F6E3;
-    font-family: 'Source Code Pro', 'Courier New', 'Lucida Sans Typewriter', monospace;
-    line-height: 0px;
-    text-align: left;
-    text-transform: uppercase;
-}
+
 
 audio::-webkit-media-controls-panel, video::-webkit-media-controls-panel {
     background-color: #f18388;

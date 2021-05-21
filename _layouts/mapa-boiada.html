@@ -58,10 +58,10 @@
     var map = new mapboxgl.Map({
       container: 'map', // container id
       style: 'mapbox://styles/saralgc/ckev0lgww9jew19k93wzb364i',
-      center: [-44.79, -18.690055], // starting position
-      zoom: 9.00,// starting zoom
-      pitch: 0, // pitch in degrees
-      bearing: 55, // bearing in degrees
+      center: [-44.450, -18.650055], // starting position
+      zoom: 8.70,// starting zoom
+      pitch: 0, // pitc3 in degrees
+      bearing: 56, // bearing in degrees
       transformRequest: transformRequest
     });
     
@@ -114,7 +114,7 @@
             map.on('click', 'csvData', function (e) {
               var coordinates = e.features[0].geometry.coordinates.slice();
 
-               var description = `<audio controls style="width:100%;" controlsList="nodownload" autoplay><source src="../assets/sounds/` + e.features[0].properties.Audio + `.mp3" type="audio/mpeg"></audio>` + `<p>` +  e.features[0].properties.Dia + ' | ' + e.features[0].properties.Lugar + `</p>` + `<h2>` + e.features[0].properties.Titulo + `</h2>`+ `<br>`;
+               var description = `<audio controls style="width:100%;" controlsList="nodownload" autoplay><source src="../assets/sounds/` + e.features[0].properties.Audio + `.mp3" type="audio/mpeg"></audio>` + `<h3>` +  e.features[0].properties.Dia + ' | ' + e.features[0].properties.Lugar + `</h3>` + `<h2>` + e.features[0].properties.Titulo + `</h2>`+ `<p>` + e.features[0].properties.Descricao + `</p>` ;
                 
               while (Math.abs(e.lngLat.lng - coordinates[0]) > 180) {
               coordinates[0] += e.lngLat.lng > coordinates[0] ? 360 : -360;
