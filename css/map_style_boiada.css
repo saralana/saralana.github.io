@@ -24,13 +24,17 @@ h4 {
     line-height: 20px;
     text-align: left;
     /*position: absolute;*/
-    left: auto;
-    top: -20px;
+    left: 0px;
+    bottom: -20px;
     background-color: black;
     position: absolute;
     font-weight: 200;
-    padding: 50px;
-    width: 50%;
+    padding-left: 5%;
+    padding-right: 5%;
+    width: 90%;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin-bottom: 0px;
 }
 
 h2 {
