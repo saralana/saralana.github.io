@@ -14,7 +14,23 @@ p {
     /*position: absolute;*/
     left: 30px;
     bottom: 20px;
-    text-transform: capitalize;
+}
+
+
+h4 {
+    font-size: 35px !important;
+    color: #fdfbea;
+    font-family: 'Source Code Pro', 'Courier New', 'Lucida Sans Typewriter', monospace;
+    line-height: 20px;
+    text-align: left;
+    /*position: absolute;*/
+    left: auto;
+    top: -20px;
+    background-color: black;
+    position: absolute;
+    font-weight: 200;
+    padding: 50px;
+    width: 50%;
 }
 
 h2 {

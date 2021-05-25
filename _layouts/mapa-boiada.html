@@ -2,10 +2,6 @@
 <html>
 
 <head>
-    {% include head.html %}
-    {% include meta.html %}
-    {% include share.html %}
-    
   <meta charset="utf-8" />
   <title>Mapa Sonoro da Boiada | Sons do Sertão</title>
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -59,7 +55,7 @@
       container: 'map', // container id
       style: 'mapbox://styles/saralgc/ckev0lgww9jew19k93wzb364i',
       center: [-44.450, -18.650055], // starting position
-      zoom: 8.70,// starting zoom
+      zoom: 8.60,// starting zoom
       pitch: 0, // pitc3 in degrees
       bearing: 56, // bearing in degrees
       transformRequest: transformRequest
@@ -170,6 +166,7 @@
                                 [-44.97272240601401, -18.32908728259619],//ribeirao do boi
                                 [-44.96821748428854, -18.36534025757195],//vereda sao jose
                                 [-44.94552811134417, -18.40967657795252], //santa catarina
+                                [-44.89552811134417, -18.45967657795252], //intermediario
                                 [-44.829163, -18.481594], // buritizinho
                                 [-44.7867131, -18.5277877], //capivara
                                 [-44.739084, -18.685717], // riacho das vacas
@@ -254,11 +251,10 @@ for (i = 0; i < coll.length; i++) {
   });
 }
 </script>
-        {% include navbar.html %}
     
-<content>
+<h4>
     {{ content }}
-</content>
+</h4>
           
 </body>
 

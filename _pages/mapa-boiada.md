@@ -7,5 +7,4 @@ lang: pt
 ---
 
 
-Querida Mônica, estou começando a ouvir e triar o material gravado.<br>
-À medida que escutar, vou subir os sons para esse mapa para que você possa acompanhar por aí! <br>Beijos!
+O **Diário Sonoro do Sertão** é um registro documental baseado no trajeto e nas anotações de Guimarães Rosa em sua viagem ao sertão de Minas Gerais em 1952. A Boiada, título dado pelo escritor ao seu diário, sai da Fazenda da Sirga (Andrequicé) em direção à Fazenda São Francisco (Araçaí). Os sons mais diversos  saltam das páginas e estimulam uma acuidade dos sentidos de forma sinestésica, a ouvir a sinfonia do cerrado.
