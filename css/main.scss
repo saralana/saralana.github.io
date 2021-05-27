@@ -486,16 +486,21 @@ h4 {
 
 .menu-language-option {
   display: inline;
-  color: $PALETTE1;
+  color: $PALETTE2;
   height: 100%;
   line-height: 100%;
   vertical-align: bottom;
     font-size: 12px;
 }
 
+.menu-language-option:hover {
+  color: $PALETTE1;
+}
+
+
 .menu-language-option-selected {
   font-size: 12px;
-  color: $PALETTE2;
+  color: $PALETTE1;
 }
 
 .nariz{
@@ -608,11 +613,11 @@ h4 {
         }
 
         .sidebar a:hover {
-          color: $PALETTE2;
+          color: $PALETTE1;
         }
 
         .sidebar .fa:hover{
-          color: $PALETTE2 !important;
+          color: $PALETTE1 !important;
         }
 
         .sidebar{
@@ -629,16 +634,19 @@ h4 {
           position: fixed;
           top: 15%;
           right: 15px;  
-          color: #2057b5;
+          color: $PALETTE2;
           z-index:1000 !important;   
         }
 
         .share a { 
-          color: #2057b5;
+          color: $PALETTE2;
         }
 
+        .share a:hover { 
+          color: $PALETTE1;
+        }
         .share .fa:hover{
-          color: $PALETTE2 !important;
+          color: $PALETTE1 !important;
         }
 }
 

@@ -7,7 +7,7 @@ ref: memory
 layout: proposals
 swipebox: mg
 permalink: fr/memorygame
-lang: en
+lang: fr
 ---
 <img src="../assets/posts/memorygame1.jpg" class="img-border">
 
