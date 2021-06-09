@@ -3,11 +3,11 @@
 
 <head>
   <meta charset="utf-8" />
-  <title>Mapa Sonoro da Boiada | Sons do Sertão</title>
+  <title>Orelhinhas | Rios</title>
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="stylesheet" href="{{ site.baseurl }}/css/map_style_boiada.css">
+<link rel="stylesheet" href="{{ site.baseurl }}/css/map_style_orelhinha.css">
   <!-- Google fonts-->
   <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans" />
 
@@ -23,11 +23,13 @@
   
 </head>
 
+        {% include head.html %}
+        {% include meta.html %}  
+    
   <div id="left"></div>
   <div id="right"></div>
   <div id="top"></div>
   <div id="bottom"></div>
-    
 <body>
   
 <div id="map"></div>
@@ -54,10 +56,10 @@
     var map = new mapboxgl.Map({
       container: 'map', // container id
       style: 'mapbox://styles/saralgc/ckpfkk4mc1b3g17pbffqwb82f',
-      center: [-44.68, -18.6], // starting position
-      zoom: 8.60,// starting zoom
+      center: [-44.3, -17.5], // starting position
+      zoom: 7.00,// starting zoom
       pitch: 0, // pitc3 in degrees
-      bearing: 56, // bearing in degrees
+      bearing: 85, // bearing in degrees
       transformRequest: transformRequest
     });
     
@@ -66,7 +68,7 @@
         type: "GET",
         //YOUR TURN: Replace with csv export link
         //https://www.mapbox.com/impact-tools/sheet-mapper
-       url:'https://docs.google.com/spreadsheets/d/1mF4WKNlJw-FN7IYjszle1EuQhmhWuI2XJNM_lT5kBoo/gviz/tq?tqx=out:csv&sheet=Sheet1',
+       url:'https://docs.google.com/spreadsheets/d/1-cJ1mIdwNZXodhyn_Gz4Df1L1te0pMCOV060KTINIyM/gviz/tq?tqx=out:csv&sheet=Sheet1',
         dataType: "text",
         success: function (csvData) { makeGeoJSON(csvData); }
       });
@@ -83,10 +85,10 @@
           map.on('load', function () {
             
             map.loadImage(
-             '../assets/favicons/vaca-rosa2.png',
+             '../assets/favicons/orelhinha.png',
               function(error, image) {
               if (error) throw error;
-              map.addImage('camera', image);
+              map.addImage('orelhinha', image);
             });
             
             map.addLayer({
@@ -97,7 +99,7 @@
                 'data': data
               },
               'layout': {
-                'icon-image': 'camera',
+                'icon-image': 'orelhinha',
                 'icon-anchor': 'bottom', // point of the icon which will correspond to marker's location
                 "icon-allow-overlap": true,
                 //'icon-size': 0.025
@@ -110,7 +112,7 @@
             map.on('click', 'csvData', function (e) {
               var coordinates = e.features[0].geometry.coordinates.slice();
 
-               var description = `<audio controls style="width:100%;" controlsList="nodownload" autoplay><source src="../assets/sounds/` + e.features[0].properties.Audio + `.mp3" type="audio/mpeg"></audio>` + `<h3>` +  e.features[0].properties.Dia + ' | ' + e.features[0].properties.Lugar + `</h3>` + `<h2>` + e.features[0].properties.Titulo + `</h2>`+ `<p>` + e.features[0].properties.Descricao + `</p>` ;
+               var description = `<audio controls style="width:100%;" controlsList="nodownload" autoplay><source src="../assets/sounds/` + e.features[0].properties.Audio + `.mp3" type="audio/mpeg"></audio>` + `<h3>` +  e.features[0].properties.Nome +`</h3>` + `<p>` + e.features[0].properties.Municipio + `</p>` + `<h2>` + e.features[0].properties.Numero + `</h2>`+ `<p>` + e.features[0].properties.Endereco + `</p>` + `<p>` + e.features[0].properties.Rio + `</p>`+ `<hr>`+ `<p>` + e.features[0].properties.Chamada1 + `</p>`+ `<p>` + e.features[0].properties.Chamada2 + `</p>` + `<p>` + e.features[0].properties.Chamada3 + `</p>`+ `<p>` + e.features[0].properties.Chamada4 + `</p>`;
                 
               while (Math.abs(e.lngLat.lng - coordinates[0]) > 180) {
               coordinates[0] += e.lngLat.lng > coordinates[0] ? 360 : -360;
@@ -129,15 +131,15 @@
             ['interpolate', ['linear'], ['zoom'],
               0,
               //TAMANHO AO ZOOM 0
-              0.07,
+              0.1,
               6,
               //TAMANHO AO ZOOM 7
-              0.08,
+              0.12,
               15,
-              0.11,
+              0.15,
               24,
               //TAMANHO AO ZOOM 24
-              0.16
+              0.2
             ]);
           });
 
@@ -146,70 +148,11 @@
       
       
     });
-    map.on('load', function () {
-            map.addSource('route', {
-                'type': 'geojson',
-                'data': {
-                    'type': 'Feature',
-                    'properties': {},
-                    'geometry': {
-                        'type': 'LineString',
-                        'coordinates': [
-                                [-45.14828169654133, -17.96350757426491],//riacho
-                                [-45.12828169654133, -17.95350757426491],//intermediario
-                                [-45.11949217982159, -17.97281343241402],//capelinha manuelzao 
-                                [-45.12405428425924, -18.06096088337467],//milho na estrada
-                                [-45.120944, -18.098087], //intermediario
-                                [-45.099944, -18.118087], //intermediario
-                                [-45.08603338169048, -18.11753593866766],//ao redor da tolda
-                                [-44.983061, -18.276919], //intermediario
-                                [-44.97272240601401, -18.32908728259619],//ribeirao do boi
-                                [-44.96821748428854, -18.36534025757195],//vereda sao jose
-                                [-44.94552811134417, -18.40967657795252], //santa catarina
-                                [-44.89552811134417, -18.45967657795252], //intermediario
-                                [-44.829163, -18.481594], // buritizinho
-                                [-44.7867131, -18.5277877], //capivara
-                                [-44.739084, -18.685717], // riacho das vacas
-                                [-44.707484, -18.770221], // meleiros
-                                [-44.673277, -18.804277], //meleiro
-                                [-44.648772, -18.845395], //retiro dos bravos
-                                [-44.6003374, -18.8578303], //corrego da canabrava
-                                [-44.5174002, -18.8563086], //intermediario
-                                [-44.4774002, -18.8663086], //intermediario
-                                [-44.4674002, -18.8763086], //intermediario
-                                [-44.4581287, -18.9145915], //intermediario
-                                [-44.40976520096729, -18.9886112044429], //riacho travessia paulista
-                                [-44.3793240, -19.0662000], //intermediario
-                                [-44.34464, -19.15856], //fazenda toco e edimundo povoado do onça
-                                [-44.3397806, -19.171522], //intermediario
-                                [-44.3257806, -19.1835522], //intermediario
-                                [-44.30429161316887, -19.16838936753167], //taboquinha
-                                [-44.2767806, -19.1785522], //sao tome
-                                [-44.246953, -19.240340] //sao francisco
-                            ]
-                    }
-               }
-            });
-            
-            map.addLayer({
-                'id': 'route',
-                'type': 'line',
-                'source': 'route',
-                'layout': {
-                'line-join': 'round',
-                'line-cap': 'round'
-                },
-                'paint': {
-                'line-color': '#fdfbea',
-                'line-width': 3
-                }
-            });
-    });
     
 
       // ZOOM
-     // map.addControl(new mapboxgl.NavigationControl(), 'top-left'); // disable map zoom when using scroll
-    //  map.scrollZoom.disable(); 
+     map.addControl(new mapboxgl.NavigationControl(), 'top-left'); // disable map zoom when using scroll
+      map.scrollZoom.disable(); 
     
   </script>
 
@@ -251,10 +194,6 @@ for (i = 0; i < coll.length; i++) {
   });
 }
 </script>
-    
-<h4>
-    {{ content }}
-</h4>
           
 </body>
 
