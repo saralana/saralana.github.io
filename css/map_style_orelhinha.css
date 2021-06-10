@@ -184,11 +184,25 @@ a.mapboxgl-ctrl-logo{
 }
 
 .mapboxgl-ctrl-group button {
-    background-color: #F6F6E3;
+    background-color: #fdfbea;
+}
+
+.mapboxgl-ctrl-compass{
+    display: none !important;
+}
+
+.mapboxgl-ctrl-group button {
+    background-color: #86c1fa !important;  
 }
 
 
+.mapboxgl-ctrl-group:not(:empty) {
+    box-shadow: 0 0 0 2px rgb(253, 251, 234) !important;
+}
 
+.video-wrapper {   
+    width: 100% !important;
+}
 audio::-webkit-media-controls-panel, video::-webkit-media-controls-panel {
     background-color: black;
 }
