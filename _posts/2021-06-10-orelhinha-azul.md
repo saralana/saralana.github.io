@@ -6,7 +6,7 @@ menu: true
 layout: proposals-blue
 data: 2021 | BDMG | Seres Rios
 ref: orelhinha
-permalink: orelhinha-azul
+permalink: en/orelhinha
 cover: /assets/favicons/orelhinha.jpg
 swipebox: 
 lang: en
