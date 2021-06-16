@@ -91,7 +91,7 @@ Testes para aplicar como fundo do mapa.
   <div id="swipebox-gallery">
     {% for file in site.static_files %}
       {% if file.path contains "kraft" %}
-            <img src="{{ site.baseurl }}{{ file.path }}" class="swipebox" alt="">
+            <img src="{{ site.baseurl }}{{ file.path }}" class="swipebox" alt="" style="border:0px">
       {% endif %}
     {% endfor %}
   </div>
