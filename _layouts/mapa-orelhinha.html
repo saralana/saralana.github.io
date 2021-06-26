@@ -63,11 +63,17 @@
     $(document).ready(function () {
       $.ajax({
         type: "GET",
-        url:'https://docs.google.com/spreadsheets/d/1-cJ1mIdwNZXodhyn_Gz4Df1L1te0pMCOV060KTINIyM/gviz/tq?tqx=out:csv&sheet=Sheet1',
+        url:'https://docs.google.com/spreadsheets/d/1-cJ1mIdwNZXodhyn_Gz4Df1L1te0pMCOV060KTINIyM/gviz/tq?tqx=out:csv&sheet=naoatendidas',
         dataType: "text",
         success: function (csvData) { makeGeoJSON(csvData); }
       });
 
+      $.ajax({
+        type: "GET",
+        url:'https://docs.google.com/spreadsheets/d/1-cJ1mIdwNZXodhyn_Gz4Df1L1te0pMCOV060KTINIyM/gviz/tq?tqx=out:csv&sheet=atendidas',
+        dataType: "text",
+        success: function (csvData) { makeGeoJSON2(csvData); }
+      });
 
 
       function makeGeoJSON(csvData) {
@@ -136,7 +142,73 @@
 
         });
       };
-      
+
+      function makeGeoJSON2(csvData) {
+        csv2geojson.csv2geojson(csvData, {
+          latfield: 'Latitude',
+          lonfield: 'Longitude',
+          delimiter: ','
+        }, function (err, data) {
+          
+          map.on('load', function () {
+            
+            map.loadImage(
+             '../assets/favicons/orelhinha2.png',
+              function(error, image) {
+              if (error) throw error;
+              map.addImage('orelhinha', image);
+            });
+            
+            map.addLayer({
+              'id': 'csvData',
+              'type': 'symbol',
+              'source': {
+                'type': 'geojson',
+                'data': data
+              },
+              'layout': {
+                'icon-image': 'orelhinha',
+                'icon-anchor': 'bottom',
+                "icon-allow-overlap": true,
+                //'icon-size': 0.025
+              }
+             });
+            
+            map.on('click', 'csvData', function (e) {
+              var coordinates = e.features[0].geometry.coordinates.slice();
+
+               var description = `<audio controls style="width:100%;" controlsList="nodownload" autoplay><source src="../assets/sounds/` + e.features[0].properties.Audio + `.mp3" type="audio/mpeg"></audio>` + `<h3>` +  e.features[0].properties.Nome +`</h3>` + `<p>` + e.features[0].properties.Municipio + `</p>` + `<h2>` + e.features[0].properties.Numero + `</h2>`+ `<p>` + e.features[0].properties.Endereco + `</p>` + `<p>` + e.features[0].properties.Rio + `</p>`+ `<hr>`+ `<p>` + e.features[0].properties.Chamada1 + `</p>`+ `<p>` + e.features[0].properties.Chamada2 + `</p>` + `<p>` + e.features[0].properties.Chamada3 + `</p>`+ `<p>` + e.features[0].properties.Chamada4 + `</p>`;
+                
+              while (Math.abs(e.lngLat.lng - coordinates[0]) > 180) {
+              coordinates[0] += e.lngLat.lng > coordinates[0] ? 360 : -360;
+              }
+                
+              //add Popup to map
+              new mapboxgl.Popup()
+                .setLngLat(coordinates)
+                .setHTML(description)
+                .addTo(map);
+            });
+          
+            var bbox = turf.bbox(data);
+            map.setLayoutProperty('csvData', 'icon-size', 
+            ['interpolate', ['linear'], ['zoom'],
+              0,
+              //TAMANHO AO ZOOM 0
+              0.1,
+              6,
+              //TAMANHO AO ZOOM 7
+              0.12,
+              15,
+              0.15,
+              24,
+              //TAMANHO AO ZOOM 24
+              0.2
+            ]);
+          });
+
+        });
+      };        
       
     });
     

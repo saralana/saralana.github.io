@@ -63,12 +63,10 @@
     $(document).ready(function () {
       $.ajax({
         type: "GET",
-        url:'https://docs.google.com/spreadsheets/d/1-cJ1mIdwNZXodhyn_Gz4Df1L1te0pMCOV060KTINIyM/gviz/tq?tqx=out:csv&sheet=Sheet1',
+        url:'https://docs.google.com/spreadsheets/d/1-cJ1mIdwNZXodhyn_Gz4Df1L1te0pMCOV060KTINIyM/gviz/tq?tqx=out:csv&sheet=naoatendidas',
         dataType: "text",
         success: function (csvData) { makeGeoJSON(csvData); }
       });
-
-
 
       function makeGeoJSON(csvData) {
         csv2geojson.csv2geojson(csvData, {
@@ -80,7 +78,7 @@
           map.on('load', function () {
             
             map.loadImage(
-             '../assets/favicons/orelhinha2.png',
+             '../assets/favicons/orelhinha.png',
               function(error, image) {
               if (error) throw error;
               map.addImage('orelhinha', image);
@@ -137,7 +135,7 @@
 
         });
       };
-      
+   
       
     });
     
