@@ -19,14 +19,6 @@ body {
     
     }
 
-img {
-    
-    position: absolute;
-    top:30px;
-    left:4%;
-    z-index:100;
-    max-height: 300px;
-}
 
 .marker {
     background-image: url('../bizanet-assets/bizanet-icon.png');
@@ -37,6 +29,97 @@ img {
     cursor: pointer;
 }
 
+
+.sidebar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 200;
+  top: 0;
+  left: 0;
+  background-color: white;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  font-size: 17px;
+  color: #00753c;
+  font-family: 'NewsGothic', 'Source Code Pro', 'Courier New', 'Lucida Sans Typewriter', monospace;
+  line-height: 20px;
+  text-align: left;
+}
+
+.sidebar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #ed6b06;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 56px;
+  margin-left: auto;
+  z-index:200;
+}
+
+ .sidebar-content{ 
+        position: absolute;
+        left: 25%;
+        top: 5%;
+        width: 50%;
+}
+
+@media only screen and (min-width: 800px) {
+    .openbtn {
+      display:none;
+    }
+    
+    img {
+        position: absolute;
+        top:30px;
+        left:4%;
+        z-index:300;
+        max-height: 300px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .openbtn {
+      font-size: 20px;
+      cursor: pointer;
+      background-color: transparent;
+      margin: 15px;
+      color: white;
+      border: none;
+      z-index: 100;
+      width: 40px;
+      display:block;
+    }
+    
+    img {
+        position: absolute;
+        width: 90%;
+        left:5%;
+        z-index:300;
+        max-height: 400px;
+    }
+    
+    p{
+        position: absolute;
+        font-size: 17px;
+        color: #00753c;
+        font-family: 'NewsGothic', 'Source Code Pro', 'Courier New', 'Lucida Sans Typewriter', monospace;
+        line-height: 20px;
+        text-align: left;
+        /*position: absolute;*/
+        left: 5%;
+        top:400px;
+    }
+}
 
 @media only screen and (min-width: 800px) {
     content{ 
@@ -237,6 +320,7 @@ a.mapboxgl-ctrl-logo{
 .mapboxgl-ctrl-top-right{
     top: 20px !important;
     right: 20px !important;
+    z-index: 0 !important;
 }
 .mapboxgl-ctrl-top-left {
     top: 20px !important;

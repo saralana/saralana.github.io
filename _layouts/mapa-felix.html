@@ -27,6 +27,18 @@
 
 <body>
     
+<div id="mySidebar" class="sidebar">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+    <div class="sidebar-content">
+        <img src="../bizanet-assets/bizanet.png" alt="les voix de l'eau"> 
+        <p>Félix Blume et les enfants de Bizanet vous invitent à vous balader
+        dans les rues, à suivre l’eau et ses mystères, munis d’un dispositif d’écoute aquatique.</p>
+    </div>
+</div>
+
+
+<img src="../bizanet-assets/bizanet-menu.png" class="openbtn" onclick="openNav()"> 
+
 
 <div id="map"></div>
   
@@ -407,12 +419,12 @@
 
   
 <script>
-function w3_open() {
-  document.getElementById("mySidebar").style.display = "block";
+function openNav() {
+  document.getElementById("mySidebar").style.width = "100%";
 }
 
-function w3_close() {
-  document.getElementById("mySidebar").style.display = "none";
+function closeNav() {
+  document.getElementById("mySidebar").style.width = "0";
 }
   
 function myFunction() {
