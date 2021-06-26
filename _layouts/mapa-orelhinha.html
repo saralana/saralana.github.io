@@ -93,7 +93,7 @@
             });
             
             map.addLayer({
-              'id': 'csvData',
+              'id': 'naoatendidas',
               'type': 'symbol',
               'source': {
                 'type': 'geojson',
@@ -107,7 +107,7 @@
               }
              });
             
-            map.on('click', 'csvData', function (e) {
+            map.on('click', 'naoatendidas', function (e) {
               var coordinates = e.features[0].geometry.coordinates.slice();
 
                var description = `<audio controls style="width:100%;" controlsList="nodownload" autoplay><source src="../assets/sounds/` + e.features[0].properties.Audio + `.mp3" type="audio/mpeg"></audio>` + `<h3>` +  e.features[0].properties.Nome +`</h3>` + `<p>` + e.features[0].properties.Municipio + `</p>` + `<h2>` + e.features[0].properties.Numero + `</h2>`+ `<p>` + e.features[0].properties.Endereco + `</p>` + `<p>` + e.features[0].properties.Rio + `</p>`+ `<hr>`+ `<p>` + e.features[0].properties.Chamada1 + `</p>`+ `<p>` + e.features[0].properties.Chamada2 + `</p>` + `<p>` + e.features[0].properties.Chamada3 + `</p>`+ `<p>` + e.features[0].properties.Chamada4 + `</p>`;
@@ -124,7 +124,7 @@
             });
           
             var bbox = turf.bbox(data);
-            map.setLayoutProperty('csvData', 'icon-size', 
+            map.setLayoutProperty('naoatendidas', 'icon-size', 
             ['interpolate', ['linear'], ['zoom'],
               0,
               //TAMANHO AO ZOOM 0
@@ -160,21 +160,21 @@
             });
             
             map.addLayer({
-              'id': 'csvData',
+              'id': 'atendidas',
               'type': 'symbol',
               'source': {
                 'type': 'geojson',
                 'data': data
               },
               'layout': {
-                'icon-image': 'orelhinha',
+                'icon-image': 'orelhinha2',
                 'icon-anchor': 'bottom',
                 "icon-allow-overlap": true,
                 //'icon-size': 0.025
               }
              });
             
-            map.on('click', 'csvData', function (e) {
+            map.on('click', 'atendidas', function (e) {
               var coordinates = e.features[0].geometry.coordinates.slice();
 
                var description = `<audio controls style="width:100%;" controlsList="nodownload" autoplay><source src="../assets/sounds/` + e.features[0].properties.Audio + `.mp3" type="audio/mpeg"></audio>` + `<h3>` +  e.features[0].properties.Nome +`</h3>` + `<p>` + e.features[0].properties.Municipio + `</p>` + `<h2>` + e.features[0].properties.Numero + `</h2>`+ `<p>` + e.features[0].properties.Endereco + `</p>` + `<p>` + e.features[0].properties.Rio + `</p>`+ `<hr>`+ `<p>` + e.features[0].properties.Chamada1 + `</p>`+ `<p>` + e.features[0].properties.Chamada2 + `</p>` + `<p>` + e.features[0].properties.Chamada3 + `</p>`+ `<p>` + e.features[0].properties.Chamada4 + `</p>`;
@@ -191,7 +191,7 @@
             });
           
             var bbox = turf.bbox(data);
-            map.setLayoutProperty('csvData', 'icon-size', 
+            map.setLayoutProperty('atendidas', 'icon-size', 
             ['interpolate', ['linear'], ['zoom'],
               0,
               //TAMANHO AO ZOOM 0
