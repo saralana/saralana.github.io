@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8" />
-  <title>Orelhinhas | Rios</title>
+  <title>Orelhinha</title>
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -143,6 +143,7 @@
 
         });
       };
+        
        function makeGeoJSON2(csvData) {
         csv2geojson.csv2geojson(csvData, {
           latfield: 'Latitude',
@@ -177,7 +178,9 @@
             map.on('click', 'atendidas', function (e) {
               var coordinates = e.features[0].geometry.coordinates.slice();
 
-               var description = `<audio controls style="width:100%;" controlsList="nodownload" autoplay><source src="../assets/sounds/` + e.features[0].properties.Audio + `.mp3" type="audio/mpeg"></audio>` + `<h3>` +  e.features[0].properties.Nome +`</h3>` + `<p>` + e.features[0].properties.Municipio + `</p>` + `<h2>` + e.features[0].properties.Numero + `</h2>`+ `<p>` + e.features[0].properties.Endereco + `</p>` + `<p>` + e.features[0].properties.Rio + `</p>`+ `<hr>`+ `<p>` + e.features[0].properties.Chamada1 + `</p>`+ `<p>` + e.features[0].properties.Chamada2 + `</p>` + `<p>` + e.features[0].properties.Chamada3 + `</p>`+ `<p>` + e.features[0].properties.Chamada4 + `</p>`;
+              /* var description = `<audio controls style="width:100%;" controlsList="nodownload" autoplay><source src="../assets/sounds/` + e.features[0].properties.Audio + `.mp3" type="audio/mpeg"></audio>` + `<h3>` +  e.features[0].properties.Nome +`</h3>` + `<p>` + e.features[0].properties.Municipio + `</p>` + `<h2>` + e.features[0].properties.Numero + `</h2>`+ `<p>` + e.features[0].properties.Endereco + `</p>` + `<p>` + e.features[0].properties.Rio + `</p>`+ `<hr>`+ `<p>` + e.features[0].properties.Chamada1 + `</p>`+ `<p>` + e.features[0].properties.Chamada2 + `</p>` + `<p>` + e.features[0].properties.Chamada3 + `</p>`+ `<p>` + e.features[0].properties.Chamada4 + `</p>`;*/
+                
+              var description = `<h3>` +  e.features[0].properties.Nome +`</h3>` + `<p>` + e.features[0].properties.Municipio + `</p>` + `<h2>` + e.features[0].properties.Numero + `</h2>`+ `<p>` + e.features[0].properties.Endereco + `</p>` + `<p>` + e.features[0].properties.Rio + `</p>`+ `<hr>`+ `<p>` + e.features[0].properties.Chamada1 + `</p>`+ `<p>` + e.features[0].properties.Chamada2 + `</p>` + `<p>` + e.features[0].properties.Chamada3 + `</p>`+ `<p>` + e.features[0].properties.Chamada4 + `</p>`;
                 
               while (Math.abs(e.lngLat.lng - coordinates[0]) > 180) {
               coordinates[0] += e.lngLat.lng > coordinates[0] ? 360 : -360;
