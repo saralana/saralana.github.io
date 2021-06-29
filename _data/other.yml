@@ -16,10 +16,10 @@
 - indice: 3
   column: 1
   order: 3
-  name: segundos
-  title: 15 segundos diários
-  title-en: 15 diary seconds
-
+  name: especies-de-espacos-3
+  title: Espécies de Espaços 3
+  title-en: Species of Spaces 3
+  
 - indice: 4
   column: 2
   order: 1
@@ -40,3 +40,20 @@
   name: colabs
   title: Colaborações
   title-en: Colabs
+    
+- indice: 7
+  column: 3
+  order: 1
+  name: segundos
+  title: 15 segundos diários
+  title-en: 15 diary seconds
+  
+- indice: 8
+  column: 3
+  order: 2
+  name: en
+  
+- indice: 9
+  column: 3
+  order: 3
+  name: en
