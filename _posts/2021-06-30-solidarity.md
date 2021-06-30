@@ -13,6 +13,7 @@ lang: pt
 ---
 
 
+
 <div class="video-wrapper-side video-wrapper-16x9">
 <div style="padding:56.25% 0 0 0;position:relative;">
     <iframe src="https://player.vimeo.com/video/358613759?autoplay=1" width="650" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div>
@@ -45,7 +46,6 @@ Interestingly, the word “web” is also used to name the large network that co
 
 <br>
 
---- 
 
 <br>
 <div class="row">
@@ -67,7 +67,6 @@ Interestingly, the word “web” is also used to name the large network that co
 
 <br>
 
---- 
 
 <br>
 
@@ -88,6 +87,72 @@ Witzany, G. (2000) Life: The Communicative Structure)
 
 <br>
 
+## In process
+
+<div class="row">
+    <div class="column">
+      <p>Species identification with collaboration of biologists Pedro Martins and Alexandre Stamato Michelotto. Species recognition is carried out based on the study of behavior, geographic location and web patterning. Some arachnid families have already been raised, such as: Araneidae, Theridiidae, Uloboridae.
+      </p>
+      <p>       
+      (Some examples of webs from these families can be seen on the side. They are categorized as orbicular suspended webs)
+      </p>
+      <img src="../assets/posts/mosca_b.jpg" style="border:0px">
+    </div>
+    <div class="column">
+      <img src="../assets/posts/web_identification_b.jpg" style="border:0px">
+      <br><br>
+      <p>With the collaboration of other scientists, I'm mapping possible interferences on cameras that could benefit and attract spiders. Like, for example, creating a pheromone scent to attract insects. By spraying it on the cameras, more insects would approach and thus the spiders would have a guaranteed feast.</p>
+      <br><br><br>
+      <p>I'm already testing some interferences: experimental application to evaluate the effectiveness of the insertion of scents and lights to attract insects and spiders.</p>
+    </div>
+</div>
+
+<br>
+<div class="row">
+    <div class="column">
+      <img src="../assets/posts/web_spray_1_b.jpg" style="border:0px">
+    </div>
+    <div class="column">
+      <img src="../assets/posts/web_spray_2_b.jpg" style="border:0px">
+    </div>
+    <div class="column">
+      <img src="../assets/posts/web_spray_3_b.jpg" style="border:0px">
+    </div>
+</div>
+
+<br>
+
+
+---
+
+<br>
+
+
+## Next steps
+
+* Application and prototyping positioning in the streets, cameras already interfered to attract insects and spiders;
+computer.001.jpg
+
+* Search, online, for more cameras with free access in Belo Horizonte.
+
+* Determine the geographic location of the cameras from the captured image (streets, landscapes) and the crossing of online access information (IP number).
+
+* Intervene in cameras previously installed in the city, with actions defined experimentally.
+
+**NOTE:** As in the example above, I seek discreet or invisible interventions that do not damage the cameras.
+
+
+<br>
+
+
+---
+
+
+<br>
+
+## Research and previous works
+
+
 I [first presented](../en/especies-de-espacos-2){:target="_blank"} this research as a digital printing installation.  
 
 Some photos of the 1st exhibition:
@@ -103,17 +168,10 @@ Some photos of the 1st exhibition:
     </div>
 </div>
 
-
 <br><br>
-
----
-
-<br>
-
-
 This project is part of a broader research on video surveillance that I have been developing since 2015. I understand it as the confluence of two major projects:  The series **Species of Spaces** and the **Blind Spots Project**.
   
-[Blind Spots ](../en/pontos-cegos){:target="_blank"} is a project which aims to create counter-surveillance tools.
+[ Blind Spots ](../en/pontos-cegos){:target="_blank"} is a project which aims to create counter-surveillance tools.
 
 I created a helmet able to automatically detect surveillance cameras. It indicates to its users when they are being filmed. This device reveals and enhances cameras which are each time more discreet and camouflaged in the cities.
   
@@ -128,16 +186,26 @@ A route designer is in development which is able to create routes from point A t
 
 <br>
 
-### Submitter Bio
+## Bio
     
-Sara Lana is a 33 year-old Brazilian artist and developer. She was born in Belo Horizonte (Brazil), studied Mathematics and Electric Engineering in the Federal University of Minas Gerais. Her projects lie in the convergence of art and technology. She often uses varied supports, especially sound, electronics and video, having illustration as an existing element throughout her process of creation.
+**Sara Lana** is a 33 year-old Brazilian artist and developer. She was born in Belo Horizonte (Brazil), studied Mathematics and Electric Engineering in the Federal University of Minas Gerais. Her projects lie in the convergence of art and technology. She often uses varied supports, especially sound, electronics and video, having illustration as an existing element throughout her process of creation.
   
 Her work seeks to promote technologic disalienation by calling attention to our detachment to the omnipresence of digital machines in our contemporary society. Besides offering insights on the role of the animals which share space with humans, her work also offers and stimulates the search for more balanced relations with them in our current technologic context.
   
-Sara is also executive director of  Silo – Art and Rural Latitude , a Civil Society Organisation of Public Interest dedicated to fostering and publicising cultural projects in rural areas, with the aim of bringing about transdisciplinary exchange between different areas – above all art, science and technology – and stimulating exchange between intuitive techniques and scientific knowledge.
+Sara is also executive director of [ Silo – Art and Rural Latitude ](../en/pontos-cegos){:target="_blank"}, a Civil Society Organisation of Public Interest dedicated to fostering and publicising cultural projects in rural areas, with the aim of bringing about transdisciplinary exchange between different areas – above all art, science and technology – and stimulating exchange between intuitive techniques and scientific knowledge.
   
 <br>
 
 ---
+
+<br><br>
+
+## References
+
+* Fritz Vollrath and Paul Selden - The Role of Behavior in the Evolution of Spiders, Silks, and Webs - 2007 - link para download
+
+* Blackledgea,1, Nikolaj Scharffb, Jonathan A. Coddingtonc, Tamas Szu ̈ tsb, John W. Wenzeld, Cheryl Y. Hayashie, and Ingi Agnarssona - Reconstructing web evolution and spider diversification in the molecular era Todd A. - 2009 - link para download
+
+* Witzany, G. (2000) Life: The Communicative Structure. Norderstedt, Libri.
 
 <br>
