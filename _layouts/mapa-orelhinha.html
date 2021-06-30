@@ -86,7 +86,16 @@
         }, function (err, data) {
           
           map.on('load', function () {
-            
+            var layers = map.getStyle().layers;
+            // Find the index of the first symbol layer in the map style
+            var firstSymbolId;
+                for (var i = 0; i < layers.length; i++) {
+                    if (layers[i].type === 'symbol') {
+                        firstSymbolId = layers[i].id;
+                        break;
+                    }
+                }
+              
             map.loadImage(
              '../assets/favicons/orelhinha.png',
               function(error, image) {
@@ -108,8 +117,10 @@
                 //'zIndex': 1
                 //'icon-size': 0.025
               }
-             });
-            
+             },
+             firstSymbolId
+             );
+            /*
             map.on('click', 'naoatendidas', function (e) {
               var coordinates = e.features[0].geometry.coordinates.slice();
 
@@ -125,6 +136,7 @@
                 .setHTML(description)
                 .addTo(map);
             });
+            */
           
             var bbox = turf.bbox(data);
             map.setLayoutProperty('naoatendidas', 'icon-size', 
@@ -199,15 +211,15 @@
             ['interpolate', ['linear'], ['zoom'],
               0,
               //TAMANHO AO ZOOM 0
-              0.13,
+              0.11,
               6,
               //TAMANHO AO ZOOM 7
-              0.15,
+              0.12,
               15,
-              0.20,
+              0.18,
               24,
               //TAMANHO AO ZOOM 24
-              0.30
+              0.28
             ]);
           });
 
