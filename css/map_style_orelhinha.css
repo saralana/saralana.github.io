@@ -16,7 +16,7 @@ p {
     bottom: 20px;
 }
 
-#legenda{
+#legenda-azul{
     position: absolute;
     padding: 20px;
     width: auto;
@@ -25,7 +25,25 @@ p {
     color: beige;
     background-color: #2057b5;
     z-index: 10000;
-    border: 1px solid beige;
+    border-top: 1px solid beige;
+    border-right: 1px solid beige;
+    left: 50px;
+    letter-spacing: 0.5px;
+    font-size: 10px;
+}
+
+
+#legenda-bege{
+    position: absolute;
+    padding: 20px;
+    width: auto;
+    height: 60px;
+    bottom: 50px;
+    color: beige;
+    background-color: #2057b5;
+    z-index: 10000;
+    border-top: 1px solid beige;
+    border-right: 1px solid beige;
     left: 50px;
     letter-spacing: 0.5px;
     font-size: 10px;
