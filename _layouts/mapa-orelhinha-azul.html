@@ -23,11 +23,20 @@
   
 </head>
 
-        {% include head.html %}
-        {% include meta.html %}  
-    
+  <div id="left"></div>
+  <div id="right"></div>
+  <div id="top"></div>
+  <div id="bottom"></div>
+      
 <body>
-  
+
+<div id="legenda">
+    não atendidas
+    <img style="height:100%" src="../assets/favicons/orelhinha2.png">
+    <img style="height:100%" src="../assets/favicons/orelhinha.png">
+    atendidas
+</div> 
+    
 <div id="map"></div>
   
   <script>
@@ -52,11 +61,11 @@
     var map = new mapboxgl.Map({
       container: 'map', // container id
       style: 'mapbox://styles/saralgc/ckpqqn0sv23so18qh9azo7iys',
-      center: [-44.3, -17.5], // starting position
+      center: [-43.7, -18.0], // starting position
       zoom: 7,// starting zoom
-      minZoom: 7,// starting zoom
+      minZoom: 6,// starting zoom
       pitch: 0, // pitc3 in degrees
-      bearing: 85, // bearing in degrees
+      bearing: 100, // bearing in degrees
       transformRequest: transformRequest
     });
     
@@ -84,7 +93,16 @@
         }, function (err, data) {
           
           map.on('load', function () {
-            
+                 var layers = map.getStyle().layers;
+            // Find the index of the first symbol layer in the map style
+            var firstSymbolId;
+                for (var i = 0; i < layers.length; i++) {
+                    if (layers[i].type === 'symbol') {
+                        firstSymbolId = layers[i].id;
+                        break;
+                    }
+                }
+              
             map.loadImage(
              '../assets/favicons/orelhinha2.png',
               function(error, image) {
@@ -105,8 +123,10 @@
                 "icon-allow-overlap": true,
                 //'icon-size': 0.025
               }
-             });
-            
+             },
+             firstSymbolId
+             );
+            /*
             map.on('click', 'naoatendidas', function (e) {
               var coordinates = e.features[0].geometry.coordinates.slice();
 
@@ -122,7 +142,7 @@
                 .setHTML(description)
                 .addTo(map);
             });
-          
+            */
             var bbox = turf.bbox(data);
            // map.fitBounds(bbox, { padding: 50 });
          map.setLayoutProperty('naoatendidas', 'icon-size', 
@@ -132,12 +152,12 @@
               0.1,
               6,
               //TAMANHO AO ZOOM 7
-              0.12,
+              0.11,
               15,
-              0.15,
+              0.17,
               24,
               //TAMANHO AO ZOOM 24
-              0.2
+              0.27
             ]);
           });
 
