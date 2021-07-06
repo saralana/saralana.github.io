@@ -6,7 +6,7 @@ menu: true
 layout: proposals-blue
 data: 2021 | BDMG | Seres Rios
 ref: orelhinha
-permalink: en/orelhinha
+permalink: orelhinha
 cover: /assets/favicons/orelhinha.jpg
 swipebox: 
 lang: en
@@ -69,6 +69,30 @@ Enquanto correm risco de extinção em boa parte do estado, os orelhões ainda s
 ---
 <br>
 
+  <div id="swipebox-gallery">
+    {% for file in site.static_files %}
+      {% if file.path contains "orelhinha_Clarice" %}
+            <img src="{{ site.baseurl }}{{ file.path }}" class="swipebox" alt="">
+      {% endif %}
+    {% endfor %}
+  </div>
+
+*fotos Clarice Rodrigues*
+<br><br>
+
+---
+
+<br>
+
+<img src="../assets/posts/tatu-streetview3.png">
+
+
+<br><br>
+
+---
+
+
+<br>
 ### DADOS ABERTOS SOBRE AS ÁGUA
  
 No site da ANA, Agência Nacional de Água estão disponíveis para download dados abertos sobre as águas do Brasil.

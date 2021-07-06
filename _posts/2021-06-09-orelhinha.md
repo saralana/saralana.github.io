@@ -6,7 +6,7 @@ menu: true
 layout: proposals
 data: 2021 | BDMG | Seres Rios
 ref: orelhinha
-permalink: orelhinha
+permalink: en/orelhinha
 cover: /assets/favicons/orelhinha.jpg
 swipebox: 
 lang: pt
@@ -85,7 +85,7 @@ Enquanto correm risco de extinção em boa parte do estado, os orelhões ainda s
 
 <br>
 
-<img src="../assets/posts/tatu-streetview3.jpg">
+<img src="../assets/posts/tatu-streetview3.png">
 
 
 <br><br>
