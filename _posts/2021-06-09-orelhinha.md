@@ -66,7 +66,23 @@ Enquanto correm risco de extinção em boa parte do estado, os orelhões ainda s
   </div>
 <br><br>
 
+
 ---
+<br>
+
+  <div id="swipebox-gallery">
+    {% for file in site.static_files %}
+      {% if file.path contains "orelhinha_Clarice" %}
+            <img src="{{ site.baseurl }}{{ file.path }}" class="swipebox" alt="">
+      {% endif %}
+    {% endfor %}
+  </div>
+
+*fotos Clarice Rodrigues*
+<br><br>
+
+---
+
 <br>
 
 ### DADOS ABERTOS SOBRE AS ÁGUA
