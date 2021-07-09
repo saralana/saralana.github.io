@@ -10,6 +10,7 @@
 <link rel="stylesheet" href="{{ site.baseurl }}/css/map_style_orelhinha.css">
   <!-- Google fonts-->
   <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans" />
+  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Source+Code+Pro" />
 
   <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no"/>
 
@@ -31,10 +32,10 @@
 <body>
 
 <div id="legenda-azul">
-    não atendidas
-    <img style="height:100%" src="../assets/favicons/orelha11.png">
-    <img style="height:100%" src="../assets/favicons/orelha10.png">
-    atendidas
+    NÃO ATENDIDAS
+    <img style="height:100%" src="../assets/favicons/orelha_rosa.png">
+    <img style="height:100%" src="../assets/favicons/orelha_amarela.png">
+    ATENDIDAS
 </div> 
     
 <div id="map"></div>
@@ -104,7 +105,7 @@
                 }
               
             map.loadImage(
-             '../assets/favicons/orelha11.png',
+             '../assets/favicons/orelha_rosa.png',
               function(error, image) {
               if (error) throw error;
               map.addImage('orelhinha2', image);
@@ -126,23 +127,7 @@
              },
              firstSymbolId
              );
-            /*
-            map.on('click', 'naoatendidas', function (e) {
-              var coordinates = e.features[0].geometry.coordinates.slice();
-
-               var description = `<audio controls style="width:100%;" controlsList="nodownload" autoplay><source src="../assets/sounds/` + e.features[0].properties.Audio + `.mp3" type="audio/mpeg"></audio>` + `<h3>` +  e.features[0].properties.Nome +`</h3>` + `<p>` + e.features[0].properties.Municipio + `</p>` + `<h2>` + e.features[0].properties.Numero + `</h2>`+ `<p>` + e.features[0].properties.Endereco + `</p>` + `<p>` + e.features[0].properties.Rio + `</p>`+ `<hr>`+ `<p>` + e.features[0].properties.Chamada1 + `</p>`+ `<p>` + e.features[0].properties.Chamada2 + `</p>` + `<p>` + e.features[0].properties.Chamada3 + `</p>`+ `<p>` + e.features[0].properties.Chamada4 + `</p>`;
-                
-              while (Math.abs(e.lngLat.lng - coordinates[0]) > 180) {
-              coordinates[0] += e.lngLat.lng > coordinates[0] ? 360 : -360;
-              }
-                
-              //add Popup to map
-              new mapboxgl.Popup()
-                .setLngLat(coordinates)
-                .setHTML(description)
-                .addTo(map);
-            });
-            */
+              
             var bbox = turf.bbox(data);
            // map.fitBounds(bbox, { padding: 50 });
          map.setLayoutProperty('naoatendidas', 'icon-size', 
@@ -152,12 +137,12 @@
               0.1,
               6,
               //TAMANHO AO ZOOM 7
-              0.11,
+              0.12,
               15,
-              0.17,
+              0.40,
               24,
               //TAMANHO AO ZOOM 24
-              0.27
+              0.50
             ]);
           });
 
@@ -174,7 +159,7 @@
           map.on('load', function () {
             
             map.loadImage(
-             '../assets/favicons/orelha10.png',
+             '../assets/favicons/orelha_amarela.png',
               function(error, image) {
               if (error) throw error;
               map.addImage('orelhinha', image);
@@ -200,7 +185,7 @@
 
               /* var description = `<audio controls style="width:100%;" controlsList="nodownload" autoplay><source src="../assets/sounds/` + e.features[0].properties.Audio + `.mp3" type="audio/mpeg"></audio>` + `<h3>` +  e.features[0].properties.Nome +`</h3>` + `<p>` + e.features[0].properties.Municipio + `</p>` + `<h2>` + e.features[0].properties.Numero + `</h2>`+ `<p>` + e.features[0].properties.Endereco + `</p>` + `<p>` + e.features[0].properties.Rio + `</p>`+ `<hr>`+ `<p>` + e.features[0].properties.Chamada1 + `</p>`+ `<p>` + e.features[0].properties.Chamada2 + `</p>` + `<p>` + e.features[0].properties.Chamada3 + `</p>`+ `<p>` + e.features[0].properties.Chamada4 + `</p>`;*/
                 
-              var description = `<h3>` +  e.features[0].properties.Nome +`</h3>` + `<p>` + e.features[0].properties.Municipio + `</p>` + `<h2>` + e.features[0].properties.Numero + `</h2>`+ `<p>` + e.features[0].properties.Endereco + `</p>` + `<p>` + e.features[0].properties.Rio + `</p>`+ `<hr>`+ `<p>` + e.features[0].properties.Chamada1 + `</p>`+ `<p>` + e.features[0].properties.Chamada2 + `</p>` + `<p>` + e.features[0].properties.Chamada3 + `</p>`+ `<p>` + e.features[0].properties.Chamada4 + `</p>`;
+              var description = `<h3>` +  e.features[0].properties.Nome +`</h3>` + `<b>` + e.features[0].properties.Rio + `</b>` + `<p>` + e.features[0].properties.Chamada1 + `</p>`+ `<p>` + e.features[0].properties.Chamada2 + `</p>` + `<p>` + e.features[0].properties.Chamada3 + `</p>`+ `<p>` + e.features[0].properties.Chamada4 + `</p>`;
                 
               while (Math.abs(e.lngLat.lng - coordinates[0]) > 180) {
               coordinates[0] += e.lngLat.lng > coordinates[0] ? 360 : -360;
@@ -223,10 +208,10 @@
               //TAMANHO AO ZOOM 7
               0.12,
               15,
-              0.15,
+              0.40,
               24,
               //TAMANHO AO ZOOM 24
-              0.2
+              0.50
             ]);
           });
 
