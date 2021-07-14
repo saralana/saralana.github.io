@@ -7,7 +7,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="stylesheet" href="{{ site.baseurl }}/css/map_style_orelhinha.css">
+<link rel="stylesheet" href="../css/map_style_orelhinha.css">
   <!-- Google fonts-->
   <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans" />
   <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Source+Code+Pro" />
@@ -28,8 +28,8 @@
 
 <div id="legenda-azul">
     NÃO ATENDIDAS
-    <img style="height:100%" src="../assets/favicons/orelha_rosa.png">
-    <img style="height:100%" src="../assets/favicons/orelha_amarela.png">
+    <img style="height:100%" src="../orelha_rosa.png">
+    <img style="height:100%" src="../orelha_amarela.png">
     ATENDIDAS
 </div> 
     
@@ -57,9 +57,9 @@
     var map = new mapboxgl.Map({
       container: 'map', // container id
       style: 'mapbox://styles/saralgc/ckpqqn0sv23so18qh9azo7iys',
-      center: [-43.7, -18.0], // starting position
+      center: [-44.05, -18], // starting position
       zoom: 7,// starting zoom
-      minZoom: 6,// starting zoom
+      minZoom: 6.5,// starting zoom
       pitch: 0, // pitc3 in degrees
       bearing: 100, // bearing in degrees
       transformRequest: transformRequest
@@ -90,7 +90,6 @@
           
           map.on('load', function () {
                  var layers = map.getStyle().layers;
-            // Find the index of the first symbol layer in the map style
             var firstSymbolId;
                 for (var i = 0; i < layers.length; i++) {
                     if (layers[i].type === 'symbol') {
@@ -177,16 +176,14 @@
             
             map.on('click', 'atendidas', function (e) {
               var coordinates = e.features[0].geometry.coordinates.slice();
-
-              /* var description = `<audio controls style="width:100%;" controlsList="nodownload" autoplay><source src="../assets/sounds/` + e.features[0].properties.Audio + `.mp3" type="audio/mpeg"></audio>` + `<h3>` +  e.features[0].properties.Nome +`</h3>` + `<p>` + e.features[0].properties.Municipio + `</p>` + `<h2>` + e.features[0].properties.Numero + `</h2>`+ `<p>` + e.features[0].properties.Endereco + `</p>` + `<p>` + e.features[0].properties.Rio + `</p>`+ `<hr>`+ `<p>` + e.features[0].properties.Chamada1 + `</p>`+ `<p>` + e.features[0].properties.Chamada2 + `</p>` + `<p>` + e.features[0].properties.Chamada3 + `</p>`+ `<p>` + e.features[0].properties.Chamada4 + `</p>`;*/
-                
+        
               var description = `<h3>` +  e.features[0].properties.Nome +`</h3>` + `<b>` + e.features[0].properties.Rio + `</b>` + `<p>` + e.features[0].properties.Chamada1 + `</p>`+ `<p>` + e.features[0].properties.Chamada2 + `</p>` + `<p>` + e.features[0].properties.Chamada3 + `</p>`+ `<p>` + e.features[0].properties.Chamada4 + `</p>`;
                 
               while (Math.abs(e.lngLat.lng - coordinates[0]) > 180) {
               coordinates[0] += e.lngLat.lng > coordinates[0] ? 360 : -360;
               }
                 
-              //add Popup to map
+              //Popup apenas para chamadas atendidas
               new mapboxgl.Popup()
                 .setLngLat(coordinates)
                 .setHTML(description)

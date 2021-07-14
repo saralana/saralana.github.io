@@ -28,7 +28,7 @@ Enquanto correm risco de extinção em boa parte do estado, os orelhões ainda s
 (ainda não subi os áudios das chamadas)
 <br><br>
   <div class="video-wrapper video-wrapper-16x9" style="width:100%">
-   <iframe src="../mapa-orelhinha-azul" height="200" width="100%" style="border:0px"></iframe>
+   <iframe src="../mapa-orelhinha" height="200" width="100%" style="border:0px"></iframe>
   </div>
 
 <br><br>
@@ -59,7 +59,7 @@ Enquanto correm risco de extinção em boa parte do estado, os orelhões ainda s
 
   <div id="swipebox-gallery">
     {% for file in site.static_files %}
-      {% if file.path contains "orelha" %}
+      {% if file.path contains "orelho" %}
             <img src="{{ site.baseurl }}{{ file.path }}" class="swipebox" alt="">
       {% endif %}
     {% endfor %}

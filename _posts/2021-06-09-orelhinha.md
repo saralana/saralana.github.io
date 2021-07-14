@@ -59,7 +59,7 @@ Enquanto correm risco de extinção em boa parte do estado, os orelhões ainda s
 
   <div id="swipebox-gallery">
     {% for file in site.static_files %}
-      {% if file.path contains "orelha" %}
+      {% if file.path contains "orelho" %}
             <img src="{{ site.baseurl }}{{ file.path }}" class="swipebox" alt="">
       {% endif %}
     {% endfor %}

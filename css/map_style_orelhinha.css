@@ -29,79 +29,6 @@ b {
     bottom: 20px;
 }
 
-#legenda-azul{
-    position: absolute;
-    padding: 20px;
-    padding-bottom: 5px;
-    width: auto;
-    height: 60px;
-    bottom: 10%;
-    color: beige;
-    background-color: #2057b5;
-    z-index: 10000;
-    border-top: 1px solid #fdfbea;
-    border-right: 1px solid #fdfbea;
-    left: 5%;
-    letter-spacing: 0.5px;
-    font-size: 12px;
-}
-
-
-#legenda-bege{
-    position: absolute;
-    padding: 20px;
-    width: auto;
-    height: 60px;
-    bottom: 50px;
-    color: #e9a4a7;
-    background-color: #fdfbea;
-    z-index: 10000;
-    border-top: 1px solid #e9a4a7;
-    border-right: 1px solid #e9a4a7;
-    left: 50px;
-    letter-spacing: 0.5px;
-    font-size: 10px;
-}
-
-#top, #bottom, #left, #right {
-  z-index:1000;
-	background: #fdfbea;
-	position: fixed;
-	}
-	#left, #right {
-		top: 0; bottom: 0;
-		width: 50px;
-		}
-		#left { left: 0; }
-		#right { right: 0; }
-		
-	#top, #bottom {
-		left: 0; right: 0;
-		}
-		#top { top: 0; 
-		height: 50px;}
-		#bottom { bottom: 0; 
-		height: 50px;}
-
-#top-b, #bottom-b, #left-b, #right-b {
-  z-index:1000;
-	background: #2057b5;
-	position: fixed;
-	}
-	#left-b, #right-b {
-		top: 0; bottom: 0;
-		width: 50px;
-		}
-		#left-b { left: 0; }
-		#right-b { right: 0; }
-		
-	#top-b, #bottom-b {
-		left: 0; right: 0;
-		}
-		#top-b { top: 0; 
-		height: 50px;}
-		#bottom-b { bottom: 0; 
-		height: 50px;}
 
 h4 {
     font-size: 30px !important;
@@ -147,6 +74,65 @@ h3 {
     padding-left: 0px !important;
 }
 
+#legenda-azul{
+    position: absolute;
+    padding: 20px;
+    padding-bottom: 5px;
+    width: auto;
+    height: 60px;
+    color: beige;
+    background-color: #2057b5;
+    z-index: 10000;
+    border-top: 1px solid #fdfbea;
+    border-right: 1px solid #fdfbea;
+    left: 5%;
+    bottom: 10%;
+   /* left: 0;
+    bottom: 0;*/
+    letter-spacing: 0.5px;
+    font-size: 12px;
+}
+
+#top, #bottom, #left, #right {
+  z-index:1000;
+	background: #fdfbea;
+	position: fixed;
+	}
+	#left, #right {
+		top: 0; bottom: 0;
+		width: 50px;
+		}
+		#left { left: 0; }
+		#right { right: 0; }
+		
+	#top, #bottom {
+		left: 0; right: 0;
+		}
+		#top { top: 0; 
+		height: 50px;}
+		#bottom { bottom: 0; 
+		height: 50px;}
+
+#top-b, #bottom-b, #left-b, #right-b {
+  z-index:1000;
+	background: #2057b5;
+	position: fixed;
+	}
+	#left-b, #right-b {
+		top: 0; bottom: 0;
+		width: 50px;
+		}
+		#left-b { left: 0; }
+		#right-b { right: 0; }
+		
+	#top-b, #bottom-b {
+		left: 0; right: 0;
+		}
+		#top-b { top: 0; 
+		height: 50px;}
+		#bottom-b { bottom: 0; 
+		height: 50px;}
+
 .sound{
       position: absolute;
       bottom: 0;
@@ -158,6 +144,7 @@ h3 {
       position: absolute;
       top: 0;
       bottom: 0;
+      /*width: 100%;*/
       width: 90%;
       height: 80%;
       left: 5%;
@@ -297,12 +284,12 @@ a.mapboxgl-ctrl-logo{
 }
 
 .mapboxgl-ctrl button.mapboxgl-ctrl-zoom-in .mapboxgl-ctrl-icon {
- background-image:url("../assets/favicons/in.svg") !important;
+ background-image:url("../in.svg") !important;
     background-size: 130%;
 }
 
 .mapboxgl-ctrl button.mapboxgl-ctrl-zoom-out .mapboxgl-ctrl-icon {
- background-image:url("../assets/favicons/out.svg") !important;
+ background-image:url("../out.svg") !important;
     background-size: 130%;
 }
 
