@@ -6,7 +6,7 @@ menu: true
 ref: memory
 layout: proposals
 swipebox: mg
-permalink: es/memorygame
+permalink: es/memorygame-workshop
 lang: es
 ---
 <img src="../assets/posts/memorygame1.jpg" class="img-border">

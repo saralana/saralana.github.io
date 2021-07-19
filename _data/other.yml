@@ -2,10 +2,10 @@
 - indice: 1
   column: 1
   order: 1
-  name: twin-sounds
-  title: Twin Sounds
-  title-en: Twin Sounds
-
+  name: natal2
+  title: natal
+  title-en: natal
+  
 - indice: 2
   column: 1
   order: 2
@@ -23,24 +23,25 @@
 - indice: 4
   column: 2
   order: 1
+  name: twin-sounds
+  title: Twin Sounds
+  title-en: Twin Sounds
+  
+  
+- indice: 5
+  column: 2
+  order: 2
   name: vias-de-escape
   title: Vias de Escape
   title-en: Escape Routes
 
-- indice: 5
+- indice: 6
   column: 2
-  order: 2
+  order: 3
   name: vj
   title: vj
   title-en: vj
 
-- indice: 6
-  column: 2
-  order: 3
-  name: colabs
-  title: Colaborações
-  title-en: Colabs
-    
 - indice: 7
   column: 3
   order: 1
@@ -51,7 +52,9 @@
 - indice: 8
   column: 3
   order: 2
-  name: en
+  name: colabs
+  title: Colaborações
+  title-en: Colabs
   
 - indice: 9
   column: 3
