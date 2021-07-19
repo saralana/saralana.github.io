@@ -30,4 +30,4 @@ Os sons presentes nos cubos foram gravados durante uma oficina de gravação, co
   
 **Com a colaboração de** Arthur Thomas, Élisabeth Pouliquen e a professora Aurélie Pelletant.
   
-Esse projeto é possível graças ao Musée Réattu, a cidade de Arles (France), Phonurgia Nova e a escola Mouleyres.
+Esse projeto é possível graças ao [Musée Réattu](http://www.museereattu.arles.fr/){:target="_blank"}, a cidade de Arles (France), [Phonurgia Nova](http://phonurgia.fr/){:target="_blank"} e a escola Mouleyres.
