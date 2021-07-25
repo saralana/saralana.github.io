@@ -328,10 +328,10 @@ audio::-webkit-media-controls-panel, video::-webkit-media-controls-panel {
 }
 
 audio{
-    position: absolute;
+
     background-color: #ffe629;
     opacity: 1;
-    width: 100% !important;
+    width: 95% !important;
     height: 40px !important;
     z-index: 1000;
 }
