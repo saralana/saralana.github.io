@@ -189,8 +189,8 @@ h3 {
 
     .mapboxgl-popup-content {
       font: 400 15px/22px 'Source Sans Pro', 'Helvetica Neue', Sans-serif;
-      padding: 10px !important;
-      width: 130%;
+      padding: 20px !important;
+      width: 120%;
       background: white !important;
       top: -2px;
       margin-bottom: 5px;
@@ -244,7 +244,7 @@ h3 {
 
 .mapboxgl-popup-anchor-left .mapboxgl-popup-tip {
     border-right-color: #fdfbea !important;
-    border-top-color: #fdfbea !important;
+    border-top-color: #fdfbea00 !important;
     border-bottom-color: #fdfbea00 !important;
 }
 

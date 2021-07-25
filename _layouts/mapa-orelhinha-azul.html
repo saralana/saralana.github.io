@@ -177,7 +177,7 @@
             map.on('click', 'atendidas', function (e) {
               var coordinates = e.features[0].geometry.coordinates.slice();
         
-              var description = `<h3>` +  e.features[0].properties.Nome +`</h3>` + `<b>` + e.features[0].properties.Rio + `</b>` + `<p>` + e.features[0].properties.Chamada1 + `</p>`+ `<p>` + e.features[0].properties.Chamada2 + `</p>` + `<p>` + e.features[0].properties.Chamada3 + `</p>`+ `<p>` + e.features[0].properties.Chamada4 + `</p>`;
+              var description = `<h3>` +  e.features[0].properties.Nome +`</h3>` + `<b>` + e.features[0].properties.Rio + `</b>` + `<br>` + `<b>` + e.features[0].properties.Data + `</b>`+ `<br>` + `<p>` + e.features[0].properties.Chamada1 + `</p>` + `<p>` + e.features[0].properties.Chamada2 + `</p>`;
                 
               while (Math.abs(e.lngLat.lng - coordinates[0]) > 180) {
               coordinates[0] += e.lngLat.lng > coordinates[0] ? 360 : -360;
