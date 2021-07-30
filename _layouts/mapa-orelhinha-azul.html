@@ -28,8 +28,8 @@
 
 <div id="legenda-azul">
     NÃO ATENDIDAS
-    <img style="height:100%" src="../orelha_rosa.png">
-    <img style="height:100%" src="../orelha_amarela.png">
+    <img style="height:100%" src="../assets/favicons/orelha_rosa.png">
+    <img style="height:100%" src="../assets/favicons/orelha_amarela.png">
     ATENDIDAS
 </div> 
     
@@ -68,14 +68,14 @@
     $(document).ready(function () {
       $.ajax({
         type: "GET",
-        url:'https://docs.google.com/spreadsheets/d/1-cJ1mIdwNZXodhyn_Gz4Df1L1te0pMCOV060KTINIyM/gviz/tq?tqx=out:csv&sheet=naoatendidas',
+        url:'../orelhinha/naoatendidas.csv',
         dataType: "text",
         success: function (csvData) { makeGeoJSON(csvData); }
       });
 
       $.ajax({
         type: "GET",
-        url:'https://docs.google.com/spreadsheets/d/1-cJ1mIdwNZXodhyn_Gz4Df1L1te0pMCOV060KTINIyM/gviz/tq?tqx=out:csv&sheet=atendidas',
+        url:'../orelhinha/atendidas.csv',
         dataType: "text",
         success: function (csvData) { makeGeoJSON2(csvData); }
       });
@@ -177,7 +177,7 @@
             map.on('click', 'atendidas', function (e) {
               var coordinates = e.features[0].geometry.coordinates.slice();
         
-              var description = `<h3>` +  e.features[0].properties.Nome +`</h3>` + `<b>` + e.features[0].properties.Rio + `</b>` + `<br>` + `<b>` + e.features[0].properties.Data + `</b>`+ `<br>` + `<p>` + e.features[0].properties.Chamada1 + `</p>` + `<p>` + e.features[0].properties.Chamada2 + `</p>`;
+              var description = `<h3>` +  e.features[0].properties.Nome +`</h3>` + `<b>` + e.features[0].properties.Rio + `</b>` + `<br>` + `<b>` + e.features[0].properties.Data + `</b>`+ `<br>` + `<p>` + e.features[0].properties.Chamada1 + `</p>`;
                 
               while (Math.abs(e.lngLat.lng - coordinates[0]) > 180) {
               coordinates[0] += e.lngLat.lng > coordinates[0] ? 360 : -360;
@@ -219,44 +219,7 @@
     
   </script>
 
-  
-<script>
-function w3_open() {
-  document.getElementById("mySidebar").style.display = "block";
-}
 
-function w3_close() {
-  document.getElementById("mySidebar").style.display = "none";
-}
-  
-function myFunction() {
-  var popup = document.getElementById("myPopup");
-  popup.classList.toggle("show");
-}
-</script>
-
-<script>
-$(document).ready(function(){
-  $('[data-toggle="tooltip"]').tooltip();
-});
-</script>
-
-<script>
-var coll = document.getElementsByClassName("collapsible");
-var i;
-
-for (i = 0; i < coll.length; i++) {
-  coll[i].addEventListener("click", function() {
-    this.classList.toggle("active");
-    var content = this.nextElementSibling;
-    if (content.style.display === "block") {
-      content.style.display = "none";
-    } else {
-      content.style.display = "block";
-    }
-  });
-}
-</script>
           
 </body>
 
