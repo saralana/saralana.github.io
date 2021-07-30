@@ -2,6 +2,7 @@
 title: 'rádio mondial'
 type: peça sonora
 menu: true
+layout: post-other
 where: 
     - name: Arte Radio (France)
       url: https://www.arteradio.com/son/61660511/radio_mondial

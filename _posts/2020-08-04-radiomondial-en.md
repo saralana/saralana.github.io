@@ -22,6 +22,7 @@ where:
     - name: Réverbération (Fr)
       url:  https://laviemanifeste.com/reverberation/?fbclid=IwAR1ELVaSTOT1FvUuKrbEMXrGrXAaJQXic1yUES0SNRMZE1pbbxKeapGQAo0
 data: 2018
+layout: post-other
 ref: radio-mondial
 permalink: en/radio-mondial
 cover: /assets/posts/radiomondial.jpg

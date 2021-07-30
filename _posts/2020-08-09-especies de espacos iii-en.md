@@ -9,6 +9,7 @@ where:
   - name: Bolsa Pampulha 2019 | Belo Horizonte | BRAZIL
     url: https://www.jaca.center/bolsa-pampulha/
 data: 2019
+layout: post-other
 ref: especies-de-espacos-3
 permalink: en/especies-de-espacos-3
 pv: especies-de-espacos-1
