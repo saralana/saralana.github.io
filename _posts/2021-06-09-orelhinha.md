@@ -5,12 +5,20 @@ type: em processo
 menu: true
 layout: proposals
 data: 2021 | BDMG | Seres Rios
-ref: orelhinha
-permalink: en/orelhinha
+ref: orelhinha-doc
+permalink: en/orelhinha-doc
 cover: /assets/favicons/orelhinha.jpg
 swipebox: 
 lang: pt
 ---
+
+<br><br>
+  <div class="video-wrapper video-wrapper-16x9" style="width:100%">
+   <iframe src="../mapa-orelhinha" height="200" width="100%" style="border:0px"></iframe>
+  </div>
+
+<br><br>
+
 
 Viajo ao longo das margens de rios utilizando ferramentas para visualização panôramica de espaços públicos e de imagens de satélite. Um trajeto percorrido à procura de orelhões,  verdadeiros pontos de escuta espacializados no curso desses rios.
 

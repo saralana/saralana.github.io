@@ -68,14 +68,14 @@
     $(document).ready(function () {
       $.ajax({
         type: "GET",
-        url:'../orelhinha/naoatendidas.csv',
+        url:'../dataorelhinha/naoatendidas.csv',
         dataType: "text",
         success: function (csvData) { makeGeoJSON(csvData); }
       });
 
       $.ajax({
         type: "GET",
-        url:'../orelhinha/atendidas.csv',
+        url:'../dataorelhinha/atendidas.csv',
         dataType: "text",
         success: function (csvData) { makeGeoJSON2(csvData); }
       });
