@@ -43,13 +43,18 @@ Os telefones foram encontrados viajando pela margem desses rios utilizando mapas
 
 <br> 
 
----
 
 <br>
-
-<img src="../assets/posts/tatu-streetview3.png">
-
+  <div id="swipebox-gallery">
+    {% for file in site.static_files %}
+      {% if file.path contains "gif_orelhinha" %}
+            <img src="{{ site.baseurl }}{{ file.path }}" class="swipebox" alt="">
+      {% endif %}
+    {% endfor %}
+  </div>
 
 <br><br>
 
 ---
+
+<br><br>
