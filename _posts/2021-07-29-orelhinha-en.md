@@ -17,7 +17,7 @@ thanks: Gabriela Moulin, Francisa Caporalli, Samanta Moreira, Mateus Mesquita, F
 lang: en
 ---
 
-LISTEN TO THE SOUND PIECE ON [FESTIVAL SERES RIOS](https://seresrios.org){:target="_blank"} FROM 2 TO 8 AUGUST 2021
+LISTEN TO THE SOUND PIECE ON [FESTIVAL SERES RIOS](https://seresrios.org/obras-comissionadas/sara-lana/){:target="_blank"} FROM 2 TO 10 AUGUST 2021
 
 
 <br><br><br>

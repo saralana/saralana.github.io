@@ -17,7 +17,7 @@ thanks: Gabriela Moulin, Francisa Caporalli, Samanta Moreira, Mateus Mesquita, F
 lang: pt
 ---
 
-ESCUTE A PEÇA NO [FESTIVAL SERES RIOS](https://seresrios.org){:target="_blank"} DO 2 AO 8 DE AGOSTO DE 2021
+ESCUTE A PEÇA NO [FESTIVAL SERES RIOS](https://seresrios.org/obras-comissionadas/sara-lana/){:target="_blank"} DO 2 A 10 DE AGOSTO DE 2021
 
 <br><br><br>
 Orelhinha é uma peça sonora criada a partir de chamadas realizadas para orelhões à beira dos rios São Francisco e Jequitinhonha.
