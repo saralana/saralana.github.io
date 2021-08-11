@@ -726,7 +726,49 @@
         );
 
     });   
-      
+                            
+    //meleiros
+      map.on('load', () => {
+        // Load an image from an external URL.
+        map.loadImage(
+        '../assets/maps/meleiros.png',
+            (error, image) => {
+                if (error) throw error;
+                // Add the image to the map style.
+                map.addImage('meleiros', image);
+
+                // Add a data source containing one point feature.
+                map.addSource('point12', {
+                    'type': 'geojson',
+                    'data': {
+                        'type': 'FeatureCollection',
+                        'features': [
+                        {
+                            'type': 'Feature',
+                            'geometry': {
+                            'type': 'Point',
+                            'coordinates': [-44.673277, -18.804277]
+                            }
+                        }]
+                    }
+                });
+                // Add a layer to use the image to represent the data.
+                map.addLayer({
+                    'id': 'meleiros',
+                    'type': 'symbol',
+                    'source': 'point12', 
+                    'layout': {
+                        'icon-anchor': 'top', 
+                        "icon-allow-overlap": true,
+                        'icon-image': 'meleiros',
+                        'icon-size': ['interpolate', ['linear'], ['zoom'], 7, 0.2, 11, 1]
+                    }
+                });
+            }
+        );
+
+    });   
+         
   </script>
 
   
