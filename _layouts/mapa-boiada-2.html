@@ -59,7 +59,7 @@
       style: 'mapbox://styles/saralgc/cks5cot1g19zk17muudrwh23c',
       center: [-44.58, -18.6], // starting position
       zoom: 8.55,// starting zoom
-      minZoom: 7,
+      minZoom: 7.6,
       maxZoom: 11,  
       pitch: 0, // pitc3 in degrees
       bearing: 45, // bearing in degrees
@@ -242,6 +242,34 @@
             
             
         }); 
+      
+            
+      // REPRESA
+       
+        map.on('load', () => {
+            map.addSource('represa2', {
+                'type': 'image',
+                'url': '../assets/maps/represa.png',
+                'coordinates': [
+                    [-45.795, -18.406],
+                    [-45.230, -18.169], //3 marias
+                    [-44.808, -18.887], //felixlandia
+                    [-45.375, -19.192] //abaete
+                  
+                ]
+                })
+                map.addLayer({
+                    id: 'represa-layer',
+                    'type': 'raster',
+                    'source': 'represa2',
+                    'paint': {
+                    'raster-fade-duration': 0
+                }
+            });
+            
+            
+        }); 
+      
       
    // ZOOM
       map.addControl(new mapboxgl.NavigationControl(), 'top-right'); // disable map zoom when using scroll
@@ -556,16 +584,17 @@
 
     });  
       
+  
                          
-    //represa
+    //cordisburgo
       map.on('load', () => {
         // Load an image from an external URL.
         map.loadImage(
-        '../assets/maps/represa.png',
+        '../assets/maps/cordisburgo.png',
             (error, image) => {
                 if (error) throw error;
                 // Add the image to the map style.
-                map.addImage('represa', image);
+                map.addImage('cordisburgo', image);
 
                 // Add a data source containing one point feature.
                 map.addSource('point8', {
@@ -577,28 +606,27 @@
                             'type': 'Feature',
                             'geometry': {
                             'type': 'Point',
-                            'coordinates': [-45.7488177, -18.2128748]
+                            'coordinates': [-44.34464, -19.15856]
                             }
                         }]
                     }
                 });
                 // Add a layer to use the image to represent the data.
                 map.addLayer({
-                    'id': 'represa',
+                    'id': 'cordisburgo',
                     'type': 'symbol',
                     'source': 'point8', 
                     'layout': {
-                        'icon-anchor': 'left', 
+                        'icon-anchor': 'bottom', 
                         "icon-allow-overlap": true,
-                        'icon-image': 'represa',
-                        'icon-size': ['interpolate', ['linear'], ['zoom'], 6, 0, 11, 1]
+                        'icon-image': 'cordisburgo',
+                        'icon-size': ['interpolate', ['linear'], ['zoom'], 6, 0.05, 10, 0.4]
                     }
                 });
             }
         );
 
-    });  
-               
+    });               
        
                          
     //sirga
@@ -643,7 +671,7 @@
 
     });     
                          
-    //sirga
+    //andrequice
       map.on('load', () => {
         // Load an image from an external URL.
         map.loadImage(
