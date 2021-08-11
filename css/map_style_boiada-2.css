@@ -1,0 +1,252 @@
+
+body {
+      margin: 0;
+      padding: 0;
+      cursor: url(../assets/maps/pata.png) 8 8,auto !important ;
+   /* background-image: url('../assets/maps/caderno.jpg'); */
+    }
+
+p {
+    font-size: 13px;
+    color: black;
+    font-family: 'Source Code Pro', 'Courier New', 'Lucida Sans Typewriter', monospace;
+    line-height: 20px;
+    text-align: left;
+    /*position: absolute;*/
+    left: 30px;
+    bottom: 20px;
+}
+
+p::selection{
+    background-color: black;
+    color: white;
+    
+}
+
+
+#content p {
+    display: none;
+    font-size: 15px !important;
+    color: white;
+    font-family: 'Source Code Pro', 'Courier New', 'Lucida Sans Typewriter', monospace;
+    line-height: 20px;
+    text-align: left;     
+    /*position: absolute;*/
+    left: 0px;
+    bottom: -20px;
+    background-color: black;
+    position: absolute;
+    font-weight: 200;
+    padding-left: 5%;
+    padding-right: 5%;
+    width: 90%;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin-bottom: 0px;
+}
+
+#content p::selection{
+    background-color: white;
+    color: black;
+    
+}
+
+h2 {
+    font-size: 20px;
+    /*color: #f18388;*/
+    color: black;
+    font-family: 'Source Code Pro', 'Courier New', 'Lucida Sans Typewriter', monospace;
+    line-height: 30px;
+    text-align: left !important;
+    text-transform: uppercase;
+    padding-left: 0px;
+    margin-left: 0px;
+}
+
+h2::selection{
+    background-color: black;
+    color: white;
+    
+}
+
+h3 {
+    font-size: 18px !important;
+    color: black !important;
+    background-color: transparent !important;
+    font-family: 'Source Code Pro', 'Courier New', 'Lucida Sans Typewriter', monospace;
+    line-height: 20px;
+    text-align: left !important;
+    /*position: absolute;*/
+    text-transform: capitalize;
+    padding-left: 0px !important;
+}
+
+h3::selection{
+    background-color: black;
+    color: white;
+    
+}
+
+strong::selection{
+    background-color: white;
+    color: black;
+    
+}
+
+    #map {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      width: 100%;
+    }
+
+    /* Popup styling */
+
+    .mapboxgl-popup {
+      padding-bottom: 15px;
+      top: -65px !important;
+      max-width: 300px !important;
+      
+    }
+
+    .mapboxgl-popup-close-button {
+      display: none;
+    }
+
+    .mapboxgl-popup-content {
+      font: 400 15px/22px 'Source Sans Pro', 'Helvetica Neue', Sans-serif;
+      padding: 10px !important;
+      width: auto;
+      background: white !important;
+      top: -2px;
+      margin-bottom: 5px;
+      box-shadow: none !important;
+    }
+
+    .mapboxgl-popup-content-wrapper {
+      padding: 1%;
+    }
+
+    .mapboxgl-popup-content h3 {
+      background: rgb(61, 59, 59);
+      text-align: center;
+      color: #fff;
+      margin: 0;
+      display: block;
+      padding: 15px;
+      font-weight: 700;
+      margin-top: -4px;
+    }
+
+    .mapboxgl-popup-content h4 {
+      margin: 0;
+      display: block;
+      padding: 10px 3px 10px 10px;
+      font-weight: 400;
+    }
+
+    .mapboxgl-container {
+      cursor: pointer;
+    }
+
+    .mapboxgl-popup-anchor-top>.mapboxgl-popup-content {
+      margin-top: 3px;
+    }
+    .mapboxgl-popup-anchor-bottom>.mapboxgl-popup-content {
+      margin-top: 3px;
+    }
+    .mapboxgl-popup-anchor-top>.mapboxgl-popup-tip {
+      border-bottom-color: black;
+    }
+.mapboxgl-popup-tip {
+    border-top-color: black !important;
+    border-bottom-color: black !important;
+}
+
+.mapboxgl-popup-anchor-bottom .mapboxgl-popup-tip {
+    align-self: center;
+    border-top-color: black !important;
+}
+
+.mapboxgl-ctrl-group button {
+    background-color: #fdfbea;
+    cursor: url(../assets/maps/pata.png), auto !important , auto !important 
+}
+
+
+.mapboxgl-popup-anchor-left .mapboxgl-popup-tip {
+    border-right-color: #000 !important;
+    border-top-color: #00000000 !important;
+    border-bottom-color: #fff0 !important; !important;
+}
+
+.mapboxgl-popup-anchor-left {
+    left: 20px !important;
+    top: 10px !important;
+}
+
+.mapboxgl-popup-anchor-right {
+    left: -20px !important;
+    top: 10px !important;
+}
+
+.mapboxgl-popup-anchor-right .mapboxgl-popup-tip {
+    border-left-color: #000 !important;
+    border-top-color: #00000000 !important;
+    border-bottom-color: #00000000 !important;
+}
+
+.mapboxgl-ctrl-compass{
+    display: none !important;
+}
+.mapboxgl-popup-anchor-bottom {
+    top: 200px;
+}
+
+.mapboxgl-popup-anchor-top {
+    top: 80px !important;
+    margin-top: 0px;
+}
+
+a.mapboxgl-ctrl-logo{
+  display: none !important;
+}
+
+.mapboxgl-ctrl-bottom-right{
+    display: none;
+}
+.mapboxgl-ctrl-top-right{
+    top: 50px !important;
+    right: 100px !important;
+}
+.mapboxgl-ctrl-top-left {
+    top: 30px !important;
+    left: 40px !important;
+}
+
+.mapboxgl-ctrl-group button {
+    background-color: black;
+}
+
+
+
+audio::-webkit-media-controls-panel, video::-webkit-media-controls-panel {
+    background-color: black;
+}
+
+audio{
+    background-color: black;
+    opacity: 1;
+    width: 100% !important;
+    height: 30px !important;
+}
+
+.controls button:hover, .controls button:focus {
+   color: black;
+}
+
+
+.mapboxgl-canvas-container { 
+    cursor: url(../assets/maps/pata.png), auto !important 
+}
+

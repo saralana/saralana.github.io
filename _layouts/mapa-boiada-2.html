@@ -1,0 +1,741 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <title>Mapa Sonoro da Boiada | Sons do Sertão</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="{{ site.baseurl }}/css/map_style_boiada-2.css">
+  <!-- Google fonts-->
+  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans" />
+
+  <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no"/>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://api.mapbox.com/mapbox-gl-js/v1.9.1/mapbox-gl.js"></script>
+  <link href="https://api.mapbox.com/mapbox-gl-js/v1.9.1/mapbox-gl.css" rel="stylesheet" />
+  <script src="https://npmcdn.com/csv2geojson@latest/csv2geojson.js"></script>
+  <script src="https://npmcdn.com/@turf/turf/turf.min.js"></script>
+  <script src="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v4.0.0/mapbox-gl-geocoder.min.js"></script>
+  <link rel="stylesheet" href="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v4.0.0/mapbox-gl-geocoder.css" type="text/css" />
+  
+</head>
+
+  <div id="left"></div>
+  <div id="right"></div>
+  <div id="top"></div>
+  <div id="bottom"></div>
+    
+<body>
+    
+<div id="map"></div>
+  
+  <script>
+    var geocoder = new MapboxGeocoder({
+       accessToken: mapboxgl.accessToken,
+       mapboxgl: mapboxgl
+    });
+    
+    var transformRequest = (url, resourceType) => {
+      var isMapboxRequest =
+        url.slice(8, 22) === "api.mapbox.com" ||
+        url.slice(10, 26) === "tiles.mapbox.com";
+      return {
+        url: isMapboxRequest
+          ? url.replace("?", "?pluginName=sheetMapper&")
+          : url
+      };
+    };
+      
+    mapboxgl.accessToken = 'pk.eyJ1Ijoic2FyYWxnYyIsImEiOiJja2NjbTAyczkwNXA3Mnlscm5nbjN5OHZiIn0.yNcJkPBSugRlIeGkXDRlZw'; //Mapbox token 
+    const bounds = [
+        [-52.6, -21.5],// Southwest coordinates
+        [-39, -15] // Northeast coordinates    
+    ];
+    var map = new mapboxgl.Map({
+      container: 'map', // container id
+      style: 'mapbox://styles/saralgc/cks5cot1g19zk17muudrwh23c',
+      center: [-44.58, -18.6], // starting position
+      zoom: 8.55,// starting zoom
+      minZoom: 7,
+      maxZoom: 11,  
+      pitch: 0, // pitc3 in degrees
+      bearing: 45, // bearing in degrees
+      transformRequest: transformRequest,
+      maxBounds: bounds // Set the map's geographical boundaries.
+    });
+    
+    $(document).ready(function () {
+      $.ajax({
+        type: "GET",
+        //YOUR TURN: Replace with csv export link
+        //https://www.mapbox.com/impact-tools/sheet-mapper
+       url:'../assets/maps/boiada.csv',
+        dataType: "text",
+        success: function (csvData) { makeGeoJSON(csvData); }
+      });
+
+
+
+      function makeGeoJSON(csvData) {
+        csv2geojson.csv2geojson(csvData, {
+          latfield: 'Latitude',
+          lonfield: 'Longitude',
+          delimiter: ','
+        }, function (err, data) {
+          
+          map.on('load', function () {
+            
+            map.loadImage(
+             '../assets/maps/vaca.png',
+              function(error, image) {
+              if (error) throw error;
+              map.addImage('camera', image);
+            });
+            
+            map.addLayer({
+              'id': 'csvData',
+              'type': 'symbol',
+              'source': {
+                'type': 'geojson',
+                'data': data
+              },
+              'layout': {
+                'icon-image': 'camera',
+                'icon-anchor': 'bottom', // point of the icon which will correspond to marker's location
+                "icon-allow-overlap": true,
+                //'icon-size': 0.025
+              }
+             });
+
+            // When a click event occurs on a feature in the csvData layer, open a popup at the
+            // location of the feature, with description HTML from its properties.
+            
+            map.on('click', 'csvData', function (e) {
+              var coordinates = e.features[0].geometry.coordinates.slice();
+
+               var description = `<audio controls style="width:100%;" controlsList="nodownload" autoplay><source src="../assets/sounds/` + e.features[0].properties.Audio + `.mp3" type="audio/mpeg"></audio>` + `<h3>` +  e.features[0].properties.Dia + ' | ' + e.features[0].properties.Lugar + `</h3>` + `<h2>` + e.features[0].properties.Titulo + `</h2>`+ `<p>` + e.features[0].properties.Descricao + `</p>` ;
+                
+              while (Math.abs(e.lngLat.lng - coordinates[0]) > 180) {
+              coordinates[0] += e.lngLat.lng > coordinates[0] ? 360 : -360;
+              }
+                
+              //add Popup to map
+              new mapboxgl.Popup()
+                .setLngLat(coordinates)
+                .setHTML(description)
+                .addTo(map);
+            });
+          
+              
+         map.setLayoutProperty('csvData', 'icon-size', 
+            ['interpolate', ['linear'], ['zoom'],
+              0,
+              //TAMANHO AO ZOOM 0
+              0.05,
+              8,
+              //TAMANHO AO ZOOM 7
+              0.15,
+              11,
+              0.35,
+              24,
+              //TAMANHO AO ZOOM 24
+              0.50
+            ]);
+              
+              
+          });
+
+        });
+      };
+      
+      
+    });
+    /* 
+    map.on('load', function () {
+            map.addSource('route', {
+                'type': 'geojson',
+                'data': {
+                    'type': 'Feature',
+                    'properties': {},
+                    'geometry': {
+                        'type': 'LineString',
+                        'coordinates': [
+                                [-45.14828169654133, -17.96350757426491],//riacho
+                                [-45.12828169654133, -17.95350757426491],//intermediario
+                                [-45.11949217982159, -17.97281343241402],//capelinha manuelzao 
+                                [-45.12405428425924, -18.06096088337467],//milho na estrada
+                                [-45.120944, -18.098087], //intermediario
+                                [-45.099944, -18.118087], //intermediario
+                                [-45.08603338169048, -18.11753593866766],//ao redor da tolda
+                                [-44.983061, -18.276919], //intermediario
+                                [-44.97272240601401, -18.32908728259619],//ribeirao do boi
+                                [-44.96821748428854, -18.36534025757195],//vereda sao jose
+                                [-44.94552811134417, -18.40967657795252], //santa catarina
+                                [-44.89552811134417, -18.45967657795252], //intermediario
+                                [-44.829163, -18.481594], // buritizinho
+                                [-44.7867131, -18.5277877], //capivara
+                                [-44.739084, -18.685717], // riacho das vacas
+                                [-44.707484, -18.770221], // meleiros
+                                [-44.673277, -18.804277], //meleiro
+                                [-44.648772, -18.845395], //retiro dos bravos
+                                [-44.6003374, -18.8578303], //corrego da canabrava
+                                [-44.5174002, -18.8563086], //intermediario
+                                [-44.4774002, -18.8663086], //intermediario
+                                [-44.4674002, -18.8763086], //intermediario
+                                [-44.4581287, -18.9145915], //intermediario
+                                [-44.40976520096729, -18.9886112044429], //riacho travessia paulista
+                                [-44.3793240, -19.0662000], //intermediario
+                                [-44.34464, -19.15856], //fazenda toco e edimundo povoado do onça
+                                [-44.3397806, -19.171522], //intermediario
+                                [-44.3257806, -19.1835522], //intermediario
+                                [-44.30429161316887, -19.16838936753167], //taboquinha
+                                [-44.2767806, -19.1785522], //sao tome
+                                [-44.246953, -19.240340] //sao francisco
+                            ]
+                    }
+               }
+            });
+            
+            map.addLayer({
+                'id': 'route',
+                'type': 'line',
+                'source': 'route',
+                'layout': {
+                'line-join': 'round',
+                'line-cap': 'round'
+                },
+                'paint': {
+                'line-color': 'orange',
+                'line-width': 5
+                }
+            });
+        
+    }); */
+     
+      
+      // TRAJETO
+       
+        map.on('load', () => {
+            map.addSource('radar', {
+                'type': 'image',
+                'url': '../assets/maps/caminho_da_boiada1.png',
+                'coordinates': [
+                    
+                    [-45.20, -17.8],
+                    [-44.20, -17.8],
+                    [-44.20, -19.3],
+                    [-45.20, -19.3]
+                  
+                ]
+                })
+                map.addLayer({
+                    id: 'radar-layer',
+                    'type': 'raster',
+                    'source': 'radar',
+                    'paint': {
+                    'raster-fade-duration': 0
+                }
+            });
+            
+            
+        }); 
+      
+   // ZOOM
+      map.addControl(new mapboxgl.NavigationControl(), 'top-right'); // disable map zoom when using scroll
+    //  map.scrollZoom.disable(); 
+    
+      
+      //IMAGENS      
+      //morro
+      map.on('load', () => {
+        // Load an image from an external URL.
+        map.loadImage(
+        '../assets/maps/morro.png',
+            (error, image) => {
+                if (error) throw error;
+
+                // Add the image to the map style.
+                map.addImage('morro', image);
+
+                // Add a data source containing one point feature.
+                map.addSource('point', {
+                    'type': 'geojson',
+                    'data': {
+                        'type': 'FeatureCollection',
+                        'features': [
+                        {
+                            'type': 'Feature',
+                            'geometry': {
+                            'type': 'Point',
+                            'coordinates': [-44.5542987, -18.531157]
+                            }
+                        }]
+                    }
+                });
+
+                // Add a layer to use the image to represent the data.
+                map.addLayer({
+                    'id': 'morro',
+                    'type': 'symbol',
+                    'source': 'point', 
+                    'layout': {
+                        'icon-anchor': 'right', 
+                        "icon-allow-overlap": true,
+                        'icon-image': 'morro',
+                        'icon-size': ['interpolate', ['linear'], ['zoom'], 8, 0.1, 18, 0.5]
+                    }
+                });
+            }
+        );
+
+    });
+
+      
+    //partida
+      map.on('load', () => {
+        // Load an image from an external URL.
+        map.loadImage(
+        '../assets/maps/partida.png',
+            (error, image) => {
+                if (error) throw error;
+
+                // Add the image to the map style.
+                map.addImage('partida', image);
+
+                // Add a data source containing one point feature.
+                map.addSource('point2', {
+                    'type': 'geojson',
+                    'data': {
+                        'type': 'FeatureCollection',
+                        'features': [
+                        {
+                            'type': 'Feature',
+                            'geometry': {
+                            'type': 'Point',
+                            'coordinates': [-45.10828169654133, -17.85350757426491]
+                            }
+                        }]
+                    }
+                });
+
+                // Add a layer to use the image to represent the data.
+                map.addLayer({
+                    'id': 'partida',
+                    'type': 'symbol',
+                    'source': 'point2', 
+                    'layout': {
+                        'icon-anchor': 'right', 
+                        "icon-allow-overlap": true,
+                        'icon-image': 'partida',
+                        'icon-size': ['interpolate', ['linear'], ['zoom'], 8, 0.1, 18, 2]
+                    }
+                });
+            }
+        );
+
+    });
+      
+      
+    //chegada
+      map.on('load', () => {
+        // Load an image from an external URL.
+        map.loadImage(
+        '../assets/maps/chegada.png',
+            (error, image) => {
+                if (error) throw error;
+
+                // Add the image to the map style.
+                map.addImage('chegada', image);
+
+                // Add a data source containing one point feature.
+                map.addSource('point3', {
+                    'type': 'geojson',
+                    'data': {
+                        'type': 'FeatureCollection',
+                        'features': [
+                        {
+                            'type': 'Feature',
+                            'geometry': {
+                            'type': 'Point',
+                            'coordinates': [-44.210953, -19.310340]
+                            }
+                        }]
+                    }
+                });
+
+                // Add a layer to use the image to represent the data.
+                map.addLayer({
+                    'id': 'chegada',
+                    'type': 'symbol',
+                    'source': 'point3', 
+                    'layout': {
+                        'icon-anchor': 'left', 
+                        "icon-allow-overlap": true,
+                        'icon-image': 'chegada',
+                        'icon-size': ['interpolate', ['linear'], ['zoom'], 8, 0.1, 18, 1.5]
+                    }
+                });
+            }
+        );
+
+    });  
+      
+          
+    //bh
+      map.on('load', () => {
+        // Load an image from an external URL.
+        map.loadImage(
+        '../assets/maps/bh.png',
+            (error, image) => {
+                if (error) throw error;
+
+                // Add the image to the map style.
+                map.addImage('bh', image);
+
+                // Add a data source containing one point feature.
+                map.addSource('point4', {
+                    'type': 'geojson',
+                    'data': {
+                        'type': 'FeatureCollection',
+                        'features': [
+                        {
+                            'type': 'Feature',
+                            'geometry': {
+                            'type': 'Point',
+                            'coordinates': [-43.9073516, -19.8727385]
+                            }
+                        }]
+                    }
+                });
+
+                // Add a layer to use the image to represent the data.
+                map.addLayer({
+                    'id': 'bh',
+                    'type': 'symbol',
+                    'source': 'point4', 
+                    'layout': {
+                        'icon-anchor': 'left', 
+                        "icon-allow-overlap": true,
+                        'icon-image': 'bh',
+                        'icon-size': ['interpolate', ['linear'], ['zoom'], 8, 0.05, 18, 0.5]
+                    }
+                });
+            }
+        );
+
+    });   
+               
+    //norte
+      map.on('load', () => {
+        // Load an image from an external URL.
+        map.loadImage(
+        '../assets/maps/norte.png',
+            (error, image) => {
+                if (error) throw error;
+                // Add the image to the map style.
+                map.addImage('norte', image);
+
+                // Add a data source containing one point feature.
+                map.addSource('point5', {
+                    'type': 'geojson',
+                    'data': {
+                        'type': 'FeatureCollection',
+                        'features': [
+                        {
+                            'type': 'Feature',
+                            'geometry': {
+                            'type': 'Point',
+                            'coordinates': [-44.7419087, -17.598913]
+                            }
+                        }]
+                    }
+                });
+                // Add a layer to use the image to represent the data.
+                map.addLayer({
+                    'id': 'norte',
+                    'type': 'symbol',
+                    'source': 'point5', 
+                    'layout': {
+                        'icon-anchor': 'left', 
+                        "icon-allow-overlap": true,
+                        'icon-image': 'norte',
+                        'icon-size': ['interpolate', ['linear'], ['zoom'], 6, 0.05, 8, 0.25]
+                    }
+                });
+            }
+        );
+
+    });  
+      
+                   
+    //brasilia
+      map.on('load', () => {
+        // Load an image from an external URL.
+        map.loadImage(
+        '../assets/maps/brasilia.png',
+            (error, image) => {
+                if (error) throw error;
+                // Add the image to the map style.
+                map.addImage('brasilia', image);
+
+                // Add a data source containing one point feature.
+                map.addSource('point6', {
+                    'type': 'geojson',
+                    'data': {
+                        'type': 'FeatureCollection',
+                        'features': [
+                        {
+                            'type': 'Feature',
+                            'geometry': {
+                            'type': 'Point',
+                            'coordinates': [-47.5458977, -15.936873]
+                            }
+                        }]
+                    }
+                });
+                // Add a layer to use the image to represent the data.
+                map.addLayer({
+                    'id': 'brasilia',
+                    'type': 'symbol',
+                    'source': 'point6', 
+                    'layout': {
+                        'icon-anchor': 'top', 
+                        "icon-allow-overlap": true,
+                        'icon-image': 'brasilia',
+                        'icon-size': ['interpolate', ['linear'], ['zoom'], 6, 0.3, 10, 1]
+                    }
+                });
+            }
+        );
+
+    });  
+      
+                       
+    //goiania
+      map.on('load', () => {
+        // Load an image from an external URL.
+        map.loadImage(
+        '../assets/maps/goiania.png',
+            (error, image) => {
+                if (error) throw error;
+                // Add the image to the map style.
+                map.addImage('goiania', image);
+
+                // Add a data source containing one point feature.
+                map.addSource('point7', {
+                    'type': 'geojson',
+                    'data': {
+                        'type': 'FeatureCollection',
+                        'features': [
+                        {
+                            'type': 'Feature',
+                            'geometry': {
+                            'type': 'Point',
+                            'coordinates': [-49.1788547, -16.576334]
+                            }
+                        }]
+                    }
+                });
+                // Add a layer to use the image to represent the data.
+                map.addLayer({
+                    'id': 'goiania',
+                    'type': 'symbol',
+                    'source': 'point7', 
+                    'layout': {
+                        'icon-anchor': 'bottom', 
+                        "icon-allow-overlap": true,
+                        'icon-image': 'goiania',
+                        'icon-size': ['interpolate', ['linear'], ['zoom'], 6, 0.3, 10, 1]
+                    }
+                });
+            }
+        );
+
+    });  
+      
+                         
+    //represa
+      map.on('load', () => {
+        // Load an image from an external URL.
+        map.loadImage(
+        '../assets/maps/represa.png',
+            (error, image) => {
+                if (error) throw error;
+                // Add the image to the map style.
+                map.addImage('represa', image);
+
+                // Add a data source containing one point feature.
+                map.addSource('point8', {
+                    'type': 'geojson',
+                    'data': {
+                        'type': 'FeatureCollection',
+                        'features': [
+                        {
+                            'type': 'Feature',
+                            'geometry': {
+                            'type': 'Point',
+                            'coordinates': [-45.7488177, -18.2128748]
+                            }
+                        }]
+                    }
+                });
+                // Add a layer to use the image to represent the data.
+                map.addLayer({
+                    'id': 'represa',
+                    'type': 'symbol',
+                    'source': 'point8', 
+                    'layout': {
+                        'icon-anchor': 'left', 
+                        "icon-allow-overlap": true,
+                        'icon-image': 'represa',
+                        'icon-size': ['interpolate', ['linear'], ['zoom'], 6, 0, 11, 1]
+                    }
+                });
+            }
+        );
+
+    });  
+               
+       
+                         
+    //sirga
+      map.on('load', () => {
+        // Load an image from an external URL.
+        map.loadImage(
+        '../assets/maps/sirga2.png',
+            (error, image) => {
+                if (error) throw error;
+                // Add the image to the map style.
+                map.addImage('sirga', image);
+
+                // Add a data source containing one point feature.
+                map.addSource('point9', {
+                    'type': 'geojson',
+                    'data': {
+                        'type': 'FeatureCollection',
+                        'features': [
+                        {
+                            'type': 'Feature',
+                            'geometry': {
+                            'type': 'Point',
+                            'coordinates': [-45.21828169654133, -17.96350757426491]
+                            }
+                        }]
+                    }
+                });
+                // Add a layer to use the image to represent the data.
+                map.addLayer({
+                    'id': 'sirga',
+                    'type': 'symbol',
+                    'source': 'point9', 
+                    'layout': {
+                        'icon-anchor': 'right', 
+                        "icon-allow-overlap": true,
+                        'icon-image': 'sirga',
+                        'icon-size': ['interpolate', ['linear'], ['zoom'], 6, 0, 11, 1]
+                    }
+                });
+            }
+        );
+
+    });     
+                         
+    //sirga
+      map.on('load', () => {
+        // Load an image from an external URL.
+        map.loadImage(
+        '../assets/maps/andrequice.png',
+            (error, image) => {
+                if (error) throw error;
+                // Add the image to the map style.
+                map.addImage('andrequice', image);
+
+                // Add a data source containing one point feature.
+                map.addSource('point10', {
+                    'type': 'geojson',
+                    'data': {
+                        'type': 'FeatureCollection',
+                        'features': [
+                        {
+                            'type': 'Feature',
+                            'geometry': {
+                            'type': 'Point',
+                            'coordinates': [-44.990577, -18.279046]
+                            }
+                        }]
+                    }
+                });
+                // Add a layer to use the image to represent the data.
+                map.addLayer({
+                    'id': 'andrequice',
+                    'type': 'symbol',
+                    'source': 'point10', 
+                    'layout': {
+                        'icon-anchor': 'top', 
+                        "icon-allow-overlap": true,
+                        'icon-image': 'andrequice',
+                        'icon-size': ['interpolate', ['linear'], ['zoom'], 7, 0.1, 11, 0.3]
+                    }
+                });
+            }
+        );
+
+    });     
+                          
+    //aracai
+      map.on('load', () => {
+        // Load an image from an external URL.
+        map.loadImage(
+        '../assets/maps/aracai.png',
+            (error, image) => {
+                if (error) throw error;
+                // Add the image to the map style.
+                map.addImage('aracai', image);
+
+                // Add a data source containing one point feature.
+                map.addSource('point11', {
+                    'type': 'geojson',
+                    'data': {
+                        'type': 'FeatureCollection',
+                        'features': [
+                        {
+                            'type': 'Feature',
+                            'geometry': {
+                            'type': 'Point',
+                            'coordinates': [-44.2067806, -19.250]
+                            }
+                        }]
+                    }
+                });
+                // Add a layer to use the image to represent the data.
+                map.addLayer({
+                    'id': 'aracai',
+                    'type': 'symbol',
+                    'source': 'point11', 
+                    'layout': {
+                        'icon-anchor': 'top', 
+                        "icon-allow-overlap": true,
+                        'icon-image': 'aracai',
+                        'icon-size': ['interpolate', ['linear'], ['zoom'], 7, 0.2, 11, 0.8]
+                    }
+                });
+            }
+        );
+
+    });   
+      
+  </script>
+
+  
+
+    
+<div id="content">
+    {{ content }}
+</div>
+          
+</body>
+
+</html>
