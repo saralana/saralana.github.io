@@ -59,7 +59,7 @@
       style: 'mapbox://styles/saralgc/cks5cot1g19zk17muudrwh23c',
       center: [-44.58, -18.6], // starting position
       zoom: 8.55,// starting zoom
-      minZoom: 7.6,
+      minZoom: 7.7,
       maxZoom: 11,  
       pitch: 0, // pitc3 in degrees
       bearing: 45, // bearing in degrees
@@ -298,7 +298,7 @@
                             'type': 'Feature',
                             'geometry': {
                             'type': 'Point',
-                            'coordinates': [-44.5542987, -18.531157]
+                            'coordinates': [-44.602, -18.546]
                             }
                         }]
                     }
@@ -310,10 +310,10 @@
                     'type': 'symbol',
                     'source': 'point', 
                     'layout': {
-                        'icon-anchor': 'right', 
+                        'icon-anchor': 'center', 
                         "icon-allow-overlap": true,
                         'icon-image': 'morro',
-                        'icon-size': ['interpolate', ['linear'], ['zoom'], 8, 0.1, 18, 0.5]
+                        'icon-size': ['interpolate', ['linear'], ['zoom'], 8, 0.2, 18, 1.2]
                     }
                 });
             }
