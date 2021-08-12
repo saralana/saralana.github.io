@@ -796,7 +796,92 @@
         );
 
     });   
-         
+                            
+    //seta_brasilia
+      map.on('load', () => {
+        // Load an image from an external URL.
+        map.loadImage(
+        '../assets/maps/seta_brasilia.png',
+            (error, image) => {
+                if (error) throw error;
+                // Add the image to the map style.
+                map.addImage('seta_brasilia', image);
+
+                // Add a data source containing one point feature.
+                map.addSource('point13', {
+                    'type': 'geojson',
+                    'data': {
+                        'type': 'FeatureCollection',
+                        'features': [
+                        {
+                            'type': 'Feature',
+                            'geometry': {
+                            'type': 'Point',
+                            'coordinates': [-45.641, -17.978]
+                            }
+                        }]
+                    }
+                });
+                // Add a layer to use the image to represent the data.
+                map.addLayer({
+                    'id': 'seta_brasilia',
+                    'type': 'symbol',
+                    'source': 'point13', 
+                    'layout': {
+                        'icon-anchor': 'bottom', 
+                        "icon-allow-overlap": true,
+                        'icon-image': 'seta_brasilia',
+                        'icon-size': ['interpolate', ['linear'], ['zoom'], 7, 0.05, 11, 0.2]
+                    }
+                });
+            }
+        );
+
+    });   
+          
+                              
+    //sao_francisco
+      map.on('load', () => {
+        // Load an image from an external URL.
+        map.loadImage(
+        '../assets/maps/sao_francisco.png',
+            (error, image) => {
+                if (error) throw error;
+                // Add the image to the map style.
+                map.addImage('sao_francisco', image);
+
+                // Add a data source containing one point feature.
+                map.addSource('point14', {
+                    'type': 'geojson',
+                    'data': {
+                        'type': 'FeatureCollection',
+                        'features': [
+                        {
+                            'type': 'Feature',
+                            'geometry': {
+                            'type': 'Point',
+                            'coordinates': [-45.239, -18.180]
+                            }
+                        }]
+                    }
+                });
+                // Add a layer to use the image to represent the data.
+                map.addLayer({
+                    'id': 'sao_francisco',
+                    'type': 'symbol',
+                    'source': 'point14', 
+                    'layout': {
+                        'icon-anchor': 'bottom-right', 
+                        "icon-allow-overlap": true,
+                        'icon-image': 'sao_francisco',
+                        'icon-size': ['interpolate', ['linear'], ['zoom'], 7, 0.01, 11, 0.3]
+                    }
+                });
+            }
+        );
+
+    });     
+      
   </script>
 
   
