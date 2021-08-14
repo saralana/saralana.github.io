@@ -6,6 +6,88 @@ body {
    /* background-image: url('../assets/maps/caderno.jpg'); */
     }
 
+.marker {
+    background-image: url('../assets/maps/vaca_cara.png');
+    background-size: cover;
+    width: 58px;
+    height: 58px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.sidebar {
+  height: 100% !important;
+  width: 0;
+  position: fixed;
+  z-index: 200;
+  top: 0;
+  left: 0;
+  background-color: white;
+  overflow-x: hidden;
+  transition: 0.5s;
+  font-size: 17px;
+  color: black;
+  font-family: 'Source Code Pro', 'Courier New', 'Lucida Sans Typewriter', monospace;
+  text-align: left;
+}
+
+
+.sidebar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: black;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidebar .closebtn {
+  position: absolute;
+  top: 2%;
+  font-size: 56px;
+  margin-left: auto;
+  z-index:200;
+}
+
+ .sidebar-content{ 
+    position: absolute;
+    top: 10%;
+    width: 80%;
+    left: 10%;
+}
+
+ .sidebar-content h2{ 
+    font-size: 18px;
+}
+
+.openbtn {
+      position: absolute !important;
+      font-size: 20px;
+      cursor: pointer;
+      background-color: transparent;
+      margin: 15px;
+      color: white;
+      border: none;
+      z-index: 100;
+      width: 80px;
+      display:block;
+}
+/*
+@media only screen and (min-width: 800px) {
+    .openbtn {
+      display:none;
+    }
+    
+    img {
+        position: absolute;
+        top:30px;
+        left:4%;
+        z-index:300;
+        max-height: 300px;
+    }
+}*/
+
+
 p {
     font-size: 13px;
     color: black;
@@ -24,7 +106,7 @@ p::selection{
 }
 
 
-#content p {
+#content p{
     display: none;
     font-size: 15px !important;
     color: white;
@@ -33,7 +115,7 @@ p::selection{
     text-align: left;     
     /*position: absolute;*/
     left: 0px;
-    bottom: -20px;
+    bottom: -200px;
     background-color: black;
     position: absolute;
     font-weight: 200;
@@ -49,6 +131,17 @@ p::selection{
     background-color: white;
     color: black;
     
+}
+
+a::selection{
+    background-color: black;
+    color: white;
+    
+}
+
+strong::selection{
+    background-color: black !important;
+    color: white !important;
 }
 
 h2 {
