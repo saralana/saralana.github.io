@@ -2,8 +2,8 @@
 body {
       margin: 0;
       padding: 0;
-      cursor: url(../assets/maps/pata.svg) 8 8,auto !important ;
-   /* background-image: url('../assets/maps/caderno.jpg'); */
+      height: 100%;
+      cursor: url(../assets/maps/pata.svg) 8 8, auto !important;
     }
 
 .marker {
