@@ -43,7 +43,7 @@ hr {
 
 .sidebar .closebtn {
   position: absolute;
-  top: 3%;
+  top: 5%;
   font-size: 56px;
   margin-left: auto;
   z-index:200;
@@ -320,8 +320,8 @@ a.mapboxgl-ctrl-logo{
     display: none;
 }
 .mapboxgl-ctrl-top-right{
-    top: 50px !important;
-    right: 100px !important;
+    top: 2% !important;
+    right: 5% !important;
 }
 .mapboxgl-ctrl-top-left {
     top: 30px !important;
