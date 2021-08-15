@@ -2,7 +2,7 @@
 body {
       margin: 0;
       padding: 0;
-      cursor: url(../assets/maps/pata.png) 8 8,auto !important ;
+      cursor: url(../assets/maps/pata.svg) 8 8,auto !important ;
    /* background-image: url('../assets/maps/caderno.jpg'); */
     }
 
@@ -263,7 +263,7 @@ strong::selection{
 
 .mapboxgl-ctrl-group button {
     background-color: #fdfbea;
-    cursor: url(../assets/maps/pata.png), auto !important , auto !important 
+    cursor: url(../assets/maps/pata.svg), auto !important , auto !important 
 }
 
 
@@ -340,6 +340,6 @@ audio{
 
 
 .mapboxgl-canvas-container { 
-    cursor: url(../assets/maps/pata.png), auto !important 
+    cursor: url(../assets/maps/pata.svg), auto !important 
 }
 
