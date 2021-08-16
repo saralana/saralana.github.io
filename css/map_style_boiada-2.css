@@ -218,7 +218,7 @@ strong::selection{
       padding-bottom: 15px;
       top: -65px !important;
       max-width: 300px !important;
-      
+      margin-left: 50px !important
     }
 
     .mapboxgl-popup-close-button {
@@ -280,11 +280,11 @@ strong::selection{
     border-top-color: black !important;
 }
 
+
 .mapboxgl-ctrl-group button {
     background-color: #fdfbea;
-    cursor: url(../assets/maps/pata.svg), auto !important , auto !important 
+    cursor: url(../assets/maps/pata.svg), auto !important , auto !important ;
 }
-
 
 .mapboxgl-popup-anchor-left .mapboxgl-popup-tip {
     border-right-color: #000 !important;
