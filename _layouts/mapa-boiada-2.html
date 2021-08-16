@@ -81,7 +81,7 @@
         type: "GET",
         //YOUR TURN: Replace with csv export link
         //https://www.mapbox.com/impact-tools/sheet-mapper
-       url:'../assets/maps/boiada.csv',
+        url:'../assets/maps/boiada.csv',
         dataType: "text",
         success: function (csvData) { makeGeoJSON(csvData); }
       });
@@ -112,7 +112,7 @@
               },
               'layout': {
                 'icon-image': 'vaca',
-                'icon-anchor': 'bottom', // point of the icon which will correspond to marker's location
+                'icon-anchor': 'bottom-left', // point of the icon which will correspond to marker's location
                 "icon-allow-overlap": true,
                 //'icon-size': 0.025
               }
@@ -892,40 +892,38 @@
     }); 
       
       map.on('click', (e) => {console.log(e);});
-
-        latlng
       
       function nextPlay1(){
        //aponta para manuelzao      
-       map.fire('click', {lngLat: new mapboxgl.LngLat(-45.08968662670216, -18.01893849674657), point: map.project(new mapboxgl.LngLat(-45.08968662670216, -18.01893849674657)), originalEvent: {} })
+       map.fire('click', {lngLat: new mapboxgl.LngLat(-45.13375994727545, -18.04192084019931), point: map.project(new mapboxgl.LngLat(-45.13375994727545, -18.04192084019931)), originalEvent: {} })
       }       
       function nextPlay2(){
        //aponta para pica-pau
-       map.fire('click', {lngLat: new mapboxgl.LngLat(-45.05414362623691, -18.05414362623691), point: map.project(new mapboxgl.LngLat(-45.05414362623691, -18.05414362623691)), originalEvent: {} })
+       map.fire('click', {lngLat: new mapboxgl.LngLat(-45.09125449384982, -18.12770845121721), point: map.project(new mapboxgl.LngLat(-45.09125449384982, -18.12770845121721)), originalEvent: {} })
       }     
       function nextPlay3(){
        //aponta para boiada do jr.
-       map.fire('click', {lngLat: new mapboxgl.LngLat(-45.05983050630576, -18.160840195172668), point: map.project(new mapboxgl.LngLat(-45.05983050630576, -18.160840195172668)), originalEvent: {} })
+       map.fire('click', {lngLat: new mapboxgl.LngLat(-45.04276986608738, -18.201362414474417), point: map.project(new mapboxgl.LngLat(-45.04276986608738, -18.201362414474417)), originalEvent: {} })
       }   
       function nextPlay4(){
        //aponta para guaxo
-       map.fire('click', {lngLat: new mapboxgl.LngLat(-45.010577, -18.239046), point: map.project(new mapboxgl.LngLat(-45.010577, -18.239046)), originalEvent: {} })
+       map.fire('click', {lngLat: new mapboxgl.LngLat(-45.01149202566677, -18.247276206187706), point: map.project(new mapboxgl.LngLat(-45.01149202566677, -18.247276206187706)), originalEvent: {} })
       }   
       function nextPlay5(){
        //aponta para nome aos bois
-       map.fire('click', {lngLat: new mapboxgl.LngLat(-44.990577, -18.279046), point: map.project(new mapboxgl.LngLat(-44.990577, -18.279046)), originalEvent: {} })
+       map.fire('click', {lngLat: new mapboxgl.LngLat(-44.99417048619827, -18.290579403038777), point: map.project(new mapboxgl.LngLat(-44.99417048619827, -18.290579403038777)), originalEvent: {} })
       }   
       function nextPlay6(){
        //aponta para burros nagua
-       map.fire('click', {lngLat: new mapboxgl.LngLat(-44.97272240601401, -18.32908728259619), point: map.project(new mapboxgl.LngLat(-44.97272240601401, -18.32908728259619)), originalEvent: {} })
+       map.fire('click', {lngLat: new mapboxgl.LngLat(-44.98210270662926, -18.329060092975098), point: map.project(new mapboxgl.LngLat(-44.98210270662926, -18.329060092975098)), originalEvent: {} })
       } 
       function nextPlay7(){
        //aponta para folhas se dedeam
-       map.fire('click', {lngLat: new mapboxgl.LngLat(-44.962442685032755, -18.312749885062004), point: map.project(new mapboxgl.LngLat(-44.962442685032755, -18.312749885062004)), originalEvent: {} })
+       map.fire('click', {lngLat: new mapboxgl.LngLat(-44.980150237320004, -18.36890387749459), point: map.project(new mapboxgl.LngLat(-44.980150237320004, -18.36890387749459)), originalEvent: {} })
       } 
       function nextPlay8(){
        //aponta para sta catarina
-       map.fire('click', {lngLat: new mapboxgl.LngLat(-44.92405624453346, -18.376174988997136), point: map.project(new mapboxgl.LngLat(-44.92405624453346, -18.376174988997136)), originalEvent: {} })
+       map.fire('click', {lngLat: new mapboxgl.LngLat(-44.94552811134417, -18.40967657795252), point: map.project(new mapboxgl.LngLat(-44.94552811134417, -18.40967657795252)), originalEvent: {} })
       } 
       function nextPlay9(){
        //aponta para bindoia
@@ -933,19 +931,19 @@
       }  
       function nextPlay10(){
        //aponta para d'angola
-       map.fire('click', {lngLat: new mapboxgl.LngLat(-44.79610144285343, -18.427437818037404), point: map.project(new mapboxgl.LngLat(-44.79610144285343, -18.427437818037404)), originalEvent: {} })
+       map.fire('click', {lngLat: new mapboxgl.LngLat(-44.81174036304955, -18.547440904593145), point: map.project(new mapboxgl.LngLat(-44.81174036304955, -18.547440904593145)), originalEvent: {} })
       } 
       function nextPlay11(){
        //aponta para corrego capivara
-       map.fire('click', {lngLat: new mapboxgl.LngLat(-44.7867131, -18.5277877), point: map.project(new mapboxgl.LngLat(-44.7867131, -18.5277877)), originalEvent: {} })
+       map.fire('click', {lngLat: new mapboxgl.LngLat(-44.79467972282532, -18.577091617043493), point: map.project(new mapboxgl.LngLat(-44.79467972282532, -18.577091617043493)), originalEvent: {} })
       } 
       function nextPlay12(){
        //aponta para cafe da manha
-       map.fire('click', {lngLat: new mapboxgl.LngLat(-44.739084, -18.685717), point: map.project(new mapboxgl.LngLat(-44.739084, -18.685717)), originalEvent: {} })
+       map.fire('click', {lngLat: new mapboxgl.LngLat(-44.75434633182232, -18.694749262084386), point: map.project(new mapboxgl.LngLat(-44.75434633182232, -18.694749262084386)), originalEvent: {} })
       } 
       function nextPlay13(){
        //aponta para aboio
-       map.fire('click', {lngLat: new mapboxgl.LngLat(-44.68520728138566, -18.756233590429105), point: map.project(new mapboxgl.LngLat(-44.68520728138566, -18.756233590429105)), originalEvent: {} })
+       map.fire('click', {lngLat: new mapboxgl.LngLat(-44.67854, -18.80955), point: map.project(new mapboxgl.LngLat(-44.67854, -18.80955)), originalEvent: {} })
       } 
       function nextPlay14(){
        //aponta para jumento guerreiro
@@ -953,23 +951,23 @@
       } 
       function nextPlay15(){
        //bindoia saracura
-       map.fire('click', {lngLat: new mapboxgl.LngLat(-44.53166151936506, -18.84506067137653), point: map.project(new mapboxgl.LngLat(-44.53166151936506, -18.84506067137653)), originalEvent: {} })
+       map.fire('click', {lngLat: new mapboxgl.LngLat(-44.48972077881177, -18.895509687440963), point: map.project(new mapboxgl.LngLat(-44.48972077881177, -18.895509687440963)), originalEvent: {} })
       } 
       function nextPlay16(){
        //pisadinha
-       map.fire('click', {lngLat: new mapboxgl.LngLat(-44.44667, -18.96294), point: map.project(new mapboxgl.LngLat(-44.44667, -18.96294)), originalEvent: {} })
+       map.fire('click', {lngLat: new mapboxgl.LngLat(-44.4614225938119, -18.97364460647819), point: map.project(new mapboxgl.LngLat(-44.4614225938119, -18.97364460647819)), originalEvent: {} })
       } 
       function nextPlay17(){
        //siriema bezerros
-       map.fire('click', {lngLat: new mapboxgl.LngLat(-44.40976520096729, -19.05), point: map.project(new mapboxgl.LngLat(-44.40976520096729, -19.05)), originalEvent: {} })
+       map.fire('click', {lngLat: new mapboxgl.LngLat(-44.41677691833672, -19.037938855698158), point: map.project(new mapboxgl.LngLat(-44.41677691833672, -19.037938855698158)), originalEvent: {} })
       } 
       function nextPlay18(){
        //boiada
-       map.fire('click', {lngLat: new mapboxgl.LngLat(-44.34464, -19.172), point: map.project(new mapboxgl.LngLat(-44.34464, -19.172)), originalEvent: {} })
+       map.fire('click', {lngLat: new mapboxgl.LngLat(-44.40060987232957, -19.135735630456736), point: map.project(new mapboxgl.LngLat(-44.40060987232957, -19.135735630456736)), originalEvent: {} })
       } 
       function nextPlay19(){
        //bindoia
-       map.fire('click', {lngLat: new mapboxgl.LngLat(-44.213907095183515, -19.16968518599461), point: map.project(new mapboxgl.LngLat(-44.213907095183515, -19.16968518599461)), originalEvent: {} })
+       map.fire('click', {lngLat: new mapboxgl.LngLat(-44.26123354061531, -19.214695822425753), point: map.project(new mapboxgl.LngLat(-44.26123354061531, -19.214695822425753)), originalEvent: {} })
       } 
       function nextPlay20(){
        //trem
