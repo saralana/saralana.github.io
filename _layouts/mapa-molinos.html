@@ -7,9 +7,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="stylesheet" href="{{ site.baseurl }}/css/map_style_boiada-2.css">
-<link rel="stylesheet" href="{{ site.baseurl }}/css/essential_audio.css">
-  <script src="{{ site.baseurl }}/js/essential_audio.js"></script>
+<link rel="stylesheet" href="../molino/molinos.css">
   <!-- Google fonts-->
   <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans" />
 
@@ -30,7 +28,6 @@
 <div id="mySidebar" class="sidebar">
   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
     <div class="sidebar-content">
-        {{ content }}
     </div>
 </div>
    
@@ -86,10 +83,10 @@
           
           map.on('load', function () {
             map.loadImage(
-             '../assets/maps/molino.png',
+             '../molino/molino2.png',
               function(error, image) {
               if (error) throw error;
-              map.addImage('vaca', image);
+              map.addImage('molino', image);
             });
               
             map.addLayer({
@@ -100,8 +97,8 @@
                 'data': data
               },
               'layout': {
-                'icon-image': 'vaca',
-                'icon-anchor': 'bottom', // point of the icon which will correspond to marker's location
+                'icon-image': 'molino',
+                'icon-anchor': 'center', // point of the icon which will correspond to marker's location
                 "icon-allow-overlap": true,
                 //'icon-size': 0.025
               }
@@ -130,15 +127,15 @@
             ['interpolate', ['linear'], ['zoom'],
               0,
               //TAMANHO AO ZOOM 0
-              0.03,
+              0.1,
               8,
               //TAMANHO AO ZOOM 7
-              0.12,
+              0.15,
               11,
-              0.30,
+              0.3,
               24,
               //TAMANHO AO ZOOM 24
-              0.4
+              0.5
             ]);
               
               
