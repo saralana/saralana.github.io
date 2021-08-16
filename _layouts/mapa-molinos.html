@@ -83,7 +83,7 @@
           
           map.on('load', function () {
             map.loadImage(
-             '../molino/molino2.png',
+             '../molino/molino.png',
               function(error, image) {
               if (error) throw error;
               map.addImage('molino', image);
@@ -127,15 +127,15 @@
             ['interpolate', ['linear'], ['zoom'],
               0,
               //TAMANHO AO ZOOM 0
-              0.1,
+              0.05,
               8,
               //TAMANHO AO ZOOM 7
-              0.15,
+              0.10,
               11,
-              0.3,
+              0.2,
               24,
               //TAMANHO AO ZOOM 24
-              0.5
+              0.3
             ]);
               
               
