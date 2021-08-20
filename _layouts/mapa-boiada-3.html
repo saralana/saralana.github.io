@@ -63,6 +63,42 @@
         [-52.6, -21.5],// Southwest coordinates
         [-39, -15] // Northeast coordinates    
     ];
+      
+    var geojson = {
+        'type': 'FeatureCollection',
+        'features': [
+            {
+                'type': 'Feature',
+                'geometry': {
+                    'type': 'Point',
+                    'coordinates': [-45.15898169654133, -17.9655075742649]
+                    },
+                'properties': {
+                    'Dia': 'Dia 1',
+                    'Titulo': 'Capelinha Manuelzão',
+                    'Lugar': 'Sirga',
+                    'Descricao': 'Revoada de pássaros, uma sinfonia de passarinhos.',
+                    'Audio':'passaredo',
+                }
+            },
+            {
+                'type': 'Feature',
+                'geometry': {
+                    'type': 'Point',
+                    'coordinates': [-45.09125449384982, -18.12770845121721]
+                },
+                'properties': {
+                    'Dia': 'Dia 2',
+                    'Titulo': 'Pica-pau',
+                    'Lugar': 'Fazenda da Tolda',
+                    'Descricao': 'Um pica-pau dá o ar da graça com seu martelar de bico contínuo. Devagar ocupa a cena. Uma suavidade e mansidão de passarinhos ao fundo.',
+                    'Audio':'pica-pau',
+                }
+            }
+        ]   
+    };
+
+      
     var map = new mapboxgl.Map({
       container: 'map', // container id
       style: 'mapbox://styles/saralgc/cks5cot1g19zk17muudrwh23c',
@@ -76,295 +112,23 @@
       maxBounds: bounds // Set the map's geographical boundaries.
     });
     
-    $(document).ready(function () {
-      $.ajax({
-        type: "GET",
-        //YOUR TURN: Replace with csv export link
-        //https://www.mapbox.com/impact-tools/sheet-mapper
-        url:'../assets/maps/boiada.csv',
-        dataType: "text",
-        success: function (csvData) { makeGeoJSON(csvData); }
-      });
-
-
-
-      function makeGeoJSON(csvData) {
-        csv2geojson.csv2geojson(csvData, {
-          latfield: 'Latitude',
-          lonfield: 'Longitude',
-          delimiter: ','
-        }, function (err, data) {
           
-          map.on('load', function () {
-            map.loadImage(
-             '../assets/maps/vaca.png',
-              function(error, image) {
-              if (error) throw error;
-              map.addImage('1', image);
-            });
-              
-            
-            map.loadImage(
-             '../assets/maps/vaca2.png',
-              function(error, image) {
-              if (error) throw error;
-              map.addImage('2', image);
-            });
-              
-            map.loadImage(
-             '../assets/maps/vaca3.png',
-              function(error, image) {
-              if (error) throw error;
-              map.addImage('3', image);
-            });
-              
-            map.loadImage(
-             '../assets/maps/vaca4.png',
-              function(error, image) {
-              if (error) throw error;
-              map.addImage('4', image);
-            });
-              
-            map.loadImage(
-             '../assets/maps/vaca5.png',
-              function(error, image) {
-              if (error) throw error;
-              map.addImage('5', image);
-            });
-              
-            map.loadImage(
-             '../assets/maps/vaca6.png',
-              function(error, image) {
-              if (error) throw error;
-              map.addImage('6', image);
-            });
-              
-            map.loadImage(
-             '../assets/maps/vaca7.png',
-              function(error, image) {
-              if (error) throw error;
-              map.addImage('7', image);
-            });
-              
-            map.loadImage(
-             '../assets/maps/vaca8.png',
-              function(error, image) {
-              if (error) throw error;
-              map.addImage('8', image);
-            });
-              
-            map.loadImage(
-             '../assets/maps/vaca9.png',
-              function(error, image) {
-              if (error) throw error;
-              map.addImage('9', image);
-            });
-              
-            map.loadImage(
-             '../assets/maps/vaca10.png',
-              function(error, image) {
-              if (error) throw error;
-              map.addImage('10', image);
-            });
-              
-            map.loadImage(
-             '../assets/maps/vaca11.png',
-              function(error, image) {
-              if (error) throw error;
-              map.addImage('11', image);
-            });
-              
-            map.loadImage(
-             '../assets/maps/vaca12.png',
-              function(error, image) {
-              if (error) throw error;
-              map.addImage('12', image);
-            });
-              
-            map.loadImage(
-             '../assets/maps/vaca13.png',
-              function(error, image) {
-              if (error) throw error;
-              map.addImage('13', image);
-            });
-              
-            map.loadImage(
-             '../assets/maps/vaca14.png',
-              function(error, image) {
-              if (error) throw error;
-              map.addImage('14', image);
-            });
-              
-            map.loadImage(
-             '../assets/maps/vaca15.png',
-              function(error, image) {
-              if (error) throw error;
-              map.addImage('15', image);
-            });
-              
-            map.loadImage(
-             '../assets/maps/vaca16.png',
-              function(error, image) {
-              if (error) throw error;
-              map.addImage('16', image);
-            });
-              
-            map.loadImage(
-             '../assets/maps/vaca17.png',
-              function(error, image) {
-              if (error) throw error;
-              map.addImage('17', image);
-            });
-              
-            map.loadImage(
-             '../assets/maps/vaca18.png',
-              function(error, image) {
-              if (error) throw error;
-              map.addImage('18', image);
-            });  
-              
-            map.loadImage(
-             '../assets/maps/vaca19.png',
-              function(error, image) {
-              if (error) throw error;
-              map.addImage('19', image);
-            });
-              
-            map.loadImage(
-             '../assets/maps/vaca20.png',
-              function(error, image) {
-              if (error) throw error;
-              map.addImage('20', image);
-            });
-              
-            map.loadImage(
-             '../assets/maps/vaca21.png',
-              function(error, image) {
-              if (error) throw error;
-              map.addImage('21', image);
-            });    
-              
-            map.addLayer({
-              'id': 'csvData',
-              'type': 'symbol',
-              'source': {
-                'type': 'geojson',
-                'data': data
-              },
-              'layout': {
-                'icon-image': '{Vaca}',
-                'icon-anchor': 'bottom-left', // point of the icon which will correspond to marker's location
-                "icon-allow-overlap": true,
-                //'icon-size': 0.025
-              }
-             });
+    geojson.features.forEach(function (marker) {
+        // create a HTML element for each feature
+        var el = document.createElement('div');
+        el.className = 'marker2';
 
-            // When a click event occurs on a feature in the csvData layer, open a popup at the
-            // location of the feature, with description HTML from its properties.
-            
-            map.on('click', 'csvData', function (e) {
-              var coordinates = e.features[0].geometry.coordinates.slice();
-              var description = `<audio controls onended="nextPlay` + e.features[0].properties.Vaca + `()" style="width:100%;" controlsList="nodownload" autoplay><source src="../assets/sounds/` + e.features[0].properties.Audio + `.mp3" type="audio/mpeg"></audio>` + `<h3>` +  e.features[0].properties.Dia + ' | ' + e.features[0].properties.Lugar + `</h3>` + `<h2>` + e.features[0].properties.Titulo + `</h2>`+ `<p>` + e.features[0].properties.Descricao + `</p>` ;
-                
-              while (Math.abs(e.lngLat.lng - coordinates[0]) > 180) {
-              coordinates[0] += e.lngLat.lng > coordinates[0] ? 360 : -360;
-            }
-                
-              //add Popup to map
-              new mapboxgl.Popup()
-                .setLngLat(coordinates)
-                .setHTML(description)
-                .addTo(map);
-            });
-               
-              
-         map.setLayoutProperty('csvData', 'icon-size', 
-            ['interpolate', ['linear'], ['zoom'],
-              0,
-              //TAMANHO AO ZOOM 0
-              0.04,
-              8,
-              //TAMANHO AO ZOOM 7
-              0.12,
-              11,
-              0.25,
-              24,
-              //TAMANHO AO ZOOM 24
-              0.35
-            ]);
-              
-              
-          });
-
-        });
-      };
-      
-      
+        // make a marker for each feature and add it to the map
+        new mapboxgl.Marker(el)
+        .setLngLat(marker.geometry.coordinates)
+        .setPopup(
+            new mapboxgl.Popup({ offset: 25 }) // add popups
+            .setHTML(
+                `<audio autoplay controls style="width:100%;" controlsList="nodownload" ><source src="../assets/sounds/` + marker.properties.Audio + `.mp3" type="audio/mpeg"></audio>` + `<h3>` + marker.properties.Dia + ' | ' + marker.properties.Lugar + `</h3>` + `<h2>` + marker.properties.Titulo + `</h2>`+ `<p>` + marker.properties.Descricao + `</p>`
+        ))
+        .addTo(map);
     });
-    /* 
-    map.on('load', function () {
-            map.addSource('route', {
-                'type': 'geojson',
-                'data': {
-                    'type': 'Feature',
-                    'properties': {},
-                    'geometry': {
-                        'type': 'LineString',
-                        'coordinates': [
-                                [-45.14828169654133, -17.96350757426491],//riacho
-                                [-45.12828169654133, -17.95350757426491],//intermediario
-                                [-45.11949217982159, -17.97281343241402],//capelinha manuelzao 
-                                [-45.12405428425924, -18.06096088337467],//milho na estrada
-                                [-45.120944, -18.098087], //intermediario
-                                [-45.099944, -18.118087], //intermediario
-                                [-45.08603338169048, -18.11753593866766],//ao redor da tolda
-                                [-44.983061, -18.276919], //intermediario
-                                [-44.97272240601401, -18.32908728259619],//ribeirao do boi
-                                [-44.96821748428854, -18.36534025757195],//vereda sao jose
-                                [-44.94552811134417, -18.40967657795252], //santa catarina
-                                [-44.89552811134417, -18.45967657795252], //intermediario
-                                [-44.829163, -18.481594], // buritizinho
-                                [-44.7867131, -18.5277877], //capivara
-                                [-44.739084, -18.685717], // riacho das vacas
-                                [-44.707484, -18.770221], // meleiros
-                                [-44.673277, -18.804277], //meleiro
-                                [-44.648772, -18.845395], //retiro dos bravos
-                                [-44.6003374, -18.8578303], //corrego da canabrava
-                                [-44.5174002, -18.8563086], //intermediario
-                                [-44.4774002, -18.8663086], //intermediario
-                                [-44.4674002, -18.8763086], //intermediario
-                                [-44.4581287, -18.9145915], //intermediario
-                                [-44.40976520096729, -18.9886112044429], //riacho travessia paulista
-                                [-44.3793240, -19.0662000], //intermediario
-                                [-44.34464, -19.15856], //fazenda toco e edimundo povoado do onça
-                                [-44.3397806, -19.171522], //intermediario
-                                [-44.3257806, -19.1835522], //intermediario
-                                [-44.30429161316887, -19.16838936753167], //taboquinha
-                                [-44.2767806, -19.1785522], //sao tome
-                                [-44.246953, -19.240340] //sao francisco
-                            ]
-                    }
-               }
-            });
-            
-            map.addLayer({
-                'id': 'route',
-                'type': 'line',
-                'source': 'route',
-                'layout': {
-                'line-join': 'round',
-                'line-cap': 'round'
-                },
-                'paint': {
-                'line-color': 'orange',
-                'line-width': 5
-                }
-            });
         
-    }); */
-    
-       
-      
       // TRAJETO
        
         map.on('load', () => {
@@ -1032,92 +796,10 @@
 
     }); 
       
-      map.on('click', (e) => {console.log(e);});
+                                    
+    
       
-      function nextPlay1(){
-       //aponta para manuelzao      
-       map.fire('click', {lngLat: new mapboxgl.LngLat(-45.13375994727545, -18.04192084019931), point: map.project(new mapboxgl.LngLat(-45.13375994727545, -18.04192084019931)), originalEvent: {} })
-      }       
-      function nextPlay2(){
-       //aponta para pica-pau
-       map.fire('click', {lngLat: new mapboxgl.LngLat(-45.09125449384982, -18.12770845121721), point: map.project(new mapboxgl.LngLat(-45.09125449384982, -18.12770845121721)), originalEvent: {} })
-      }     
-      function nextPlay3(){
-       //aponta para boiada do jr.
-       map.fire('click', {lngLat: new mapboxgl.LngLat(-45.04276986608738, -18.201362414474417), point: map.project(new mapboxgl.LngLat(-45.04276986608738, -18.201362414474417)), originalEvent: {} })
-      }   
-      function nextPlay4(){
-       //aponta para guaxo
-       map.fire('click', {lngLat: new mapboxgl.LngLat(-45.01149202566677, -18.247276206187706), point: map.project(new mapboxgl.LngLat(-45.01149202566677, -18.247276206187706)), originalEvent: {} })
-      }   
-      function nextPlay5(){
-       //aponta para nome aos bois
-       map.fire('click', {lngLat: new mapboxgl.LngLat(-44.99417048619827, -18.290579403038777), point: map.project(new mapboxgl.LngLat(-44.99417048619827, -18.290579403038777)), originalEvent: {} })
-      }   
-      function nextPlay6(){
-       //aponta para burros nagua
-       map.fire('click', {lngLat: new mapboxgl.LngLat(-44.98210270662926, -18.329060092975098), point: map.project(new mapboxgl.LngLat(-44.98210270662926, -18.329060092975098)), originalEvent: {} })
-      } 
-      function nextPlay7(){
-       //aponta para folhas se dedeam
-       map.fire('click', {lngLat: new mapboxgl.LngLat(-44.980150237320004, -18.36890387749459), point: map.project(new mapboxgl.LngLat(-44.980150237320004, -18.36890387749459)), originalEvent: {} })
-      } 
-      function nextPlay8(){
-       //aponta para sta catarina
-       map.fire('click', {lngLat: new mapboxgl.LngLat(-44.94552811134417, -18.40967657795252), point: map.project(new mapboxgl.LngLat(-44.94552811134417, -18.40967657795252)), originalEvent: {} })
-      } 
-      function nextPlay9(){
-       //aponta para bindoia
-       map.fire('click', {lngLat: new mapboxgl.LngLat(-44.89552811134417, -18.45967657795252), point: map.project(new mapboxgl.LngLat(-44.89552811134417, -18.45967657795252)), originalEvent: {} })
-      }  
-      function nextPlay10(){
-       //aponta para d'angola
-       map.fire('click', {lngLat: new mapboxgl.LngLat(-44.81174036304955, -18.547440904593145), point: map.project(new mapboxgl.LngLat(-44.81174036304955, -18.547440904593145)), originalEvent: {} })
-      } 
-      function nextPlay11(){
-       //aponta para corrego capivara
-       map.fire('click', {lngLat: new mapboxgl.LngLat(-44.79467972282532, -18.577091617043493), point: map.project(new mapboxgl.LngLat(-44.79467972282532, -18.577091617043493)), originalEvent: {} })
-      } 
-      function nextPlay12(){
-       //aponta para cafe da manha
-       map.fire('click', {lngLat: new mapboxgl.LngLat(-44.75434633182232, -18.694749262084386), point: map.project(new mapboxgl.LngLat(-44.75434633182232, -18.694749262084386)), originalEvent: {} })
-      } 
-      function nextPlay13(){
-       //aponta para aboio
-       map.fire('click', {lngLat: new mapboxgl.LngLat(-44.67854, -18.80955), point: map.project(new mapboxgl.LngLat(-44.67854, -18.80955)), originalEvent: {} })
-      } 
-      function nextPlay14(){
-       //aponta para jumento guerreiro
-       map.fire('click', {lngLat: new mapboxgl.LngLat(-44.648772, -18.845395), point: map.project(new mapboxgl.LngLat(-44.648772, -18.845395)), originalEvent: {} })
-      } 
-      function nextPlay15(){
-       //bindoia saracura
-       map.fire('click', {lngLat: new mapboxgl.LngLat(-44.48972077881177, -18.895509687440963), point: map.project(new mapboxgl.LngLat(-44.48972077881177, -18.895509687440963)), originalEvent: {} })
-      } 
-      function nextPlay16(){
-       //pisadinha
-       map.fire('click', {lngLat: new mapboxgl.LngLat(-44.4614225938119, -18.97364460647819), point: map.project(new mapboxgl.LngLat(-44.4614225938119, -18.97364460647819)), originalEvent: {} })
-      } 
-      function nextPlay17(){
-       //siriema bezerros
-       map.fire('click', {lngLat: new mapboxgl.LngLat(-44.41677691833672, -19.037938855698158), point: map.project(new mapboxgl.LngLat(-44.41677691833672, -19.037938855698158)), originalEvent: {} })
-      } 
-      function nextPlay18(){
-       //boiada
-       map.fire('click', {lngLat: new mapboxgl.LngLat(-44.40060987232957, -19.135735630456736), point: map.project(new mapboxgl.LngLat(-44.40060987232957, -19.135735630456736)), originalEvent: {} })
-      } 
-      function nextPlay19(){
-       //bindoia
-       map.fire('click', {lngLat: new mapboxgl.LngLat(-44.26123354061531, -19.214695822425753), point: map.project(new mapboxgl.LngLat(-44.26123354061531, -19.214695822425753)), originalEvent: {} })
-      } 
-      function nextPlay20(){
-       //trem
-       map.fire('click', {lngLat: new mapboxgl.LngLat(-44.2767806, -19.250), point: map.project(new mapboxgl.LngLat(-44.2767806, -19.250)), originalEvent: {} })
-      } 
-      function nextPlay21(){
-      } 
-      
-   </script>
+  </script>
     
 <script>
 function openNav() {
@@ -1127,7 +809,17 @@ function openNav() {
 function closeNav() {
   document.getElementById("mySidebar").style.width = "0";
 }
+  
+function myFunction() {
+  var popup = document.getElementById("myPopup");
+  popup.classList.toggle("show");
+}
+</script>
 
+ <script>
+$(document).ready(function(){
+  $('[data-toggle="tooltip"]').tooltip();
+});
 </script>
 
 <script>
