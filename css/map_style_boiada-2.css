@@ -343,11 +343,11 @@ a.mapboxgl-ctrl-logo{
 
 
 audio::-webkit-media-controls-panel, video::-webkit-media-controls-panel {
-    background-color: black;
+    background-color: white;
 }
 
 audio{
-    background-color: black;
+    background-color: white;
     opacity: 1;
     width: 100% !important;
     height: 30px !important;
