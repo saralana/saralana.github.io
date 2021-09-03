@@ -13,7 +13,7 @@ cover: /assets/favicons/diario.jpg
 swipebox: 
 credits: 
 cover: 
-thanks: Diomira Ma. Faria, Junia Ferrari, Lila Gaudêncio, Aroldo Gonçalves dos Reis, Cristian Bryan Alves lucena, Dieter Heidemann, Elisa Lana, Eva Campos de Moura, Félix Blume, Ideal José, João Miguel Martins Fernandes, José Antônio Vicente de Souza, José Maria de Castro Matos, Lidijane Gonçalves dos Reis, Lucas Ferrari, Makely Ka, Maria de Fátima Coelho e Castro, Maria Eduarda Alves Fernandes Reis, Milce Aparecida Vieira de Sousa e Freitas, Pedro Lucas Alves dos Santos, Raimundo Alves,  Rosa Maria Coelho, Semei Cantinho da Criança, Uiara Sabrina Miranda, Walison Júnior Gonçalves dos Reis e Wislene Alves Soares Reis
+thanks: Diomira Ma. Faria, Junia Ferrari, Lila Gaudêncio, Clarice Rodrigues, Aroldo Gonçalves dos Reis, Cristian Bryan Alves lucena, Dieter Heidemann, Elisa Lana, Eva Campos de Moura, Félix Blume, Ideal José, João Miguel Martins Fernandes, José Antônio Vicente de Souza, José Maria de Castro Matos, Lidijane Gonçalves dos Reis, Lucas Ferrari, Makely Ka, Maria de Fátima Coelho e Castro, Maria Eduarda Alves Fernandes Reis, Milce Aparecida Vieira de Sousa e Freitas, Pedro Lucas Alves dos Santos, Raimundo Alves,  Rosa Maria Coelho, Semei Cantinho da Criança, Uiara Sabrina Miranda, Walison Júnior Gonçalves dos Reis e Wislene Alves Soares Reis
 lang: pt
 ---
 
