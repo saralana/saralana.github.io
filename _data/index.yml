@@ -31,9 +31,9 @@
 - indice: 5
   column: 2
   order: 3
-  name: matilha
-  title: matilha
-  title-en: matilha
+  name: diario-sonoro
+  title: Diário Sonoro do Sertão
+  title-en: Sertão Sound Diary
   
 - indice: 6
   column: 2
@@ -64,3 +64,23 @@
   title: Máquina de Antônimos
   title-en: Antonimous Machine
 
+- indice: 10
+  column: 4
+  order: 1
+  name: matilha
+  title: matilha
+  title-en: matilha
+  
+- indice: 11
+  column: 4
+  order: 2
+  name: en
+  title: 
+  title-en: 
+  
+- indice: 12
+  column: 4
+  order: 3
+  name: en
+  title: 
+  title-en: 

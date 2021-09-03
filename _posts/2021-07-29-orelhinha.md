@@ -17,7 +17,7 @@ thanks: Gabriela Moulin, Francisa Caporalli, Samanta Moreira, Mateus Mesquita, F
 lang: pt
 ---
 
-ESCUTE A PEÇA NO [FESTIVAL SERES RIOS](https://seresrios.org/obras-comissionadas/sara-lana/){:target="_blank"} DO 2 A 10 DE AGOSTO DE 2021
+ESCUTE A PEÇA NO [FESTIVAL SERES RIOS](https://seresrios.org/obras-comissionadas/sara-lana/){:target="_blank"} 
 
 <br><br><br>
 Orelhinha é uma peça sonora criada a partir de chamadas realizadas para orelhões à beira dos rios São Francisco e Jequitinhonha.
@@ -41,9 +41,20 @@ Os telefones foram encontrados viajando pela margem desses rios utilizando mapas
 
 **Tratamento tilesets:** Tiago Esteves
 
-<br> 
+<br><br>
 
+---
 
+<br><br>
+  <div class="video-wrapper video-wrapper-16x9" style="width:100%">
+   <iframe src="../mapa-orelhinha-sons" height="200" width="100%" style="border:0px"></iframe>
+  </div>
+
+<br><br>
+
+---
+
+<br><br>
 <br>
   <div id="swipebox-gallery">
     {% for file in site.static_files %}

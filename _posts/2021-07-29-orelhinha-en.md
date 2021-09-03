@@ -17,7 +17,7 @@ thanks: Gabriela Moulin, Francisa Caporalli, Samanta Moreira, Mateus Mesquita, F
 lang: en
 ---
 
-LISTEN TO THE SOUND PIECE ON [FESTIVAL SERES RIOS](https://seresrios.org/obras-comissionadas/sara-lana/){:target="_blank"} FROM 2 TO 10 AUGUST 2021
+LISTEN TO THE SOUND PIECE ON [FESTIVAL SERES RIOS](https://seresrios.org/obras-comissionadas/sara-lana/){:target="_blank"}
 
 
 <br><br><br>
@@ -42,6 +42,18 @@ The phones were found traveling along the banks of these rivers using maps with 
 **With support of:** [JA.CA](https://www.jaca.center/){:target="_blank"} – Francisa Caporalli, Samanta Moreira, Mateus Mesquita
 
 **Tilesets:** Tiago Esteves
+
+  
+---
+
+<br><br>
+  <div class="video-wrapper video-wrapper-16x9" style="width:100%">
+   <iframe src="../mapa-orelhinha-sons" height="200" width="100%" style="border:0px"></iframe>
+  </div>
+
+<br><br>
+
+---
 
 <br> 
 <br>
