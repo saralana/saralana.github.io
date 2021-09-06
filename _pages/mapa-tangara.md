@@ -1,6 +1,6 @@
 ---
 title: SONS DO TANGARÁ
-permalink: sons-tangara
+permalink: sons-do-tangara
 layout: mapa-tangara
 ref: mapa
 lang: pt
