@@ -47,7 +47,7 @@ Os telefones foram encontrados viajando pela margem desses rios utilizando mapas
 
 <br><br>
   <div class="video-wrapper video-wrapper-16x9" style="width:100%">
-   <iframe src="../mapa-orelhinha-sons" height="200" width="100%" style="border:0px"></iframe>
+   <iframe src="../mapa-orelhinha" height="200" width="100%" style="border:0px"></iframe>
   </div>
 
 <br><br>
