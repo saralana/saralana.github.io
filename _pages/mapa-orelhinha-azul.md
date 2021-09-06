@@ -1,6 +1,6 @@
 ---
 title: ORELHINHA | RIOS
-permalink: mapa-orelhinha
+permalink: mapa-orelhinha-texto
 layout: mapa-orelhinha-azul
 ref: orelhinha-azul
 lang: en
