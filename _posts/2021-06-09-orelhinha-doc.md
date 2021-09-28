@@ -12,14 +12,6 @@ swipebox:
 lang: pt
 ---
 
-<br><br>
-  <div class="video-wrapper video-wrapper-16x9" style="width:100%">
-   <iframe src="../mapa-orelhinha" height="200" width="100%" style="border:0px"></iframe>
-  </div>
-
-<br><br>
-
-
 Viajo ao longo das margens de rios utilizando ferramentas para visualização panôramica de espaços públicos e de imagens de satélite. Um trajeto percorrido à procura de orelhões,  verdadeiros pontos de escuta espacializados no curso desses rios.
 
 Cruzando as coordenadas geográficas identificadas no trajeto com informações coletadas no banco de dados da Agência Nacional de Telecomunicações (Anatel), consigo resgatar o número de cada telefone público anteriormente identificado nas beiras dos rios.
