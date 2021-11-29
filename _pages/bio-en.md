@@ -30,7 +30,7 @@ She also promotes <a href="../en/workshops" target="_blank">&nbsp;workshops&nbsp
 
 <br>
 <div class="selection">
-Sara is executive director of <a href="https://silo.org.br/" target="_blank">&nbsp;Silo – Art and Rural Latitude&nbsp;</a>, a non profit organization dedicated to create and promote Art, Science and Technology in rural, peripheral and environmental protection areas, stimulating exchange between intuitive techniques and scientific knowledge.
+Sara is member of <a href="https://silo.org.br/" target="_blank">&nbsp;Silo – Art and Rural Latitude&nbsp;</a>, a non profit organization dedicated to create and promote Art, Science and Technology in rural, peripheral and environmental protection areas, stimulating exchange between intuitive techniques and scientific knowledge.
 </div>
 
 <br>

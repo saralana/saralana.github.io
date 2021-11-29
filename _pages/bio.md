@@ -32,7 +32,7 @@ Também realiza <a href="../workshops" target="_blank">&nbsp;oficinas&nbsp;</a> 
 
 <br>
 <div class="selection">
-Sara é diretora executiva da <a href="https://silo.org.br/" target="_blank">&nbsp;Silo – Arte e Latitude Rural&nbsp;</a>, uma organização da sociedade civil que cria, acolhe e difunde arte, ciência, tecnologia e agroecologia em zonas rurais e de preservação ambiental, estimulando o cruzamento entre técnicas intuitivas e saberes científicos.
+Sara faz parte da <a href="https://silo.org.br/" target="_blank">&nbsp;Silo – Arte e Latitude Rural&nbsp;</a>, uma organização da sociedade civil que cria, acolhe e difunde arte, ciência, tecnologia e agroecologia em zonas rurais e de preservação ambiental, estimulando o cruzamento entre técnicas intuitivas e saberes científicos.
 </div>
 
 <br>
