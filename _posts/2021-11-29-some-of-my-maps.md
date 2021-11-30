@@ -26,10 +26,6 @@ Here are some of my projects with maps and architectural plans:
 <p>
 Orelhinha is a sound piece created from calls made to public telephones on the banks of the São Francisco and Jequitinhonha rivers.
 
-A series of calls to recipients hitherto unknown or even non-existent. Crossed lines in an attempt to hear the life that goes on around the rivers.
-
-While they are at risk of extinction in much of the state, public telephones are still the only means of communication in riverside villages that do not have mobile phone coverage.
-
 The phones were found traveling along the banks of these rivers using maps with panoramic views of public spaces and with satellite images. The number of each phone was retrieved by crossing its coordinates identified on the route with information collected in the database of the Brazilian National Telecommunications Agency.
 </p>
 <br>
@@ -52,9 +48,9 @@ The phones were found traveling along the banks of these rivers using maps with 
   </div>
 
 <br><br>
-  
-  <div class="video-wrapper video-wrapper-16x9" style="width:100%"><iframe src="../mapa-orelhinha" height="200" width="100%" style="border:0px"></iframe>
-  </div>
+  <div>
+  <div class="video-wrapper" style="height:50vh !important"><iframe src="../mapa-orelhinha"  width="100%" style="border:0px"></iframe>
+  </div></div>
  
 <br><br> 
   
@@ -69,8 +65,8 @@ The phones were found traveling along the banks of these rivers using maps with 
 Looking virtually at the sky and guided by tools for panoramic map viewing, I traced a route in a hitherto unknown city. I then traveled to this place to walk trhough the same route in person. During the walk, I recorded the sounds of my footsteps and an eerily familiar environment. 
 
 <br>
-
-<div style="padding:48.75% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/556891920?badge=0&autopause=0&player_id=0&app_id=58479/embed" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen frameborder="0" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe></div>
+<div>
+<div style="padding:48.75% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/556891920?badge=0&autopause=0&player_id=0&app_id=58479/embed" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen frameborder="0" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe></div></div>
 
 <br><br>
   
@@ -99,21 +95,15 @@ A route designer is in development which is able to create routes from point A t
 <br><br>
 
 Here [&nbsp;a first prototype&nbsp;](../invisibility-tracer){:target="_blank"} of the invisibility route tracer.
-  </div>
+  </div></div>
 <br>
-
-  
-  
-<div class="video-wrapper video-wrapper-16x9">
-<iframe src="../mapa-pontos-cegos" height="200" width="300"></iframe>
-</div>
-</div>
+<div><div class="video-wrapper" style="height:50vh !important"><iframe src="../mapa-pontos-cegos"  width="100%" style="border:0px"></iframe></div></div>
   
   <br><br>
-    
+ 
+ 
 ---
-  
-<br><br>   
+   
    
 ## Species of Spaces I
 
@@ -187,9 +177,10 @@ The most diverse sounds leap from the pages and stimulate a synesthesically shar
 
   
 <br><br>
-  <div class="video-wrapper video-wrapper-16x9" style="width:100%">
-   <iframe src="../diario-sonoro-sertao" height="200" width="100%" style="border:0px; background-color: transparent"></iframe>
-  </div>
+  <div>
+  <div class="video-wrapper" style="width:100%; height:50vh !important">
+  <iframe src="../diario-sonoro-sertao" style="width:100%; border:0px; background-color: transparent"></iframe>
+  </div></div>
 
 <br><br>
   
@@ -206,7 +197,7 @@ The reports are recorded in audio, with a maximum duration of 5 minutes. Identit
 The project was created in Brazil by a group of historians, scientists, artists, communicators, developers, educators and disseminators. These professionals met through the Emergency Laboratory – Covid – 19 to work together on solidarity alternatives, especially relevant in the Brazilian context.
 
 <br><br> 
-
-  <div class="video-wrapper video-wrapper-16x9" style="width:100%">
+<div>
+  <div class="video-wrapper" style="width:100%; height:80vh !important">
    <iframe src="https://cartografiadasmemorias.org/" height="200" width="100%" style="border:0px"></iframe>
-  </div>
+  </div></div>
