@@ -1213,7 +1213,21 @@ svg{
 svg:hover {
   fill: $PALETTE4;
 }
+@media screen and (max-width: 800px) {
+    #swipebox-gallery {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
 
+      .swipebox {
+        width: 42%;
+        margin: 15px 10px 0;
+        height: 42%;
+      }
+    }
+}
+@media screen and (min-width: 800px) {
 #swipebox-gallery {
   display: flex;
   flex-direction: row;
@@ -1225,6 +1239,7 @@ svg:hover {
     margin: 15px 10px 0;
     height: 30%;
   }
+}
 }
 
 #swipebox-overlay {
