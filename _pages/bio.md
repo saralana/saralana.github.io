@@ -15,11 +15,11 @@ ref: bio
 
 <br>
 
-Sara Lana é uma artista e desenvolvedora brasileira de 33 anos. Nascida em Belo Horizonte, estudou matemática e engenharia elétrica na Universidade Federal de Minas Gerais. Seus projetos se situam na confluência da arte com a tecnologia. Recorrem a suportes variados, valendo-se principalmente do som, da eletrônica e do vídeo, tendo a ilustração presente em todo o processo de criação.
-  
-Foi artista residente em diversos espaços de fomento à arte, ciência e tecnologia como Bolsa Pampulha 2019  e apresentou seus trabalhos no Brasil, Chile, México, Espanha e França.
+Sara Lana é uma artista e desenvolvedora brasileira de 33 anos. Nascida em Belo Horizonte, estudou matemática e engenharia elétrica na Universidade Federal de Minas Gerais. Seus projetos se situam na confluência da arte com a tecnologia. Recorrem a suportes variados, valendo-se principalmente do som, da eletrônica e do vídeo, tendo a ilustração e a cartografia presentes em todo o processo de criação.
 
-Sua obra busca promover a desalienação tecnológica ao chamar a atenção para o nosso alheamento à onipresença das máquinas digitais na sociedade contemporânea. Seu trabalho propõe ainda uma reflexão sobre o papel dos animais que dividem o espaço com os humanos, e estimula a busca de relações mais equilibradas com eles no contexto tecnológico atual.
+Foi artista residente em diversos espaços de fomento à arte, ciência e tecnologia como o Bolsa Pampulha 2019 e apresentou seus trabalhos no Brasil, Chile, México, Espanha e França. 
+
+Seus projetos atuam como ferramentas de questionamento e reação ao alheamento de uma sociedade aprisionada ao monopólio do conhecimento tecnológico. Trabalha também em colaboração com espécies não-humanas e confia na intermediação de aparatos digitais para tornar tais relações mais equilibradas.
 
 
 <div class="selection">

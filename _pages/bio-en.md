@@ -15,9 +15,11 @@ ref: bio
 
 <br>
 
-Sara Lana is a 33 year-old Brazilian artist and developer. She was born in Belo Horizonte (Brazil), studied Mathematics and Electric Engineering in the Federal University of Minas Gerais. Her projects lie in the convergence of art and technology. She often uses varied supports, especially sound, electronics and video, having illustration as an existing element throughout her process of creation.
-  
-Her work seeks to promote technologic disalienation by calling attention to our detachment to the omnipresence of digital machines in our contemporary society. Besides offering insights on the relation with animals which share space with humans, her work also offers and stimulates the search for more balanced relations with them in our current technologic context. 
+Sara Lana is a 33 year-old Brazilian artist and developer. She was born in Belo Horizonte (Brazil), studied Mathematics and Electric Engineering in the Federal University of Minas Gerais. Her projects lie in the convergence of art and technology. She often uses varied supports, especially sound, electronics and video, having illustration and cartography as an existing elements throughout her process of creation.
+
+Sara was artist-in-residence in several spaces dedicated to art, science and technology, such as Bolsa Pampulha 2019 and presented her works in exhibitions in Brazil, Chile, Mexico, Spain and France.
+
+Her projects are as tools for questioning and reacting to the detachment of a society imprisoned by the monopoly of technological knowledge. She also works in collaboration with non-human species and relies on the intermediation of digital devices to garantee more balanced relationships.
 
 
 <div class="selection">
