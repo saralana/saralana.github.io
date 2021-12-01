@@ -19,7 +19,8 @@ Sara Lana is a 33 year-old Brazilian artist and developer. She was born in Belo 
 
 Sara was artist-in-residence in several spaces dedicated to art, science and technology, such as Bolsa Pampulha 2019 and presented her works in exhibitions in Brazil, Chile, Mexico, Spain and France.
 
-Her projects are as tools for questioning and reacting to the detachment of a society imprisoned by the monopoly of technological knowledge. She also works in collaboration with non-human species and relies on the intermediation of digital devices to garantee more balanced relationships.
+
+Her projects act as questioning and reaction tools to the alienation of a society imprisoned by the monopoly of technological knowledge. She also works in collaboration with non-human species and relies on the intermediation of digital devices to garantee more balanced relationships.
 
 
 <div class="selection">
