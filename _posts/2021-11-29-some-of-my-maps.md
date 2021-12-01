@@ -40,7 +40,7 @@ The phones were found traveling along the banks of these rivers using maps with 
 </p>
 </div>
 <div class="column">
-    <div style="padding:100% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/618840728?h=9a1b0e656b&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:60%;height:60%;" title="orelhinha | extrait | fran&amp;ccedil;ais"></iframe></div>
+    <div style="padding:100% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/618840728?h=9a1b0e656b&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:80%;height:80%;"></iframe></div>
 </div>
 </div>
   <div id="swipebox-gallery">
