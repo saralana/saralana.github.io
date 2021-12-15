@@ -1,12 +1,12 @@
 ---
 title: 'DIY windscreen with o-ball'
 who: 
-type: A simple tutorial to do a windscreen for your microphone (⌀ 20mm), step by step. Do It Yourself following each step below. 
+type: A simple tutorial to do a windscreen for your microphone (⌀ 20mm), step by step.
 menu: true
 ref: windscreen
 permalink: windscreen
 swipebox: oball
-credits: "oBall by Jérôme Bailly, Oball + synthetic fur in the field by Félix Blume (2 Schoeps CCM4 on a Cinela ORTF suspension), oBall + ORTF Superlux by Sara Lana, Windscreen by Mélia Rogier"
+credits: "oBall by Jérôme Bailly ||| Oball + synthetic fur in the field by Félix Blume (2 Schoeps CCM4 on a Cinela ORTF suspension) ||| oBall + ORTF Superlux by Sara Lana ||| o-ball + Windscreens by Mélia Rogier"
 thanks: Many thanks to Marie-Christine Cabanas and Elisa Lana for the sewing part!
 lang: en
 ---
@@ -27,14 +27,14 @@ lang: en
   <div class="column">
      <p>
       <b>Materials:</b><br><br>
-         1. Obal (⌀ 10cm) x2 ⋍ 6€ each
-         2. Synthetic Fur (⋍1m x 50cm)
-         3. Suspension Superlux HM30 ⋍ 3€
-         4. Sugru (moldable glue) x2
-         5. Elastic cord (⋍1m)
-         6. Plastics cord locks x 2
-         7.Sewing thread
-         8.Sheet of paper
+         1. Obal (⌀ 10cm) x2 ⋍ 6€ each<br>
+         2. Synthetic Fur (⋍1m x 50cm)<br>
+         3. Suspension Superlux HM30 ⋍ 3€<br>
+         4. Sugru (moldable glue) x2<br>
+         5. Elastic cord (⋍1m)<br>
+         6. Plastics cord locks x 2<br>
+         7.Sewing thread<br>
+         8.Sheet of paper<br>
       </p>
    </div>
     <div class="column">
@@ -42,10 +42,10 @@ lang: en
         <b>Tools:</b><br><br>
         1. Cutter (Blade Knife)<br>
         2. Scissors<br>
-        3. Ruler
-        4. Permanent ink pen
-        5. Poska paint marker
-        6. Sewing machine
+        3. Ruler<br>
+        4. Permanent ink pen<br>
+        5. Poska paint marker<br>
+        6. Sewing machine<br>
       </p>
     </div>
 </div>

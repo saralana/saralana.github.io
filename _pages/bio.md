@@ -23,7 +23,7 @@ Seus projetos atuam como ferramentas de questionamento e reação ao alheamento 
 
 
 <div class="selection">
-Também realiza <a href="../workshops" target="_blank">&nbsp;oficinas&nbsp;</a> com temáticas diversas relacionadas a seus projetos.
+Também realiza <a href="../workshops" target="_blank">&nbsp;oficinas&nbsp;</a> e <a href="../tutoriais" target="_blank">&nbsp;tutoriais&nbsp;</a> com temáticas diversas relacionadas a seus projetos.
 </div>
 
 <br>

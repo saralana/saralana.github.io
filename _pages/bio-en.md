@@ -24,7 +24,7 @@ Her projects act as questioning and reaction tools to the alienation of a societ
 
 
 <div class="selection">
-She also promotes <a href="../en/workshops" target="_blank">&nbsp;workshops&nbsp;</a> related to her projects.
+She also promotes <a href="../en/workshops" target="_blank">&nbsp;workshops&nbsp;</a> and publish <a href="../tutorials" target="_blank">&nbsp;tutorials&nbsp;</a> related to her projects.
 </div>
 
 <br>

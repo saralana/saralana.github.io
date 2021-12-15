@@ -41,6 +41,7 @@
                   {% endif %}
                 </content>
                   <br>
+                    {% if page.where %}
                   <hr>
                   <br>
             {% case page.lang %}
@@ -58,9 +59,10 @@
                             <a href="{{ place.url }}" target="_blank">{{ place.name }}</a>
                           {% endif %}
                         </div>
-                     {% endfor %}  
+                     {% endfor %} 
+                    {% endif %}
              <br>
-             <hr>
+             <hr>   
              <br>
             {% case page.lang %}
                 {% when 'en' %}

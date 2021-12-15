@@ -1343,6 +1343,15 @@ iframe {
   padding: 0% 4%;
 }
 
+#post{
+  .column {
+  -ms-flex: 20%; /* IE10 */
+  flex: 20%;
+  max-width: 325%;
+  padding: 0% 1.5%;
+}  
+}
+
 .column img {
   //margin-bottom: 20%;
   vertical-align: middle;
