@@ -10,7 +10,7 @@ where:
 ref: orelhinha
 permalink: orelhinha
 cover: /assets/favicons/orelhinha.jpg
-swipebox: orelhinha_Clarice
+swipebox: orelhinha_
 credits: Clarice Rodrigues e Luisa Ritter
 cover: 
 thanks: Gabriela Moulin, Francisa Caporalli, Samanta Moreira, Mateus Mesquita, Félix Blume, Clarice G. Lacerda, Bernardo Esteves, Elisa Lana, Fellipe Miranda, Clarice Rodrigues, Tiago Esteves, Luísa Ritter, Mônica Meyer, Valquíria Rabelo, Thula Kawasaki, Rafael Amato e Júlia Medeiros.
