@@ -30,7 +30,9 @@ Here are some of my projects with maps and architectural plans:
 <br><br><br>
 
 ## Orelhinha
-
+<br>
+[Project webpage](../en/orelhinha){:target="_blank"}
+<br>
 <div class="row">
 <div class="column">
 <p>
@@ -65,6 +67,8 @@ The phones were found traveling along the banks of these rivers using maps with 
 ## Run and Look the Sky
 
 <br>
+[Project webpage](../en/corra-e-olhe-o-ceu){:target="_blank"}
+<br>
 Looking virtually at the sky and guided by tools for panoramic map viewing, I traced a route in a hitherto unknown city. I then traveled to this place to walk trhough the same route in person. During the walk, I recorded the sounds of my footsteps and an eerily familiar environment. 
 
 <br>
@@ -78,6 +82,10 @@ Looking virtually at the sky and guided by tools for panoramic map viewing, I tr
 <br><br>   
    
 ## Blind Spots
+
+<br>
+[Project webpage](../en/pontos-cegos){:target="_blank"}
+<br>
 
 **Blind Spots** is a project which aims to create a tool of counter-surveillance. It is divided in two research approaches, Tactics of (In)Visibility:
   <br>
@@ -101,6 +109,9 @@ Here [&nbsp;a first prototype&nbsp;](../invisibility-tracer){:target="_blank"} o
    
 ## Species of Spaces I
 
+<br>
+[Project webpage](../en/especies-de-espacos-1){:target="_blank"}
+<br>
 Species of Spaces is an investigation initialized  in 2019 which is based on images captured on surveillance cameras.
   
 The first work of this series presents in videos, architectural blueprints and annotations, intimate diaries of 5 characters built based on domestic images of surveillance cameras with live access on the internet. 
@@ -159,6 +170,9 @@ The first work of this series presents in videos, architectural blueprints and a
    
 ## Sertão Sound Diary
 
+<br>
+[Project webpage](../en/diario-sonoro){:target="_blank"}
+<br>
 The **Sertão Sound Diary** is a documentary based on the path and notes of Guimarães Rosa on his trip to the hinterland of Minas Gerais in 1952.
 
 <br>
@@ -178,6 +192,9 @@ The **Sertão Sound Diary** is a documentary based on the path and notes of Guim
    
 ## Cartography of Memories
 
+<br>
+[Project webpage](../en/cartografia){:target="_blank"}
+<br>
 Cartography of Memories is a collaborative sound map that seeks to record and preserve, through oral reports, experiences in the context of the Covid-19 pandemic, which began in 2020. The project was created in Brazil by a group of historians, scientists, artists, communicators, developers and educators. 
 
 <br><br> 
