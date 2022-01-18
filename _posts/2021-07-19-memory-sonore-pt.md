@@ -5,7 +5,7 @@ type: Uma adaptação sonora do típico jogo de memória, geralmente conhecido c
 menu: true
 where: 
   - name: Musée Réattu | Arles | France
-    url: http://www.museereattu.arles.fr/
+    url: http://www.museereattu.arles.fr/atelier-memory-sonore.html
 cover: /assets/posts/memorysonore.png
 data: 2021
 ref: memorysonore
