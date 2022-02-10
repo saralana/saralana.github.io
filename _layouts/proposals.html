@@ -16,11 +16,17 @@
                 {% unless page.permalink == '/' %}
                   <div class="post-title">{{ page.title }}</div>
                   <br>
+                  {% if page.who %}
                   <b>{{ page.who }}</b>
+                  {% endif %}
+                  {% if page.type %}
                   <p>{{ page.type }}</p>
+                  {% endif %}
+                  {% if page.data %}
                   <b>{{ page.data }}</b>
+                  {% endif %}
                 {% endunless %}
-                <br><br><br>
+                <br><br>
                 <content>
                   {{ content }}
                   {% include swipebox.html %}

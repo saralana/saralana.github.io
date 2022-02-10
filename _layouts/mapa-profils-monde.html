@@ -57,8 +57,8 @@
     var map = new mapboxgl.Map({
       container: 'map', // container id
       style: 'mapbox://styles/saralgc/cku3e2i750khk18njz0rektk4',
-      center: [4.457905, 46.93501200], // starting position
-      zoom: 5,// starting zoom
+      center: [-20, 10], // starting position
+      zoom: 2.2,// starting zoom
       transformRequest: transformRequest
     });
 
@@ -67,7 +67,7 @@
         type: "GET",
         //YOUR TURN: Replace with csv export link
         //https://www.mapbox.com/impact-tools/sheet-mapper
-        url:'https://docs.google.com/spreadsheets/d/1EvWWap07wP645e8aSunTyreWpbezUZTviOoZZd4bgJ0/gviz/tq?tqx=out:csv&sheet=1',
+        url:'https://docs.google.com/spreadsheets/d/1EvWWap07wP645e8aSunTyreWpbezUZTviOoZZd4bgJ0/gviz/tq?tqx=out:csv&sheet=monde',
         dataType: "text",
         success: function (csvData) { makeGeoJSON(csvData); }
       });
@@ -89,7 +89,7 @@
                 'data': data
               },
               'paint': {
-                'circle-radius': 8,
+                'circle-radius': 6,
                 'circle-color': "#4c9bc1",
               }
             });
