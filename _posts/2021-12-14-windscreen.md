@@ -33,8 +33,8 @@ lang: en
          4. Sugru (moldable glue) x2<br>
          5. Elastic cord (⋍1m)<br>
          6. Plastics cord locks x 2<br>
-         7.Sewing thread<br>
-         8.Sheet of paper<br>
+         7. Sewing thread<br>
+         8. Sheet of paper<br>
       </p>
    </div>
     <div class="column">
@@ -103,7 +103,7 @@ lang: en
 
 * Note about Sugru: You could do your own moldable glue mixing 50% silicone with 50% cornstarch (maizena) to get a similar result as the sugru.
 
-[moldable glue tutorial](https://youtu.be/hz1vILeIBPI){:target="_blank"}
+> [moldable glue tutorial](https://youtu.be/hz1vILeIBPI){:target="_blank"}
 * Apply the Sugru (or the silicone mix) between the suspension and the oball, in order to glue both elements. One pack per ball is enough.
 
 * Let it dry for 24hours before using

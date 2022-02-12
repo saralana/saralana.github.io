@@ -10,6 +10,11 @@ ref: tutorials
 
 <br>
 
+
+[Monte seu própio mapa sonoro](../sound-map-pt){:target="_blank"}
+
+---
+
 [Hidrofone – construa o seu microfone aquático](../hidrofone){:target="_blank"}
 
 ---

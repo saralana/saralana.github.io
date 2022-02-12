@@ -3,12 +3,16 @@ title: tutorials
 permalink: '/tutorials/'
 menu: true
 layout: post-about
-lang: pt
+lang: en
 where: 
 ref: tutorials
 ---
 
 <br>
+
+[DIY a sound map](../sound-map){:target="_blank"}
+
+---
 
 [DIY hydrophone](../hydrophone){:target="_blank"}
 
