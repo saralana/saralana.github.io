@@ -28,7 +28,7 @@
                 </content>
                   <br>
                   
-            {% if page.where != "sem" %}
+            {% if page.where %}
                   <hr>
                   <br>
             {% case page.lang %}
@@ -38,12 +38,12 @@
                   <b>Apresentações:</b>   
             {% endcase %}    
                  <br><br>
-                     {% for place in page.where %}
+                 {% for place in page.where %}
                         <div class="list-footpage">
-                          {% if place.url == "sem" %}
-                             {{ place.name }}
+                          {% if place.url %}
+                            <a href="{{ place.url }}" target="_blank">{{ place.name }}</a> 
                           {% else %}
-                            <a href="{{ place.url }}" target="_blank">{{ place.name }}</a>
+                            {{ place.name }}
                           {% endif %}
                         </div>
                      {% endfor %}  

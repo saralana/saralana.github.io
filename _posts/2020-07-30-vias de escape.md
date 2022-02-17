@@ -5,7 +5,7 @@ where:
   - name: residência no IX Festival TSONAMI de arte sonora | Valparaiso | CHILE
     url: https://festival.tsonami.cl/
   - name: Muestra Colectiva en sala B.A.S.E | Valparaíso | Chile
-    url: sem 
+    url: 
 data: 2015
 ref: vias-de-escape
 permalink: vias-de-escape

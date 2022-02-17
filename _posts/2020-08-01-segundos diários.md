@@ -5,7 +5,6 @@ lang: pt
 layout: post-other
 type: gifs sonoros
 data: 2014 ~ hoje
-where: sem
 permalink: segundos
 ref: 15segundos
 ---

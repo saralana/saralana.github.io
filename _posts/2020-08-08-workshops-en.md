@@ -4,19 +4,19 @@ permalink: '/en/workshops/'
 menu: true
 where:  
   - name: SESC Belenzinho | São Paulo | BR
-    url: sem
+    url:
   - name: SESC Santos | BR
-    url: sem
+    url:
   - name: Favela Hacklab | Gambiologia | Veracruz | BH | BR
     url: https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwjb_tGzrpbuAhXrCrkGHeCwBMwQFjAAegQIAxAC&url=http%3A%2F%2Fwww.gambiologia.net%2Fblog%2F&usg=AOvVaw3GwBrKJHv77UYjJzWP8FzX
   - name: CRJ | Centro de Referência da Juventude | BH | BR
     url: http://www.portalbelohorizonte.com.br/eventos/encontro/artes-plasticas/taticas-de-invisibilidade-pontos-cegos-e-rotas-invisiveis
   - name: ThoughtWorks | São Paulo | BR
-    url: sem 
+    url: 
   - name: MedialabMX | Ciudad de México | MX
-    url: sem
+    url:
   - name: CCD – Centro de Cultura Digital | La Colmena | Tlaxcala | MX
-    url: sem
+    url:
 layout: post-about
 cover: /assets/posts/oficinas/inst01.png
 credits: Beth Freitas e Sara Lana

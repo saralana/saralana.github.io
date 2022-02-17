@@ -25,8 +25,7 @@
                 <content>
                   {{ content }}
                   {% include swipebox.html %}
-                  {% if page.credits == "sem" %}
-                  {% else %}
+                  {% if page.credits %}
                   <br>
                   <div class="credits">
                       {% case page.lang %}
@@ -53,17 +52,19 @@
                  <br><br>
                      {% for place in page.where %}
                         <div class="list-footpage">
-                          {% if place.url == "sem" %}
-                             {{ place.name }}
+                          {% if place.url %}
+                            <a href="{{ place.url }}" target="_blank">{{ place.name }}</a> 
                           {% else %}
-                            <a href="{{ place.url }}" target="_blank">{{ place.name }}</a>
+                            {{ place.name }}
                           {% endif %}
                         </div>
                      {% endfor %} 
-                    {% endif %}
              <br>
              <hr>   
              <br>
+                    {% endif %}
+                   
+            {% if page.thanks %}
             {% case page.lang %}
                 {% when 'en' %}
                   <b>Thanks to:</b>  
@@ -73,7 +74,9 @@
                  <p>{{ page.thanks }}</p>
              <br>
              <hr>
-             <br>            
+             <br>
+                  
+            {% endif %}          
          </div>
         {% include navbar.html %}
   </body>

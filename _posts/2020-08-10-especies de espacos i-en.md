@@ -5,7 +5,7 @@ type: video installation, drawings and architectural blueprints
 menu: true
 where: 
   - name: Museu de Arte da Pampulha | Belo Horizonte | BRAZIL
-    url: sem
+    url:
   - name: Bolsa Pampulha 2019 | Belo Horizonte | BRAZIL
     url: https://www.jaca.center/bolsa-pampulha/
 data: 2019

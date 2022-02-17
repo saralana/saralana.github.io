@@ -5,7 +5,7 @@ type: impressão digital em vidro
 menu: true
 where: 
   - name: Museu de Arte da Pampulha | Belo Horizonte | MG
-    url: sem
+    url:
   - name: Bolsa Pampulha 2019 | Belo Horizonte | MG
     url: https://www.jaca.center/bolsa-pampulha/
 data: 2019

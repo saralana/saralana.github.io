@@ -5,9 +5,9 @@ type: detecção e mapeamento de câmeras de vigilância
 menu: true
 where: 
     - name: redBull Station | São Paulo
-      url: sem
+      url:
     - name: MedialabMX | Ciudad de México
-      url: sem
+      url:
     - name: Museo Túnel De La Ciencia | Cidade de México
       url: https://www.e-cuerpo.org/
     - name: Centro de Ciencias de Sinaloa | México
@@ -21,7 +21,7 @@ where:
 data: 2016 ~ 2020
 ref: pontos-cegos
 permalink: pontos-cegos
-pv: sem
+pv:
 nx: matilha
 swipebox: pontos-cegos
 credits: Pedro Andrada, Ariana Miliorini, Félix Blume

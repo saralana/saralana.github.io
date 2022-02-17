@@ -33,7 +33,6 @@ pv: matilha
 nx: especies-de-espacos-2
 permalink: en/mutt-dogs
 cover: /assets/posts/mutt-dogs.jpg
-credits: sem
 thanks: Marmita, Pretinha, Nina, Bob, Frida, Una,  JaCa, Floriane Pochon, Gabriel Lecup, Marie-Christine Cabanas
 lang: en
 ---

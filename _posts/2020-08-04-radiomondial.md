@@ -7,7 +7,7 @@ where:
     - name: Arte Radio (France)
       url: https://www.arteradio.com/son/61660511/radio_mondial
     - name: 10ans de Syntone à la SCAM (Paris)
-      url: sem
+      url:
     - name: Maison de la Poésie (Paris) 
       url:  sem
     - name: Radio Campus Bruxelles
@@ -27,8 +27,7 @@ ref: radio-mondial
 permalink: radio-mondial
 cover: /assets/posts/radiomondial.jpg
 pv: antonimos
-nx: sem
-credits: sem
+nx:
 swipebox: rml
 thanks: Abi Poulastrou, Alessandro Comodin, Alessandro Massobrio, Ana Cecilia Medina, Antonio Trullen, Benjamin Minot, Bernardo Esteves, Burcu Bilgic, Despina Panagiotopoulou, Diego Aguire, Esteban Agostin, Étienne Noiseau, Felipe Esteves, Fernando Godoy, Flora Guerra, Floriane Pochon, Frank Morgado, José Augusto Boaventura, Juanpablo Avendaño, Julian Keck, Kaori Kinoshita, Marcel Klankbeeld, Marie-Christine Cabanas, Michela Sacchetto, Mirna Castro, Pablo Saavedra, Punch Viratmalee, Richard Karcz, Samuel Blume, Thiago Hersan, Udo Noll & Yannick Dauby.
 lang: pt

@@ -5,9 +5,9 @@ type: sound installation
 menu: true
 where: 
     - name: Maquinações | SESC PIRACICABA | SP 
-      url: sem
+      url:
     - name: Maquinações | SESC CARMO | SP 
-      url: sem
+      url:
     - name: Maquinações | OI FUTURO FLAMENGO 
       url:  sem
     - name: Maquinações | SESC PALLADIUM | MG 

@@ -5,7 +5,7 @@ type: coleção de vídeos
 menu: true
 where: 
   - name: Museu de Arte da Pampulha | Belo Horizonte | BRAZIL
-    url: sem
+    url:
   - name: Bolsa Pampulha 2019 | Belo Horizonte | BRAZIL
     url: https://www.jaca.center/bolsa-pampulha/
 data: 2019
@@ -14,7 +14,7 @@ ref: especies-de-espacos-3
 permalink: especies-de-espacos-3
 cover: /assets/covers/especies-3.png
 swipebox: ede3
-credits: sem
+credits:
 thanks: Hortência Abreu, Luis Rodrigo (Artmosphere), Flávia Peluzzo, Clarice G. Lacerda, Félix Blume, Flaviana Lassan, Julia Mesquita, Francisca Caporalli, Monica Hoff.
 lang: pt
 ---
