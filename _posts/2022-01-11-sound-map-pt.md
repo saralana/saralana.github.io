@@ -1,5 +1,5 @@
 ---
-title: 'Monte seu próprio mapa sonoro'
+title: 'Monte um mapa sonoro'
 who: 
 type: Construa seu mapa usando uMap and Google Sheets
 menu: true

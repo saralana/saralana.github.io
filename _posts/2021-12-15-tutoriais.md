@@ -11,7 +11,7 @@ ref: tutorials
 <br>
 
 
-[Monte seu própio mapa sonoro](../sound-map-pt){:target="_blank"}
+[Monte seu própio mapa sonoro](../pt/sound-map){:target="_blank"}
 
 ---
 
