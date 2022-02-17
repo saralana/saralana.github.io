@@ -1,20 +1,20 @@
 ---
-title: 'DIY soundmap'
+title: 'Monte seu próprio mapa sonoro'
 who: 
-type: Build your own soundmap using uMap and Google Sheets
+type: Construa seu mapa usando uMap and Google Sheets
 menu: true
 ref: diysoundmap
-permalink: sound-map
+permalink: pt/sound-map
 swipebox: 
 credits: 
-thanks: 
-lang: en
+thanks:
+lang: pt
 ---
 
 <div class="video-wrapper-side video-wrapper-16x9"><iframe src="https://youtube.com/embed/5RfPWc047o8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 <br><br>
 
-> <b>Platforms:</b><br>
+> <b>Plataformas:</b><br>
          1. [uMap](http://umap.openstreetmap.fr/en/){:target="_blank"} <br>
          2. [freesound](https://www.freesound.org/){:target="_blank"} , [soundcloud](https://www.soundcloud.com/){:target="_blank"} , [spotify](https://www.spotify.com/){:target="_blank"} , [archive](https://www.archive.org){:target="_blank"} , [google drive](https://www.drive.google.com){:target="_blank"} or any other cloud, repository or streaming platform <br>
          3. [Google Sheets](https://docs.google.com/spreadsheets/){:target="_blank"} <br>
@@ -24,20 +24,20 @@ lang: en
 
 <br>
   
-## step 1: Upload your sounds to a cloud, repository or streaming platform
+## passo 1: Faça upload dos seus sons para um repositório ou plataforma de streaming
 
 <br>
 <img src="../assets/posts/soundmap_freesound.png" class="img-border">
 <br>
 
-* In this tuttorial we will build the map with sounds published on [freesound.org](https://www.freesound.org/){:target="_blank"} 
+* Nesse tutorial vamos construir o mapa com sons publicados no [freesound.org](https://www.freesound.org/){:target="_blank"} 
 
 <br> 
 
 ---
 <br>
   
-## step 2: Create a google spreadsheet with your sounds 
+## passo 2: Crie uma planilha no google spreadsheet com os seus sons 
 
 <br>
 <div class="row">
@@ -50,28 +50,28 @@ lang: en
 </div>
 <br>
 
-* It is important that the spreadsheet has two columns named as "Latitude" and "Longitude"
+* É importante que a planilha tenha ao menos duas colunas nomeadas como "Latitude" e "Longitude"
 
-* The coordinates must be in **DECIMAL DEGREE SYSTEM**
+* As coordenadas devem ser inseridas no **SISTEMA DECIMAL**
 > <u>ex.</u>: -20.11148255	-43.72861216
 
-* Another column must contain a link to the embed link for your sounds.
+* Outra coluna deve conter um link incorporável para seus sons (embed).
 
-* You should not use all the embed code, but only the link shown in quotes after "src="
+* Você não deve copiar todo o código incorporável (embed), mas apenas o link que aparece entre aspas após "src="
 <br>
 
-* **IN FREESOUND** the embed code is <br>
+* **NO FREESOUND** o código incorporável é <br>
 > <b><em><iframe frameborder="0" scrolling="no" src="</em><em style="background-color:#ffdf3b;">https://freesound.org/embed/sound/iframe/560319/simple/small/</em><em>"width="375" height="30"></iframe></em></b>
 <br><br>
-> And the link that will be added to the spreadsheet is
+> E o link que deverá ser copiado e colado na planilha é
 <br>
 > <b><em style="background-color:#ffdf3b;">https://freesound.org/embed/sound/iframe/560319/simple/small/</em></b>
 <br><br>
 
-* **IN SOUNDCLOUD** the embed code is <br>
+* **NO SOUNDCLOUD** o código incorporável é<br>
 > <b><em><iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="</em><em style="background-color:#ffdf3b;">https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1011674683&color=%23ff43ad&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true</em><em>"></iframe></em></b>
 <br><br>
-> And the link that will be added to the spreadsheet is
+> E o link que deverá ser copiado e colado na planilha é
 <br>
 > <b><em style="background-color:#ffdf3b;">https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1011674683&color=%23ff43ad&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true</em></b>
 
@@ -80,14 +80,14 @@ lang: en
 ---
 <br>
   
-## step 3: configure the spreadsheet cells
+## passo 3: configure as células da planilha
 
 <br>
 <img src="../assets/posts/soundmap_plaintext.png" class="img-border">
 <br>
 
-* The cells format must be set as Plain Text. To configure it, select all the cells and click on:
-> <b>>Format >Number >Plain text</b>
+* O formato das células deve ser configurado como _Plain Text_ ou _Texto_. Para configurá-las, selecione todas as células e clique em:
+> <b>>Formatar >Número >Texto</b>
   
 <br> 
 
@@ -95,7 +95,7 @@ lang: en
 
 <br>
   
-## step 4: publish your spreadsheet on web
+## passo 4: publique sua planilha na web
 
 <br>
 <div class="row">
@@ -108,10 +108,10 @@ lang: en
 </div>
 <br>
 
-* Publish your spreadsheet on web. Click on:
-> <b>>File >Share >Publish to web</b>
+* Publique sua planilha na web. Clique em:
+> <b>>Arquivo >Compartilhar >Publicar na Web</b>
 
-* Select the tab (in the example "Sheet1") and select **.csv** as output format. 
+* Selecione a aba (no exemplo "Sheet1") e selecione **.csv** como formato de saída. 
   
 <br> 
 
@@ -119,7 +119,7 @@ lang: en
 
 <br>
   
-## step 5: create and style your map on uMap
+## passo 5: crie e configure seu mapa no uMap
 
 
 <br>
@@ -133,12 +133,12 @@ lang: en
 </div>
 <br>
 
-* Go to [uMap](http://umap.openstreetmap.fr/en/){:target="_blank"} <br>
+* Acesse [uMap](http://umap.openstreetmap.fr/en/){:target="_blank"} <br>
 
-* And click on **"Create a Map"**
+* E clique em **"Create a Map"**
 <br>
 
-* Style and center it as you want
+* Estilize e centralize onde quiser
   
 <br> 
 
@@ -146,7 +146,7 @@ lang: en
 
 <br>
   
-## step 6: insert remote data
+## passo 6: insira os dados remotos
 
 <br>
 <div class="row">
@@ -159,9 +159,9 @@ lang: en
 </div>
 <br>
 
-* Enter edition mode clicking on the pencil icon
+* Entre no modo de edição clicando no ícone do lápis (canto superior direito)
 
-* Select the layer icon
+* Selecione o ícone das camadas
 
 
 <br>
@@ -175,9 +175,9 @@ lang: en
 </div>
 <br>
 
-* Click on **Remote Data**
+* Clique em **Remote Data**
 
-* In **URL** field, paste the link of your spreadsheet published on web as csv
+* No campo **URL**, cole o link da sua planilha publicada na web como csv
 
 <br>
 <div class="row">
@@ -190,11 +190,11 @@ lang: en
 </div>
 <br>
 
-* In **FORMAT** field, select csv
+* No campo **FORMAT**, selecione csv
 
-* And set **DYNAMIC** on, to fetch data each time the sheet is updated
+* Ative o modo **DYNAMIC**, para atualizar os dados a cada vez que a planilha é atualizadas
 
-* Save and reload your page. All the markers should appear.
+* Salve o mapa e atualize a página. Todos os pontos deveriam aparecer.
   
 <br> 
 
@@ -203,7 +203,7 @@ lang: en
 
 <br>
   
-## step 7: configure popups with audio players
+## passo 7: configure popups com players de audio
 
 <br>
 <div class="row">
@@ -217,42 +217,42 @@ lang: en
 <br>
 
 
-* Enter again, in the Layer edition mode 
+* Entre no modo de edição da camada 
 
-* Click on **Interaction Options**
+* Clique em **Interaction Options**
 
-* Fill it with the columns names of your sheet following text formatting of uMap.
-> <u>tip.</u>: Check all the formatting options clicking on the <b style="background-color:black; color:white;">?</b> icon 
+* Preencha esse campo com o nome das colunas de sua planilha seguindo a seguinte formatação estabelecida pelo uMap.
+> <u>dica.</u>: Todas as opções de formatação podem ser checadas clicando no ícone <b style="background-color:black; color:white;">?</b> icon 
 
-* Be sure that the names are written exactly as in the spreadsheet
+* Certifique-se que os nomes estão escritos exatamente como constam na planilha
 
 <br>
 <img src="../assets/posts/soundmap_names.png" class="img-border" style="width:50%">
 <br>
 
-* Save and reload your page.
-The markers, when clicked, will show a popup with the freesound player inside it.
+* Salve o mapa e atualize a página.
+Agora os ponto, quando clicados, vão abrir um popup com um player.
 
 <br>
 <img src="../assets/posts/soundmap_freesoundplayer.png" class="img-border" style="width:50%">
 <br> 
 
-Your map is done!
+Seu mapa está pronto!
 <br>
 
 --- 
 
 <br>
   
-## step 8: share or embed your map
+## passo 8: compartilhe e incorpore seu mapa
 
 <br>
 <img src="../assets/posts/soundmap_share.png" class="img-border">
 <br> 
 
-* Click on the Share button to copy both:
-> 1. The code to embed the map in a webpage,<br>
-> 2. and the short URL link for your map  
+* Clique no botão de compartilhamento para copiar os códigos para:
+> 1. Incorporar o mapa em outra página web<br>
+> 2. E o link abreviado para acesso direto ao mapa  
 
 
 <br>
@@ -267,19 +267,19 @@ Your map is done!
 <br>
 
 
-* To edit your map later, save the edition link: click on the key icon, copy and save the link. <br>
-> *If you are creating your map logged on a uMap account, you don't need to worry with this last step.*
+* Para editar seu mapa posteriormente, salve o link para edição: clique no ícone da chavinha, copie e salve o link fornecido. <br>
+> * Se você está criando seu mapa logado em uma conta uMap, não se preocupe com essa etapa.*
 <br><br>
 
 --- 
 
 <br>
 
-## optional step: using the native audioplayer of your browser
+## passo opcional: usado o player de audio nativo de seu navegador
 
-You can also build your map with the native Audio player of your browser so the sounds will be played automatically when opening each popup.
+Você também pode contruir seu mapa usando o player nativo de seu navegador, assim os sons serão tocados automaticamento ao abrir cada popup.
 
-In this case we need to use the file location link instead of it's embed player.
+Nesse caso usaremos o link para acesso direto ao arquivo e não o link para incorporação.
 
 <br>
 <div class="row">
@@ -293,23 +293,23 @@ In this case we need to use the file location link instead of it's embed player.
 <br>
 
 
-* To find its location on freesound, you can use the followin link model:
+* Cada plataforma tem um caminho específico para as apastas de armazenamento. No caso do freesound, você pode usar o seguinte modelo:
 
-> * Pick your freesound post number on its embed link:
+> * Verifique o número do seu som/post no link incorporável:
 
-> > <b><em>https://freesound.org/embed/sound/iframe/</em><em style="background-color:#ffdf3b; color:hotpink;">FILE_NUMBER</em><em>/simple/small/</em></b>
+> > <b><em>https://freesound.org/embed/sound/iframe/</em><em style="background-color:#ffdf3b; color:hotpink;">NUMERO_DO_ARQUIVO</em><em>/simple/small/</em></b>
 
 
 > > <u>ex.</u>: <b><em>https://freesound.org/embed/sound/iframe/</em><em style="background-color:#ffdf3b;">560319</em><em>/simple/small/</em></b>
 
 > * And apply it as the following link
 
-> > <b><em>https://freesound.org/data/previews/</em><em style="background-color:#ffdf3b; color:hotpink;">FIRST_3_DIGITS_OF_FILE_NUMBER</em><em>/</em><em style="background-color:#ffdf3b; color:hotpink;">FILE_NUMBER</em><em>_7975555-lq.mp3</em></b>
+> > <b><em>https://freesound.org/data/previews/</em><em style="background-color:#ffdf3b; color:hotpink;">3_PRIEMIROS_DIGITOS_DO_NUMERO_DO_ARQUIVO</em><em>/</em><em style="background-color:#ffdf3b; color:hotpink;">NUMERO_DO_ARQUIVO</em><em>_7975555-lq.mp3</em></b>
 
 > > <u>ex.</u>: <b><em>https://freesound.org/data/previews/</em><em style="background-color:#ffdf3b" >560</em><em>/</em><em style="background-color:#ffdf3b">560319</em><em>_7975555-lq.mp3</em></b>
 
-* Save and reload your page.
-The markers, when clicked, will show a popup with your browser native player. The sounds will automatically start as opening each popup.
+* Salve o mapa e atualize a página.
+Os pontos, ao serem clicados, vão abrir um pop up com o player nativo. Os sons serão tocados automaticamente ao abrir cada popup.
 
 <br>
 <img src="../assets/posts/soundmap_nativeplayer.png" class="img-border" style="width:50%">
@@ -319,13 +319,13 @@ The markers, when clicked, will show a popup with your browser native player. Th
 
 <br>
 
-Other links:
+Outros links:
 
-* [Sound maps I already developped](https://saralana.xyz/my-maps){:target="_blank"} - In the last years I've been using the Mapbox platform. With this tool you can have more possibilities to style your map, but basic web development knowledge is required (javascript, html, css). In the link below, I share a brief mapbox tutorial teaching how to use the Sheetmapper tool, which also allows you to create maps using data from Google Sheets.<br>
+* [Mapas sonoros que já desenvolvi](https://saralana.xyz/my-maps){:target="_blank"} tanto para meus projetos, quanto para outr.s artistas - Nos últimos anos tenho usado a plataforma mapbox. Com essa ferramenta você terá mais liberdades para estilizar seu mapa, mas um conhecimento básico de desenvolvimento web será necessário (javascript, html, css). No link abaixo, compartilho um tutorial do mapbox ensinando como usar a ferramenta Sheetmapper, para integração de planilhas do google drive aos seus mapas.<br>
 
 * [MAPBOX SHEETMAPPER](https://www.mapbox.com/impact-tools/sheet-mapper){:target="_blank"}<br>
 
-And here some sound maps I love:
+E aqui alguns mapas sonoros que adoro:
 
 * [aporee](https://aporee.org/maps/){:target="_blank"} <br>
 
@@ -338,8 +338,8 @@ And here some sound maps I love:
 <br>
 <br>
 
-I would love to see your maps!
-Please share it with me :)
-Contact:
+Vou adorar conhecer seus mapas!!
+Compartilhem comigo :)
+Contato:
 <br><br>
-[https://saralana.xyz/about](https://saralana.xyz/about){:target="_blank"}
+[https://saralana.xyz/sobre](https://saralana.xyz/sobre){:target="_blank"}
