@@ -10,7 +10,7 @@ ref: bio
 ---
 
 <div class="selection">
-<a href="../assets/docs/sara_lana_cv_en.pdf" target="_blank">&nbsp;CV&nbsp;</a>
+<a href="../assets/docs/Sara_Lana_Portfolio_2022.pdf" target="_blank">&nbsp;portfolio&nbsp;</a>
 </div>
 
 <br>

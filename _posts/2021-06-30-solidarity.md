@@ -13,7 +13,6 @@ lang: pt
 ---
 
 
-
 <div class="video-wrapper-side video-wrapper-16x9">
 <div style="padding:56.25% 0 0 0;position:relative;">
     <iframe src="https://player.vimeo.com/video/358613759?autoplay=1" width="650" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div>
