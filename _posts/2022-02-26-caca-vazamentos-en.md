@@ -3,17 +3,17 @@ title: 'caça vazamentos'
 who: 
 type: Convocatória IA 2022 | Programa 2 - OFÍCIO
 menu: true
-layout: proposals
+layout: proposals-blue
 data: 2022 
 ref: vazamentos
-permalink: caca-vazamentos
+permalink: en/caca-vazamentos
 cover: 
 swipebox: vazamento_
-lang: pt
+lang: en
 ---
 
 
-<img src="../assets/posts/geophone.png" class="img-border" style="border:0px; max-height:50vh !important">
+<img src="../assets/posts/geophone2.png" class="img-border" style="border:0px; max-height:50vh !important">
 
 <br>
 Para além dos músicos e radialistas, muitos ofícios que fazem uso da escuta como ferramenta principal de trabalho. Entre tantos ofícios pautados na acústica, os caçadores de vazamento são os que me despertam mais curiosidade, tanto pelo aparato que usam, o geofone, quanto por sua escuta minuciosa e atenta.
