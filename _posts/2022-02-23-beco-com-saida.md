@@ -31,6 +31,7 @@ lang: pt
 * qual seria a pergunta guia?
 * qual a melhor saída?
 * qual o melhor caminho para sair daqui?
+* qual o caminho que você mais gosta de fazer para sair daqui?
 * qual o melhor caminho para sair da cidade?
 * qual o melhor caminho para ter uma saída.
 * tem algum beco aqui perto?
@@ -61,6 +62,8 @@ _ a água e as raízes procuram o melhor caminho
 
 ## CAÇA VAZAMENTOS
 
+<img src="../assets/posts/geophone.png" class="img-border" style="border:0px; max-height:50vh !important">
+
 * infiltração também é a saída
 Muitos caminhos:
 * o enraizamento
@@ -88,3 +91,14 @@ outras possibilidades:
 ---
 
 <br>
+
+
+## CAÇA VAZAMENTOS
+
+* infiltração também é a saída
+Muitos caminhos:
+* o enraizamento
+* a infiltração
+	a água e as raízes procuram o melhor caminho
+* usar os estetoscópios para escuta interna
+* penet
