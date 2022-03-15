@@ -56,7 +56,7 @@
       container: 'map', // container id
       style: 'mapbox://styles/saralgc/cl0rkrs9g001614pabv4cjm3t',
       center: [-43.908,-19.9285], // starting position
-      zoom: 16.7,// starting zoom
+      zoom: 16,// starting zoom
       minZoom: 14,
       //maxZoom: 15,  
       pitch: 0, // pitc3 in degrees
@@ -163,7 +163,36 @@
             
         });  
       
+      //PLANTA
       
+        map.on('load', () => {
+            map.addSource('planta', {
+                'type': 'image',
+                'url': '../assets/maps/planta-saida.png',
+                'coordinates': [
+                    
+                    [-43.9085,-19.9289],
+                    [-43.9075,-19.9289],[-43.9075,-19.9280],
+                    [-43.9085,-19.9280]
+                    /*
+                    [-45.20, -17.8],
+                    [-44.20, -17.8],
+                    [-44.20, -19.3],
+                    [-45.20, -19.3]*/
+                  
+                ]
+                })
+                map.addLayer({
+                    id: 'radar-layer-2',
+                    'type': 'raster',
+                    'source': 'planta',
+                    'paint': {
+                    'raster-fade-duration': 0
+                }
+            });
+            
+            
+        });
    // ZOOM
       map.addControl(new mapboxgl.NavigationControl(), 'top-right'); // disable map zoom when using scroll
     //  map.scrollZoom.disable(); 
@@ -172,15 +201,15 @@
       //IMAGENS       
         
                
-    //norte
+    /*planta
       map.on('load', () => {
         // Load an image from an external URL.
         map.loadImage(
-        '../assets/maps/norte.png',
+        '../assets/maps/planta-saida.png',
             (error, image) => {
                 if (error) throw error;
                 // Add the image to the map style.
-                map.addImage('norte', image);
+                map.addImage('planta', image);
 
                 // Add a data source containing one point feature.
                 map.addSource('point5', {
@@ -192,29 +221,29 @@
                             'type': 'Feature',
                             'geometry': {
                             'type': 'Point',
-                            'coordinates': [-44.7419087, -17.598913]
+                            'coordinates': [-43.908,-19.9285]
                             }
                         }]
                     }
                 });
                 // Add a layer to use the image to represent the data.
                 map.addLayer({
-                    'id': 'norte',
+                    'id': 'planta',
                     'type': 'symbol',
                     'source': 'point5', 
                     'layout': {
                         'icon-anchor': 'left', 
                         "icon-allow-overlap": true,
-                        'icon-image': 'norte',
-                        'icon-size': ['interpolate', ['linear'], ['zoom'], 6, 0.05, 8, 0.25]
+                        'icon-image': 'planta',
+                        'icon-size': ['interpolate', ['linear'], ['zoom'], 6, 0.3, 10, 1]
                     }
                 });
             }
         );
 
     });  
-      
-                   
+      */
+                
     //brasilia
       map.on('load', () => {
         // Load an image from an external URL.
