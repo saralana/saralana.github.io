@@ -1,7 +1,7 @@
 ---
 title: 'caça vazamentos'
 who: 
-type: Convocatória IA 2022 | Programa 2 - OFÍCIO
+type: 
 menu: true
 layout: proposals-blue
 data: 2022 

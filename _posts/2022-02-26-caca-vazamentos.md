@@ -1,7 +1,7 @@
 ---
 title: 'caça vazamentos'
 who: 
-type: Convocatória IA 2022 | Programa 2 - OFÍCIO
+type: 
 menu: true
 layout: proposals
 data: 2022 
@@ -23,6 +23,7 @@ Um caçador de vazamentos busca a origem de infiltrações cujo o ponto de escap
 Os sons captados podem parecer meros ruídos, mas os caçadores de vazamentos são capazes de interpretá-los e, através deles, descobrir o caminho das águas que estão infiltradas em muros, pisos e paredes.
 
 No ano passado, na tentativa de construir [microfones de contato de baixo custo](https://saralana.xyz/hidrofone), estive em contato com vários fabricantes e usuários de microfones desse tipo. Logo conheci o geofone mecânico, uma espécie de estetoscópio gigante usada para detectar vazamentos. O aparato, que foi usado durante séculos, ainda é a ferramenta utilizada por alguns profissionais apesar da grande maioria já trabalhar com geofone digital.
+
 O dispositivo atual não é menos interessante. A roupagem dada aos geofones digitais produzidos hoje, com cores vibrantes e ilustrações, lhes dá uma aparência de brinquedos.
 Esse novo modelo também facilita a gravação dos sons e possibilita escutá-los novamente para análise posterior do rastreamento.
 
@@ -57,9 +58,10 @@ Esse novo modelo também facilita a gravação dos sons e possibilita escutá-lo
 
 <br>
 
-O projeto que vou desenvolver será construído a partir do convívio com esses caçadores: da escuta e gravação compartilhada com eles.
+O projeto está sendo desenvolvido a partir do convívio com esses caçadores: da escuta e gravação compartilhada com eles.
 
 O resultado poderá ter diversas formas como uma peça sonora ou um vídeo sonoro.
+
 Quero fazer uma colagem poética usando, não apenas os sons gravados por esses profissionais, como também fragmentos documentais  de sua prática, de seus experiências e relatos sobre sua percepção de escuta em demais momentos de seus cotidianos.
 
 <div class="row">
