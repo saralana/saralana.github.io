@@ -66,13 +66,13 @@ Algumas etapas já estão em andamento mas devem seguir em desenvolvimento duran
 <p>Com a colaboração de outros cientistas, fazer um mapeamento de possíveis interferências nas câmeras que poderiam beneficiar e atrair aranhas. Como, por exemplo, criar um perfume de feromônios para atrair insetos. Ao borrifá-lo nas câmeras, mais insetos se aproximarão e, assim, as aranhas terão um banquete garantido. Busco intervenções discretas ou invisíveis que não danifiquem as câmeras. Me interessa que sigam funcionando.</p>
 <div class="row">
     <div class="column">
-      <img src="../assets/posts/web_spray_1.jpg" style="border:0px">
+      <img src="../assets/posts/web_spray_1.png" style="border:0px">
     </div>
     <div class="column">
-      <img src="../assets/posts/web_spray_2.jpg" style="border:0px">
+      <img src="../assets/posts/web_spray_2.png" style="border:0px">
     </div>
     <div class="column">
-      <img src="../assets/posts/web_spray_3.jpg" style="border:0px">
+      <img src="../assets/posts/web_spray_3.png" style="border:0px">
     </div>
 </div>
 
