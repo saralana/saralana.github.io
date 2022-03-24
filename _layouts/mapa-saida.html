@@ -128,6 +128,36 @@
     });
     // GRID A
         map.on('load', () => {
+            map.addSource('a0', {
+                'type': 'image',
+                'url': '../assets/maps/beco/a0.png',
+                'coordinates': [
+                    
+                    [-43.961,-19.906],
+                    [-43.949,-19.906],
+                    [-43.949,-19.918],
+                    [-43.961,-19.918]
+                    /*
+                    [-45.20, -17.8],
+                    [-44.20, -17.8],
+                    [-44.20, -19.3],
+                    [-45.20, -19.3]*/
+                  
+                ]
+                })
+                map.addLayer({
+                    id: 'a0',
+                    'type': 'raster',
+                    'source': 'a0',
+                    'paint': {
+                    'raster-fade-duration': 0
+                }
+            });
+            
+            
+        });
+      
+        map.on('load', () => {
             map.addSource('a1', {
                 'type': 'image',
                 'url': '../assets/maps/beco/a1.png',
@@ -277,6 +307,36 @@
        
       
       // GRID B
+          map.on('load', () => {
+                map.addSource('b0', {
+                    'type': 'image',
+                    'url': '../assets/maps/beco/b0.png',
+                    'coordinates': [
+
+                        [-43.961,-19.918],
+                        [-43.949,-19.918],
+                        [-43.949,-19.930],
+                        [-43.961,-19.930]
+                        /*
+                        [-45.20, -17.8],
+                        [-44.20, -17.8],
+                        [-44.20, -19.3],
+                        [-45.20, -19.3]*/
+
+                    ]
+                    })
+                    map.addLayer({
+                        id: 'b0',
+                        'type': 'raster',
+                        'source': 'b0',
+                        'paint': {
+                        'raster-fade-duration': 0
+                    }
+                });
+
+
+            }); 
+      
         map.on('load', () => {
             map.addSource('b1', {
                 'type': 'image',
@@ -428,6 +488,36 @@
       
       // GRID C
         map.on('load', () => {
+            map.addSource('c0', {
+                'type': 'image',
+                'url': '../assets/maps/beco/c0.png',
+                'coordinates': [
+                    
+                    [-43.961,-19.930],
+                    [-43.949,-19.930],
+                    [-43.949,-19.942],
+                    [-43.961,-19.942]
+                    /*
+                    [-45.20, -17.8],
+                    [-44.20, -17.8],
+                    [-44.20, -19.3],
+                    [-45.20, -19.3]*/
+                  
+                ]
+                })
+                map.addLayer({
+                    id: 'c0',
+                    'type': 'raster',
+                    'source': 'c0',
+                    'paint': {
+                    'raster-fade-duration': 0
+                }
+            });
+            
+            
+        }); 
+      
+        map.on('load', () => {
             map.addSource('c1', {
                 'type': 'image',
                 'url': '../assets/maps/beco/c1.png',
@@ -577,6 +667,36 @@
       
       
       // GRID D
+        map.on('load', () => {
+            map.addSource('d0', {
+                'type': 'image',
+                'url': '../assets/maps/beco/d0.png',
+                'coordinates': [
+                    
+                    [-43.961,-19.942],
+                    [-43.949,-19.942],
+                    [-43.949,-19.954],
+                    [-43.961,-19.954]
+                    /*
+                    [-45.20, -17.8],
+                    [-44.20, -17.8],
+                    [-44.20, -19.3],
+                    [-45.20, -19.3]*/
+                  
+                ]
+                })
+                map.addLayer({
+                    id: 'd0',
+                    'type': 'raster',
+                    'source': 'd0',
+                    'paint': {
+                    'raster-fade-duration': 0
+                }
+            });
+            
+            
+        }); 
+      
         map.on('load', () => {
             map.addSource('d1', {
                 'type': 'image',
