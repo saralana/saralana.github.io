@@ -24,7 +24,7 @@ lang: pt
         <p>São incontáveis as câmeras que tiveram suas gravações inviabilizadas graças às aranhas que tramaram teias na frente desses aparatos.</p>
         <p>Em disputa pelas quinas, habitat natural de artrópodes e de câmeras, as aranhas  tornam-se espontâneos agentes de contra-vigilância.</p>
         <p>Essa coleção de imagens é um fragmento do segundo trabalho da série Espécies de Espaços, uma investigação artística iniciada em 2019, que parte da apropriação de imagens capturadas por câmeras de vigilância, para criação de instalações, vídeos e séries fotográficas.</p>
-        <p>Durante a residência cidade floresta, tenho como foco desdobrar esse projeto e pesquisar, com a colaboração de aranhas e cientistas, a ação contra-vigilante de aranhas. Quero intervir em câmeras para transformá-las em ambientes mais atrativos para aranhas e, consequentemente, impossibilitando o adequado registro de seus vídeos. Tornando, portanto, tais aparatos disfuncionais para a vigilância e garantindo a privacidade de pessoas monitoradas.</p>
+        <p>Durante a residência cidade floresta, tenho como foco desdobrar esse projeto e pesquisar, com a colaboração de aranhas e biólogos, a ação contra-vigilante de aranhas. Quero intervir em câmeras para transformá-las em ambientes mais atrativos para aranhas e, consequentemente, impossibilitando o adequado registro de seus vídeos. Tornando, portanto, tais aparatos disfuncionais para a vigilância e garantindo a privacidade de pessoas monitoradas.</p>
         </div>
     </div>
 <br><br>
@@ -34,36 +34,40 @@ lang: pt
 
 Embora essas aranhas involuntariamente ajudem os humanos com suas teias, **a interação com pessoas vigiadas não beneficia ou prejudica os artrópodes.** 
 
-Assumindo a relação entre aranhas e humanos vigiados como uma interação biológica interespecífica, é possível argumentar que a relação presente é o comensalismo: interação em que membros de uma espécie ganham benefícios enquanto os de outra espécie não se beneficiam nem são prejudicados: os humanos vigiados se beneficiam da proteção das teias, mas as aranhas não se beneficiam de tecer suas teias especificamente na frente das câmeras.
+Assumindo a relação entre aranhas e humanos vigiados como uma interação biológica interespecífica, é possível argumentar que a relação presente é o **inquilinismo/comensalismo**: interação em que membros de uma espécie ganham benefícios enquanto os de outra espécie não se beneficiam nem são prejudicados: os humanos  vigiados se beneficiam da proteção das teias, mas as aranhas 
+não se beneficiam de tecer suas teias especificamente na frente das câmeras.
 
-Proponho, portanto, **transformar essa interação para garantir que as aranhas também se beneficiem**. Criar ambientes, para que a interação biológica passe do **comensalismo** para a **protocooperação**, uma interação vantajosa para ambas as espécies.
+Proponho, portanto, transformar essa interação para garantir que as aranhas também se **beneficiem**. Criar ambientes, para que a interação biológica passe do **comensalismo/inquilinismo** para a **mutualismo/protocooperação**, uma interação vantajosa para ambas as espécies.
+<div><img src="../assets/posts/tabela_ede2.png" style="border:0px; width:60%"></div>
+Nas etapas a seguir, proponho algumas ações que visam reconfigurar essa interação biológica para que as aranhas também se beneficiem da construção de suas teias em frente às câmeras. 
 
-<br>
-
----
-
-<br>
-Nas etapas a seguir, proponho algumas ações que visam reconfigurar essa interação biológica para que as aranhas também se beneficiem da construção de suas teias em frente às câmeras.
-
-Algumas etapas já estão em andamento mas devem seguir em desenvolvimento durante a residência e mentoria das cientistas da participantes da cidade floresta.
+Algumas etapas já estão em andamento mas devem seguir em desenvolvimento durante a residência e mentoria das cientistas da participantes da **cidade floresta** .
 
 <br>
 <div class="row">
     <div class="column">
       <b>1. Constante monitoramento de câmaras online</b> 
-      <p>Gravação de teias e sua construção. Desde que iniciei esse projeto, em 2019, sempre guardei o hábito de procurar por aranhas em circuitos de videovigilância. A partir dessa residência, terei como foco a coleta de imagens de câmeras instaladas no **Rio de Janeiro**.</p>
-      <img src="../assets/posts/mosca.jpg" style="border:0px; width:80%">
+      <p>Gravação de teias e sua construção. Desde que iniciei esse projeto, em 2019, sigo  coletando videos de aranhas tecendo teias em frente a circuitos de videovigilância. A partir de agora, terei como foco a coleta de imagens de câmeras instaladas no <b>Rio de Janeiro</b>.</p>
+      <br><br><br><img src="../assets/posts/mosca.jpg" style="border:0px; width:100%">
     </div>
     <div class="column">
       <img src="../assets/posts/web_identification.jpg" style="border:0px">
       <br><br>
       <b>2. Identificação de espécies</b>
-      <p>Para as primeiras espécies identificadas, contei com a colaboração dos biólogos Pedro Martins e Alexandre Stamato Michelotto. O reconhecimento de espécies é realizado partindo do estudo comportamental, localização geográfica (número IP) e padronagem de teias. Os aracnídeos já identificados, são em grande parte das famílias Araneidae, Theridiidae e Uloboridae, que fazem teias suspensas orbiculares - representadas ao lado.</p>
+      <p>Para as primeiras espécies identificadas, contei com a colaboração dos biólogos e aracnólogos Pedro Martins e Alexandre Stamato Michelotto. O reconhecimento de espécies é realizado partindo do estudo comportamental, localização geográfica das câmeras (encontradas através do número IP usado para acessá-las) e padronagem de teias. Os aracnídeos já identificados, são em grande parte aranhas sinantrópicas, que vivem em meio urbano, pertencentes às famílias Araneidae, Theridiidae e Uloboridae, que fazem teias suspensas orbiculares - representadas ao lado.</p>
+      <p>Apesar de estar em andamento essa é uma etapa da pesquisa que deverá seguir em desenvolvimento durante a residência e, se possível, contar com a colaboração de outros biólogos familiarizados com os artrópodes dessa região.</p>
       <br>
     </div>
 </div>
 **3. Interferências** 
-<p>Com a colaboração de outros cientistas, fazer um mapeamento de possíveis interferências nas câmeras que poderiam beneficiar e atrair aranhas. Como, por exemplo, criar um perfume de feromônios para atrair insetos. Ao borrifá-lo nas câmeras, mais insetos se aproximarão e, assim, as aranhas terão um banquete garantido. Busco intervenções discretas ou invisíveis que não danifiquem as câmeras. Me interessa que sigam funcionando.</p>
+<p>Igualmente com a colaboração de biólogos e aracnólogos, durante a residência quero pesquisar possíveis interferências nas câmeras que poderiam beneficiar e atrair aranhas. </p>
+<p>A pesquisa será iniciada fazendo um levantamento de espécies mais frequentes na região e, a partir de seus hábitos e características, criar estratégias para aproximação. 
+As aranhas também poderiam ser atraídas indiretamente, ao fazer intervenções que tenham como foco atrair primeiro suas presas, criando um ambiente propício e vantajoso para que as elas se instalem. 
+Cito algumas possibilidades ou pontos de partida:
+* Criar um perfume de odores ou feromônios para atrair aranhas ou insetos que compõem a dieta dos aracnídeos.
+* Instalar luzes leds com frequências/cores atrativas; 
+* Alterar a temperatura também através do uso de luz infravermelho (fora do espectro visível para humanos);
+É importante que as câmeras sigam funcionando mesmo após as intervenções. Busco, por tanto, alterações discretas ou invisíveis que não danifiquem os aparatos.</p>
 <div class="row">
     <div class="column">
       <img src="../assets/posts/web_spray_1.png" style="border:0px">
@@ -76,24 +80,19 @@ Algumas etapas já estão em andamento mas devem seguir em desenvolvimento duran
     </div>
 </div>
 
-**4. Testes e validação das interferências.** 
+**4. Testes e validação** 
 
-Aplicação experimental para avaliação de eficácia das intervenções feitas para atrair insetos e aranhas.
-
-<br>
-**5. Aplicação e prototipagem** 
-
-Posicionamento nas ruas, das câmaras já alteradas;
+Aplicação experimental para avaliação de eficácia das interferências para atrair insetos e aranhas.
 
 <br>
-**6. Localização**
+**5. Localização**
 
 Buscar, online, mais câmeras com livre acesso no Rio de Janeiro e determinar a localização geográfica delas a partir da imagem captada (ruas, paisagens) e do cruzamento de informações de acesso (nº de IP).
 
 <br>
-**7. Intervenção em câmeras previamente instaladas na cidade e gravação** 
+**6. Intervenção em câmeras previamente instaladas na cidade e  gravação** 
 
-Intervir e registrar a chegada dos insetos e aranhas, atraídas por essas câmeras.
+Registrar a chegada dos insetos e aranhas, atraídas por essas câmeras.
 
 <br>
 
