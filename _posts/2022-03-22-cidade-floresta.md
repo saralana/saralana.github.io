@@ -12,6 +12,7 @@ swipebox: ede22
 lang: pt
 ---
 
+<a href="#notas">Abaixo notas sobre videovigilânccia, privacidade e o contorno conceitual do projeto</a>
 
 <br>
 <div class="row">
@@ -128,10 +129,13 @@ Neste [link](https://vimeo.com/showcase/6270742){:target="_blank"} apresento exe
 
 <br><br>
 
+<div id="notas"></div>
 ## NOTAS SOBRE VIDEOVIGILÂNCIA E PRIVACIDADE
 
 
 Espécies de Espaços é uma investigação artística iniciada em 2019, que parte da apropriação de imagens capturadas por câmeras de vigilância, para criação de instalações, vídeos e séries fotográficas. O 4º trabalho dessa série, é a proposta que apresento para esse edital. 
+
+O título desse trabalho é uma referência direta ao livro de Georges Perec, <b><i>Espéces d'Espaces</i></b>, em que ele, na tentativa de ler os lugares que permeiam seu cotidiano, descreve os espaços onde vive. Afinal, <b><i>"viver é passar de um espaço ao outro tentado, ao máximo, não esbarrar"</i></b>.
 
 O arquivo de imagens gerados por câmeras de vigilância, tem proporções incomensuráveis e guarda vídeos que não são feitos para a apreciação pública. No entanto, esse trabalho reconhece o potencial poético desses registros, que estão também impregnados de fortes características do nosso tempo e assim consolidam um testemunho relevante para a construção da narrativa de nossa história presente.
 
