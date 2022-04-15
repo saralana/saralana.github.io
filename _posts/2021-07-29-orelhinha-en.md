@@ -9,7 +9,7 @@ where:
     url: https://seresrios.org/
 ref: orelhinha
 permalink: en/orelhinha
-cover: /assets/favicons/orelhinha.jpg
+cover: /assets/favicons/orelha_amarela.png
 swipebox: orelhinha_Clarice
 credits: Clarice Rodrigues e Luisa Ritter
 cover: 

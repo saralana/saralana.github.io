@@ -6,6 +6,7 @@ layout: post-other
 type: gifs sonoros
 data: 2014 ~ hoje
 permalink: segundos
+cover: /assets/cover/segundos.png
 ref: 15segundos
 ---
 

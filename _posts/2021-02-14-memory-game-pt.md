@@ -6,6 +6,7 @@ menu: true
 ref: memory
 layout: proposals
 swipebox: mg
+cover: /assets/posts/memorygame1.jpg
 permalink: pt/memorygame-workshop
 lang: pt
 ---

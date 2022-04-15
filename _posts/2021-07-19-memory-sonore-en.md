@@ -7,7 +7,7 @@ menu: true
 where: 
   - name: Musée Réattu | Arles | France
     url: http://www.museereattu.arles.fr/atelier-memory-sonore.html
-cover: /assets/posts/memorysonore.png
+cover: /assets/posts/memorygame1.jpg
 data: 2021
 ref: memorysonore
 swipebox: arles

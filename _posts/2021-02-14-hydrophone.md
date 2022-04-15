@@ -4,6 +4,7 @@ who:
 type: A simple tutorial to do an hydrophone (aquatic microphone), step by step. 
 menu: true
 ref: hydro
+cover: /assets/posts/hydrophone27.jpg
 layout: proposals
 permalink: hydrophone
 lang: en

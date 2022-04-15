@@ -8,7 +8,7 @@ ref: beast
 layout: proposals-blue
 permalink: wave-farm-b
 swipebox: beast
-cover: /assets/posts/beast.png
+cover: /assets/posts/0_b_radio.JPG
 lang: pt
 ---
 

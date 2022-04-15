@@ -3,6 +3,7 @@ title: 'sonic memory game'
 who: 
 type: A sonic adaptation of the memory game, usually known with images. 
 menu: true
+cover: /assets/posts/memorygame1.jpg
 ref: memory
 layout: proposals
 swipebox: mg

@@ -6,6 +6,7 @@ lang: en
 layout: post-other
 data: 2014 ~ today
 permalink: en/segundos
+cover: /assets/cover/segundos.png
 ref: 15segundos
 ---
 

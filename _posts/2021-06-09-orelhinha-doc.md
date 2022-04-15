@@ -7,7 +7,7 @@ layout: proposals
 data: 2021 | BDMG | Seres Rios
 ref: orelhinha-doc
 permalink: en/orelhinha-doc
-cover: /assets/favicons/orelhinha.jpg
+cover: /assets/favicons/orelha_amarela.png
 swipebox: 
 lang: pt
 ---
