@@ -4,7 +4,7 @@ permalink: '/sobre/'
 menu: true
 layout: about
 lang: pt
-cover: /assets/covers/avatar.png
+cover: /assets/covers/avatar5.png
 type: Sara Lana desenvolve projetos permeados por som, arte e tecnologia.
 ref: bio
 ---

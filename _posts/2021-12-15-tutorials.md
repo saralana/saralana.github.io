@@ -5,6 +5,7 @@ menu: true
 layout: post-about
 lang: en
 where: 
+cover: /assets/covers/soundmap.png
 ref: tutorials
 ---
 

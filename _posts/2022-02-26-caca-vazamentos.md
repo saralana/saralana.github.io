@@ -7,7 +7,7 @@ layout: proposals
 data: 2022 
 ref: vazamentos
 permalink: caca-vazamentos
-cover: 
+cover: /assets/posts/geophone.png
 swipebox: vazamento_
 lang: pt
 ---

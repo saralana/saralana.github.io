@@ -7,7 +7,7 @@ layout: proposals
 data: 2022 | AI
 ref: aicall
 permalink: invisibility-tracer
-cover: /assets/posts/pontos-cegos.jpg
+cover: /assets/posts/mapa-pontos-cegos.png
 swipebox: 
 lang: en
 ---

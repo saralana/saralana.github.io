@@ -25,7 +25,7 @@ pv:
 nx: matilha
 swipebox: pontos-cegos
 credits: Pedro Andrada, Ariana Miliorini, Félix Blume
-cover: /assets/posts/a-pontoscegos-9.jpg
+cover: assets/posts/a-pontoscegos-9.jpg
 thanks: Clarisse Valadares, Luiza Brina, Maria Vitória, Pedro Godoy, Bizafra, Thiago Hersan
 lang: en
 ---

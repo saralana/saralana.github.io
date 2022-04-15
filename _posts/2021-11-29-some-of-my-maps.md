@@ -10,7 +10,7 @@ ref: somemaps
 permalink: maps
 cover: /assets/favicons/orelhinha.jpg
 swipebox: 
-cover: 
+cover: /assets/posts/mapa-pontos-cegos.png
 thanks:
 lang: pt
 ---

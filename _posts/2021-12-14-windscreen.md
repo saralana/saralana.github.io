@@ -5,6 +5,7 @@ type: A simple tutorial to do a windscreen for your microphone (⌀ 20mm), step 
 menu: true
 ref: windscreen
 permalink: windscreen
+cover: /assets/posts/windscreen1.jpg
 swipebox: oball
 credits: "oBall by Jérôme Bailly ||| Oball + synthetic fur in the field by Félix Blume (2 Schoeps CCM4 on a Cinela ORTF suspension) ||| oBall + ORTF Superlux by Sara Lana ||| o-ball + Windscreens by Mélia Rogier"
 thanks: Many thanks to Marie-Christine Cabanas and Elisa Lana for the sewing part!
