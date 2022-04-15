@@ -7,7 +7,7 @@ layout: proposals-blue
 data: 2021 | Akademie Schloss Solitude 
 ref: solidarity
 permalink: web-residency-b
-cover: /assets/posts/3ede2.jpg
+cover: /assets/posts/3ede22.jpg
 swipebox: ede22
 lang: pt
 ---

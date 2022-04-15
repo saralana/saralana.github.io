@@ -7,7 +7,7 @@ layout: proposals-blue
 data: 2021 | Science Gallery | Detroit
 ref: tandt
 permalink: tracked-&-traced-b
-cover: /assets/posts/3ede2.jpg
+cover: /assets/posts/3ede22.jpg
 swipebox: ede22
 lang: pt
 ---

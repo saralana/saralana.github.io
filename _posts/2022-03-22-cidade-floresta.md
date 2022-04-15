@@ -7,7 +7,7 @@ layout: proposals
 data: 2022
 ref: cidadefloresta
 permalink: /cidade-floresta
-cover: /assets/posts/3ede2.jpg
+cover: /assets/posts/3ede22.jpg
 swipebox: ede22
 lang: pt
 ---
