@@ -6,6 +6,7 @@ menu: true
 ref: diysoundmap
 permalink: pt/sound-map
 swipebox: 
+cover: /assets/covers/soundmap.png
 credits: 
 thanks:
 lang: pt
