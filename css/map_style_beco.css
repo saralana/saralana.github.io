@@ -3,24 +3,15 @@ body {
       margin: 0;
       padding: 0;
       height: 100%;
-      cursor: url(../assets/maps/pata.svg) 8 8, auto !important;
-    }
-
-.marker {
-    background-image: url('../assets/maps/vaca_cara.png');
-    background-size: cover;
-    width: 58px;
-    height: 58px;
-    border-radius: 50%;
-    cursor: pointer;
 }
 
-.marker2 {
-    background-image: url('../assets/maps/vaca.png');
-    background-size: contain;
-    width: 40px;
-    height: 40px;
-    cursor: pointer;
+.mapboxgl-ctrl-group button {
+    background-color: red;
+    cursor: url(http://seresrios.org/2021/wp-content/themes/bdmgseresrios/dist/img/cursor-sm.png), auto !important 
+}
+
+.mapboxgl-canvas-container { 
+    cursor: url(http://seresrios.org/2021/wp-content/themes/bdmgseresrios/dist/img/cursor-sm.png), auto !important 
 }
 
 hr {
@@ -216,9 +207,11 @@ strong::selection{
 
     .mapboxgl-popup {
       padding-bottom: 15px;
+      background-color: transparent;
       top: -65px !important;
       max-width: 300px !important;
-      margin-left: 50px !important
+      margin-left: 50px !important;
+      cursor: url('../assets/cursors/speaker.png'), auto !important ;
     }
 
     .mapboxgl-popup-close-button {
@@ -229,20 +222,20 @@ strong::selection{
       font: 400 15px/22px 'Source Sans Pro', 'Helvetica Neue', Sans-serif;
       padding: 10px !important;
       width: auto;
-      background: white !important;
+      background: transparent !important;
       top: -2px;
       margin-bottom: 5px;
       box-shadow: none !important;
     }
 
     .mapboxgl-popup-content-wrapper {
-      padding: 1%;
+      padding: 0%;
     }
 
     .mapboxgl-popup-content h3 {
       background: rgb(61, 59, 59);
       text-align: center;
-      color: #fff;
+      color: transparent;
       margin: 0;
       display: block;
       padding: 15px;
@@ -258,7 +251,7 @@ strong::selection{
     }
 
     .mapboxgl-container {
-      cursor: pointer;
+      cursor: url('../assets/cursors/speaker.png'), auto !important 
     }
 
     .mapboxgl-popup-anchor-top>.mapboxgl-popup-content {
@@ -343,11 +336,11 @@ a.mapboxgl-ctrl-logo{
 
 
 audio::-webkit-media-controls-panel, video::-webkit-media-controls-panel {
-    background-color: white;
+    background-color: transparent;
 }
 
 audio{
-    background-color: white;
+    background-color:transparent;
     opacity: 1;
     width: 100% !important;
     height: 30px !important;
@@ -358,7 +351,5 @@ audio{
 }
 
 
-.mapboxgl-canvas-container { 
-    cursor: url(../assets/maps/pata.svg), auto !important 
-}
+
 

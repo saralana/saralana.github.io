@@ -1145,8 +1145,7 @@
 
         map.on('mouseenter', 'places', (e) => {
             // Change the cursor style as a UI indicator.
-            map.getCanvas().style.cursor = 'pointer';
-
+            map.getCanvas().style.cursor = 'crosshair';
             // Copy coordinates array.
             const coordinates = e.features[0].geometry.coordinates.slice();
             const description = e.features[0].properties.description;
