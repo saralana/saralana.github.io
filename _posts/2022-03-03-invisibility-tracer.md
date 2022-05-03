@@ -40,7 +40,9 @@ Click on the top left icon to insert A and B points.
 * **Transforming camera markers in 5cm diameter polygons**
 <br><br>
 <div class="video-wrapper video-wrapper-16x9">
-   <iframe style="background-color:transparent" src="http://pontoscegosjs.dlawe.com/"></iframe>
+   <iframe style="background-color:transparent" src="http://pontoscegosjs.dlawe.com/new/index.html?profile=foot-walking&longA=-46.63283097049561&latA=-23.549274336622684&longB=-46.64096949118043&latB=-23.544691004890126"></iframe>
   </div>
 <br><br>
+
+[click here and test your onw routes](http://pontoscegosjs.dlawe.com/new/index.html?profile=foot-walking&longA=-46.63283097049561&latA=-23.549274336622684&longB=-46.64096949118043&latB=-23.544691004890126){:target="_blank"}
 
