@@ -1,5 +1,5 @@
 ---
-title: 'antonimous machine'
+title: 'antonyms machine'
 who: 
 type: sound installation
 menu: true
