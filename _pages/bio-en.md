@@ -15,12 +15,11 @@ ref: bio
 
 <br>
 
-Sara Lana is a 33 year-old Brazilian artist and developer. She was born in Belo Horizonte (Brazil), studied Mathematics and Electric Engineering in the Federal University of Minas Gerais. Her projects lie in the convergence of art and technology. She often uses varied supports, especially sound, electronics and video, having illustration and cartography as important elements throughout her process of creation.
-
-Sara was artist-in-residence in several spaces dedicated to art, science and technology, such as Bolsa Pampulha 2019 and presented her works in exhibitions in Brazil, Chile, Mexico, Spain and France.
-
-
-Her projects act as questioning and reaction tools to the alienation of a society imprisoned by the monopoly of technological knowledge. She also works in collaboration with non-human species and relies on the intermediation of digital devices to garantee more balanced relationships.
+Sara Lana is a Brazilian artist and developer (1988, Belo Horizonte – Brazil). She studied Mathematics and Electric Engineering at Federal University of Minas Gerais from 2007 to 2015 where she collaborated with CEGeME - Center for Research on Musical Gesture & Expression. Her projects lie in the convergence of art and technology. She often uses multiple supports, especially sound, electronics and video, having illustration and cartography as important elements throughout her creative process.
+  
+Sara was awarded the Akademie Solitude 2024 fellowship and the Bolsa Pampulha fellowship (Pampulha Art Museum, Brazil), when she developed and exhibited her project 'Species of Spaces'. She was also an artist-in-residence in several spaces dedicated to art, sound and technology in Br, Chile, Mx, Romania and Switzerland. Her project 'Blind Spots' was hosted by RedBullStation (2017, Brazil), MediaLabMX (2018, México), CCD – Center of Digital Culture (2019, México), among others. Her sound installation 'Antonyms Machine' was exhibited at Oi Futuro (2019, Rio de Janeiro) and Sesc (2018–2022, Minas Gerais and São Paulo states). 
+  
+Her sound pieces were broadcasted in radios all over the world, such as Orelhinha (2021, Br), presented at 'Seres Rios Festival'  – BDMG (2021, Brazil) and 'Mutt Dogs' (2017, Brazil) presented in avant-première at Centre Pompidou (2018, France) and nominated to Phonurgia Nova Awards (2018, France).
 
 
 <div class="selection">
@@ -32,8 +31,8 @@ She also promotes <a href="../en/workshops" target="_blank">&nbsp;workshops&nbsp
 ---
 
 <br>
-<div class="selection">
-Sara is member of <a href="https://silo.org.br/" target="_blank">&nbsp;Silo – Art and Rural Latitude&nbsp;</a>, a non profit organization dedicated to create and promote Art, Science and Technology in rural, peripheral and environmental protection areas, stimulating exchange between intuitive techniques and scientific knowledge.
+<div class="selection">   
+Sara is also a member and former executive director (from 2019 to 2021) of <a href="https://silo.org.br/" target="_blank">&nbsp;Silo – Art and Rural Latitude&nbsp;</a>, a non profit organization dedicated to create and promote Art, Science, Agroecology and Technology in rural, peripheral and environmental protection areas in Brazil.
 </div>
 
 <br>
