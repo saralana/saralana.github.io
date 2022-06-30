@@ -6,7 +6,11 @@ menu: true
 data: 2021 | BDMG | Seres Rios
 where: 
   - name: Festival Seres Rios
-    url: https://seresrios.org/
+    url: https://seresrios.org/obras-comissionadas/sara-lana/
+  - name: Casa Híbrido
+    url: https://casahibrido.com.br/
+  - name: Tomada Urbana
+    url: 
 ref: orelhinha
 permalink: orelhinha
 cover: /assets/favicons/orelha_amarela.png
@@ -16,17 +20,12 @@ thanks: Gabriela Moulin, Francisa Caporalli, Samanta Moreira, Mateus Mesquita, F
 lang: pt
 ---
 
-ESCUTE A PEÇA NO [FESTIVAL SERES RIOS](https://seresrios.org/obras-comissionadas/sara-lana/){:target="_blank"} 
-
-
 <br>
 <div class="audio-wrapper">
    <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1297542487&color=%232057b5&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
 </div>
 <br>
-
-
-<br><br><br>
+<br>
 Orelhinha é uma peça sonora criada a partir de chamadas realizadas para orelhões à beira dos rios São Francisco e Jequitinhonha.
 
 Uma série de chamadas para destinatários até então desconhecidos ou até mesmo inexistentes. Linhas cruzadas na tentativa de escutar um pouco a vida que se passa ao redor e os contrastantes cenários que contornam um mesmo rio.
@@ -51,6 +50,10 @@ Os telefones foram encontrados viajando pela margem desses rios utilizando mapas
 **Tratamento tilesets:** Tiago Esteves
 
 <br><br>
+
+
+ESCUTE A PEÇA NO [FESTIVAL SERES RIOS](https://seresrios.org/obras-comissionadas/sara-lana/){:target="_blank"} 
+
 
 ---
 

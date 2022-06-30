@@ -6,22 +6,27 @@ menu: true
 data: 2021 | BDMG | Seres Rios
 where: 
   - name: Festival Seres Rios
-    url: https://seresrios.org/
+    url: https://seresrios.org/obras-comissionadas/sara-lana/
+  - name: Casa Híbrido
+    url: https://casahibrido.com.br/
+  - name: Tomada Urbana
+    url: 
 ref: orelhinha
 permalink: en/orelhinha
 cover: /assets/favicons/orelha_amarela.png
-swipebox: orelhinha_Clarice
+swipebox: orelhinha_
 credits: Clarice Rodrigues e Luisa Ritter
 cover: 
 thanks: Gabriela Moulin, Francisa Caporalli, Samanta Moreira, Mateus Mesquita, Félix Blume, Clarice G. Lacerda, Bernardo Esteves, Elisa Lana, Fellipe Miranda, Clarice Rodrigues, Tiago Esteves, Luísa Ritter, Mônica Meyer, Valquíria Rabelo, Thula Kawasaki, Rafael Amato e Júlia Medeiros.
 lang: en
 ---
 
-LISTEN TO THE SOUND PIECE ON [FESTIVAL SERES RIOS](https://seresrios.org/obras-comissionadas/sara-lana/){:target="_blank"}
 
-<div style="padding:15.63% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/652215937?h=c0effcad34&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="player orelhinha"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
-
-<br><br><br>
+<div class="audio-wrapper">
+   <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1297542487&color=%232057b5&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+</div>
+<br>
+<br>
 
 Orelhinha is a sound piece created from calls made to public telephones on the banks of the São Francisco and Jequitinhonha rivers.
 
@@ -46,6 +51,11 @@ The phones were found traveling along the banks of these rivers using maps with 
 
 **Tilesets:** Tiago Esteves
 
+<br>
+
+LISTEN TO THE SOUND PIECE ON [FESTIVAL SERES RIOS](https://seresrios.org/obras-comissionadas/sara-lana/){:target="_blank"}
+
+<br>
   
 ---
 
