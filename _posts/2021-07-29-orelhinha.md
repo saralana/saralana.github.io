@@ -18,7 +18,7 @@ lang: pt
 
 ESCUTE A PEÇA NO [FESTIVAL SERES RIOS](https://seresrios.org/obras-comissionadas/sara-lana/){:target="_blank"} 
 
-<div style="padding:15.63% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/652215937?h=c0effcad34&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="player orelhinha"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+<iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1297542487&color=%232057b5&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/sara_lana" title="Sara Lana" target="_blank" style="color: #cccccc; text-decoration: none;">Sara Lana</a> · <a href="https://soundcloud.com/sara_lana/orelhinha" title="Orelhinha" target="_blank" style="color: #cccccc; text-decoration: none;">Orelhinha</a></div>
 
 <br><br><br>
 Orelhinha é uma peça sonora criada a partir de chamadas realizadas para orelhões à beira dos rios São Francisco e Jequitinhonha.
