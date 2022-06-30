@@ -21,8 +21,6 @@ LISTEN TO THE SOUND PIECE ON [FESTIVAL SERES RIOS](https://seresrios.org/obras-c
 
 <div style="padding:15.63% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/652215937?h=c0effcad34&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="player orelhinha"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
 
-Audio player designed by Valquíria Rabelo
-
 <br><br><br>
 
 Orelhinha is a sound piece created from calls made to public telephones on the banks of the São Francisco and Jequitinhonha rivers.
@@ -41,6 +39,8 @@ The phones were found traveling along the banks of these rivers using maps with 
 **With:** Vitor, Sueli, Manuel, João, Elias, Ricardo, Valdir, Adenides, Adel, Uelma, Marcos, Gabriel, Neurisvânia, João, Enrico, Débora, Gianetti, Fernando, Juarez, Luciana, Karine, Zé Nilson, João Victor e todos outros que atenderam os orelhões nas escolas rurais e hospitais municipais.
 
 **Curatorship:** Bernardo Esteves, Júnia Torres, Marcela Bertelli e Wellinhton Cançado
+
+**Audio player** designed by Valquíria Rabelo
 
 **With support of:** [JA.CA](https://www.jaca.center/){:target="_blank"} – Francisa Caporalli, Samanta Moreira, Mateus Mesquita
 
