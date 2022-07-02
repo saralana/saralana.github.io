@@ -21,21 +21,23 @@ thanks: Gabriela Moulin, Francisa Caporalli, Samanta Moreira, Mateus Mesquita, F
 lang: en
 ---
 
-
-<div class="audio-wrapper">
-   <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1297542487&color=%232057b5&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+<div class="row">
+  <div class="column">
+        <p>Orelhinha is a sound piece created from calls made to public telephones on the banks of the São Francisco and Jequitinhonha rivers.</p>
+        <p>A series of calls to recipients hitherto unknown or even non-existent. Crossed lines in an attempt to hear the life that goes on around the rivers.</p>
+        <p>While they are at risk of extinction in much of the state, public telephones are still the only means of communication in riverside villages that do not have mobile phone coverage.</p>
+        <p>The phones were found traveling along the banks of these rivers using maps with panoramic views of public spaces and with satellite images. The number of each phone was retrieved by crossing its coordinates identified on the route with information collected in the database of the Brazilian National Telecommunications Agency.</p>
+  </div>
+  <div class="column">
+        Listen here with english subtitles:
+    <div class="video-wrapper">  
+    <iframe src="https://player.vimeo.com/video/726294549?h=1c37c5de64&title=0&byline=0&portrait=0" width="100%" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+    </div>
+  </div>
 </div>
 <br>
+Click [here](https://vimeo.com/616260458/07769fb787){:target="_blank"} for listen with french subtitles
 <br>
-
-Orelhinha is a sound piece created from calls made to public telephones on the banks of the São Francisco and Jequitinhonha rivers.
-
-A series of calls to recipients hitherto unknown or even non-existent. Crossed lines in an attempt to hear the life that goes on around the rivers.
-
-While they are at risk of extinction in much of the state, public telephones are still the only means of communication in riverside villages that do not have mobile phone coverage.
-
-The phones were found traveling along the banks of these rivers using maps with panoramic views of public spaces and with satellite images. The number of each phone was retrieved by crossing its coordinates identified on the route with information collected in the database of the Brazilian National Telecommunications Agency.
-<br><br>
 
 ---
 
@@ -50,6 +52,10 @@ The phones were found traveling along the banks of these rivers using maps with 
 **With support of:** [JA.CA](https://www.jaca.center/){:target="_blank"} – Francisa Caporalli, Samanta Moreira, Mateus Mesquita
 
 **Tilesets:** Tiago Esteves
+
+**English subtitles:** Julia Branco
+
+**French subtitles:** Félix Blume
 
 <br>
 
