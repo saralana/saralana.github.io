@@ -13,7 +13,7 @@ ref: links
 <br>
 
 ouça  <br>
-[Orelhinha](https://seresrios.org/obras-comissionadas/sara-lana/){:target="_blank"}
+[Orelhinha](../orelhinha){:target="_blank"}
 
 ---
 
