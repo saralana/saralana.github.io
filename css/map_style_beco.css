@@ -459,10 +459,19 @@ a.mapboxgl-ctrl-logo{
   display: none !important;
 }
 
-.mapboxgl-ctrl-bottom-right{
-    bottom: 50px !important;
-    right: 50px !important;
+@media only screen and (min-width: 700px) {
+    .mapboxgl-ctrl-bottom-right{
+        bottom: 50px !important;
+        right: 50px !important;
+    }   
 }
+
+@media only screen and (max-width: 700px) {
+    .mapboxgl-ctrl-bottom-right{
+        display: none;
+    }
+}
+
 .mapboxgl-ctrl-top-right{
     display: none;
 }
