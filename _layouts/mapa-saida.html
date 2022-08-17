@@ -12,7 +12,9 @@
   <script src="{{ site.baseurl }}/js/essential_audio.js"></script>
   <!-- Google fonts-->
   <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans" />
-
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow:wght@600;700;800;900&display=swap" rel="stylesheet"> 
   <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no"/>
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -24,10 +26,23 @@
   <link rel="stylesheet" href="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v4.0.0/mapbox-gl-geocoder.css" type="text/css" />
   
 </head>
-    
+      
+
+  <div id="m-left"></div>
+  <div id="m-right"></div>
+  <div id="m-top"></div>
+  <div id="m-bottom"></div>
+  <div id="m2-left"></div>
+  <div id="m2-right"></div>
+  <div id="m2-top"></div>
+  <div id="m2-bottom"></div> 
+  <div id="m3-left"></div>
+  <div id="m3-right"></div>
+  <div id="m3-top"></div>
+  <div id="m3-bottom"></div>  
+  <div class="title">NA PALMA DE 34 MÃOS</div> 
 <body>
-    
-    
+
 <div id="map"></div>
   
   <script>
@@ -51,7 +66,8 @@
     const bounds = [[-43.973,-19.954],[-43.877,-19.906]];
     var map = new mapboxgl.Map({
       container: 'map', // container id
-      style: 'mapbox://styles/saralgc/cl0rkrs9g001614pabv4cjm3t',
+     style: 'mapbox://styles/saralgc/cl6wy8rba001k14s5owktz6ps',
+//style: 'mapbox://styles/saralgc/cl0rkrs9g001614pabv4cjm3t',
  //'mapbox://styles/saralgc/cks5cot1g19zk17muudrwh23c',
       center: [-43.9174626,-19.9248554], // starting position
       zoom: 17,// starting zoom
@@ -64,17 +80,7 @@
     });
     
     $(document).ready(function () {
-      $.ajax({
-        type: "GET",
-        //YOUR TURN: Replace with csv export link
-        //https://www.mapbox.com/impact-tools/sheet-mapper
-        url:'../assets/maps/boiada.csv',
-        dataType: "text",
-        success: function (csvData) { makeGeoJSON(csvData); }
-      });
-
-
-
+      
       function makeGeoJSON(csvData) {
         csv2geojson.csv2geojson(csvData, {
           latfield: 'Latitude',
@@ -895,135 +901,8 @@
 
     });  
       */
-                
-    //brasilia
-      map.on('load', () => {
-        // Load an image from an external URL.
-        map.loadImage(
-        '../assets/maps/brasilia.png',
-            (error, image) => {
-                if (error) throw error;
-                // Add the image to the map style.
-                map.addImage('brasilia', image);
+                 
 
-                // Add a data source containing one point feature.
-                map.addSource('point6', {
-                    'type': 'geojson',
-                    'data': {
-                        'type': 'FeatureCollection',
-                        'features': [
-                        {
-                            'type': 'Feature',
-                            'geometry': {
-                            'type': 'Point',
-                            'coordinates': [-47.5458977, -15.936873]
-                            }
-                        }]
-                    }
-                });
-                // Add a layer to use the image to represent the data.
-                map.addLayer({
-                    'id': 'brasilia',
-                    'type': 'symbol',
-                    'source': 'point6', 
-                    'layout': {
-                        'icon-anchor': 'top', 
-                        "icon-allow-overlap": true,
-                        'icon-image': 'brasilia',
-                        'icon-size': ['interpolate', ['linear'], ['zoom'], 6, 0.3, 10, 1]
-                    }
-                });
-            }
-        );
-
-    });  
-      
-                       
-    //goiania
-      map.on('load', () => {
-        // Load an image from an external URL.
-        map.loadImage(
-        '../assets/maps/goiania.png',
-            (error, image) => {
-                if (error) throw error;
-                // Add the image to the map style.
-                map.addImage('goiania', image);
-
-                // Add a data source containing one point feature.
-                map.addSource('point7', {
-                    'type': 'geojson',
-                    'data': {
-                        'type': 'FeatureCollection',
-                        'features': [
-                        {
-                            'type': 'Feature',
-                            'geometry': {
-                            'type': 'Point',
-                            'coordinates': [-49.1788547, -16.576334]
-                            }
-                        }]
-                    }
-                });
-                // Add a layer to use the image to represent the data.
-                map.addLayer({
-                    'id': 'goiania',
-                    'type': 'symbol',
-                    'source': 'point7', 
-                    'layout': {
-                        'icon-anchor': 'bottom', 
-                        "icon-allow-overlap": true,
-                        'icon-image': 'goiania',
-                        'icon-size': ['interpolate', ['linear'], ['zoom'], 6, 0.3, 10, 1]
-                    }
-                });
-            }
-        );
-
-    });               
-  
-          
-                              
-    //sao_francisco
-      map.on('load', () => {
-        // Load an image from an external URL.
-        map.loadImage(
-        '../assets/maps/sao_francisco.png',
-            (error, image) => {
-                if (error) throw error;
-                // Add the image to the map style.
-                map.addImage('sao_francisco', image);
-
-                // Add a data source containing one point feature.
-                map.addSource('point14', {
-                    'type': 'geojson',
-                    'data': {
-                        'type': 'FeatureCollection',
-                        'features': [
-                        {
-                            'type': 'Feature',
-                            'geometry': {
-                            'type': 'Point',
-                            'coordinates': [-45.239, -18.180]
-                            }
-                        }]
-                    }
-                });
-                // Add a layer to use the image to represent the data.
-                map.addLayer({
-                    'id': 'sao_francisco',
-                    'type': 'symbol',
-                    'source': 'point14', 
-                    'layout': {
-                        'icon-anchor': 'bottom-right', 
-                        "icon-allow-overlap": true,
-                        'icon-image': 'sao_francisco',
-                        'icon-size': ['interpolate', ['linear'], ['zoom'], 7, 0.01, 11, 0.3]
-                    }
-                });
-            }
-        );
-
-    }); 
       //map.scrollZoom.disable(); 
       
       map.on('click', (e) => {console.log(e);}); 

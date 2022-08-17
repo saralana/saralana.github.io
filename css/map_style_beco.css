@@ -1,8 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600;700;800;900&display=swap');
 
 body {
       margin: 0;
       padding: 0;
-      height: 100%;
+      background-color: antiquewhite;
+}
+
+#m-top, #m-bottom, #m-left, #m-right {
+  z-index:1000;
+	background: #F5F1E8;
+	position: fixed;
+	}
+	#m-left, #m-right {
+		top: 0; bottom: 0;
+		width: 30px;
+		}
+		#m-left { left: 0; }
+		#m-right { right: 0; }
+		
+	#m-top, #m-bottom {
+		left: 0; right: 0;
+		}
+		#m-top { top: 0; 
+		height: 30px;}
+		#m-bottom { bottom: 0; 
+		height: 100px;}
+
+#m2-top, #m2-bottom, #m2-left, #m2-right {
+  z-index:1000;
+	background: red;
+	position: fixed;
+	}
+	#m2-left, #m2-right {
+		top: 30px; bottom: 100px;
+		width: 10px;
+		}
+		#m2-left { left: 30px; }
+		#m2-right { right: 30px; }
+		
+	#m2-top, #m2-bottom {
+		left: 30px; right: 30px;
+		height: 10px;
+		}
+		#m2-top { top: 30px; }
+		#m2-bottom { bottom: 100px; }
+
+
+#m3-top, #m3-bottom, #m3-left, #m3-right {
+    z-index:2000;
+	background: red;
+	position: fixed;
+	}
+	#m3-left, #m3-right {
+		top: 20px; bottom: 90px;
+		width: 2px;
+		}
+		#m3-left { left: 20px; }
+		#m3-right { right: 20px; }
+		
+	#m3-top, #m3-bottom {
+		left: 20px; right: 20px;
+		height: 2px;
+		}
+		#m3-top { top: 20px; }
+		#m3-bottom { bottom: 90px; }
+
+.title{
+    font-family: 'Barlow';
+    font-weight: 900;
+    color: red;
+    font-size: 40px;
+    width:100vw;
+    text-align: center;
+    z-index: 3000;
+    position: fixed;
+    bottom:20px;
 }
 
 .mapboxgl-ctrl-group button {
@@ -17,6 +89,15 @@ body {
 hr {
   border-top: 1px dashed black !important;
   border-bottom: 0px;
+}
+
+.margem img{
+    width:100vw;
+    height:100vh;
+    z-index:100;
+    position:absolute;
+    top:0;
+    left:0;
 }
 
 .sidebar {
