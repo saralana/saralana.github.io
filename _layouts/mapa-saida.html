@@ -40,9 +40,18 @@
   <div id="m3-right"></div>
   <div id="m3-top"></div>
   <div id="m3-bottom"></div>  
-  <div class="title">NA PALMA DE 34 MÃOS</div> 
 <body>
+    
+<div id="mySidebar" class="sidebar">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+    <div class="sidebar-content">
+        {{ content }}
+    </div>
+</div>
 
+
+<img src="../assets/maps/logo-palma2.png" class="openbtn" onclick="openNav()"> 
+    
 <div id="map"></div>
   
   <script>
@@ -852,7 +861,7 @@
         });
 
    // ZOOM
-      map.addControl(new mapboxgl.NavigationControl(), 'top-right'); // disable map zoom when using scroll
+      map.addControl(new mapboxgl.NavigationControl(), 'bottom-right'); // disable map zoom when using scroll
     //  map.scrollZoom.disable(); 
     
       
@@ -906,6 +915,7 @@
       //map.scrollZoom.disable(); 
       
       map.on('click', (e) => {console.log(e);}); 
+      
       map.on('load', () => {
         map.addSource('places', {
             'type': 'geojson',
@@ -1004,6 +1014,7 @@
             }
         });
         // Add a layer showing the places.
+        
         map.addLayer({
             'id': 'places',
             'type': 'circle',
@@ -1048,7 +1059,17 @@
     });
    </script>
 
+<script>
+function openNav() {
+  document.getElementById("mySidebar").style.width = "350px";
+}
 
+function closeNav() {
+  document.getElementById("mySidebar").style.width = "0";
+}
+
+</script>
+    
           
 </body>
 
