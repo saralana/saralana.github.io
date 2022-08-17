@@ -1,6 +1,6 @@
 ---
 title: BECO COM SAÍDA
-permalink: saida-do-beco
+permalink: na-palma-de-34-maos
 layout: mapa-saida
 ref: beco-saida
 lang: pt
