@@ -45,6 +45,15 @@
 <div id="mySidebar" class="sidebar">
   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
     <div class="sidebar-content">
+    <br>
+        <img src="../assets/maps/titulo-palma.png">
+        <br>
+        <button type="button" class="collapsible">+</button>
+        <div class="content2">
+        <p>Partindo do beco do Espai, localizado no bairro Santa Efigênia, em Belo Horizonte, pedi a transeuntes,  vendedores e amigos com quem me encontrava, mapas rascunhados à mão para me orientar sobre rotas de saída dos lugares  onde estávamos, sem entretanto dizer para onde eu gostaria de ir. O final de cada mapa desenhado era o ponto de partida para um novo caminho.  
+        Os mapas desenhados à mão são vetorizados, reescalonados e projetados sobre o mapa geográfico de Belo Horizonte, fazendo uma  colagem e criando uma nova cartografia da cidade.
+</p>
+        </div>
         {{ content }}
     </div>
 </div>
@@ -1070,7 +1079,23 @@ function closeNav() {
 }
 
 </script>
-    
+ 
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+</script> 
           
 </body>
 
