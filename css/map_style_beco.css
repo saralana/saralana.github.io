@@ -1,5 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600;700;800;900&display=swap');
 
+
+@import url('../assets/maps/Ayuthaya.ttf');
+
+@font-face {
+    font-family: "Ayuthaya";
+    src: url("../assets/maps/Ayuthaya.ttf");
+}
+
 body {
       margin: 0;
       padding: 0;
@@ -194,7 +202,7 @@ hr {
   transition: 0.5s;
   font-size: 17px;
   color: black;
-  font-family: 'Source Code Pro', 'Courier New', 'Lucida Sans Typewriter', monospace;
+  font-family: 'Ayuthaya', 'Source Code Pro', 'Courier New', 'Lucida Sans Typewriter', monospace;
   text-align: center;
   border-right-style: solid;
   border-right-width: 2px;
@@ -306,7 +314,23 @@ hr {
   font-size: 30px;
 }
 
-.active, .collapsible:hover {
+
+.collapsible-icon {  
+  background-color: transparent;
+  color: red;
+  text-transform: uppercase;
+  cursor: pointer;
+  padding: 0px;
+  margin-left: 20px;
+  width: 100%;
+  border: none;
+  font-weight:100;
+  text-align: center;
+  outline: none;
+  font-size: 30px;
+}
+
+.active, .collapsible-icon:hover {
   background-color: transparent;
   font-weight:600;
 }
@@ -320,6 +344,7 @@ hr {
 
 .content2 p{
   color: red;
+  font-family: 'Ayuthaya';
 }
 
 /*
@@ -341,8 +366,8 @@ hr {
 p {
     font-size: 13px;
     color: black;
-    font-family: 'Source Code Pro', 'Courier New', 'Lucida Sans Typewriter', monospace;
-    line-height: 20px;
+    font-family: 'Ayuthaya', 'Source Code Pro', 'Courier New', 'Lucida Sans Typewriter', monospace;
+    line-height: 22px;
     text-align: left;
     /*position: absolute;*/
     left: 30px;
@@ -350,9 +375,9 @@ p {
 }
 
 a {
-    font-size: 13px;
+    font-size: 11px;
     color: red;
-    font-family: 'Source Code Pro', 'Courier New', 'Lucida Sans Typewriter', monospace;
+    font-family: 'Ayuthaya', 'Source Code Pro', 'Courier New', 'Lucida Sans Typewriter', monospace;
     line-height: 20px;
     text-align: left;
     /*position: absolute;*/
@@ -371,7 +396,7 @@ p::selection{
     display: none;
     font-size: 15px !important;
     color: #f6f2e9;
-    font-family: 'Source Code Pro', 'Courier New', 'Lucida Sans Typewriter', monospace;
+    font-family: 'Ayuthaya', 'Source Code Pro', 'Courier New', 'Lucida Sans Typewriter', monospace;
     line-height: 20px;
     text-align: left;     
     /*position: absolute;*/
@@ -395,14 +420,24 @@ p::selection{
 
 
 .sidebar-content img{
-    width:90%;
-    margin-left:10%;    
+    width:90%;   
 }
 
 
+.sidebar-content .icone img{
+    width:10% !important;
+    margin-left:10%;    
+    display:inline;
+}
+.sidebar-content .text{
+    color: red; 
+    display:inline;
+    font-size: 15px;
+}
+
 .sidebar-content .small img{
     width:40% !important;
-    margin-left:30% !important;    
+    margin-left:30% !important;  
 }
 
 a::selection{
@@ -641,6 +676,15 @@ audio{
    color: black;
 }
 
+
+.hide {
+  display: none;
+}
+    
+.myDIV:hover + .hide {
+  display: block;
+  color: red;
+}
 
 
 

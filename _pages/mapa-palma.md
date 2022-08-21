@@ -7,6 +7,4 @@ lang: pt
 ---
 
 
-     
-<img src="../assets/maps/legenda2-palma.png">
-<br><br><br>
+

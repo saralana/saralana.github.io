@@ -46,7 +46,7 @@
   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
     <div class="sidebar-content">
     <br><br>
-        <img src="../assets/maps/titulo-palma.png">
+        <img src="../assets/maps/titulo-palma.png" style="margin-left: 10%;">
         <br>
         <button type="button" class="collapsible">+</button>
         <div class="content2">
@@ -54,7 +54,13 @@
         Os mapas desenhados à mão são vetorizados, reescalonados e projetados sobre o mapa geográfico de Belo Horizonte, fazendo uma  colagem e criando uma nova cartografia da cidade.
 </p>
         </div>
-        {{ content }}
+        <br>
+        {% for i in (1..36) %}
+            <button type="button" class="collapsible-icon"><img src="../assets/maps/palma-legendas/legenda{{ i }}-palma.png"></button>
+            <div class="content2"><img src="../assets/maps/palma-mapas/{{ i }}.png"></div>
+        {% endfor %}
+        
+        <br><br><br>
     </div>
 </div>
 
@@ -1105,7 +1111,25 @@ $(document).ready(function(){
     });
 });
 </script> 
-          
+ 
+<script>
+var coll = document.getElementsByClassName("collapsible-icon");
+var j;
+
+for (j = 0; j < coll.length; j++) {
+  coll[j].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } 
+    else {
+      content.style.display = "block";
+    }
+  });
+}
+</script> 
+    
 </body>
 
 </html>
