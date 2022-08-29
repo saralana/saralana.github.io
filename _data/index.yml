@@ -2,24 +2,23 @@
 - indice: 1
   column: 1
   order: 1
-  name: pontos-cegos
-  title: Pontos Cegos
-  title-en: Blind Spots
+  name: orelhinha
+  title: orelhinha
+  title-en: orelhinha
    
 - indice: 2
   column: 1
   order: 3
-  name: orelhinha
-  title: orelhinha
-  title-en: orelhinha
-
-   
+  name: pontos-cegos
+  title: Pontos Cegos
+  title-en: Blind Spots
+  
 - indice: 3
   column: 1
   order: 2
-  name: corra-e-olhe-o-ceu
-  title: Corra e olhe o céu
-  title-en: Run and look the sky
+  name: na-palma
+  title: na palma de 34 mãoes
+  title-en: na palma de 34 mãoes
   
 - indice: 4
   column: 2
@@ -31,38 +30,37 @@
 - indice: 5
   column: 2
   order: 3
-  name: diario-sonoro
-  title: Diário Sonoro do Sertão
-  title-en: Sertão Sound Diary
+  name: memorygame
+  title: jogo da memória sonoro
+  title-en: sonic memory game
   
 - indice: 6
   column: 2
   order: 2
-  name: memorygame
-  title: jogo da memória sonoro
-  title-en: sonic memory game
+  name: diario-sonoro
+  title: Diário Sonoro do Sertão
+  title-en: Sertão Sound Diary
  
 - indice: 7
   column: 3
   order: 1
-  name: mutt-dogs
-  title: Mutt Dogs
-  title-en: Mutt Dogs
- 
+  name: corra-e-olhe-o-ceu
+  title: Corra e olhe o céu
+  title-en: Run and look the sky
  
 - indice: 8
   column: 3
   order: 2
-  name: especies-de-espacos-1
-  title: Espécies de Espaços 1
-  title-en: Species of Spaces 1
-
+  name: mutt-dogs
+  title: Mutt Dogs
+  title-en: Mutt Dogs
+  
 - indice: 9
   column: 3
   order: 3
-  name: antonimos
-  title: Máquina de Antônimos
-  title-en: Antonimous Machine
+  name: especies-de-espacos-1
+  title: Espécies de Espaços 1
+  title-en: Species of Spaces 1
 
 - indice: 10
   column: 4
@@ -81,6 +79,6 @@
 - indice: 12
   column: 4
   order: 3
-  name: natal
-  title: Natal
-  title-en: Natal
+  name: antonimos
+  title: Máquina de Antônimos
+  title-en: Antonimous Machine
