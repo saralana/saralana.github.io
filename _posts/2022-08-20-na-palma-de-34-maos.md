@@ -1,5 +1,5 @@
 ---
-title: 'na palma de 34 mãos'
+title: 'na palma de 37 mãos'
 who: 
 type: cartografia construída a partir de mapas desenhados à mão
 menu: true
@@ -10,24 +10,46 @@ where:
 ref: na-palma-de-34-maos
 permalink: na-palma
 cover: /assets/covers/na-palma-das-maos.png
-swipebox: 
+swipebox: napalma
 credits: 
 cover: 
-thanks: 
+thanks: transeuntes, Félix Blume, Nydia Negromonte, luiza Marcolino, Marcelo Drummond, Janaina Melo, Mariana Zani, Elisa Lana, João Paulo Costa, Bernardo Esteves, Tiago Esteves, Ana Esteves, Clarice Lacerda, Clarice Rodrigues, Luana Lorenzini, Mercedes Valadares, Helena Reis, Débora da padaria, Sérgio cheveiro, vendedores da Casa dos Parafusos, funcionárias dos Correios (unidade Raul Soares – BH), Maria Raquel Dias, alunas do Colégio Santa Dorotéia, Hamilton Reis, Rafael Reis, Túlio Jorge, Rafael Pimenta, Edimilson, farmacêutio da Drogaria do Dias, Flávia Mafra.
 lang: pt
 ---
 
-  
-<br><br>
-  <div class="video-wrapper video-wrapper-16x9" style="width:100%">
-   <iframe src="../na-palma-de-34-maos" height="200" width="100%" style="border:0px; background-color: transparent"></iframe>
-  </div>
+<br>
+ <div>
+  <div style="width:100%; height:160vh !important;">  
+  <div class="video-wrapper" style="width:100%; height: 80vh !important"> 
+  <iframe src="../na-palma-de-34-maos" height="200" width="100%" style="border:0px" scrolling="no"></iframe>
+  </div></div>
+</div>
+  <div class="overlay" onClick="style.pointerEvents='none'"></div>
 
+*Clique [aqui](../na-palma-de-34-maos){:target="_blank"} para abrir o mapa em outra aba.*
+<br><br><br>
 Partindo do beco do Espai, localizado no bairro Santa Efigênia, em Belo Horizonte, pedi a transeuntes,  vendedores e amigos com quem me encontrava, mapas rascunhados à mão para me orientar sobre rotas de saída dos lugares  onde estávamos, sem entretanto dizer para onde eu gostaria de ir. O final de cada mapa desenhado era o ponto de partida para um novo caminho.  
 
 Os mapas desenhados à mão são vetorizados, reescalonados e projetados sobre o mapa geográfico de Belo Horizonte, fazendo uma  colagem e criando uma nova cartografia da cidade.
-<br><br><br>
 
-Esse projeto faz parte da exposição BECO COM SAÍDA, realizada no ESPAI.
+<br>
 
-*Curadoria:* Marcelo Drummond e Janaina Melo
+**Curadoria:** Marcelo Drummond e Janaina Melo
+
+**Participantes:** transeuntes, Elisa Lana, João Paulo Costa, Bernardo Esteves, Tiago Esteves, Ana Esteves, Clarice Lacerda, Clarice Rodrigues, Luana Lorenzini, Mercedes Valadares, Helena Reis, Débora da padaria, Sérgio cheveiro, vendedores da Casa dos Parafusos, funcionárias dos Correios (unidade Raul Soares – BH), Maria Raquel Dias, alunas do Colégio Santa Dorotéia, Hamilton Reis, Rafael Reis, Túlio Jorge, Rafael Pimenta, Edimilson, Drogaria do Dias e Flávia Mafra.
+<br><br>
+
+---
+
+<br>
+
+## Montagem na parede:
+
+<br><br>
+<img src="../assets/posts/palma_na_parede.gif" class="img-border">
+<br><br>
+
+  
+---
+  
+<br>

@@ -1,5 +1,5 @@
 ---
-title: 'na palma de 34 mãos'
+title: 'on the palm of 37 hands'
 who: 
 type: cartografia construída a partir de mapas desenhados à mão
 menu: true
@@ -10,15 +10,45 @@ where:
 ref: na-palma-de-34-maos
 permalink: en/na-palma
 cover: /assets/covers/na-palma-das-maos.png
-swipebox: 
+swipebox: napalma
 credits: 
 cover: 
-thanks: 
+thanks: passersby, Félix Blume, Nydia Negromonte, luiza Marcolino, Marcelo Drummond, Janaina Melo, Mariana Zani, Elisa Lana, João Paulo Costa, Bernardo Esteves, Tiago Esteves, Ana Esteves, Clarice Lacerda, Clarice Rodrigues, Luana Lorenzini, Mercedes Valadares, Helena Reis, Débora da padaria, Sérgio cheveiro, vendedores da Casa dos Parafusos, funcionárias dos Correios (unidade Raul Soares – BH), Maria Raquel Dias, alunas do Colégio Santa Dorotéia, Hamilton Reis, Rafael Reis, Túlio Jorge, Rafael Pimenta, Edimilson, farmacêutio da Drogaria do Dias, Flávia Mafra.
 lang: en
 ---
 
   
+<br>
+ <div>
+  <div style="width:100%; height:160vh !important;">  
+  <div class="video-wrapper" style="width:100%; height: 80vh !important"> 
+  <iframe src="../na-palma-de-34-maos" height="200" width="100%" style="border:0px" scrolling="no"></iframe>
+  </div></div>
+</div>
+  <div class="overlay" onClick="style.pointerEvents='none'"></div>
+  
+*Click [here](../na-palma-de-34-maos){:target="_blank"} to open the map in a new tab.*
+<br><br><br>
+I came out of an alley in Belo Horizonte and asked passersby to draw maps by hand to guide me on exit routes from the places where we were, without however saying where I would like to go. The end of each map drawn was the starting point for a new path.
+
+The hand-drawn maps are vectorized, rescaled and projected onto the geographic map of Belo Horizonte, making a collage and creating a new cartography of the city.
+
+<br>
+
+**Curators:** Marcelo Drummond e Janaina Melo
+
+**Participants:** passersby, Elisa Lana, João Paulo Costa, Bernardo Esteves, Tiago Esteves, Ana Esteves, Clarice Lacerda, Clarice Rodrigues, Luana Lorenzini, Mercedes Valadares, Helena Reis, Débora da padaria, Sérgio cheveiro, vendedores da Casa dos Parafusos, funcionárias dos Correios (unidade Raul Soares – BH), Maria Raquel Dias, alunas do Colégio Santa Dorotéia, Hamilton Reis, Rafael Reis, Túlio Jorge, Rafael Pimenta, Edimilson, Drogaria do Dias e Flávia Mafra.
 <br><br>
-  <div class="video-wrapper video-wrapper-16x9" style="width:100%">
-   <iframe src="../na-palma-de-34-maos" height="200" width="100%" style="border:0px; background-color: transparent"></iframe>
-  </div>
+
+---
+
+<br>
+## Collage on the wall:
+
+<br><br>
+<img src="../assets/posts/palma_na_parede.gif" class="img-border">
+<br><br>
+  
+---
+  
+<br>
