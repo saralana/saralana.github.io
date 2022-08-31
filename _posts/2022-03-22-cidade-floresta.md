@@ -39,7 +39,7 @@ Assumindo a relação entre aranhas e humanos vigiados como uma interação biol
 não se beneficiam de tecer suas teias especificamente na frente das câmeras.
 
 Proponho, portanto, transformar essa interação para garantir que as aranhas também se **beneficiem**. Criar ambientes, para que a interação biológica passe do **comensalismo/inquilinismo** para a **mutualismo/protocooperação**, uma interação vantajosa para ambas as espécies.
-<div><img src="../assets/posts/tabela_ede2.png" style="border:0px; width:60%"></div>
+<div><img src="../assets/posts/tabela_ee2.png" style="border:0px; width:60%"></div>
 Nas etapas a seguir, proponho algumas ações que visam reconfigurar essa interação biológica para que as aranhas também se beneficiem da construção de suas teias em frente às câmeras. 
 
 Algumas etapas já estão em andamento mas devem seguir em desenvolvimento durante a residência e mentoria das cientistas da participantes da **cidade floresta** .
