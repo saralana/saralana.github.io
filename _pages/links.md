@@ -12,6 +12,11 @@ ref: links
 </a>
 <br>
 
+Acesse o mapa <br>
+[Na palma de 34 mãos](../na-palma-de-34-maos){:target="_blank"}
+
+---
+
 ouça  <br>
 [Orelhinha](../orelhinha){:target="_blank"}
 
@@ -19,11 +24,6 @@ ouça  <br>
 
 TUTORIAL <br>
 [monte seu própio mapa sonoro](../pt/sound-map)
-
----
-
-TUTORIAL <br>
-[windsscreen com o-ball para microfones de ⌀ 20mm](../windscreen){:target="_blank"}
 
 ---
 
