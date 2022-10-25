@@ -38,12 +38,3 @@ Acesse aqui <a href="../textos" target="_blank">&nbsp;textos e publicações&nbs
 <br>
 
 ---
-
-<br>
-<div class="selection">
-Sara faz parte da <a href="https://silo.org.br/" target="_blank">&nbsp;Silo – Arte e Latitude Rural&nbsp;</a>, uma organização da sociedade civil que cria, acolhe e difunde arte, ciência, tecnologia e agroecologia em zonas rurais e de preservação ambiental, estimulando o cruzamento entre técnicas intuitivas e saberes científicos.
-</div>
-
-<br>
-
----

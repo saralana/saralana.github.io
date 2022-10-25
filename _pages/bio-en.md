@@ -30,15 +30,6 @@ She also promotes <a href="../en/workshops" target="_blank">&nbsp;workshops&nbsp
 
 ---
 
-<br>
-<div class="selection">   
-Sara is also a member and former executive director (from 2019 to 2021) of <a href="https://silo.org.br/" target="_blank">&nbsp;Silo – Art and Rural Latitude&nbsp;</a>, a non profit organization dedicated to create and promote Art, Science, Agroecology and Technology in rural, peripheral and environmental protection areas in Brazil.
-</div>
-
-<br>
-
----
-
 
 <br>
 <div class="selection">

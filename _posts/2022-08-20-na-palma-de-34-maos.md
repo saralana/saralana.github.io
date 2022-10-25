@@ -31,8 +31,7 @@ lang: pt
 Partindo do beco do Espai, localizado no bairro Santa Efigênia, em Belo Horizonte, pedi a transeuntes,  vendedores e amigos com quem me encontrava, mapas rascunhados à mão para me orientar sobre rotas de saída dos lugares  onde estávamos, sem entretanto dizer para onde eu gostaria de ir. O final de cada mapa desenhado era o ponto de partida para um novo caminho.  
 
 Os mapas desenhados à mão são vetorizados, reescalonados e projetados sobre o mapa geográfico de Belo Horizonte, fazendo uma  colagem e criando uma nova cartografia da cidade.
-
-<br>
+  
 
 **Curadoria:** Marcelo Drummond e Janaina Melo
 
