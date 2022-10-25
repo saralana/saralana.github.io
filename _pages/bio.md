@@ -37,4 +37,3 @@ Acesse aqui <a href="../textos" target="_blank">&nbsp;textos e publicações&nbs
 
 <br>
 
----
