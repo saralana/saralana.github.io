@@ -67,8 +67,8 @@
         type: "GET",
         //YOUR TURN: Replace with csv export link
         //https://www.mapbox.com/impact-tools/sheet-mapper
-       url:'https://docs.google.com/spreadsheets/d/1EvWWap07wP645e8aSunTyreWpbezUZTviOoZZd4bgJ0/gviz/tq?tqx=out:csv&sheet1',
-        //url:'../assets/maps/profils/francais2.csv',
+       //url:'https://docs.google.com/spreadsheets/d/1EvWWap07wP645e8aSunTyreWpbezUZTviOoZZd4bgJ0/gviz/tq?tqx=out:csv&sheet1',
+        url:'../assets/maps/profils/francais.csv',
         dataType: "text",
         success: function (csvData) { makeGeoJSON(csvData); }
       });
