@@ -57,8 +57,8 @@
     var map = new mapboxgl.Map({
       container: 'map', // container id
       style: 'mapbox://styles/saralgc/cku3e2i750khk18njz0rektk4',
-      center: [4.457905, 46.93501200], // starting position
-      zoom: 5,// starting zoom
+      center: [20.457905, 20.93501200], // starting position
+      zoom: 1.7,// starting zoom
       transformRequest: transformRequest
     });
 
@@ -67,7 +67,8 @@
         type: "GET",
         //YOUR TURN: Replace with csv export link
         //https://www.mapbox.com/impact-tools/sheet-mapper
-        url:'https://docs.google.com/spreadsheets/d/1EvWWap07wP645e8aSunTyreWpbezUZTviOoZZd4bgJ0/gviz/tq?tqx=out:csv&sheet=1',
+       url:'https://docs.google.com/spreadsheets/d/1EvWWap07wP645e8aSunTyreWpbezUZTviOoZZd4bgJ0/gviz/tq?tqx=out:csv&sheet1',
+        //url:'../assets/maps/profils/francais2.csv',
         dataType: "text",
         success: function (csvData) { makeGeoJSON(csvData); }
       });
@@ -95,6 +96,7 @@
             });
             // When a click event occurs on a feature in the csvData layer, open a popup at the
             // location of the feature, with description HTML from its properties.
+            
             
             map.on('click', 'csvData', function (e) {
               var coordinates = e.features[0].geometry.coordinates.slice();
@@ -153,28 +155,6 @@ function myFunction() {
 }
 </script>
 
-<script>
-$(document).ready(function(){
-  $('[data-toggle="tooltip"]').tooltip();
-});
-</script>
-
-<script>
-var coll = document.getElementsByClassName("collapsible");
-var i;
-
-for (i = 0; i < coll.length; i++) {
-  coll[i].addEventListener("click", function() {
-    this.classList.toggle("active");
-    var content = this.nextElementSibling;
-    if (content.style.display === "block") {
-      content.style.display = "none";
-    } else {
-      content.style.display = "block";
-    }
-  });
-}
-</script>
     
 <content>
     {{ content }}
