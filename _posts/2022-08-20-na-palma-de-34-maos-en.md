@@ -27,11 +27,11 @@ lang: en
 </div>
   <div class="overlay" onClick="style.pointerEvents='none'"></div>
   
-*Click [here](../na-palma-de-34-maos){:target="_blank"} to open the map in a new tab.*
+CLICK [here](../na-palma-de-34-maos){:target="_blank"} to open the map in a new tab.
 <br><br><br>
-I came out of an alley in Belo Horizonte and asked passersby to draw maps by hand to guide me on exit routes from the places where we were, without however saying where I would like to go. The end of each map drawn was the starting point for a new path.
+Walking through the streets of Belo Horizonte, I asked passers-by for hand-drawn maps to guide me on routes, without, however, saying where I would like to go. The end of each map drawn was the starting point for a new route.
 
-The hand-drawn maps are vectorized, rescaled and projected onto the geographic map of Belo Horizonte, making a collage and creating a new cartography of the city.
+The hand-drawn maps are vectorized, scaled and projected onto the geographic map of Belo Horizonte, making a collage and creating a new cartography of the city.
 
 <br>
 
