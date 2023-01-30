@@ -27,7 +27,7 @@ lang: en
 </div>
   <div class="overlay" onClick="style.pointerEvents='none'"></div>
   
-CLICK [here](../na-palma-de-34-maos){:target="_blank"} to open the map in a new tab.
+CLICK [here](../na-palma-de-n-maos){:target="_blank"} to open the map in a new tab.
 <br><br><br>
 Walking through the streets of Belo Horizonte, I asked passers-by for hand-drawn maps to guide me on routes, without, however, saying where I would like to go. The end of each map drawn was the starting point for a new route.
 

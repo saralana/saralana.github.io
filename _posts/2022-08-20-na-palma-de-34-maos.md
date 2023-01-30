@@ -7,6 +7,8 @@ data: 2022 | BECO COM SAÍDA | ESPAI
 where: 
   - name: BECO COM SAÍDA | ESPAI
     url: https://instagram.com/espai
+  - name: NOVOS ARTISTAS | MEMORIAL DA VALE
+    url: 
 ref: na-palma-de-34-maos
 permalink: na-palma
 cover: /assets/covers/na-palma-das-maos.png
@@ -26,7 +28,7 @@ lang: pt
 </div>
   <div class="overlay" onClick="style.pointerEvents='none'"></div>
 
-*Clique [aqui](../na-palma-de-34-maos){:target="_blank"} para abrir o mapa em outra aba.*
+*Clique [aqui](../na-palma-de-n-maos){:target="_blank"} para abrir o mapa em outra aba.*
 <br><br><br>
 Partindo do beco do Espai, localizado no bairro Santa Efigênia, em Belo Horizonte, pedi a transeuntes,  vendedores e amigos com quem me encontrava, mapas rascunhados à mão para me orientar sobre rotas de saída dos lugares  onde estávamos, sem entretanto dizer para onde eu gostaria de ir. O final de cada mapa desenhado era o ponto de partida para um novo caminho.  
 
