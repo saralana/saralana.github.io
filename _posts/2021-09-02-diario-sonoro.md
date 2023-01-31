@@ -26,7 +26,7 @@ Os sons mais diversos saltam das páginas e estimulam uma acuidade dos sentidos 
 <br>
 
 
-Esse projeto faz parte da exposição [Sertão Mundo no Espaço do Conhecimento da UFMG](http://exposicaosertaomundo.com.br/){:target="_blank"}
+Esse projeto faz parte da exposição [Sertão Mundo no Espaço do Conhecimento da UFMG](../diario-sonoro-sertao){:target="_blank"}
 
 <br><br>
   

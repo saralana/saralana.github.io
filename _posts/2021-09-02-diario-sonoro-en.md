@@ -26,7 +26,7 @@ The most diverse sounds leap from the pages and stimulate a synesthesically shar
 <br>
 
 
-This project is part of the exhibition [Sertão Mundo no Espaço do Conhecimento da UFMG](http://exposicaosertaomundo.com.br/){:target="_blank"}
+This project is part of the exhibition [Sertão Mundo no Espaço do Conhecimento da UFMG](../diario-sonoro-sertao){:target="_blank"}
 
 <br><br>
   
