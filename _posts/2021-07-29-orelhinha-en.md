@@ -5,6 +5,12 @@ type: sound piece
 menu: true
 data: 2021 | BDMG | Seres Rios
 where: 
+  - name: Itaú Cultural - Um Século de Agora - São Paulo | Curadoria Júlia Rebouças, Luciara Ribeiro e Naine Terena
+    url: https://www.itaucultural.org.br/secoes/agenda-cultural/um-seculo-de-agora-mostra
+  - name: BDMG Cultural - Não sou idêntica a mim mesma
+    url: https://bdmgcultural.mg.gov.br/agenda/mostra-para-celebrar-35-anos/
+  - name: Memorial Minas Gerais - Babélica | Curadoria Júlio Martins
+    url: https://memorialvale.com.br/pt/
   - name: Festival Seres Rios
     url: https://seresrios.org/obras-comissionadas/sara-lana/
   - name: Casa Híbrido

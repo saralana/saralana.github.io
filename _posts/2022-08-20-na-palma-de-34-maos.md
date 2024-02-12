@@ -7,8 +7,8 @@ data: 2022 | BECO COM SAÍDA | ESPAI
 where: 
   - name: BECO COM SAÍDA | ESPAI
     url: https://instagram.com/espai
-  - name: NOVOS ARTISTAS | MEMORIAL DA VALE
-    url: 
+  - name: Memorial Minas Gerais - Babélica | Curadoria Júlio Martins
+    url: https://memorialvale.com.br/pt/
 ref: na-palma-de-34-maos
 permalink: na-palma
 cover: /assets/covers/na-palma-das-maos.png

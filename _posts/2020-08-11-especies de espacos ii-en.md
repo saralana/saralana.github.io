@@ -8,6 +8,8 @@ where:
     url:
   - name: Bolsa Pampulha 2019 | Belo Horizonte | BRAZIL
     url: https://www.jaca.center/bolsa-pampulha/
+  - name: Memorial Minas Gerais - Babélica | Curadoria Júlio Martins
+    url: https://memorialvale.com.br/pt/
 data: 2019
 ref: especies-de-espacos-ii
 permalink: en/especies-de-espacos-2
