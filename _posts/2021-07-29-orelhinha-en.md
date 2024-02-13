@@ -77,11 +77,14 @@ LISTEN TO THE SOUND PIECE ON [FESTIVAL SERES RIOS](https://seresrios.org/obras-c
   <div id="swipebox-gallery">
     {% for file in site.static_files %}
       {% if file.path contains "orelhinha0" %}
-            <img src="{{ site.baseurl }}{{ file.path }}" class="swipebox" alt="">
+          <a href="{{ site.baseurl }}{{ file.path }}" class="swipebox">
+            <img src="{{ site.baseurl }}{{ file.path }}" alt="">
+          </a>
       {% endif %}
     {% endfor %}
   </div>
 
+*photos Renato Parada/Itaú Cultural and Félix Blume*
 <br><br>
 
 ---
@@ -99,7 +102,9 @@ LISTEN TO THE SOUND PIECE ON [FESTIVAL SERES RIOS](https://seresrios.org/obras-c
   <div id="swipebox-gallery">
     {% for file in site.static_files %}
       {% if file.path contains "gif_orelhinha" %}
-            <img src="{{ site.baseurl }}{{ file.path }}" class="swipebox" alt="">
+          <a href="{{ site.baseurl }}{{ file.path }}" class="swipebox">
+            <img src="{{ site.baseurl }}{{ file.path }}" alt="">
+          </a>
       {% endif %}
     {% endfor %}
   </div>
