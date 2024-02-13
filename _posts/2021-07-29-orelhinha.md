@@ -90,7 +90,9 @@ ESCUTE A PEÇA NO [FESTIVAL SERES RIOS](https://seresrios.org/obras-comissionada
   <div id="swipebox-gallery">
     {% for file in site.static_files %}
       {% if file.path contains "gif_orelhinha" %}
-            <img src="{{ site.baseurl }}{{ file.path }}" class="swipebox" alt="">
+          <a href="{{ site.baseurl }}{{ file.path }}" class="swipebox">
+            <img src="{{ site.baseurl }}{{ file.path }}" alt="">
+          </a>
       {% endif %}
     {% endfor %}
   </div>
