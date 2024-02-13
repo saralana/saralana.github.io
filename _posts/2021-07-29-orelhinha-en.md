@@ -69,6 +69,21 @@ LISTEN TO THE SOUND PIECE ON [FESTIVAL SERES RIOS](https://seresrios.org/obras-c
 
 <br>
   
+
+---
+
+<br><br>
+<br>
+  <div id="swipebox-gallery">
+    {% for file in site.static_files %}
+      {% if file.path contains "orelhinha0" %}
+            <img src="{{ site.baseurl }}{{ file.path }}" class="swipebox" alt="">
+      {% endif %}
+    {% endfor %}
+  </div>
+
+<br><br>
+
 ---
 
 <br><br>
@@ -77,10 +92,9 @@ LISTEN TO THE SOUND PIECE ON [FESTIVAL SERES RIOS](https://seresrios.org/obras-c
   </div>
 
 <br><br>
-
 ---
 
-<br> 
+<br><br>
 <br>
   <div id="swipebox-gallery">
     {% for file in site.static_files %}

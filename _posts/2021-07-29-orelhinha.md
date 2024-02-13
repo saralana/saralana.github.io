@@ -32,7 +32,7 @@ lang: pt
 </div>
 <br>
 <br>
-Orelhinha é uma peça sonora criada a partir de chamadas realizadas para orelhões à beira dos rios São Francisco e Jequitinhonha.
+Orelhinha é uma instalação sonora criada a partir de chamadas realizadas para orelhões à beira dos rios São Francisco e Jequitinhonha.
 
 Uma série de chamadas para destinatários até então desconhecidos ou até mesmo inexistentes. Linhas cruzadas na tentativa de escutar um pouco a vida que se passa ao redor e os contrastantes cenários que contornam um mesmo rio.
 
@@ -64,12 +64,25 @@ ESCUTE A PEÇA NO [FESTIVAL SERES RIOS](https://seresrios.org/obras-comissionada
 ---
 
 <br><br>
+<br>
+  <div id="swipebox-gallery">
+    {% for file in site.static_files %}
+      {% if file.path contains "orelhinha0" %}
+            <img src="{{ site.baseurl }}{{ file.path }}" class="swipebox" alt="">
+      {% endif %}
+    {% endfor %}
+  </div>
+
+<br><br>
+
+---
+
+<br><br>
   <div class="video-wrapper video-wrapper-16x9" style="width:100%">
    <iframe src="../mapa-orelhinha" height="200" width="100%" style="border:0px"></iframe>
   </div>
 
 <br><br>
-
 ---
 
 <br><br>
