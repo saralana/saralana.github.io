@@ -46,7 +46,7 @@ Os mapas desenhados à mão são vetorizados, reescalonados e projetados sobre o
 <br>
   <div id="swipebox-gallery">
     {% for file in site.static_files %}
-      {% if file.path contains "napalma_" %}
+      {% if file.path contains "na_palma" %}
           <a href="{{ site.baseurl }}{{ file.path }}" class="swipebox">
             <img src="{{ site.baseurl }}{{ file.path }}" alt="">
           </a>
