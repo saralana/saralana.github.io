@@ -40,6 +40,24 @@ Os mapas desenhados à mão são vetorizados, reescalonados e projetados sobre o
 **Participantes:** transeuntes, Elisa Lana, João Paulo Costa, Bernardo Esteves, Tiago Esteves, Ana Esteves, Clarice Lacerda, Clarice Rodrigues, Luana Lorenzini, Mercedes Valadares, Helena Reis, Débora da padaria, Sérgio cheveiro, vendedores da Casa dos Parafusos, funcionárias dos Correios (unidade Raul Soares – BH), Maria Raquel Dias, alunas do Colégio Santa Dorotéia, Hamilton Reis, Rafael Reis, Túlio Jorge, Rafael Pimenta, Edimilson, Drogaria do Dias e Flávia Mafra.
 <br><br>
 
+---
+
+<br><br>
+<br>
+  <div id="swipebox-gallery">
+    {% for file in site.static_files %}
+      {% if file.path contains "napalma_" %}
+          <a href="{{ site.baseurl }}{{ file.path }}" class="swipebox">
+            <img src="{{ site.baseurl }}{{ file.path }}" alt="">
+          </a>
+      {% endif %}
+    {% endfor %}
+  </div>
+
+*fotos Félix Blume*
+<br><br>
+
+---
 
 <br><br>
 <img src="../assets/posts/palma_na_parede.png" class="img-border">

@@ -44,7 +44,32 @@ The hand-drawn maps are vectorized, scaled and projected onto the geographic map
 
 ---
 
+<br><br>
 <br>
+  <div id="swipebox-gallery">
+    {% for file in site.static_files %}
+      {% if file.path contains "napalma_" %}
+          <a href="{{ site.baseurl }}{{ file.path }}" class="swipebox">
+            <img src="{{ site.baseurl }}{{ file.path }}" alt="">
+          </a>
+      {% endif %}
+    {% endfor %}
+  </div>
+
+*fotos Félix Blume*
+<br><br>
+
+---
+
+<br><br>
+<img src="../assets/posts/palma_na_parede.png" class="img-border">
+<br><br>
+
+  
+---
+
+<br>
+
 ## Collage on the wall:
 
 <br><br>
