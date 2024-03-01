@@ -57,10 +57,6 @@ Os telefones foram encontrados viajando pela margem desses rios utilizando mapas
 
 <br><br>
 
-
-ESCUTE A PEÇA NO [FESTIVAL SERES RIOS](https://seresrios.org/obras-comissionadas/sara-lana/){:target="_blank"} 
-
-
 ---
 
 <br><br>

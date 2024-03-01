@@ -64,10 +64,6 @@ Click [here](https://vimeo.com/616260458/07769fb787){:target="_blank"} for liste
 **French subtitles:** Félix Blume
 
 <br>
-
-LISTEN TO THE SOUND PIECE ON [FESTIVAL SERES RIOS](https://seresrios.org/obras-comissionadas/sara-lana/){:target="_blank"}
-
-<br>
   
 
 ---
