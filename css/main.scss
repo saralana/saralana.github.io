@@ -1581,13 +1581,13 @@ iframe {
 }
 
 #post{
-  .column {
-  -ms-flex: 20%; /* IE10 */
-  flex: 20%;
-  max-width: 325%;
-  padding: 0% 1.5%;
-  padding-top: 12%;
-}  
+    .column {
+    -ms-flex: 20%; /* IE10 */
+    flex: 20%;
+    max-width: 325%;
+    padding: 0% 1.5%;
+    padding-top: 12%;
+  }  
 }
 
 .column img {
@@ -1601,7 +1601,7 @@ iframe {
 }
 
 /* Responsive layout - makes a two column-layout instead of four columns */
-@media (max-width: 1000px) or (orientation:portrait) {
+@media (max-width: 1000px) {
   .column {
     -ms-flex: 40%;
     flex: 40%;
@@ -1626,7 +1626,41 @@ iframe {
     color: $PALETTE2;
     font-size: 1em;
   }
+  #main-div-maps .column {
+    -ms-flex: 40%;
+    flex: 40%;
+    margin-bottom: 10%;
+  }
+  .active22 {
+    min-height: 27vw;
+  } 
+} 
 
+@media (orientation:portrait) {
+  .column {
+    -ms-flex: 40%;
+    flex: 40%;
+    max-width: 40%;
+    margin-bottom: 10%;
+  }
+  .center-active {
+    width: 30%;
+    background-color: transparent;
+    color: $PALETTE5;
+    font-size: 1em;
+  }
+  #main-div-other .center-active {
+    width: 30%;
+    background-color: transparent;
+    color: $PALETTE1;
+    font-size: 1em;
+  }
+  #main-div-maps .center-active {
+    width: 30%;
+    background-color: transparent;
+    color: $PALETTE2;
+    font-size: 1em;
+  }
   #main-div-maps .column {
     -ms-flex: 40%;
     flex: 40%;
