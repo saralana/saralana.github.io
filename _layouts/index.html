@@ -23,17 +23,17 @@
                                 {% when 'en' %}
                                     <div class="static22"> 
                                         <a href="{{ site.base.url }}/en/{{ cover.name }}"><img src="/assets/covers/{{ cover.name }}.png"></a><br><br>
-                                        <div class="center">{{ cover.title-en }}</div></div>
-                                        <a href="{{ site.base.url }}/en/{{ cover.name }}"><img class="active22" src="/assets/covers/gif/{{ cover.name }}.gif" style="width:100.4%"></a><br><br>
                                         <div class="center">{{ cover.title-en }}</div>
-                                 <br><br><br>
+                                    </div>
+                                        <a href="{{ site.base.url }}/en/{{ cover.name }}"><img class="active22" src="/assets/covers/gif/{{ cover.name }}.gif" style="width:125%"></a><br><br>
+                                        <div class="center-active">{{ cover.title-en }}</div>
                                 {% else %}
                                   <div class="static22"> 
                                         <a href="{{ site.base.url }}/{{ cover.name }}"><img src="/assets/covers/{{ cover.name }}.png"></a><br><br>
-                                        <div class="center">{{ cover.title }}</div></div>
-                                        <a href="{{ site.base.url }}/{{ cover.name }}"><img class="active22" src="/assets/covers/gif/{{ cover.name }}.gif" style="width:100.4%"></a><br><br>
                                         <div class="center">{{ cover.title }}</div>
-                                 <br><br><br>
+                                  </div>
+                                        <a href="{{ site.base.url }}/{{ cover.name }}"><img class="active22" src="/assets/covers/gif/{{ cover.name }}.gif" style="width:125%"></a><br><br>
+                                        <div class="center-active">{{ cover.title }}</div>
                                  {% endcase %}
                               </div>
                                 {% endfor %}

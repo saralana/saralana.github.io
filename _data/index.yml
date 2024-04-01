@@ -58,9 +58,9 @@
 - indice: 9
   column: 3
   order: 3
-  name: especies-de-espacos-1
-  title: Espécies de Espaços 1
-  title-en: Species of Spaces 1
+  name: antonimos
+  title: Máquina de Antônimos
+  title-en: Antonimous Machine
 
 - indice: 10
   column: 4
@@ -68,17 +68,3 @@
   name: radio-mondial
   title: Radio Mondial
   title-en: Radio Mondial
-  
-- indice: 11
-  column: 4
-  order: 2
-  name: matilha
-  title: Matilha
-  title-en: Matilha
-  
-- indice: 12
-  column: 4
-  order: 3
-  name: antonimos
-  title: Máquina de Antônimos
-  title-en: Antonimous Machine

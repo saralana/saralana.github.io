@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    {% include head.html %}
+    {% include meta.html %}
+    {% include share.html %}
+  </head>
+  <div id="left"></div>
+  <div id="right"></div>
+  <div id="top"></div>
+  <div id="bottom"></div>
+  
+  <body id="palette6">
+        <div id="main-div-maps">
+              <div id="maps" style="padding-top:10%">
+              {% include prev-next-other.html %}
+                {% unless page.permalink == '/' %}
+                  <div class="post-title">{{ page.title }}</div>
+                  <br>
+                  <b>{{ page.who }}</b>
+                  <p>{{ page.type }}</p>
+                {% endunless %}
+                <br><br><br>
+                <content>
+                  {{ content }}
+                  {% include swipebox.html %}
+                </content>
+                  <br>
+                  
+            {% if page.where %}
+                  <hr>
+                  <br>
+            {% case page.lang %}
+                {% when 'en' %}
+                  <b>Exhibitions:</b>  
+                {% else %}
+                  <b>Apresentações:</b>   
+            {% endcase %}    
+                 <br><br>
+                 {% for place in page.where %}
+                        <div class="list-footpage">
+                          {% if place.url %}
+                            <a href="{{ place.url }}" target="_blank">{{ place.name }}</a> 
+                          {% else %}
+                            {{ place.name }}
+                          {% endif %}
+                        </div>
+                     {% endfor %}  
+             <br>
+             <hr>
+             <br>
+            {% endif %}
+                  
+                <div class=mobile-footer-space>
+                    <br>
+                </div>
+            </div>
+        </div>
+        {% include navbar.html %}
+  </body>
+</html>

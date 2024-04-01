@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    {% include head.html %}
+    {% include meta.html %}
+    {% include share.html %}
+  </head>
+  <div id="left"></div>
+  <div id="right"></div>
+  <div id="top"></div>
+  <div id="bottom"></div>
+  
+  <body id="palette6">
+        <div id="main-div-maps">
+              {% include prev-next.html %}
+              <div id="maps">
+                {% unless page.permalink == '/' %}
+                  <div class="post-title">{{ page.title }}</div>
+                  <br>
+                  <b>{{ page.who }}</b>
+                  <p>{{ page.type }}</p>
+                  <b>{{ page.data }}</b>
+                {% endunless %}
+                <br><br><br>
+                <content>
+                  {{ content }}
+                  {% include swipebox.html %}
+                  {% if page.credits %}
+                  <br>
+                  <div class="credits">
+                      {% case page.lang %}
+                        {% when 'en' %}
+                          <i>Photos </i>  
+                        {% else %}
+                          <i>Fotos </i>   
+                      {% endcase %} 
+                      {{ page.credits }}
+                  </div>
+                  <br>    
+                  {% endif %}
+                </content>
+                  <br>
+                    {% if page.where %}
+                  <hr>
+                  <br>
+            {% case page.lang %}
+                {% when 'en' %}
+                  <b>Exhibitions:</b>  
+                {% else %}
+                  <b>Apresentações:</b>   
+            {% endcase %}    
+                 <br><br>
+                     {% for place in page.where %}
+                        <div class="list-footpage">
+                          {% if place.url %}
+                            <a href="{{ place.url }}" target="_blank">{{ place.name }}</a> 
+                          {% else %}
+                            {{ place.name }}
+                          {% endif %}
+                        </div>
+                     {% endfor %} 
+             <br>
+             <hr>   
+             <br>
+                    {% endif %}
+                   
+            {% if page.thanks %}
+            {% case page.lang %}
+                {% when 'en' %}
+                  <b>Thanks to:</b>  
+                {% else %}
+                  <b>Agradecimentos:</b>   
+            {% endcase %} 
+                 <p>{{ page.thanks }}</p>
+             <br>
+             <hr>
+             <br>
+                  
+            {% endif %}          
+         </div>
+        {% include navbar.html %}
+  </body>
+</html>

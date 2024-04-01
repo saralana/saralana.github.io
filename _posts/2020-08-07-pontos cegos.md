@@ -59,7 +59,7 @@ O aparato também possui um GPS e ao detectar uma câmera, suas coordenadas são
 <br> Está em desenvolvimento um traçador de rotas que permite criar caminhos de um ponto A até um ponto B de uma cidade passando apenas pelos pontos cegos de suas câmeras.
 <br>
 
-Aqui um [primeiro protótipo](../invisibility-tracer){:target="_blank"} do traçador de rotas.
+Aqui um [primeiro protótipo](https://invisibility-routes.saralana.xyz/index.html?latA=-23.549274336622684&longA=-46.63383007049561&latB=-23.544691004890126&longB=-46.64096949118043&profile=foot-walking&circleRadius=15&iconsToggle=1&circleToggle=1&circleResolution=32){:target="_blank"} do traçador de rotas.
 <br><br>
 Também, nessa frente de pesquisa, ofereço <a href="../workshops" target="_blank">&nbsp;oficinas&nbsp;</a> para criação de ferramentas de invisibilidade, capazes de ofuscar as imagens registradas por câmeras de vigilância.
 <br><br>
@@ -88,10 +88,17 @@ Também, nessa frente de pesquisa, ofereço <a href="../workshops" target="_blan
 
 ### MAPA
 
+  <div class="video-wrapper video-wrapper-16x9">
+   <iframe src="https://invisibility-routes.saralana.xyz/index.html?latA=-23.549274336622684&longA=-46.63383007049561&latB=-23.544691004890126&longB=-46.64096949118043&profile=foot-walking&circleRadius=15&iconsToggle=1&circleToggle=1&circleResolution=32" height="400px" width="100%"></iframe>
+  </div>
 
   <div class="video-wrapper video-wrapper-16x9">
    <iframe src="../mapa-pontos-cegos" height="200" width="100%"></iframe>
   </div>
+
+Desenho do mapa: Sara Lana
+  
+Desenvolvimento do traçador de rotas: Ewald Santos
 
 <br><br>
 

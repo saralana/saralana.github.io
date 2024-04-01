@@ -75,11 +75,11 @@ a {
 }
 
 a.fa:visited{
-  color: $PALETTE2 !important;
+  color: $PALETTE6 !important;
 }
 
 .fa:hover {
-  color: $PALETTE5 !important;
+  color: $PALETTE6 !important;
   background: transparent;
 }
 
@@ -88,47 +88,47 @@ a.fa:hover {
 }
 
 .fa-facebook {
-    color: $PALETTE2 !important;
+    color: $PALETTE6 !important;
   background: transparent;
 }
 
 .fa-twitter {
-  color: $PALETTE2 !important;
+  color: $PALETTE6 !important;
   background: transparent;
 }
 
 .fa-whatsapp {
-    color: $PALETTE2 !important;
+    color: $PALETTE6 !important;
   background: transparent;
 }
 
 .fa-instagram {
-    color: $PALETTE2 !important;
+    color: $PALETTE6 !important;
   background: transparent;
 }
 
 .fa-soundcloud {
- color: $PALETTE2 !important;
+ color: $PALETTE6 !important;
   background: transparent;
 }
 
 .fa-vimeo {
-  color: $PALETTE2;
+  color: $PALETTE6;
   background: transparent;
 }
 
 .fa-vimeo:hover {
-  color: $PALETTE5 !important;
+  color: $PALETTE1 !important;
   background: transparent;
 }
 
 .fa-github {
-  color: $PALETTE2 !important;
+  color: $PALETTE6 !important;
   background: transparent;
 }
 
 .fa-wave {
-  color: $PALETTE2 !important;
+  color: $PALETTE6 !important;
   background: transparent;
 }
 
@@ -138,7 +138,7 @@ a.fa:hover {
     position: absolute;
     font-size: 15px !important;
     a:hover {
-        color: $PALETTE5 !important;   
+        color: $PALETTE1 !important;   
     } 
     @media only screen and (max-width: 600px) {
         top: 50px;
@@ -233,33 +233,41 @@ h4 {
     //background-repeat:no-repeat;
     //background-attachment: fixed;
     background-color: $PALETTE1;
-    color: $PALETTE2;
-    font-size: 1.3em;
+    color: $PALETTE5;
+    font-size: 0.8em;
+    line-height: 2em;
     text-transform: lowercase;
     font-weight: 700;
     ::selection {
-      background: $PALETTE2;
+      background: $PALETTE5;
       color: $PALETTE1;
     }
     width:100%; 
-    @media only screen and (min-width: 600px) {
-        padding-top: 50px;  
+    @media only screen and (min-width: 1000px) {
+      margin-top: 25vh;
+      height: 50%;
     }  
+    @media only screen and (max-width: 1000px) {
+      margin-top: 10vh;     
+    }
+
 }
 .other {
     background-color: $PALETTE2;
     color: $PALETTE1;
-    line-height: 60px;
-    font-size: 1.3em;
+    font-size: 0.8em;
+    line-height: 2em;
     text-transform: lowercase;
     font-weight: 700;
+  
     ::selection {
       background: $PALETTE1;
       color: $PALETTE2;
     }
     width:100%;
-    @media only screen and (min-width: 600px) {
-        padding-top: 50px;  
+    @media only screen and (min-width: 1000px) { 
+        margin-top: 25vh;
+        height: 50%;
     } 
 }
 .texts {
@@ -294,11 +302,11 @@ h4 {
   background-color: #fffaff;
 }
 #palette1{
-   color: $PALETTE2 !important;
+   color: $PALETTE5 !important;
    background-color:$PALETTE1;
     ::selection {
         color: $PALETTE1 !important;
-        background-color:$PALETTE2;   
+        background-color:$PALETTE5;   
     }
 }
 #palette2{
@@ -317,11 +325,20 @@ h4 {
         background-color:$PALETTE2;   
     }
 }
+#palette6{
+   color: $PALETTE2 !important;
+        background-color:$PALETTE6;
+    ::selection {
+        color: $PALETTE6 !important;
+        background-color:$PALETTE2;   
+    }
+}
+
 .palette1{
    background-color: $PALETTE1; 
-   color: $PALETTE2 !important;
+   color: $PALETTE5 !important;
     hr {    
-        color:$PALETTE2;
+        color:$PALETTE5;
         background-color:$PALETTE2;
     }
 }
@@ -369,6 +386,22 @@ h4 {
    color: $PALETTE1 !important;
     transition: color $TRANSITION-PERIOD linear;
 }
+
+.palette6{
+  background-color: $PALETTE6; 
+  color: $PALETTE2 !important; 
+   .fa {
+     background: transparent;
+     color: $PALETTE2 !important;
+   }
+}
+
+.palette6:hover{
+  background-color: $PALETTE5; 
+  color: $PALETTE1 !important; 
+   transition: color $TRANSITION-PERIOD linear;
+}
+
 #top, #bottom, #left, #right {
   z-index:1000;
 	background: $PALETTE5;
@@ -416,10 +449,17 @@ h4 {
 }
 
 .center{
-    
-  text-align: center;
-    
+  text-align: center;  
 }
+
+.center-active{
+  text-align: center; 
+  position:absolute;
+  width:10%; 
+  background-color: $PALETTE5;
+  color: $PALETTE1;
+}
+
 .grid-container {
   display: grid;
   grid-template-columns: auto auto auto;
@@ -492,7 +532,7 @@ h4 {
 
 .menu-language-option {
   display: inline;
-  color: $PALETTE2;
+  color: $PALETTE6;
   height: 100%;
   line-height: 100%;
   vertical-align: bottom;
@@ -606,7 +646,6 @@ h4 {
           overflow-x: hidden;
           transition: 0.5s;
           padding-top: 10px;
-          height: 22.2%;
         }
 
         .sidebar a {
@@ -640,12 +679,12 @@ h4 {
           position: fixed;
           top: 15%;
           right: 15px;  
-          color: $PALETTE2;
+          color: $PALETTE6;
           z-index:1000 !important;   
         }
 
         .share a { 
-          color: $PALETTE2;
+          color: $PALETTE6;
         }
 
         .share a:hover { 
@@ -715,7 +754,7 @@ h4 {
       font-size: $MENU-TITLE-SIZE;
       writing-mode: vertical-rl;
       text-orientation: sideways;
-        height: 25%;
+        height: 17%;
         width: 40px;
     }
 
@@ -784,7 +823,7 @@ h4 {
       text-transform: none;
       letter-spacing: $MENU-LETTER-SPACING;
       line-height: $MENU-LINE-HEIGHT*1.1;
-      width: 32%;
+      width: 24%;
       word-spacing: 0px !important;
 
       &:visited {
@@ -861,8 +900,8 @@ h4 {
   background-color: $PALETTE1;
   padding-left: 1%;
   padding-right: 10%;
-  padding-top: 5%;
-  padding-bottom: 4%;
+  //padding-top: 5%;
+  //padding-bottom: 4%;
   
  // z-index: 50;
  // position: fixed;
@@ -875,7 +914,7 @@ h4 {
     
     .fa {
       background: transparent;
-      color: $PALETTE2 !important;
+      color: $PALETTE5 !important;
     }
      
 }
@@ -889,8 +928,6 @@ h4 {
   background-color: $PALETTE2;
   padding-left: 1%;
   padding-right: 10%;
-  padding-top: 5%;
-  padding-bottom: 4%;
  // z-index: 50;
  // position: fixed;
  @media only screen and (max-width: 600px) {
@@ -904,7 +941,59 @@ h4 {
       background: transparent;
       color: $PALETTE1 !important;
     }
+
+    .center-active{
+      text-align: center; 
+      position:absolute;
+      width:10%; 
+      background-color: $PALETTE1;
+      color: $PALETTE2;
+    }
+
+    .center{
+      line-height: 2.5em;
+  }
 }
+
+
+#main-div-maps {
+  display: block;
+  //box-sizing: border-box;
+  width:100%;
+  min-height: 110%;
+  background-color: $PALETTE6;
+  padding-left: 1%;
+  padding-right: 5%;
+ // z-index: 50;
+ // position: fixed;
+ @media only screen and (max-width: 600px) {
+    padding-left: 8%;
+    padding-right: 0%;
+    padding-top: 15%;
+    padding-bottom: 4%;
+  }
+    
+    .fa {
+      background: transparent;
+      color: $PALETTE1 !important;
+    }
+
+
+    .center-active{
+      text-align: center; 
+      position:absolute;
+      width:14%; 
+      background-color: $PALETTE2 !important;;
+      color: $PALETTE1 !important;
+    }   
+
+    .static2 {
+      background-color: $PALETTE6;
+      line-height: 2em;
+    }
+
+}
+
 
 #main-div-about {
   display: block;
@@ -992,7 +1081,7 @@ h4 {
     
     img{
         
-        border: 7px solid $PALETTE2;
+        border: 3px solid $PALETTE2;
     }
     
     .swipebox{        
@@ -1004,9 +1093,9 @@ h4 {
 
 #post {
     background-color: $PALETTE1;
-    color:  $PALETTE2;
+    color:  $PALETTE5;
     width: 80%;
-    padding-top: 3%;
+    padding-top: 10%;
     padding-bottom: 7%;
     
     
@@ -1022,12 +1111,12 @@ h4 {
     }
     
     .list-footpage{
-          color: $PALETTE2 !important;
+          color: $PALETTE5 !important;
           font-weight: 400;
           background: transparent;
           text-transform: none;
         a {
-          color: $PALETTE2 !important;
+          color: $PALETTE5 !important;
           font-weight: 400;
           background: transparent;
           text-transform: none;
@@ -1035,28 +1124,29 @@ h4 {
         a:hover {
           color: $PALETTE1 !important;
           font-weight: 400;
-          background: $PALETTE2 !important;
+          background: $PALETTE5 !important;
           text-transform: none;
         }
     }
     a {
       color: $PALETTE1 !important;
-      background: $PALETTE2;
+      background: $PALETTE5;
       display: inline;     
     }
+
     a:hover {
              color: $PALETTE1 !important;
-             background: $PALETTE5;
+             background: $PALETTE2;
     }
 
     hr{
-            color:$PALETTE2;
-        background-color:$PALETTE2;
+            color:$PALETTE5;
+        background-color:$PALETTE5;
     }
     
   .post-title {
     font: bold $TITLE-SIZE $FAMILY-SANS;
-    color: $PALETTE2;
+    color: $PALETTE5;
     text-transform: lowercase;
     text-align: left;
   }
@@ -1074,14 +1164,14 @@ h4 {
     max-width: 100%;
     //max-height: 78vh;
     border-radius: 1px;
-    border: 7px solid $PALETTE2;
+    border: 3px solid $PALETTE5;
     }
     
     .img-border{
-        border: 7px solid $PALETTE2;
+        border: 3px solid $PALETTE5;
     } 
     iframe{
-      border: 7px solid $PALETTE2;  
+      border: 3px solid $PALETTE5;  
       background-color:  $PALETTE2;  
     }
 }
@@ -1118,6 +1208,8 @@ h4 {
         }
         
     }
+
+
     a{
     color:  $PALETTE2; 
     background-color:  $PALETTE1;     
@@ -1160,17 +1252,108 @@ h4 {
     max-width: 100%;
     //max-height: 78vh;
     border-radius: 1px;
-    border: 7px solid $PALETTE1;
+    border: 3px solid $PALETTE1;
     }
 
    .img-border{
-        border: 7px solid $PALETTE1;
+        border: 3px solid $PALETTE1;
     } 
     iframe{
-      border: 7px solid $PALETTE1;  
+      border: 3px solid $PALETTE1;  
       background-color:  $PALETTE1;  
     }
 }
+
+#maps {
+  background-color: $PALETTE6;
+  color:  $PALETTE2;
+  width: 80%;
+  padding-top: 3%;
+  
+  @media screen and (max-width: 600px) {
+      padding-left: 4.5%;
+  }
+  
+  @media screen and (min-width: 600px) {
+      padding-left: 7%;
+  }
+  
+  h4 h3 h2 h1{
+  color:  $PALETTE6 !important; 
+  }
+  .list-footpage{
+      a{
+      color:  $PALETTE2; 
+      background-color:  transparent;     
+      font-weight: 600;
+      text-transform: none;   
+      } 
+      a:hover{
+          color:  $PALETTE6; 
+          background-color:  $PALETTE2;      
+      }
+      
+  }
+  a{
+  color:  $PALETTE6; 
+  background-color:  $PALETTE2;     
+  font-weight: 600;
+  text-transform: lowercase;   
+  }
+  a:hover{
+  color:  $PALETTE2; 
+  background-color:  $PALETTE1;     
+  font-weight: 600;
+  text-transform: lowercase;   
+  }
+  .fa {
+    background: transparent;
+    color: $PALETTE1 !important;
+  }
+
+  hr{
+      color:$PALETTE1;
+      background-color:$PALETTE2;
+  }
+  
+.post-title {
+  font: bold $TITLE-SIZE $FAMILY-SANS;
+  color: $PALETTE2;
+  text-transform: lowercase;
+  text-align: left;
+}
+
+.post-where {
+  font: $TITLE-SIZE*0.5 $FAMILY-SANS;
+  color: $TITLE-COLOR;
+  text-align: left;
+  padding-left: 5%;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  //max-height: 78vh;
+  border-radius: 1px;
+  border: 3px solid $PALETTE2;
+  }
+
+ .img-border{
+      border: 3px solid $PALETTE2;
+  } 
+  iframe{
+    border: 3px solid $PALETTE2;  
+    background-color:  $PALETTE2;  
+  }
+}
+
+.maps{
+    @media only screen and (min-width: 600px) { 
+      margin-top: 20vh;
+      height: 50%;
+    } 
+} 
 
 .social-block{
     @media screen and (min-width: 600px) {
@@ -1339,14 +1522,62 @@ iframe {
   flex-wrap: wrap;
  // padding: 3% 3%;
   padding: 0 4px;
+  width: 80%;
+  height: 60%;
+  margin: auto;
 }
 
 /* Create four equal columns that sits next to each other */
 .column {
-  -ms-flex: 20%; /* IE10 */
-  flex: 20%;
+  -ms-flex: 10%; /* IE10 */
+  flex: 10%;
   max-width: 325%;
   padding: 0% 4%;
+  height:100%;
+}
+
+#main-div-maps{
+  /*
+  .row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding: 0 4px;
+    width: 80%;
+    height: 90%;
+    margin: auto;
+
+  .column {
+    -ms-flex: 25%;
+    flex: 25%;
+    max-width: 325%;
+    padding: 0% 1.5%;
+  }    */
+
+  .static2 {
+    width:14%
+  }
+  .row {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+   // padding: 3% 3%;
+    padding: 0 4px;
+    width: 80%;
+    height: 60%;
+    margin: auto;
+  }
+  
+  /* Create four equal columns that sits next to each other */
+  .column {
+    -ms-flex: 18%; /* IE10 */
+    flex: 18%;
+    max-width: 325%;
+    padding: 0% 1%;
+    height:100%;
+  }
 }
 
 #post{
@@ -1355,6 +1586,7 @@ iframe {
   flex: 20%;
   max-width: 325%;
   padding: 0% 1.5%;
+  padding-top: 12%;
 }  
 }
 
@@ -1369,22 +1601,50 @@ iframe {
 }
 
 /* Responsive layout - makes a two column-layout instead of four columns */
-@media screen and (max-width: 800px) {
+@media (max-width: 1000px) or (orientation:portrait) {
   .column {
     -ms-flex: 40%;
     flex: 40%;
     max-width: 40%;
+    margin-bottom: 10%;
   }
-}
+  .center-active {
+    width: 30%;
+    background-color: transparent;
+    color: $PALETTE5;
+    font-size: 1em;
+  }
+  #main-div-other .center-active {
+    width: 30%;
+    background-color: transparent;
+    color: $PALETTE1;
+    font-size: 1em;
+  }
+  #main-div-maps .center-active {
+    width: 30%;
+    background-color: transparent;
+    color: $PALETTE2;
+    font-size: 1em;
+  }
 
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  #main-div-maps .column {
+    -ms-flex: 40%;
+    flex: 40%;
+    margin-bottom: 10%;
+  }
+  .active22 {
+    min-height: 27vw;
+  } 
+} 
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other 
 @media screen and (max-width: 600px) {
   .column {
     -ms-flex: 80%;
     flex: 80%;
     max-width: 80%;
   }
-}
+}*/
 
 /* ------------- HOVER EFFECT------------ 
 https://codepen.io/QDeltaE/pen/VWGYOB*/
@@ -1393,7 +1653,7 @@ https://codepen.io/QDeltaE/pen/VWGYOB*/
   position:absolute;
   background-color: $PALETTE2;
   z-index:3;
-  width: 22.5%;
+  width: 10.7%;
   padding-top:0px;
   color:transparent;
 }
@@ -1402,12 +1662,33 @@ https://codepen.io/QDeltaE/pen/VWGYOB*/
   position:absolute;
   background-color: $PALETTE1;
   z-index:3;
-  width: 22.5%;
+  width: 10.7%;
+  padding-top:0px;
+  color:transparent;
+  height: 30%;
+}
+
+
+.static_maps {
+  position:absolute;
+  background-color: $PALETTE6;
+  z-index:3;
+  width: 10.7%;
   padding-top:0px;
   color:transparent;
 }
 
-@media screen and (max-width: 800px) {
+.static_maps2 {
+  position:absolute;
+  background-color: $PALETTE6;
+  z-index:3;
+  width: 22.5%;
+  padding-top:0px;
+  color:transparent;
+  height: 50%;
+}
+
+@media screen and (max-width: 1000px) {
     .static22 {
       position:absolute;
       background-color: $PALETTE1;
@@ -1423,10 +1704,17 @@ https://codepen.io/QDeltaE/pen/VWGYOB*/
     .active2 {
       opacity:0;
     }
+
+    .static_maps  {
+      position:absolute;
+      background-color: $PALETTE1;
+      z-index:3;
+      width: 35.5%;
+    }
 }
 
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1000px) {
   .static22 {
       opacity:0;
     }  
@@ -1435,6 +1723,14 @@ https://codepen.io/QDeltaE/pen/VWGYOB*/
       width: 71%;
     } 
     .active2 {
+      opacity:0;
+      width: 90% !important;
+    }
+    .active22 {
+      width: 90% !important;
+    }
+    
+    .static_maps  {
       opacity:0;
     }
 
@@ -1451,6 +1747,10 @@ https://codepen.io/QDeltaE/pen/VWGYOB*/
 .active22 {  
     position: relative;
     z-index:1;
+}
+
+.static_maps:hover  {
+  opacity:0;
 }
 
 /* --------- START FLEX GRID ----------*/

@@ -12,6 +12,7 @@ data: 2019
 ref: especies-de-espacos-1
 permalink: especies-de-espacos-1
 cover: /assets/covers/especies-de-espacos-1.png
+layout: post-other
 swipebox: ede1
 credits: Julia Duarte e Paula Huven
 thanks: Hortência Abreu, Flávia Peluzzo, Clarice G. Lacerda, Félix Blume, Flaviana Lassan, Julia Mesquita, Francisca Caporalli, Monica Hoff.

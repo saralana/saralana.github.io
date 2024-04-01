@@ -91,11 +91,18 @@ In this line of research, I also offer <a href="../workshops" target="_blank">&n
 <br>
 ### MAP
 
+  <div class="video-wrapper video-wrapper-16x9">
+   <iframe src="https://invisibility-routes.saralana.xyz/index.html?latA=-23.549274336622684&longA=-46.63383007049561&latB=-23.544691004890126&longB=-46.64096949118043&profile=foot-walking&circleRadius=15&iconsToggle=1&circleToggle=1&circleResolution=32" height="400px" width="100%"></iframe>
+  </div>
 
   <div class="video-wrapper video-wrapper-16x9">
-   <iframe src="../mapa-pontos-cegos" height="200" width="300"></iframe>
+   <iframe src="../mapa-pontos-cegos" height="200" width="100%"></iframe>
   </div>
+
+Map design: Sara Lana
   
+Routes tracer development: Ewald Santos
+
 <br><br>
 
 ---

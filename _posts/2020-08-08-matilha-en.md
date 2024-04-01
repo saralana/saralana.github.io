@@ -10,6 +10,7 @@ where:
       url:
 data: 2017
 ref: matilha
+layout: post-other
 permalink: en/matilha
 swipebox: matilha
 cover: /assets/posts/matilha2.jpeg

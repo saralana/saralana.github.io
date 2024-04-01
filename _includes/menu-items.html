@@ -2,10 +2,12 @@
 {% case page.lang %}
         {% when 'pt' %}
             <a class="menu-item menu-title palette1" href="{{ site.baseurl }}/">principais</a>
+            <a class="menu-item menu-title palette6" href="{{ site.baseurl }}/mapas">mapas</a>
             <a class="menu-item menu-title palette2" href="{{ site.baseurl }}/outros">outros</a>
             <a class="menu-item menu-title palette4" href="{{ site.baseurl }}/sobre/">sobre</a>
         {% else %}
            <a class="menu-item menu-title palette1" href="{{ site.baseurl }}/en/">selected</a>
+           <a class="menu-item menu-title palette6" href="{{ site.baseurl }}/mapas">maps</a>
            <a class="menu-item menu-title palette2" href="{{ site.baseurl }}/others/">others</a>
            <a class="menu-item menu-title palette4" href="{{ site.baseurl }}/about/">about</a>
   {% endcase %}
