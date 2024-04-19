@@ -4,7 +4,7 @@ type: mapa sonoro interativo e mapa impresso
 menu: true
 ref: maps-les-sons-perdus
 layout: post-maps
-permalink: en/maps-les-sons-perdu
+permalink: en/maps-les-sons-perdus
 cover:
 swipebox: 
 credits: 

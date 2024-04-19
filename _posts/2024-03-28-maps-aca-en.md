@@ -11,9 +11,9 @@ credits:
 lang: en
 ---
 
-Mapa sonoro para o projeto [Listeners](https://felixblume.com/acasoundscape){:target="_blank"} do artista [Félix Blume](https://felixblume.com){:target="_blank"}.
+Sound map developped for the Listeners project, produced by the  ACA Soundscape Field Station at Canaveral National Seashore and jointly managed by Atlantic Center for the Arts and Canaveral National Seashore.
 
-Acesse [aqui](https://felixblume.com/acasoundscapemap.html){:target="_blank"} o mapa sonoro.
+Click [here](https://felixblume.com/acasoundscapemap.html){:target="_blank"} to access the map.
 
 <br><br>
 

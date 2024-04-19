@@ -10,7 +10,7 @@ swipebox:
 credits: 
 lang: pt
 ---
-Mapa sonoro para meu projeto [Les Voix de l'Eau](https://felixblume.com/lesvoixdeleau/){:target="_blank"} do artista Félix Blume.
+Mapa sonoro desenvolvido para o projeto [Les Voix de l'Eau](https://felixblume.com/lesvoixdeleau/){:target="_blank"} produzido pelo Parc naturel régional de la Narbonnaise en Méditerranée, com a collaboration da Mairie de Bizanet e apoio da DRAC Occitanie.
 
 O mapa apresenta um rastreador, que possibilita indicar sua localização para percorrer o trajeto sinalizado e escutá-lo presencialmente.
 

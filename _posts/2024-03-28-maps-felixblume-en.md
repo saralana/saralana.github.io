@@ -11,10 +11,9 @@ credits:
 lang: en
 ---
 
-Mapa interativo para o artista [Félix Blume](https://felixblume.com/map.html){:target="_blank"}.
+Interactive map for the artist [Félix Blume](https://felixblume.com/map.html){:target="_blank"}.
 
-Um mapa com 3 filtros separadores de conteúdo: vídeos, sons e peças sonoras.
-
+A map with 3 content filters: videos, sounds and sound pieces.
 
 <br><br>
 

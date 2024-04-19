@@ -7,7 +7,7 @@ data: 2016 to 2021
 where: 
 layout: proposals
 ref: somemaps
-permalink: maps
+permalink: some-of-my-maps
 cover: /assets/favicons/orelhinha.jpg
 swipebox: 
 cover: /assets/posts/mapa-pontos-cegos.png

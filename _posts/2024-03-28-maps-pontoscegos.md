@@ -13,7 +13,7 @@ lang: pt
 
 Mapa sonoro para meu projeto [Pontos Cegos](../pontos-cegos){:target="_blank"}.
 
-O mapa apresenta mapeamentos de câmeras de videovigilância, realizados com o capacete para detecção automática.
+O mapa apresenta câmeras de videovigilância, mapeadas automaticamente através de um dispositivo criado especialmente para esse projeto.
 
 O mapa também possui um traçador de rotas que permite criar caminhos de um ponto A até um ponto B de uma zona mapeada passando apenas pelos pontos cegos de suas câmeras.
 
@@ -31,6 +31,3 @@ Acesse [aqui](https://invisibility-routes.saralana.xyz/index.html?latA=-23.54927
 <img src="../assets/posts/maps-pontoscegos3.png" class="img-border">
 <br><br>
 
-Desenho do mapa: Sara Lana
-  
-Desenvolvimento do traçador de rotas: Ewald Santos
