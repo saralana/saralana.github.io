@@ -542,12 +542,9 @@
                     map.on('click', 'Fotos', function (e) {
                         var coordinates = e.features[0].geometry.coordinates.slice();
 
-                        //var description = `<img src="./assets/fotos/foto` + e.features[0].properties.Galeria + `.png" style="width:80%;">`;
-                        var description = '<a href="../assets/fotos/foto' + e.features[0].properties.Galeria + '_4.png"><img src="../assets/fotos/foto' + e.features[0].properties.Galeria + '_4.png"></a>';
-                        
-                        var images =  [
-                                ['../assets/maps/palma-fotos/' + e.features[0].properties.Galeria + '_1.jpg'],
-                                ['../assets/maps/palma-fotos/' + e.features[0].properties.Galeria + '_2.jpg'],
+                        /*var images =  [
+                                ['assets/maps/palma-fotos/' + e.features[0].properties.Galeria + '_1.jpg'],
+                                ['assets/maps/palma-fotos/' + e.features[0].properties.Galeria + '_2.jpg'],
                                 ['assets/maps/palma-fotos/' + e.features[0].properties.Galeria + '_3.jpg'],
                                 ['assets/maps/palma-fotos/' + e.features[0].properties.Galeria + '_4.jpg'],
                                 ['assets/maps/palma-fotos/' + e.features[0].properties.Galeria + '_5.jpg'],
@@ -561,7 +558,7 @@
                                 ['assets/maps/palma-fotos/' + e.features[0].properties.Galeria + '_13.jpg'],
                                 ['assets/maps/palma-fotos/' + e.features[0].properties.Galeria + '_14.jpg']
                                 ]
-                        
+                        */
                         var slideshowContent = ""
                         
                         for (var i = 0; i < images.length; i++) {
@@ -586,23 +583,6 @@
                         while (Math.abs(e.lngLat.lng - coordinates[0]) > 180) {
                         coordinates[0] += e.lngLat.lng > coordinates[0] ? 360 : -360;
                         }
-
-                        /* mostarda();*/
-
-                        //only one popup once 
-                        e.originalEvent.cancelBubble3 = true;
-                        if (e.originalEvent.cancelBubble || e.originalEvent.cancelBubble2 || e.originalEvent.cancelBubble4) {
-                            return;
-                        }
-
-                            // create the popup
-                        /*                
-                        new mapboxgl.Popup({className: 'popupFotos'})
-                            .setLngLat(coordinates)
-                            .setPopup(description)
-                            .addTo(map); */
-
-                        
                         new mapboxgl.Popup({closeButton: true, className: 'popupFotos'})
                             .setLngLat(coordinates)
                             .setHTML(popupContent)
