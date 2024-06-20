@@ -1376,7 +1376,12 @@
 
 
 function openNav() {
+    var mq = window.matchMedia( "(min-width: 700px)" );
+    if (mq.matches){
     document.getElementById("mySidebar").style.width = "35%"; //set sidebar width for desktop size
+    } else {
+    document.getElementById("mySidebar").style.width = "100%"; //set sidebar width for mobile size
+    };
 }
 
 function closeNav() {
