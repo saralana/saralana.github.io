@@ -389,6 +389,7 @@
             });
 
         // GRID pampulha D
+        /*
         map.on('load', () => {
                 map.addSource('pampulha_d1', {
                     'type': 'image',
@@ -472,7 +473,7 @@
                     }
                 }); 
             });
-
+            */
 // INICIO GALERIAS DE FOTOS
 
             map.on('load', () => {
@@ -542,7 +543,7 @@
                     map.on('click', 'Fotos', function (e) {
                         var coordinates = e.features[0].geometry.coordinates.slice();
 
-                        /*var images =  [
+                        var images =  [
                                 ['assets/maps/palma-fotos/' + e.features[0].properties.Galeria + '_1.jpg'],
                                 ['assets/maps/palma-fotos/' + e.features[0].properties.Galeria + '_2.jpg'],
                                 ['assets/maps/palma-fotos/' + e.features[0].properties.Galeria + '_3.jpg'],
@@ -558,7 +559,7 @@
                                 ['assets/maps/palma-fotos/' + e.features[0].properties.Galeria + '_13.jpg'],
                                 ['assets/maps/palma-fotos/' + e.features[0].properties.Galeria + '_14.jpg']
                                 ]
-                        */
+                        
                         var slideshowContent = ""
                         
                         for (var i = 0; i < images.length; i++) {
