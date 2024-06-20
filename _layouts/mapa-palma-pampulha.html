@@ -199,6 +199,74 @@
             
         });
 
+            
+    map.on('load', () => {
+                map.addSource('pampulha_a2', {
+                    'type': 'image',
+                    'url': '../assets/maps/beco/pampulha_a2.png',
+                    'coordinates': [
+                        
+                        [-43.980,-19.785],
+                        [-43.932,-19.785],
+                        [-43.932,-19.835],
+                        [-43.980,-19.835]
+                    ]
+                    })
+                    map.addLayer({
+                        id: 'pampulha_a2',
+                        'type': 'raster',
+                        'source': 'pampulha_a2',
+                        'paint': {
+                        'raster-fade-duration': 0
+                    }
+                }); 
+            });
+        
+        // GRID pampulha B
+            map.on('load', () => {
+                map.addSource('pampulha_b1', {
+                    'type': 'image',
+                    'url': '../assets/maps/beco/pampulha_b1.png',
+                    'coordinates': [
+                        
+                        [-44.028,-19.835],
+                        [-43.980,-19.835],
+                        [-43.980,-19.885],
+                        [-44.028,-19.885]
+                    ]
+                    })
+                    map.addLayer({
+                        id: 'pampulha_b1',
+                        'type': 'raster',
+                        'source': 'pampulha_b1',
+                        'paint': {
+                        'raster-fade-duration': 0
+                    }
+                }); 
+            });
+
+            map.on('load', () => {
+                map.addSource('pampulha_b2', {
+                    'type': 'image',
+                    'url': '../assets/maps/beco/pampulha_b2.png',
+                    'coordinates': [
+                        
+                        [-43.980,-19.835],
+                        [-43.932,-19.835],
+                        [-43.932,-19.885],
+                        [-43.980,-19.885]
+                    ]
+                    })
+                    map.addLayer({
+                        id: 'pampulha_b2',
+                        'type': 'raster',
+                        'source': 'pampulha_b2',
+                        'paint': {
+                        'raster-fade-duration': 0
+                    }
+                }); 
+            });
+
 // INICIO GALERIAS DE FOTOS
 
             map.on('load', () => {
