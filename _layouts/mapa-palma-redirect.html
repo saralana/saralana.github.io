@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    {% include head.html %}
+    {% include meta.html %}
+    {% include share.html %}
+  </head>
+  <div id="left"></div>
+  <div id="right"></div>
+  <div id="top"></div>
+  <div id="bottom"></div>
+  
+  <body id="palette2">
+    <div class="background404">
+        <content>
+          {{ content }}
+        </content>
+    </div>    
+    {% include navbar.html %}
+
+    <script>
+      function getOsFromUserAgent() {
+    
+    
+        var userAgent = navigator.userAgent
+        var platform;
+    
+    
+        if (userAgent.includes('iPhone') || userAgent.includes('iPad')) {
+          platform = 'iOS'
+          // redirect link for Android. Add Play Store link below
+          window.location.href = '..'
+        } else {
+          platform = 'non-iOS'
+          // Fallback redirect for other platforms
+          window.location.href = '../napalmadasmaos'
+        }
+        document.getElementById('platform').innerHTML = platform
+      }
+      getOsFromUserAgent()
+    </script>
+  </body>
+</html>
