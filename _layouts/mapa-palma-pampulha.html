@@ -173,7 +173,314 @@
       
       
     });
+//CARREGAMENTO DE GRID EM BAIXA PARA IPHONE
+    if (navigator.userAgent.includes('iPhone') || navigator.userAgent.includes('iPad')) {
+// GRID pampulha A (a1 VAZIO) 
+        map.on('load', () => {
+                map.addSource('pampulha_a2', {
+                    'type': 'image',
+                    'url': '../assets/maps/beco/pampulha_a2_50.png',
+                    'coordinates': [
+                        [-44.004,-19.785],
+                        [-43.980,-19.785],
+                        [-43.980,-19.810],
+                        [-44.004,-19.810]
+                    ]
+                    })
+                    map.addLayer({
+                        id: 'pampulha_a2',
+                        'type': 'raster',
+                        'source': 'pampulha_a2',
+                        'paint': {
+                        'raster-fade-duration': 0
+                    }
+                });        
+            });
 
+                
+        map.on('load', () => {
+                    map.addSource('pampulha_a3', {
+                        'type': 'image',
+                        'url': '../assets/maps/beco/pampulha_a3_50.png',
+                        'coordinates': [
+                            [-43.980,-19.785],
+                            [-43.956,-19.785],
+                            [-43.956,-19.810],
+                            [-43.980,-19.810]
+                        ]
+                        })
+                        map.addLayer({
+                            id: 'pampulha_a3',
+                            'type': 'raster',
+                            'source': 'pampulha_a3',
+                            'paint': {
+                            'raster-fade-duration': 0
+                        }
+                    }); 
+                });
+                            
+        map.on('load', () => {
+                    map.addSource('pampulha_a4', {
+                        'type': 'image',
+                        'url': '../assets/maps/beco/pampulha_a4_50.png',
+                        'coordinates': [
+                            [-43.956,-19.785],
+                            [-43.932,-19.785],
+                            [-43.932,-19.810],
+                            [-43.956,-19.810]
+                        ]
+                        })
+                        map.addLayer({
+                            id: 'pampulha_a4',
+                            'type': 'raster',
+                            'source': 'pampulha_a4',
+                            'paint': {
+                            'raster-fade-duration': 0
+                        }
+                    }); 
+                });
+            
+            // GRID pampulha B (b1 vazio)
+                map.on('load', () => {
+                    map.addSource('pampulha_b2', {
+                        'type': 'image',
+                        'url': '../assets/maps/beco/pampulha_b2_50.png',
+                        'coordinates': [ 
+                            [-44.004,-19.810],
+                            [-43.980,-19.810],
+                            [-43.980,-19.835],
+                            [-44.004,-19.835]
+                        ]
+                        })
+                        map.addLayer({
+                            id: 'pampulha_b2',
+                            'type': 'raster',
+                            'source': 'pampulha_b2',
+                            'paint': {
+                            'raster-fade-duration': 0
+                        }
+                    }); 
+                });
+
+                map.on('load', () => {
+                    map.addSource('pampulha_b3', {
+                        'type': 'image',
+                        'url': '../assets/maps/beco/pampulha_b3_50.png',
+                        'coordinates': [  
+                            [-43.980,-19.810],
+                            [-43.956,-19.810],
+                            [-43.956,-19.835],
+                            [-43.980,-19.835]
+                        ]
+                        })
+                        map.addLayer({
+                            id: 'pampulha_b3',
+                            'type': 'raster',
+                            'source': 'pampulha_b3',
+                            'paint': {
+                            'raster-fade-duration': 0
+                        }
+                    }); 
+                });
+
+                map.on('load', () => {
+                    map.addSource('pampulha_b4', {
+                        'type': 'image',
+                        'url': '../assets/maps/beco/pampulha_b4_50.png',
+                        'coordinates': [  
+                            [-43.956,-19.810],
+                            [-43.932,-19.810],
+                            [-43.932,-19.835],
+                            [-43.956,-19.835]
+                        ]
+                        })
+                        map.addLayer({
+                            id: 'pampulha_b4',
+                            'type': 'raster',
+                            'source': 'pampulha_b4',
+                            'paint': {
+                            'raster-fade-duration': 0
+                        }
+                    }); 
+                });
+
+            // GRID pampulha C
+            map.on('load', () => {
+                    map.addSource('pampulha_c1', {
+                        'type': 'image',
+                        'url': '../assets/maps/beco/pampulha_c1_50.png',
+                        'coordinates': [ 
+                            [-44.028,-19.835],
+                            [-43.004,-19.835],
+                            [-43.004,-19.860],
+                            [-44.028,-19.860]
+                        ]
+                        })
+                        map.addLayer({
+                            id: 'pampulha_c1',
+                            'type': 'raster',
+                            'source': 'pampulha_c1',
+                            'paint': {
+                            'raster-fade-duration': 0
+                        }
+                    }); 
+                });
+
+            map.on('load', () => {
+                    map.addSource('pampulha_c2', {
+                        'type': 'image',
+                        'url': '../assets/maps/beco/pampulha_c2_50.png',
+                        'coordinates': [ 
+                            [-44.004,-19.835],
+                            [-43.980,-19.835],
+                            [-43.980,-19.860],
+                            [-44.004,-19.860]
+                        ]
+                        })
+                        map.addLayer({
+                            id: 'pampulha_c2',
+                            'type': 'raster',
+                            'source': 'pampulha_c2',
+                            'paint': {
+                            'raster-fade-duration': 0
+                        }
+                    }); 
+                });
+    
+                map.on('load', () => {
+                    map.addSource('pampulha_c3', {
+                        'type': 'image',
+                        'url': '../assets/maps/beco/pampulha_c3_50.png',
+                        'coordinates': [  
+                            [-43.980,-19.835],
+                            [-43.956,-19.835],
+                            [-43.956,-19.860],
+                            [-43.980,-19.860]
+                        ]
+                        })
+                        map.addLayer({
+                            id: 'pampulha_c3',
+                            'type': 'raster',
+                            'source': 'pampulha_c3',
+                            'paint': {
+                            'raster-fade-duration': 0
+                        }
+                    }); 
+                });
+
+                map.on('load', () => {
+                    map.addSource('pampulha_c4', {
+                        'type': 'image',
+                        'url': '../assets/maps/beco/pampulha_c4_50.png',
+                        'coordinates': [  
+                            [-43.956,-19.835],
+                            [-43.932,-19.835],
+                            [-43.932,-19.860],
+                            [-43.956,-19.860]
+                        ]
+                        })
+                        map.addLayer({
+                            id: 'pampulha_c4',
+                            'type': 'raster',
+                            'source': 'pampulha_c4',
+                            'paint': {
+                            'raster-fade-duration': 0
+                        }
+                    }); 
+                });
+
+            // GRID pampulha D
+        
+            map.on('load', () => {
+                    map.addSource('pampulha_d1', {
+                        'type': 'image',
+                        'url': '../assets/maps/beco/pampulha_d1_50.png',
+                        'coordinates': [ 
+                            [-44.028,-19.860],
+                            [-43.004,-19.860],
+                            [-43.004,-19.885],
+                            [-44.028,-19.885]
+                        ]
+                        })
+                        map.addLayer({
+                            id: 'pampulha_d1',
+                            'type': 'raster',
+                            'source': 'pampulha_d1',
+                            'paint': {
+                            'raster-fade-duration': 0
+                        }
+                    }); 
+                });
+
+            map.on('load', () => {
+                    map.addSource('pampulha_d2', {
+                        'type': 'image',
+                        'url': '../assets/maps/beco/pampulha_d2_50.png',
+                        'coordinates': [ 
+                            [-44.004,-19.860],
+                            [-43.980,-19.860],
+                            [-43.980,-19.885],
+                            [-44.004,-19.885]
+                        ]
+                        })
+                        map.addLayer({
+                            id: 'pampulha_d2',
+                            'type': 'raster',
+                            'source': 'pampulha_d2',
+                            'paint': {
+                            'raster-fade-duration': 0
+                        }
+                    }); 
+                });
+
+                map.on('load', () => {
+                    map.addSource('pampulha_d3', {
+                        'type': 'image',
+                        'url': '../assets/maps/beco/pampulha_d3_50.png',
+                        'coordinates': [  
+                            [-43.980,-19.860],
+                            [-43.956,-19.860],
+                            [-43.956,-19.885],
+                            [-43.980,-19.885]
+                        ]
+                        })
+                        map.addLayer({
+                            id: 'pampulha_d3',
+                            'type': 'raster',
+                            'source': 'pampulha_d3',
+                            'paint': {
+                            'raster-fade-duration': 0
+                        }
+                    }); 
+                });
+
+                map.on('load', () => {
+                    map.addSource('pampulha_d4', {
+                        'type': 'image',
+                        'url': '../assets/maps/beco/pampulha_d4_50.png',
+                        'coordinates': [  
+                            [-43.956,-19.860],
+                            [-43.932,-19.860],
+                            [-43.932,-19.885],
+                            [-43.956,-19.885]
+                        ]
+                        })
+                        map.addLayer({
+                            id: 'pampulha_d4',
+                            'type': 'raster',
+                            'source': 'pampulha_d4',
+                            'paint': {
+                            'raster-fade-duration': 0
+                        }
+                    }); 
+                });
+
+        } 
+//FIM CARREGAMENTO DE GRID EM BAIXA PARA IPHONE
+
+//INICIO CARREGAMENTO DE GRID EM ALTA PARA DEMAIS DISPOSITIVOS
+
+    else {
     // GRID pampulha A (a1 VAZIO) 
     map.on('load', () => {
             map.addSource('pampulha_a2', {
@@ -473,6 +780,11 @@
                     }
                 }); 
             });
+
+        }
+//FIM CARREGAMENTO DE GRID EM ALTA PARA DEMAIS DISPOSITIVOS
+
+
 // INICIO GALERIAS DE FOTOS
 
             map.on('load', () => {
