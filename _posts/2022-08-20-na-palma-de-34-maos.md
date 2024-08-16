@@ -12,7 +12,7 @@ where:
 ref: na-palma-de-34-maos
 permalink: na-palma
 cover: /assets/covers/na-palma-das-maos.png
-swipebox: napalma
+swipebox: napalma_
 credits: 
 cover: 
 thanks: transeuntes, Félix Blume, Nydia Negromonte, luiza Marcolino, Marcelo Drummond, Janaina Melo, Mariana Zani, Elisa Lana, João Paulo Costa, Bernardo Esteves, Tiago Esteves, Ana Esteves, Clarice Lacerda, Clarice Rodrigues, Luana Lorenzini, Mercedes Valadares, Helena Reis, Débora da padaria, Sérgio cheveiro, vendedores da Casa dos Parafusos, funcionárias dos Correios (unidade Raul Soares – BH), Maria Raquel Dias, alunas do Colégio Santa Dorotéia, Hamilton Reis, Rafael Reis, Túlio Jorge, Rafael Pimenta, Edimilson, farmacêutio da Drogaria do Dias, Flávia Mafra.

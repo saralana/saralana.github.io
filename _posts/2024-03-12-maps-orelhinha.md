@@ -25,7 +25,7 @@ Acesse [aqui](../mapa-orelhinha){:target="_blank"} o mapa sonoro.
 <br><br>
 
   
-<img src="../assets/posts/maps-orelhinha_2.png" class="img-border">
+<img src="../assets/posts/maps-orelhinha2.png" class="img-border">
 <br><br>
 
 
