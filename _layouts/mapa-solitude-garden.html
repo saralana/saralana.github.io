@@ -19,6 +19,19 @@ body { margin: 0; padding: 0; }
 .mapboxgl-user-location-show-heading .mapboxgl-user-location-heading:after, .mapboxgl-user-location-show-heading .mapboxgl-user-location-heading:before {
     border-bottom: 7.5px solid #ff178b;
 }
+
+.mapboxgl-ctrl-group {
+    background: hotpink;
+}
+
+.mapboxgl-ctrl button.mapboxgl-ctrl-geolocate.mapboxgl-ctrl-geolocate-active .mapboxgl-ctrl-icon {
+    background-image: url(data:image/svg+xml;charset=utf-8,%3Csvg viewBox='0 0 20 20' xmlns='http://www.w3.org/2000/svg' fill='%23ffffff'%3E%3Cpath d='M10 4C9 4 9 5 9 5v.1A5 5 0 0 0 5.1 9H5s-1 0-1 1 1 1 1 1h.1A5 5 0 0 0 9 14.9v.1s0 1 1 1 1-1 1-1v-.1a5 5 0 0 0 3.9-3.9h.1s1 0 1-1-1-1-1-1h-.1A5 5 0 0 0 11 5.1V5s0-1-1-1zm0 2.5a3.5 3.5 0 1 1 0 7 3.5 3.5 0 1 1 0-7z'/%3E%3Ccircle id='dot' cx='10' cy='10' r='2'/%3E%3Cpath id='stroke' d='M14 5l1 1-9 9-1-1 9-9z' display='none'/%3E%3C/svg%3E);
+}
+
+.mapboxgl-ctrl button.mapboxgl-ctrl-geolocate .mapboxgl-ctrl-icon {
+    background-image: url(data:image/svg+xml;charset=utf-8,%3Csvg viewBox='0 0 20 20' xmlns='http://www.w3.org/2000/svg' fill='%23ffffff'%3E%3Cpath d='M10 4C9 4 9 5 9 5v.1A5 5 0 0 0 5.1 9H5s-1 0-1 1 1 1 1 1h.1A5 5 0 0 0 9 14.9v.1s0 1 1 1 1-1 1-1v-.1a5 5 0 0 0 3.9-3.9h.1s1 0 1-1-1-1-1-1h-.1A5 5 0 0 0 11 5.1V5s0-1-1-1zm0 2.5a3.5 3.5 0 1 1 0 7 3.5 3.5 0 1 1 0-7z'/%3E%3Ccircle id='dot' cx='10' cy='10' r='2'/%3E%3Cpath id='stroke' d='M14 5l1 1-9 9-1-1 9-9z' display='none'/%3E%3C/svg%3E);
+}
+
 </style>
 </head>
 <body>
@@ -30,8 +43,8 @@ body { margin: 0; padding: 0; }
         maxZoom: 20,
         minZoom: 10,
         zoom: 15,
-        center: [9.0835,48.785],
-        bearing: 36.3, // bearing in degrees
+        center: [9.0828208,48.7853284],
+        bearing: 34.3, // bearing in degrees
         // Choose from Mapbox's core styles, or make your own style with Mapbox Studio
         style: 'mapbox://styles/saralgc/ckev0lgww9jew19k93wzb364i',
     });
@@ -41,10 +54,10 @@ body { margin: 0; padding: 0; }
             'type': 'image',
             'url': '../assets/maps/solitude-garden/total.png',
             'coordinates': [
-                [9.0889867, 48.7759355],
-                [9.0668294, 48.786296],
-                [9.0768336, 48.79522],
-                [9.0985067, 48.7847615]
+                [9.08943467, 48.77574042],
+                [9.06704696, 48.78584436],
+                [9.07653530, 48.79497161],
+                [9.09892213, 48.78486971]
             ]
         });
         map.addLayer({
