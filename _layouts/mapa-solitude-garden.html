@@ -9,6 +9,16 @@
 <style>
 body { margin: 0; padding: 0; }
 #map { position: absolute; top: 0; bottom: 0; width: 100%; }
+.mapboxgl-user-location-accuracy-circle {
+    background-color: #ff69b473;
+    border-radius: 100%;
+}
+.mapboxgl-user-location-dot, .mapboxgl-user-location-dot:before {
+    background-color: hotpink;
+}
+.mapboxgl-user-location-show-heading .mapboxgl-user-location-heading:after, .mapboxgl-user-location-show-heading .mapboxgl-user-location-heading:before {
+    border-bottom: 7.5px solid #ff178b;
+}
 </style>
 </head>
 <body>
