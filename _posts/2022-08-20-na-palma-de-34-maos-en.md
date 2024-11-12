@@ -28,9 +28,19 @@ lang: en
   </div></div>
 </div>
   <div class="overlay" onClick="style.pointerEvents='none'"></div>
-  
-CLICK [here](../na-palma-de-n-maos){:target="_blank"} to open the map in a new tab.
+*Click [here](../na-palma-de-n-maos){:target="_blank"} to open the map 1 in a new tab.*
 <br><br><br>
+
+ <div>
+  <div style="width:100%; height:160vh !important;">  
+  <div class="video-wrapper" style="width:100%; height: 80vh !important"> 
+  <iframe src="../napalmadasmaos" height="200" width="100%" style="border:0px" scrolling="no"></iframe>
+  </div></div>
+</div>
+  <div class="overlay" onClick="style.pointerEvents='none'"></div>
+*And click [here](../napalmadasmaos){:target="_blank"} to open the map 2.*
+<br><br><br>
+
 Walking through the streets of Belo Horizonte, I asked passers-by for hand-drawn maps to guide me on routes, without, however, saying where I would like to go. The end of each map drawn was the starting point for a new route.
 
 The hand-drawn maps are vectorized, scaled and projected onto the geographic map of Belo Horizonte, making a collage and creating a new cartography of the city.

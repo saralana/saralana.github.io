@@ -19,6 +19,7 @@ thanks: transeuntes, Félix Blume, Nydia Negromonte, luiza Marcolino, Marcelo Dr
 lang: pt
 ---
 
+
 <br>
  <div>
   <div style="width:100%; height:160vh !important;">  
@@ -27,9 +28,20 @@ lang: pt
   </div></div>
 </div>
   <div class="overlay" onClick="style.pointerEvents='none'"></div>
-
-*Clique [aqui](../na-palma-de-n-maos){:target="_blank"} para abrir o mapa em outra aba.*
+*Clique [aqui](../na-palma-de-n-maos){:target="_blank"} para abrir o mapa 1 em outra aba.*
 <br><br><br>
+
+ <div>
+  <div style="width:100%; height:160vh !important;">  
+  <div class="video-wrapper" style="width:100%; height: 80vh !important"> 
+  <iframe src="../napalmadasmaos" height="200" width="100%" style="border:0px" scrolling="no"></iframe>
+  </div></div>
+</div>
+  <div class="overlay" onClick="style.pointerEvents='none'"></div>
+*E clique [aqui](../napalmadasmaos){:target="_blank"} para abrir o mapa 2.*
+<br><br><br>
+
+
 Partindo do beco do Espai, localizado no bairro Santa Efigênia, em Belo Horizonte, pedi a transeuntes,  vendedores e amigos com quem me encontrava, mapas rascunhados à mão para me orientar sobre rotas de saída dos lugares  onde estávamos, sem entretanto dizer para onde eu gostaria de ir. O final de cada mapa desenhado era o ponto de partida para um novo caminho.  
 
 Os mapas desenhados à mão são vetorizados, reescalonados e projetados sobre o mapa geográfico de Belo Horizonte, fazendo uma  colagem e criando uma nova cartografia da cidade.
