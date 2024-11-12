@@ -36,8 +36,8 @@ lang: en
   </div>
   <div class="column">
         Listen here with english subtitles:
-    <div class="video-wrapper">  
-    <iframe src="https://player.vimeo.com/video/726294549?h=1c37c5de64&title=0&byline=0&portrait=0" width="100%" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+    <div class="video-wrapper" style="height:25vw">  
+    <iframe src="https://player.vimeo.com/video/726294549?h=1c37c5de64&title=0&byline=0&portrait=0" width="100%"  frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
     </div>
   </div>
 </div>
